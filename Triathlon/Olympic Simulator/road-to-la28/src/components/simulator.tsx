@@ -81,6 +81,7 @@ export function Simulator({
       {/* Outcome banner */}
       <motion.div
         layout
+        data-tour="sim-outcome"
         className={cn(
           "card relative overflow-hidden p-4",
           result.crossesLine && "border-good/50",
@@ -121,7 +122,7 @@ export function Simulator({
 
       {/* Controls */}
       <div className="card space-y-4 p-4">
-        <div>
+        <div data-tour="sim-position">
           <div className="mb-2 flex items-center justify-between">
             <label className="text-sm font-bold">Finish position</label>
             <span className="tnum rounded-lg bg-white/10 px-2.5 py-1 text-lg font-extrabold la-gradient-text">
@@ -143,7 +144,7 @@ export function Simulator({
           </div>
         </div>
 
-        <div>
+        <div data-tour="sim-tier">
           <label className="mb-2 block text-sm font-bold">Race tier</label>
           <div className="flex flex-wrap gap-1.5">
             {TIERS.map((t) => (
@@ -186,7 +187,7 @@ export function Simulator({
       </div>
 
       {/* Live re-sorting board */}
-      <div className="card p-2">
+      <div data-tour="sim-board" className="card p-2">
         <div className="px-2 py-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
           Live ranking · qualification line at #{cutRank}
         </div>

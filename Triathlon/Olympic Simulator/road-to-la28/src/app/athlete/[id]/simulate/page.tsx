@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
 import { findAthlete, getQualState } from "@/lib/data";
 import { Simulator } from "@/components/simulator";
+import { SimulatorTour } from "@/components/tour/simulator-tour";
 
 export default async function SimulatePage({
   params,
@@ -25,10 +26,11 @@ export default async function SimulatePage({
         >
           <ChevronLeft size={18} />
         </Link>
-        <div>
+        <div className="flex-1">
           <h1 className="text-lg font-extrabold leading-tight">What-if simulator</h1>
           <p className="text-xs text-ink-faint">{found.athlete.fullName} · {found.athlete.noc}</p>
         </div>
+        <SimulatorTour />
       </div>
 
       <p className="mb-4 text-sm text-ink-dim">
