@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
 import { buildRaceCompanion } from "@/lib/race";
 import { LiveRaceCompanion } from "@/components/live-race-companion";
+import { PickEm } from "@/components/pick-em";
 import type { Gender } from "@/config/pathways";
 import { cn } from "@/lib/utils";
 
@@ -57,6 +58,14 @@ export default async function RacePage({
             </Link>
           );
         })}
+      </div>
+
+      <div className="mb-4">
+        <PickEm
+          raceId={model.eventId}
+          gender={gender}
+          field={model.field.map((f) => ({ athleteId: f.athleteId, fullName: f.fullName, noc: f.noc }))}
+        />
       </div>
 
       <LiveRaceCompanion model={model} />

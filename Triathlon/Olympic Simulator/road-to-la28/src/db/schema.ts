@@ -193,6 +193,24 @@ export const pushSubscriptions = pgTable(
   (t) => [uniqueIndex("push_endpoint").on(t.endpoint)],
 );
 
+/** Pick-'Em: a user's podium prediction for a race, keyed by owner (account id
+ *  when claimed, else a device id). Auto-scored once results are official. */
+export const picks = pgTable(
+  "picks",
+  {
+    id: serial("id").primaryKey(),
+    raceId: integer("race_id").notNull(),
+    gender: text("gender").notNull(),
+    ownerKey: text("owner_key").notNull(),
+    podium: jsonb("podium").notNull(), // [firstId, secondId, thirdId]
+    score: integer("score"),
+    perfect: boolean("perfect"),
+    scoredAt: timestamp("scored_at", { withTimezone: true }),
+    createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
+  },
+  (t) => [uniqueIndex("pick_owner").on(t.raceId, t.gender, t.ownerKey)],
+);
+
 export const rawPayloads = pgTable("raw_payloads", {
   id: serial("id").primaryKey(),
   syncRunId: integer("sync_run_id"),
