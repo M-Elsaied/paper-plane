@@ -10,6 +10,7 @@ import { StatusBadge } from "@/components/status-badge";
 import { ExplainLineCard } from "@/components/explain-line";
 import { PeriodTimeline } from "@/components/period-timeline";
 import { ShareButton } from "@/components/share-button";
+import { CockpitTour } from "@/components/tour/cockpit-tour";
 import { fmtPoints } from "@/lib/format";
 import { getSeedMeta, findAthlete } from "@/lib/data";
 import { cn } from "@/lib/utils";
@@ -56,14 +57,14 @@ export default async function AthleteCockpit({
             <span className="capitalize">{m.gender === "male" ? "Elite Men" : "Elite Women"}</span>
           </div>
         </div>
-        <div className="flex flex-col items-end gap-1.5">
+        <div data-tour="status" className="flex flex-col items-end gap-1.5">
           <StatusBadge status={m.status} />
           <ShareButton athleteId={m.athleteId} name={m.fullName} />
         </div>
       </header>
 
       {/* Hero: rank + points */}
-      <section className="card mb-4 p-4">
+      <section data-tour="hero" className="card mb-4 p-4">
         <div className="flex items-end justify-between">
           <div>
             <div className="text-[11px] uppercase tracking-wide text-ink-faint">Olympic Rank</div>
@@ -99,6 +100,7 @@ export default async function AthleteCockpit({
 
       {/* CTA — the money shot */}
       <Link
+        data-tour="simulate"
         href={`/athlete/${m.athleteId}/simulate`}
         className="mb-4 flex items-center justify-between rounded-2xl border border-white/10 la-gradient px-4 py-3.5 text-navy-950 shadow-lg transition active:scale-[0.99]"
       >
@@ -109,7 +111,7 @@ export default async function AthleteCockpit({
       </Link>
 
       {/* Explain the line — the engine in plain language */}
-      <div className="mb-4">
+      <div data-tour="explain" className="mb-4">
         <ExplainLineCard lines={explain} />
       </div>
 
@@ -152,7 +154,7 @@ export default async function AthleteCockpit({
       </section>
 
       {/* Qualification window / points expiry */}
-      <div className="mb-4">
+      <div data-tour="window" className="mb-4">
         <PeriodTimeline periodCount={m.periodCount} periodFull={m.periodFull} todayIso={today} />
       </div>
 
@@ -190,9 +192,13 @@ export default async function AthleteCockpit({
         </ul>
       </section>
 
-      <p className="pt-2 text-center text-[11px] text-ink-faint">
-        Ranking published {m.publishedAt.slice(0, 10)}
-      </p>
+      <div className="flex items-center justify-center gap-3 pt-3 text-center">
+        <span className="text-[11px] text-ink-faint">
+          Ranking published {m.publishedAt.slice(0, 10)}
+        </span>
+        <span className="text-ink-faint">·</span>
+        <CockpitTour />
+      </div>
     </main>
   );
 }

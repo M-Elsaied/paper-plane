@@ -15,7 +15,10 @@ const TABS = [
 export function BottomNav() {
   const pathname = usePathname();
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-navy-950/80 backdrop-blur-xl">
+    <nav
+      data-tour="nav"
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-navy-950/80 backdrop-blur-xl"
+    >
       <div className="mx-auto flex max-w-md items-stretch justify-around">
         {TABS.map((t) => {
           const active = t.match(pathname);
