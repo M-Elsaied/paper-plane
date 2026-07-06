@@ -1,9 +1,11 @@
 import { buildRanking } from "@/lib/cockpit";
 import { RankingsBoard } from "@/components/rankings-board";
 
-export default function RankingsPage() {
-  const men = buildRanking("male");
-  const women = buildRanking("female");
+export const revalidate = 300;
+
+
+export default async function RankingsPage() {
+  const [men, women] = await Promise.all([buildRanking("male"), buildRanking("female")]);
 
   return (
     <main className="px-4 pt-6">

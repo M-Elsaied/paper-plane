@@ -1,13 +1,20 @@
 import { getAthleteDirectory } from "@/lib/data";
 import { buildRanking } from "@/lib/cockpit";
+
+export const revalidate = 300;
+
 import { AthletePicker } from "@/components/athlete-picker";
 import { MyAthleteResume } from "@/components/my-athlete-resume";
+import { FlightpathDigest } from "@/components/flightpath-digest";
+import { OnboardingHint } from "@/components/onboarding-hint";
 import { fmtPoints, daysToDeadline } from "@/lib/format";
 
-export default function Home() {
-  const directory = getAthleteDirectory();
-  const men = buildRanking("male");
-  const women = buildRanking("female");
+export default async function Home() {
+  const [directory, men, women] = await Promise.all([
+    getAthleteDirectory(),
+    buildRanking("male"),
+    buildRanking("female"),
+  ]);
   const days = daysToDeadline();
 
   return (
@@ -36,7 +43,9 @@ export default function Home() {
         <Stat label="Women's cut" value={`${fmtPoints(women.line.cutPoints)} pt`} sub={`#${women.line.cutRank}`} />
       </section>
 
+      <OnboardingHint />
       <MyAthleteResume />
+      <FlightpathDigest />
 
       <div className="my-5 flex items-center gap-3">
         <div className="h-px flex-1 bg-white/10" />

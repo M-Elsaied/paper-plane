@@ -2,9 +2,11 @@ import { Activity } from "lucide-react";
 import { getMovers, getSeedMeta } from "@/lib/data";
 import { PulseBoard } from "@/components/pulse-board";
 
-export default function PulsePage() {
-  const men = getMovers("male");
-  const women = getMovers("female");
+export const revalidate = 300;
+
+
+export default async function PulsePage() {
+  const [men, women] = await Promise.all([getMovers("male"), getMovers("female")]);
   const meta = getSeedMeta();
 
   return (

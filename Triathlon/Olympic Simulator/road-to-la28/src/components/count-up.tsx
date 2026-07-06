@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { animate, useMotionValue, useTransform, motion } from "motion/react";
+import { animate, useMotionValue, useTransform, motion, useReducedMotion } from "motion/react";
 
 /** Springy count-up number. Re-animates whenever `value` changes. */
 export function CountUp({
@@ -16,7 +16,8 @@ export function CountUp({
   prefix?: string;
   suffix?: string;
 }) {
-  const mv = useMotionValue(0);
+  const reduce = useReducedMotion();
+  const mv = useMotionValue(reduce ? value : 0);
   const rounded = useTransform(mv, (v) =>
     `${prefix}${v.toLocaleString("en-US", {
       minimumFractionDigits: decimals,
@@ -25,12 +26,16 @@ export function CountUp({
   );
 
   useEffect(() => {
+    if (reduce) {
+      mv.set(value);
+      return;
+    }
     const controls = animate(mv, value, {
       duration: 0.9,
       ease: [0.16, 1, 0.3, 1],
     });
     return controls.stop;
-  }, [value, mv]);
+  }, [value, mv, reduce]);
 
   return <motion.span className={className}>{rounded}</motion.span>;
 }

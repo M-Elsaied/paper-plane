@@ -11,6 +11,7 @@ const display = Archivo({
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://road-to-la28.vercel.app"),
   title: "Road to LA28 — Olympic Qualification Cockpit",
   description:
     "Live Olympic triathlon qualification: where every athlete stands on the road to Los Angeles 2028, and what they need to do next.",

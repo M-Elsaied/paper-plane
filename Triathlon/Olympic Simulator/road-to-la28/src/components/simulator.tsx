@@ -1,7 +1,8 @@
 "use client";
-import { Fragment, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowUp, ArrowDown, Sparkles } from "lucide-react";
+import { Celebration } from "./celebration";
 import { applyWhatIf } from "@/lib/engine/what-if";
 import { rankAthletes, computeQualificationLine } from "@/lib/engine/qualification";
 import type { QualState } from "@/lib/engine/types";
@@ -28,6 +29,19 @@ export function Simulator({
     () => applyWhatIf(state, { athleteId, tier, position, period }),
     [state, athleteId, tier, position, period],
   );
+
+  // Fire the celebration once each time the athlete newly crosses into the zone.
+  const [celebrate, setCelebrate] = useState(false);
+  const wasCrossed = useRef(false);
+  useEffect(() => {
+    if (result.crossesLine && !wasCrossed.current) {
+      setCelebrate(true);
+      const t = setTimeout(() => setCelebrate(false), 1700);
+      wasCrossed.current = true;
+      return () => clearTimeout(t);
+    }
+    if (!result.crossesLine) wasCrossed.current = false;
+  }, [result.crossesLine]);
 
   // Build the post-scenario ranking window around the athlete for the live board.
   const board = useMemo(() => {
@@ -68,11 +82,12 @@ export function Simulator({
       <motion.div
         layout
         className={cn(
-          "card overflow-hidden p-4",
+          "card relative overflow-hidden p-4",
           result.crossesLine && "border-good/50",
           result.dropsOut && "border-bad/50",
         )}
       >
+        <Celebration show={celebrate} />
         <div className="flex items-center justify-between">
           <div>
             <div className="text-[11px] uppercase tracking-wide text-ink-faint">

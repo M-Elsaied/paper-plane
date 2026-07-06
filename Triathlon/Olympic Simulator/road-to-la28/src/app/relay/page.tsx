@@ -4,8 +4,11 @@ import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
 import { fmtPoints } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
-export default function RelayPage() {
-  const nations = [...getMrNations()].sort((a, b) => a.rank - b.rank);
+export const revalidate = 300;
+
+
+export default async function RelayPage() {
+  const nations = [...(await getMrNations())].sort((a, b) => a.rank - b.rank);
 
   return (
     <main className="px-4 pt-6">

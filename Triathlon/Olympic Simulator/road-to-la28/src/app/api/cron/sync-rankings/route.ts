@@ -2,21 +2,18 @@
  * Daily rankings sync (Vercel Cron). Fetches the OQR + WTCS + Mixed Relay
  * rankings, and only writes a NEW snapshot when the content hash changed — this
  * is how "the official ranking was updated" is detected. On a change it stores
- * the snapshot + entries and recomputes the qualification line per gender.
+ * athlete metadata, the snapshot + entries (with the full score breakdown), and
+ * recomputes the qualification line per gender.
  *
- * Runs in seed-JSON mode as a no-op-with-note when DATABASE_URL is unset, so the
- * route is always safe to hit.
+ * Runs as a no-op-with-note when DATABASE_URL is unset (seed-JSON mode).
  */
 import { NextResponse } from "next/server";
 import { and, eq } from "drizzle-orm";
 import { RANKING_IDS, type RankingKey } from "@/config/wt-api";
 import { wtGet } from "@/lib/wt-api/client";
 import type { RawRanking } from "@/lib/wt-api/rankings";
-import { normalizeRanking } from "@/lib/wt-api/rankings";
-import { computeQualificationLine } from "@/lib/engine/qualification";
-import { ENGINE_VERSION } from "@/lib/engine/version";
 import { getDb } from "@/db/client";
-import { rankingSnapshots, rankingEntries, qualificationStates } from "@/db/schema";
+import { rankingSnapshots, rankingEntries } from "@/db/schema";
 import {
   authorizeCron,
   startRun,
@@ -24,16 +21,17 @@ import {
   storeRawPayload,
   rankingContentHash,
 } from "@/lib/ingest/sync-run";
+import { ingestOqrSnapshot, ingestMrSnapshot } from "@/lib/ingest/rankings-ingest";
 
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
-const TARGETS: { key: RankingKey; type: string; gender?: "male" | "female" }[] = [
-  { key: "oqr_men", type: "oqr_men", gender: "male" },
-  { key: "oqr_women", type: "oqr_women", gender: "female" },
-  { key: "wtcs_men", type: "wtcs_men" },
-  { key: "wtcs_women", type: "wtcs_women" },
-  { key: "mr_olympic", type: "mr_olympic" },
+const TARGETS: { key: RankingKey; type: string; kind: "oqr" | "wtcs" | "mr"; gender?: "male" | "female" }[] = [
+  { key: "oqr_men", type: "oqr_men", kind: "oqr", gender: "male" },
+  { key: "oqr_women", type: "oqr_women", kind: "oqr", gender: "female" },
+  { key: "wtcs_men", type: "wtcs_men", kind: "wtcs" },
+  { key: "wtcs_women", type: "wtcs_women", kind: "wtcs" },
+  { key: "mr_olympic", type: "mr_olympic", kind: "mr" },
 ];
 
 export async function GET(req: Request) {
@@ -58,16 +56,20 @@ export async function GET(req: Request) {
       const res = await wtGet<RawRanking>(`/rankings/${id}`, { limit: 1000 });
       const raw = res.data;
 
-      // Guard: WT could renumber ids — assert the name still matches.
       if (expectName && !raw.ranking_name?.includes(expectName)) {
         summary[target.type] = `name-mismatch:${raw.ranking_name}`;
         continue;
       }
 
       const rawId = await storeRawPayload(runId, `/rankings/${id}`, { limit: 1000 }, raw);
-      const hash = rankingContentHash(
-        raw.rankings.map((r) => ({ id: r.athlete_id, rank: r.rank, total: r.total })),
-      );
+
+      // Content hash uses athlete id or team noc depending on ranking kind.
+      const rows = (raw.rankings as unknown as Record<string, unknown>[]).map((r) => ({
+        id: (r.athlete_id as number) ?? (r.team_noc as string) ?? (r.rank as number),
+        rank: r.rank as number,
+        total: r.total as number,
+      }));
+      const hash = rankingContentHash(rows);
 
       const existing = await db
         .select({ id: rankingSnapshots.id })
@@ -79,38 +81,19 @@ export async function GET(req: Request) {
         continue;
       }
 
-      const [snap] = await db
-        .insert(rankingSnapshots)
-        .values({
-          rankingId: id,
-          rankingType: target.type,
-          contentHash: hash,
-          publishedAt: raw.published,
-          rawPayloadId: rawId ?? undefined,
-        })
-        .returning();
-
-      await db.insert(rankingEntries).values(
-        raw.rankings.map((r) => ({
-          snapshotId: snap.id,
-          athleteId: r.athlete_id,
-          rank: r.rank,
-          lastRank: r.last_rank,
-          change: r.change != null ? String(r.change) : undefined,
-          totalPoints: r.total,
-        })),
-      );
-
-      // Recompute the qualification line for OQR rankings.
-      if (target.gender) {
-        const state = normalizeRanking(raw, target.gender);
-        const line = computeQualificationLine(state.athletes);
-        await db.insert(qualificationStates).values({
-          snapshotId: snap.id,
-          gender: target.gender,
-          line,
-          engineVersion: ENGINE_VERSION,
-        });
+      if (target.kind === "oqr" && target.gender) {
+        await ingestOqrSnapshot(db, raw, target.gender, target.type, hash, rawId);
+      } else if (target.kind === "mr") {
+        await ingestMrSnapshot(db, raw as never, target.type, hash, rawId);
+      } else {
+        // WTCS: minimal snapshot + rank/total entries (not read by UI yet).
+        const [snap] = await db
+          .insert(rankingSnapshots)
+          .values({ rankingId: id, rankingType: target.type, contentHash: hash, publishedAt: raw.published, rawPayloadId: rawId ?? undefined })
+          .returning();
+        await db.insert(rankingEntries).values(
+          raw.rankings.map((r) => ({ snapshotId: snap.id, athleteId: r.athlete_id, rank: r.rank, totalPoints: r.total })),
+        );
       }
 
       summary[target.type] = `updated:${raw.rankings.length}`;

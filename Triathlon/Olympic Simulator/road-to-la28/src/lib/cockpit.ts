@@ -7,6 +7,7 @@ import type { Gender } from "@/config/pathways";
 import { QUAL } from "@/config/qualification";
 import { rankAthletes, computeQualificationLine } from "@/lib/engine/qualification";
 import { nationMrStatus } from "@/lib/engine/mixed-relay";
+import { athleteStatus, type QualStatus } from "@/lib/engine/status";
 import { DEFAULT_ASSUMPTIONS } from "@/config/pathways";
 import { getQualState, getMrNations, findAthlete } from "@/lib/data";
 import type { RankedAthlete } from "@/lib/engine/types";
@@ -22,8 +23,8 @@ export interface RankingRow {
   profileImage?: string;
 }
 
-export function buildRanking(gender: Gender) {
-  const state = getQualState(gender);
+export async function buildRanking(gender: Gender) {
+  const state = await getQualState(gender);
   const ranked = rankAthletes(state.athletes);
   const line = computeQualificationLine(state.athletes);
   const qualifiedIds = new Set(line.qualified.map((q) => q.athleteId));
@@ -63,16 +64,21 @@ export interface CockpitModel {
   periodFull: Record<1 | 2, boolean>;
   daysToDeadline: number;
   mr: ReturnType<typeof nationMrStatus>;
+  status: QualStatus;
+  /** This athlete's nation cap + how many places it's using. */
+  nocUsage: { cap: number; used: number };
+  /** How many other athletes from this nation are ahead in the ranking. */
+  nocAhead: number;
   /** A few chasers just behind, for context. */
   chasers: RankingRow[];
   publishedAt: string;
 }
 
-export function buildCockpit(athleteId: number): CockpitModel | null {
-  const found = findAthlete(athleteId);
+export async function buildCockpit(athleteId: number): Promise<CockpitModel | null> {
+  const found = await findAthlete(athleteId);
   if (!found) return null;
   const gender = found.athlete.gender;
-  const { ranked, line, rows } = buildRanking(gender);
+  const { ranked, line, rows } = await buildRanking(gender);
 
   const idx = ranked.findIndex((a) => a.athleteId === athleteId);
   const me = ranked[idx] as RankedAthlete;
@@ -81,9 +87,12 @@ export function buildCockpit(athleteId: number): CockpitModel | null {
   const gapToLine =
     line.cutPoints != null ? Math.round((line.cutPoints - me.total) * 100) / 100 : 0;
 
-  const mr = nationMrStatus(getMrNations(), me.noc, DEFAULT_ASSUMPTIONS);
+  const mr = nationMrStatus(await getMrNations(), me.noc, DEFAULT_ASSUMPTIONS);
 
   const chasers = rows.filter((r) => Math.abs(r.rank - rank) <= 2 && r.athleteId !== athleteId);
+  const status = athleteStatus(line, athleteId);
+  const nocUsage = line.perNocUsage[me.noc] ?? { cap: 2, used: 0 };
+  const nocAhead = rows.filter((r) => r.noc === me.noc && r.rank < rank).length;
 
   return {
     athleteId,
@@ -107,6 +116,9 @@ export function buildCockpit(athleteId: number): CockpitModel | null {
       Math.ceil((new Date(QUAL.deadline).getTime() - Date.now()) / 86_400_000),
     ),
     mr,
+    status,
+    nocUsage,
+    nocAhead,
     chasers,
     publishedAt: found.state.publishedAt,
   };

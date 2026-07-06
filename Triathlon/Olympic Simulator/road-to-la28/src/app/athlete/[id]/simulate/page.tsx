@@ -11,10 +11,10 @@ export default async function SimulatePage({
 }) {
   const { id } = await params;
   const athleteId = Number(id);
-  const found = findAthlete(athleteId);
+  const found = await findAthlete(athleteId);
   if (!found) notFound();
 
-  const state = getQualState(found.athlete.gender);
+  const state = await getQualState(found.athlete.gender);
 
   return (
     <main className="px-4 pt-6">

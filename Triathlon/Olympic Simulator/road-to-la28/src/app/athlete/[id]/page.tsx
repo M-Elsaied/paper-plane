@@ -2,11 +2,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SlidersHorizontal, ShieldCheck, TriangleAlert, Users } from "lucide-react";
 import { buildCockpit } from "@/lib/cockpit";
+import { explainPosition } from "@/lib/explain";
 import { AthleteAvatar } from "@/components/athlete-avatar";
 import { CountUp } from "@/components/count-up";
 import { QualMeter } from "@/components/qual-meter";
+import { StatusBadge } from "@/components/status-badge";
+import { ExplainLineCard } from "@/components/explain-line";
+import { PeriodTimeline } from "@/components/period-timeline";
+import { ShareButton } from "@/components/share-button";
 import { fmtPoints } from "@/lib/format";
+import { getSeedMeta, findAthlete } from "@/lib/data";
 import { cn } from "@/lib/utils";
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const found = await findAthlete(Number(id));
+  if (!found) return { title: "Athlete · Road to LA28" };
+  const name = found.athlete.fullName;
+  return {
+    title: `${name} · Road to LA28`,
+    description: `${name}'s road to the LA 2028 Olympics — live qualification ranking and what-if simulator.`,
+    openGraph: {
+      title: `${name} · Road to LA28`,
+      images: [{ url: `/athlete/${id}/card`, width: 1080, height: 1350 }],
+    },
+    twitter: { card: "summary_large_image", images: [`/athlete/${id}/card`] },
+  };
+}
 
 export default async function AthleteCockpit({
   params,
@@ -14,10 +36,12 @@ export default async function AthleteCockpit({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const m = buildCockpit(Number(id));
+  const m = await buildCockpit(Number(id));
   if (!m) notFound();
 
   const insideBy = -m.gapToLine; // positive when inside the line
+  const explain = explainPosition(m);
+  const today = getSeedMeta().today;
 
   return (
     <main className="px-4 pt-6">
@@ -32,14 +56,10 @@ export default async function AthleteCockpit({
             <span className="capitalize">{m.gender === "male" ? "Elite Men" : "Elite Women"}</span>
           </div>
         </div>
-        <span
-          className={cn(
-            "rounded-full px-2.5 py-1 text-[11px] font-bold",
-            m.qualified ? "bg-good/15 text-good" : "bg-electric/15 text-electric-bright",
-          )}
-        >
-          {m.qualified ? "QUALIFYING" : "CHASING"}
-        </span>
+        <div className="flex flex-col items-end gap-1.5">
+          <StatusBadge status={m.status} />
+          <ShareButton athleteId={m.athleteId} name={m.fullName} />
+        </div>
       </header>
 
       {/* Hero: rank + points */}
@@ -88,6 +108,11 @@ export default async function AthleteCockpit({
         <span className="text-sm font-bold">What if →</span>
       </Link>
 
+      {/* Explain the line — the engine in plain language */}
+      <div className="mb-4">
+        <ExplainLineCard lines={explain} />
+      </div>
+
       {/* Countdown + best-12 */}
       <section className="mb-4 grid grid-cols-2 gap-3">
         <div className="card p-3">
@@ -125,6 +150,11 @@ export default async function AthleteCockpit({
           </div>
         )}
       </section>
+
+      {/* Qualification window / points expiry */}
+      <div className="mb-4">
+        <PeriodTimeline periodCount={m.periodCount} periodFull={m.periodFull} todayIso={today} />
+      </div>
 
       {/* Mixed Relay strip */}
       <section className="card mb-4 flex items-center gap-3 p-4">
