@@ -22,6 +22,7 @@ import {
   rankingContentHash,
 } from "@/lib/ingest/sync-run";
 import { ingestOqrSnapshot, ingestMrSnapshot } from "@/lib/ingest/rankings-ingest";
+import { notifyOnRankingUpdate } from "@/lib/ingest/notify";
 
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
@@ -97,6 +98,19 @@ export async function GET(req: Request) {
       }
 
       summary[target.type] = `updated:${raw.rankings.length}`;
+    }
+
+    // Event-driven alerts: notify followers about any gender whose ranking changed.
+    for (const g of ["male", "female"] as const) {
+      const type = g === "male" ? "oqr_men" : "oqr_women";
+      if (summary[type]?.startsWith("updated")) {
+        try {
+          const n = await notifyOnRankingUpdate(db, g);
+          summary[`notify_${g}`] = `sent:${n}`;
+        } catch (e) {
+          summary[`notify_${g}`] = `error:${(e as Error).message}`;
+        }
+      }
     }
 
     await finishRun(runId, "ok", summary);

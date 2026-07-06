@@ -13,6 +13,14 @@ import {
   toggleFollow,
   type StoredAthlete,
 } from "./athlete-store";
+import { syncBoardIfClaimed } from "./account-client";
+import { refreshPushFollows } from "./push-client";
+
+/** Mirror board changes to the server + push targeting (no-ops if not set up). */
+function propagate() {
+  void syncBoardIfClaimed();
+  void refreshPushFollows();
+}
 
 export function useMyAthlete() {
   const [athlete, setAthlete] = useState<StoredAthlete | null>(null);
@@ -28,11 +36,13 @@ export function useMyAthlete() {
   const choose = useCallback(async (a: StoredAthlete) => {
     await setMyAthlete(a);
     setAthlete(a);
+    propagate();
   }, []);
 
   const clear = useCallback(async () => {
     await clearMyAthlete();
     setAthlete(null);
+    propagate();
   }, []);
 
   return { athlete, hydrated, choose, clear };
@@ -52,6 +62,7 @@ export function useFollows() {
   const toggle = useCallback(async (a: StoredAthlete) => {
     const next = await toggleFollow(a);
     setFollows(next);
+    propagate();
   }, []);
 
   const isFollowing = useCallback(

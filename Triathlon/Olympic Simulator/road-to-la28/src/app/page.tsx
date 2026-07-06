@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { UserCircle2 } from "lucide-react";
 import { getAthleteDirectory } from "@/lib/data";
 import { buildRanking } from "@/lib/cockpit";
 
@@ -21,9 +23,18 @@ export default async function Home() {
     <main className="px-4 pt-8">
       {/* Hero */}
       <header className="mb-6">
-        <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-semibold text-ink-dim">
-          <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-good" />
-          LIVE · Olympic Qualification Ranking
+        <div className="mb-2 flex items-center justify-between">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-semibold text-ink-dim">
+            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-good" />
+            LIVE · Olympic Qualification Ranking
+          </div>
+          <Link
+            href="/account"
+            aria-label="Your board, sync & alerts"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim transition hover:text-ink"
+          >
+            <UserCircle2 size={18} />
+          </Link>
         </div>
         <h1 className="font-[family-name:var(--font-display)] text-5xl font-black leading-[0.95] tracking-tight">
           ROAD TO

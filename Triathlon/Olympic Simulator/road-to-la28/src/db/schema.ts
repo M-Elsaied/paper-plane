@@ -166,6 +166,33 @@ export const syncRuns = pgTable("sync_runs", {
   error: text("error"),
 });
 
+/** Account bridge: a synced "board" (my athlete + follows) with no password —
+ *  identity is a signed session cookie; recovery is a signed link. */
+export const accounts = pgTable("accounts", {
+  id: text("id").primaryKey(), // uuid
+  board: jsonb("board"), // { myAthlete, follows }
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow(),
+});
+
+/** Web Push subscriptions. Tied to an account when claimed, else standalone.
+ *  `follows` is the cached athlete-id list used to target relevant events. */
+export const pushSubscriptions = pgTable(
+  "push_subscriptions",
+  {
+    id: serial("id").primaryKey(),
+    accountId: text("account_id"),
+    endpoint: text("endpoint").notNull(),
+    p256dh: text("p256dh").notNull(),
+    auth: text("auth").notNull(),
+    follows: jsonb("follows"), // number[] athlete ids
+    lastSnapshotMen: integer("last_snapshot_men"),
+    lastSnapshotWomen: integer("last_snapshot_women"),
+    createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
+  },
+  (t) => [uniqueIndex("push_endpoint").on(t.endpoint)],
+);
+
 export const rawPayloads = pgTable("raw_payloads", {
   id: serial("id").primaryKey(),
   syncRunId: integer("sync_run_id"),
