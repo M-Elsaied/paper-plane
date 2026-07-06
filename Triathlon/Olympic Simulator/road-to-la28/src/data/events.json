@@ -1,0 +1,68 @@
+[
+  {
+    "eventId": 195148,
+    "title": "2026 World Triathlon Championship Series Hamburg",
+    "date": "2026-07-11",
+    "endDate": "2026-07-12",
+    "venue": "Hamburg",
+    "flag": "https://cms.triathlon.org/assets/55d8ab45-2131-481b-a436-3e08d61b8561.svg",
+    "categoryLabel": "WTCS",
+    "tier": "wtcs",
+    "tierLabel": "WTCS"
+  },
+  {
+    "eventId": 195150,
+    "title": "2026 World Triathlon Championship Series London",
+    "date": "2026-07-25",
+    "endDate": "2026-07-25",
+    "venue": "London",
+    "flag": "https://cms.triathlon.org/assets/d05999e7-1f37-4d53-8c61-2fb61082263b.svg",
+    "categoryLabel": "WTCS",
+    "tier": "wtcs",
+    "tierLabel": "WTCS"
+  },
+  {
+    "eventId": 195151,
+    "title": "2026 World Triathlon Championship Series Weihai",
+    "date": "2026-08-29",
+    "endDate": "2026-08-29",
+    "venue": "Weihai",
+    "flag": "https://cms.triathlon.org/assets/d6acd89e-58d0-46cb-b729-717120bf60b5.svg",
+    "categoryLabel": "WTCS",
+    "tier": "wtcs",
+    "tierLabel": "WTCS"
+  },
+  {
+    "eventId": 195415,
+    "title": "2026 Taranto Mediterranean Games",
+    "date": "2026-08-29",
+    "endDate": "2026-09-01",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/9b100a17-b57e-4ce4-9ec2-2735e71f417c.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195152,
+    "title": "2026 World Triathlon Championship Series Karlovy Vary",
+    "date": "2026-09-13",
+    "endDate": "2026-09-13",
+    "venue": "Karlovy Vary",
+    "flag": "https://cms.triathlon.org/assets/e4792233-8575-4657-9254-30272592bfc5.svg",
+    "categoryLabel": "WTCS",
+    "tier": "wtcs",
+    "tierLabel": "WTCS"
+  },
+  {
+    "eventId": 195355,
+    "title": "2026 Aichi-Nagoya Asian Games",
+    "date": "2026-09-20",
+    "endDate": "2026-09-21",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/4f536358-6f57-47d1-a4a7-fbcd34d9b158.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  }
+]

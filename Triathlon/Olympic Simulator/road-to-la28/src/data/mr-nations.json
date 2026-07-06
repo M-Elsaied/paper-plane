@@ -1,0 +1,77 @@
+[
+  {
+    "noc": "FRA",
+    "rank": 1,
+    "total": 800
+  },
+  {
+    "noc": "ITA",
+    "rank": 2,
+    "total": 740
+  },
+  {
+    "noc": "ESP",
+    "rank": 3,
+    "total": 684.5
+  },
+  {
+    "noc": "AUS",
+    "rank": 4,
+    "total": 633.16
+  },
+  {
+    "noc": "POR",
+    "rank": 5,
+    "total": 585.68
+  },
+  {
+    "noc": "USA",
+    "rank": 6,
+    "total": 541.75
+  },
+  {
+    "noc": "GBR",
+    "rank": 7,
+    "total": 501.12
+  },
+  {
+    "noc": "GER",
+    "rank": 8,
+    "total": 463.53
+  },
+  {
+    "noc": "NZL",
+    "rank": 9,
+    "total": 428.77
+  },
+  {
+    "noc": "SUI",
+    "rank": 10,
+    "total": 396.61
+  },
+  {
+    "noc": "BEL",
+    "rank": 11,
+    "total": 366.87
+  },
+  {
+    "noc": "LUX",
+    "rank": 12,
+    "total": 339.35
+  },
+  {
+    "noc": "NED",
+    "rank": 13,
+    "total": 313.9
+  },
+  {
+    "noc": "JPN",
+    "rank": 14,
+    "total": 290.36
+  },
+  {
+    "noc": "HUN",
+    "rank": 15,
+    "total": 268.58
+  }
+]
