@@ -1,4 +1,5 @@
-import { CalendarDays, MapPin, Trophy } from "lucide-react";
+import Link from "next/link";
+import { CalendarDays, MapPin, Trophy, ArrowRight } from "lucide-react";
 import { getUpcomingEvents, getSeedMeta } from "@/lib/data";
 import { TIER_BASE_POINTS } from "@/config/points-tables";
 import { fmtPoints } from "@/lib/format";
@@ -31,7 +32,7 @@ export default function RaceWeekPage() {
             </div>
             <div className="space-y-2">
               {g.events.map((e) => (
-                <div key={e.eventId} className="card p-4">
+                <Link key={e.eventId} href={`/race/${e.eventId}`} className="card block p-4 transition hover:border-electric/40">
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0">
                       <div className="mb-1 inline-flex items-center gap-1 rounded-full bg-white/8 px-2 py-0.5 text-[10px] font-bold text-electric-bright">
@@ -54,8 +55,13 @@ export default function RaceWeekPage() {
                       <div className="text-[10px] text-ink-faint">win points</div>
                     </div>
                   </div>
-                  <div className="mt-2 text-[11px] text-ink-faint">{formatDate(e.date)}</div>
-                </div>
+                  <div className="mt-2 flex items-center justify-between">
+                    <span className="text-[11px] text-ink-faint">{formatDate(e.date)}</span>
+                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-electric-bright">
+                      Project this race <ArrowRight size={12} />
+                    </span>
+                  </div>
+                </Link>
               ))}
             </div>
           </section>

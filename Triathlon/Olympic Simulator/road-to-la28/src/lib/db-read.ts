@@ -63,7 +63,7 @@ export async function readQualState(gender: Gender): Promise<QualState | null> {
     flag: r.flagUrl ?? undefined,
     publishedRank: r.rank,
     lastRank: r.lastRank ?? undefined,
-    change: r.change != null ? Number(r.change) : undefined,
+    change: Number.isFinite(Number(r.change)) ? Number(r.change) : undefined,
     scores: (r.scores as Score[] | null) ?? [],
   }));
 

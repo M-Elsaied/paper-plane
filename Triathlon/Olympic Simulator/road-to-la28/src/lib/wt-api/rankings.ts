@@ -24,7 +24,7 @@ export interface RawRankingAthlete {
   athlete_country_name?: string;
   rank: number;
   last_rank?: number;
-  change?: number;
+  change?: number | string; // API sends "NEW" for new entrants
   total: number;
   scores_current_period?: (number | null)[];
   scores_previous_period?: (number | null)[];
@@ -56,7 +56,8 @@ export function normalizeRanking(raw: RawRanking, gender: Gender): QualState {
     flag: a.athlete_flag_circle ?? undefined,
     publishedRank: a.rank,
     lastRank: a.last_rank,
-    change: a.change,
+    // `change` may be "NEW" (string) for new entrants — keep only real numbers.
+    change: typeof a.change === "number" && Number.isFinite(a.change) ? a.change : undefined,
     scores: [
       ...toScores(a.scores_current_period, 1),
       ...toScores(a.scores_previous_period, 2),
