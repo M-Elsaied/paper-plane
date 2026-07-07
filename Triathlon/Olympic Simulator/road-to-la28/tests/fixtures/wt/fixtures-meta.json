@@ -1,0 +1,41 @@
+{
+  "recordedAt": "2026-07-06T06:57:35.105Z",
+  "files": {
+    "ranking-11-oqr-men.json": {
+      "hash": "93c75d8c71d0df47",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "ranking-12-oqr-women.json": {
+      "hash": "f41cd9626990d2d6",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "ranking-15-wtcs-men.json": {
+      "hash": "2aef209163e3b46d",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "ranking-16-wtcs-women.json": {
+      "hash": "cc630fa79830ac75",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "ranking-64-mr.json": {
+      "hash": "0acff3c587af5284",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "yokohama-programs.json": {
+      "hash": "e28a8490f6a1eabe",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "yokohama-men-results.json": {
+      "hash": "273e1cf4b77138ec",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "hamburg-programs.json": {
+      "hash": "a5dd9b693a3146c8",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    },
+    "hamburg-men-entries.json": {
+      "hash": "2b1786711cde81f1",
+      "recordedAt": "2026-07-06T06:57:35.105Z"
+    }
+  }
+}

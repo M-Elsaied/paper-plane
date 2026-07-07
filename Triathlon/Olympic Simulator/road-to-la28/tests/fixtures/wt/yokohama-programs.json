@@ -1,0 +1,143 @@
+{
+  "code": 200,
+  "status": "success",
+  "data": [
+    {
+      "prog_id": 677498,
+      "event_id": 195145,
+      "prog_name": "Elite Coaches",
+      "is_race": false,
+      "prog_date": "2026-05-16",
+      "prog_date_utc": "2026-05-16",
+      "prog_time": null,
+      "prog_time_utc": null,
+      "prog_timezone_name": "Asia/Tokyo",
+      "prog_timezone_offset": "UTC+09:00",
+      "prog_gender": "mixed",
+      "prog_min_age": null,
+      "prog_max_age": null,
+      "prog_distance_category": null,
+      "prog_distances": [],
+      "prog_notes": null,
+      "results": false,
+      "team": false,
+      "live_timing_enabled": false
+    },
+    {
+      "prog_id": 677499,
+      "event_id": 195145,
+      "prog_name": "NF Medicals",
+      "is_race": false,
+      "prog_date": "2026-05-16",
+      "prog_date_utc": "2026-05-16",
+      "prog_time": null,
+      "prog_time_utc": null,
+      "prog_timezone_name": "Asia/Tokyo",
+      "prog_timezone_offset": "UTC+09:00",
+      "prog_gender": "mixed",
+      "prog_min_age": null,
+      "prog_max_age": null,
+      "prog_distance_category": null,
+      "prog_distances": [],
+      "prog_notes": null,
+      "results": false,
+      "team": false,
+      "live_timing_enabled": false
+    },
+    {
+      "prog_id": 677500,
+      "event_id": 195145,
+      "prog_name": "Elite Men",
+      "is_race": true,
+      "prog_date": "2026-05-16",
+      "prog_date_utc": "2026-05-16",
+      "prog_time": "13:00:00",
+      "prog_time_utc": "04:00:00",
+      "prog_timezone_name": "Asia/Tokyo",
+      "prog_timezone_offset": "UTC+09:00",
+      "prog_gender": "male",
+      "prog_min_age": 15,
+      "prog_max_age": null,
+      "prog_distance_category": "standard",
+      "prog_distances": [
+        {
+          "segment": "Swim",
+          "laps": 2,
+          "distance": 1500
+        },
+        {
+          "segment": "Bike",
+          "laps": 10,
+          "distance": 37730
+        },
+        {
+          "segment": "Run",
+          "laps": 4,
+          "distance": 10000
+        }
+      ],
+      "prog_notes": null,
+      "results": true,
+      "team": false,
+      "live_timing_enabled": true
+    },
+    {
+      "prog_id": 677501,
+      "event_id": 195145,
+      "prog_name": "Elite Women",
+      "is_race": true,
+      "prog_date": "2026-05-16",
+      "prog_date_utc": "2026-05-16",
+      "prog_time": "10:15:00",
+      "prog_time_utc": "01:15:00",
+      "prog_timezone_name": "Asia/Tokyo",
+      "prog_timezone_offset": "UTC+09:00",
+      "prog_gender": "female",
+      "prog_min_age": null,
+      "prog_max_age": null,
+      "prog_distance_category": "standard",
+      "prog_distances": [
+        {
+          "segment": "Swim",
+          "laps": 2,
+          "distance": 1500
+        },
+        {
+          "segment": "Bike",
+          "laps": 10,
+          "distance": 37730
+        },
+        {
+          "segment": "Run",
+          "laps": 4,
+          "distance": 10000
+        }
+      ],
+      "prog_notes": null,
+      "results": true,
+      "team": false,
+      "live_timing_enabled": true
+    },
+    {
+      "prog_id": 677502,
+      "event_id": 195145,
+      "prog_name": "Technical Officials",
+      "is_race": false,
+      "prog_date": "2026-05-16",
+      "prog_date_utc": "2026-05-16",
+      "prog_time": null,
+      "prog_time_utc": null,
+      "prog_timezone_name": "Asia/Tokyo",
+      "prog_timezone_offset": "UTC+09:00",
+      "prog_gender": "mixed",
+      "prog_min_age": 19,
+      "prog_max_age": null,
+      "prog_distance_category": null,
+      "prog_distances": [],
+      "prog_notes": null,
+      "results": false,
+      "team": false,
+      "live_timing_enabled": false
+    }
+  ]
+}

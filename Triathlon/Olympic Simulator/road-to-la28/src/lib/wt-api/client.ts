@@ -68,12 +68,15 @@ export async function wtGet<T>(
           continue;
         }
         if (!res.ok) {
+          // Client errors (4xx, except the 429 handled above) won't fix on
+          // retry — fail fast instead of wasting the backoff budget.
           throw new WtApiError(`HTTP ${res.status}`, res.status, url.pathname);
         }
         return (await res.json()) as WtResponse<T>;
       } catch (err) {
         clearTimeout(timer);
         lastErr = err;
+        if (err instanceof WtApiError && err.httpStatus >= 400 && err.httpStatus < 500) throw err;
         if (attempt < WT_CLIENT.retries) await sleep(backoff(attempt));
       }
     }

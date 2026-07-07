@@ -61,19 +61,19 @@ export function computeNocCaps(
 
 /** Places a nation has already consumed through non-individual pathways —
  *  these count against the nation's cap and so limit its individual places. */
-function preConsumedByNoc(
-  assumptions: PathwayAssumptions,
-  perGender: number,
-): Record<string, number> {
+function preConsumedByNoc(assumptions: PathwayAssumptions): Record<string, number> {
   const used: Record<string, number> = {};
   const add = (noc: string | null, n: number) => {
     if (!noc) return;
     used[noc] = (used[noc] ?? 0) + n;
   };
+  // Each figure is places consumed for THIS gender's line (the engine runs per
+  // gender): host = host.perGender; each MR-World-Champ nation = 1 (2 total,
+  // 1 per gender); each MR-OQR / tripartite nation = 1.
   add(assumptions.host.noc, assumptions.host.perGender);
-  add(assumptions.mrWorldChamps2026, 2 * perGender > 0 ? 1 : 1); // 1 per gender
+  add(assumptions.mrWorldChamps2026, 1);
   add(assumptions.mrWorldChamps2027, 1);
-  assumptions.mrOqrNations.forEach((noc) => add(noc, 1)); // ~1 slot/gender/team
+  assumptions.mrOqrNations.forEach((noc) => add(noc, 1));
   assumptions.tripartite.forEach((noc) => add(noc, 1));
   return used;
 }
@@ -86,7 +86,7 @@ export function computeQualificationLine(
   const ranked = rankAthletes(athletes, cfg);
   const gender = ranked[0]?.gender ?? "male";
   const caps = computeNocCaps(ranked, cfg);
-  const preUsed = preConsumedByNoc(assumptions, 1);
+  const preUsed = preConsumedByNoc(assumptions);
 
   // usage starts from pathway-consumed places (clamped to the cap).
   const usage: Record<string, number> = {};

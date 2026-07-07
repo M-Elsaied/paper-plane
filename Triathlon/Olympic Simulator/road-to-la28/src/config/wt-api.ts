@@ -7,7 +7,9 @@
  * fallback so the app runs out of the box — keep request volume polite.
  */
 
-export const WT_API_BASE = "https://api.triathlon.org/v1";
+/** Base URL. `WT_API_BASE_OVERRIDE` lets tests point at a local fixture server. */
+export const WT_API_BASE =
+  process.env.WT_API_BASE_OVERRIDE || "https://api.triathlon.org/v1";
 
 /** Public fallback key from WT's OpenAPI spec. Replace via WT_API_KEY env. */
 export const WT_PUBLIC_FALLBACK_KEY = "2649776ef9ece4c391003b521cbfce7a";
