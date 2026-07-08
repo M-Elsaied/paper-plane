@@ -25,7 +25,7 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
   const s = road.subject;
 
   return (
-    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
+    <main className="mx-auto px-4 pt-6 lg:max-w-5xl">
       <div className="mb-4 flex items-center gap-2">
         <Link
           href={`/athlete/${s.athleteId}`}
@@ -38,6 +38,10 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
           <h1 className="text-lg font-extrabold leading-tight">Your Road to LA28</h1>
         </div>
       </div>
+
+      {/* Two-column on desktop: subject + game board (left), routes (right). */}
+      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-5">
+      <div className="lg:space-y-4 [&>*]:lg:!mb-0">
 
       {/* Subject + verdict */}
       <section className="card mb-4 p-4">
@@ -76,6 +80,11 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
         </div>
       )}
 
+      </div>{/* --- end left column --- */}
+
+      {/* --- right column --- */}
+      <div>
+
       {/* The route portfolio */}
       <div className="mb-2 flex items-center justify-between px-1">
         <h2 className="text-sm font-bold">Every route, ranked by realism</h2>
@@ -104,6 +113,9 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
           </ul>
         </section>
       )}
+
+      </div>{/* --- end right column --- */}
+      </div>{/* --- end 2-column grid --- */}
 
       <p className="pt-4 text-center text-[11px] leading-snug text-ink-faint">
         Routes are assessed from the live rankings and the LA28 criteria — a strategic guide, not a
