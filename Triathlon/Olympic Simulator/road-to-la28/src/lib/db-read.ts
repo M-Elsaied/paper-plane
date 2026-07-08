@@ -5,12 +5,13 @@
  * calls these first.
  */
 import "server-only";
-import { desc, eq, and } from "drizzle-orm";
+import { desc, eq, and, inArray } from "drizzle-orm";
 import { getDb } from "@/db/client";
 import { rankingSnapshots, rankingEntries, athletes } from "@/db/schema";
 import type { Gender } from "@/config/pathways";
 import type { QualState, AthleteScores, Score } from "@/lib/engine/types";
 import type { MrNationEntry } from "@/lib/engine/mixed-relay";
+import type { TrajectoryPoint } from "@/lib/trajectory";
 
 async function latestSnapshot(rankingType: string) {
   const db = getDb();
@@ -117,6 +118,53 @@ export async function readMrNations(): Promise<MrNationEntry[] | null> {
     .orderBy(rankingEntries.rank);
   if (!rows.length) return null;
   return rows.map((r) => ({ noc: r.noc ?? "—", rank: r.rank, total: r.total ?? 0 }));
+}
+
+/**
+ * An athlete's rank across the last `limit` OQR snapshots (oldest → newest), for
+ * the Rank Trajectory sparkline. Prepends the oldest snapshot's `lastRank` as an
+ * even-earlier point so a single stored snapshot still yields a two-point trend.
+ * Returns null when there is no database or the athlete has no stored history.
+ */
+export async function readRankTrajectory(
+  gender: Gender,
+  athleteId: number,
+  limit = 12,
+): Promise<TrajectoryPoint[] | null> {
+  const db = getDb();
+  if (!db) return null;
+  const rankingType = gender === "male" ? "oqr_men" : "oqr_women";
+
+  const snaps = await db
+    .select({ id: rankingSnapshots.id, publishedAt: rankingSnapshots.publishedAt })
+    .from(rankingSnapshots)
+    .where(eq(rankingSnapshots.rankingType, rankingType))
+    .orderBy(desc(rankingSnapshots.fetchedAt))
+    .limit(limit);
+  if (!snaps.length) return null;
+
+  const entries = await db
+    .select({ snapshotId: rankingEntries.snapshotId, rank: rankingEntries.rank, lastRank: rankingEntries.lastRank })
+    .from(rankingEntries)
+    .where(and(inArray(rankingEntries.snapshotId, snaps.map((s) => s.id)), eq(rankingEntries.athleteId, athleteId)));
+  const byId = new Map(entries.map((e) => [e.snapshotId, e]));
+
+  // snaps are newest-first; walk oldest → newest, keeping only present entries.
+  const points: TrajectoryPoint[] = [];
+  let earliestEntry: (typeof entries)[number] | undefined;
+  for (const s of [...snaps].reverse()) {
+    const e = byId.get(s.id);
+    if (!e) continue;
+    if (!earliestEntry) earliestEntry = e;
+    points.push({ rank: e.rank, date: s.publishedAt ?? undefined });
+  }
+  if (!points.length) return null;
+
+  // Prepend the "previous" rank of the earliest snapshot the athlete appears in,
+  // for one extra point of context (and so a single stored snapshot still trends).
+  if (earliestEntry?.lastRank != null) points.unshift({ rank: earliestEntry.lastRank, label: "prev" });
+
+  return points;
 }
 
 /** True once at least one OQR snapshot exists (used to decide Neon vs JSON). */

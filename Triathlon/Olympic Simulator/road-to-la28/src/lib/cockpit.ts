@@ -9,7 +9,8 @@ import { rankAthletes, computeQualificationLine } from "@/lib/engine/qualificati
 import { nationMrStatus } from "@/lib/engine/mixed-relay";
 import { athleteStatus, type QualStatus } from "@/lib/engine/status";
 import { DEFAULT_ASSUMPTIONS } from "@/config/pathways";
-import { getQualState, getMrNations, findAthlete } from "@/lib/data";
+import { getQualState, getMrNations, findAthlete, getRankTrajectory } from "@/lib/data";
+import type { TrajectoryPoint } from "@/lib/trajectory";
 import type { RankedAthlete } from "@/lib/engine/types";
 
 export interface RankingRow {
@@ -71,6 +72,8 @@ export interface CockpitModel {
   nocAhead: number;
   /** A few chasers just behind, for context. */
   chasers: RankingRow[];
+  /** OQR rank over time (oldest → newest) for the trajectory sparkline. */
+  trajectory: TrajectoryPoint[];
   publishedAt: string;
 }
 
@@ -93,6 +96,15 @@ export async function buildCockpit(athleteId: number): Promise<CockpitModel | nu
   const status = athleteStatus(line, athleteId);
   const nocUsage = line.perNocUsage[me.noc] ?? { cap: 2, used: 0 };
   const nocAhead = rows.filter((r) => r.noc === me.noc && r.rank < rank).length;
+
+  // Rank trajectory: real stored history when available, else a last→now trend
+  // from the athlete's own official ranks (always available in seed + prod).
+  let trajectory = await getRankTrajectory(gender, athleteId);
+  if (trajectory.length < 2) {
+    trajectory = [];
+    if (me.lastRank != null && me.lastRank !== rank) trajectory.push({ rank: me.lastRank, label: "last ranking" });
+    trajectory.push({ rank, label: "now" });
+  }
 
   return {
     athleteId,
@@ -120,6 +132,7 @@ export async function buildCockpit(athleteId: number): Promise<CockpitModel | nu
     nocUsage,
     nocAhead,
     chasers,
+    trajectory,
     publishedAt: found.state.publishedAt,
   };
 }

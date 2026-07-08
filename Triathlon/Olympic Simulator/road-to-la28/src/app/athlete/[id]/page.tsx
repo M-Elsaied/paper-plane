@@ -10,6 +10,7 @@ import { StatusBadge } from "@/components/status-badge";
 import { ExplainLineCard } from "@/components/explain-line";
 import { PeriodTimeline } from "@/components/period-timeline";
 import { ShareButton } from "@/components/share-button";
+import { RankSparkline } from "@/components/rank-sparkline";
 import { RivalriesStrip } from "@/components/versus/rivalries-strip";
 import { CockpitTour } from "@/components/tour/cockpit-tour";
 import { UnrankedProfileView } from "@/components/unranked-profile";
@@ -105,6 +106,12 @@ export default async function AthleteCockpit({
               <CountUp value={m.total} />
             </div>
           </div>
+        </div>
+
+        {/* Rank trajectory sparkline */}
+        <div className="mt-3 flex items-center justify-between border-t border-hairline pt-3">
+          <span className="text-[11px] font-semibold uppercase tracking-wide text-ink-faint">Trajectory</span>
+          <RankSparkline points={m.trajectory} />
         </div>
 
         <div className="mt-4">

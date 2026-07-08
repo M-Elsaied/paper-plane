@@ -13,7 +13,8 @@ import type { QualState, AthleteScores } from "@/lib/engine/types";
 import type { MrNationEntry } from "@/lib/engine/mixed-relay";
 import type { UpcomingEvent } from "@/lib/wt-api/events";
 import type { WorldRankEntry } from "@/lib/wt-api/rankings";
-import { readQualState, readMrNations, readWorldRanking } from "@/lib/db-read";
+import { readQualState, readMrNations, readWorldRanking, readRankTrajectory } from "@/lib/db-read";
+import type { TrajectoryPoint } from "@/lib/trajectory";
 import men from "@/data/qual-state-men.json";
 import women from "@/data/qual-state-women.json";
 import worldMen from "@/data/world-ranking-men.json";
@@ -65,6 +66,17 @@ export const getMrNations = cache(async (): Promise<MrNationEntry[]> => {
     // fall through
   }
   return mrNations as unknown as MrNationEntry[];
+});
+
+/** An athlete's rank history from stored snapshots; [] when none (seed/first run). */
+export const getRankTrajectory = cache(async (gender: Gender, athleteId: number): Promise<TrajectoryPoint[]> => {
+  try {
+    const fromDb = await readRankTrajectory(gender, athleteId);
+    if (fromDb && fromDb.length >= 2) return fromDb;
+  } catch {
+    // fall through — the cockpit synthesizes a last→now trend from the athlete record
+  }
+  return [];
 });
 
 export function getUpcomingEvents(): UpcomingEvent[] {
