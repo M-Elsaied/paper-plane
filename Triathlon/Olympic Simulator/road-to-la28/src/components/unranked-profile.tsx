@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Info, CalendarDays } from "lucide-react";
+import { Info, CalendarDays, Compass } from "lucide-react";
 import type { UnrankedProfile } from "@/lib/athlete-profile";
 import { AthleteAvatar } from "./athlete-avatar";
 import { ShareButton } from "./share-button";
@@ -39,6 +39,15 @@ export function UnrankedProfileView({ p }: { p: UnrankedProfile }) {
           on the road to qualification, an athlete needs counting results at World Triathlon events and
           must climb inside the top {p.eligibilityTopRank} of the World Ranking by 18 May 2028.
         </p>
+        <Link
+          href={`/athlete/${p.athleteId}/road`}
+          className="mt-3 flex items-center justify-between rounded-xl border border-electric/30 bg-electric/10 px-3 py-2.5 transition active:scale-[0.99]"
+        >
+          <span className="flex items-center gap-2 text-sm font-bold text-electric-bright">
+            <Compass size={16} /> See {p.fullName.split(" ")[0]}&apos;s realistic routes
+          </span>
+          <span className="text-xs font-semibold text-ink-dim">→</span>
+        </Link>
       </section>
 
       {/* Recent results */}

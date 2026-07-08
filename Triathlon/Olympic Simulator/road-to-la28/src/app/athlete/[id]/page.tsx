@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { SlidersHorizontal, ShieldCheck, TriangleAlert, Users } from "lucide-react";
+import { SlidersHorizontal, ShieldCheck, TriangleAlert, Users, Compass } from "lucide-react";
 import { buildCockpit } from "@/lib/cockpit";
 import { explainPosition } from "@/lib/explain";
 import { AthleteAvatar } from "@/components/athlete-avatar";
@@ -121,6 +121,18 @@ export default async function AthleteCockpit({
           <SlidersHorizontal size={18} /> Simulate a race result
         </span>
         <span className="text-sm font-bold">What if →</span>
+      </Link>
+
+      {/* Your Road — the athlete-centric pathway analyzer */}
+      <Link
+        data-tour="road"
+        href={`/athlete/${m.athleteId}/road`}
+        className="mb-4 flex items-center justify-between rounded-2xl border border-electric/30 bg-electric/10 px-4 py-3 transition active:scale-[0.99]"
+      >
+        <span className="flex items-center gap-2 font-bold text-electric-bright">
+          <Compass size={18} /> Your Road to LA28
+        </span>
+        <span className="text-sm font-semibold text-ink-dim">every route →</span>
       </Link>
 
       {/* Explain the line — the engine in plain language */}
