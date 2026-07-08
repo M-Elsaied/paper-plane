@@ -33,7 +33,7 @@ export function GameBoard({ road }: { road: Road }) {
 
       <ul className="space-y-1">
         {ahead.map((c, i) => (
-          <BoardRow key={`a-${i}`} name={c.name} noc={c.noc} athleteId={c.athleteId} tone="ahead" note="ahead of you" />
+          <BoardRow key={`a-${i}`} name={c.name} noc={c.noc} athleteId={c.athleteId} subjectId={road.subject.athleteId} tone="ahead" note="ahead of you" />
         ))}
 
         {ahead.length > 0 && (
@@ -48,12 +48,13 @@ export function GameBoard({ road }: { road: Road }) {
         <BoardRow
           name={road.subject.name}
           noc={road.subject.noc}
+          athleteId={road.subject.athleteId}
           tone="you"
           note={road.subject.oqrRank ? `#${road.subject.oqrRank} OQR` : "unranked"}
         />
 
         {behind.map((c, i) => (
-          <BoardRow key={`b-${i}`} name={c.name} noc={c.noc} athleteId={c.athleteId} tone="behind" note="chasing you" />
+          <BoardRow key={`b-${i}`} name={c.name} noc={c.noc} athleteId={c.athleteId} subjectId={road.subject.athleteId} tone="behind" note="chasing you" />
         ))}
       </ul>
 
@@ -69,12 +70,14 @@ function BoardRow({
   name,
   noc,
   athleteId,
+  subjectId,
   tone,
   note,
 }: {
   name: string;
   noc: string;
   athleteId?: number;
+  subjectId?: number;
   tone: "ahead" | "you" | "behind";
   note: string;
 }) {
@@ -97,5 +100,12 @@ function BoardRow({
       </span>
     </div>
   );
-  return <li>{athleteId ? <Link href={`/athlete/${athleteId}`}>{inner}</Link> : inner}</li>;
+  // Competitor rows link to the head-to-head vs the subject; the "you" row to the cockpit.
+  const href =
+    tone !== "you" && athleteId && subjectId
+      ? `/versus/${subjectId}/${athleteId}`
+      : athleteId
+        ? `/athlete/${athleteId}`
+        : null;
+  return <li>{href ? <Link href={href}>{inner}</Link> : inner}</li>;
 }

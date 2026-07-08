@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { SlidersHorizontal, ShieldCheck, TriangleAlert, Users, Compass } from "lucide-react";
+import { SlidersHorizontal, ShieldCheck, TriangleAlert, Users, Compass, Swords } from "lucide-react";
 import { buildCockpit } from "@/lib/cockpit";
 import { explainPosition } from "@/lib/explain";
 import { AthleteAvatar } from "@/components/athlete-avatar";
@@ -10,6 +10,7 @@ import { StatusBadge } from "@/components/status-badge";
 import { ExplainLineCard } from "@/components/explain-line";
 import { PeriodTimeline } from "@/components/period-timeline";
 import { ShareButton } from "@/components/share-button";
+import { RivalriesStrip } from "@/components/versus/rivalries-strip";
 import { CockpitTour } from "@/components/tour/cockpit-tour";
 import { UnrankedProfileView } from "@/components/unranked-profile";
 import { Flag } from "@/components/flag";
@@ -143,6 +144,9 @@ export default async function AthleteCockpit({
         <span className="text-sm font-semibold text-ink-dim">every route →</span>
       </Link>
 
+      {/* Pinned rivalries for this athlete (local) */}
+      <RivalriesStrip athleteId={m.athleteId} />
+
       {/* Explain the line — the engine in plain language */}
       <div data-tour="explain" className="mb-4">
         <ExplainLineCard lines={explain} />
@@ -212,19 +216,22 @@ export default async function AthleteCockpit({
         {m.mr.insideTop16 && <ShieldCheck size={18} className="text-good" />}
       </section>
 
-      {/* Chasers */}
+      {/* Chasers — tap to see the head-to-head */}
       <section className="mb-2">
         <h2 className="mb-2 text-sm font-bold">Around the athlete</h2>
         <ul className="space-y-1">
           {m.chasers.map((c) => (
-            <li
-              key={c.athleteId}
-              className="flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm"
-            >
-              <span className="tnum w-6 text-ink-faint">#{c.rank}</span>
-              <span className="flex-1 truncate">{c.fullName}</span>
-              <span className="text-ink-faint">{c.noc}</span>
-              <span className="tnum font-semibold">{fmtPoints(c.total)}</span>
+            <li key={c.athleteId}>
+              <Link
+                href={`/versus/${m.athleteId}/${c.athleteId}`}
+                className="flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm transition hover:bg-surface-2"
+              >
+                <span className="tnum w-6 text-ink-faint">#{c.rank}</span>
+                <span className="flex-1 truncate">{c.fullName}</span>
+                <span className="text-ink-faint">{c.noc}</span>
+                <span className="tnum font-semibold">{fmtPoints(c.total)}</span>
+                <Swords size={13} className="text-ink-faint" />
+              </Link>
             </li>
           ))}
         </ul>

@@ -12,7 +12,21 @@ const K = {
   myAthlete: `${NS}:my-athlete`,
   follows: `${NS}:follows`,
   lastSeen: `${NS}:last-seen-snapshot`,
+  rivalries: `${NS}:rivalries`,
 };
+
+export interface RivalRef {
+  athleteId: number;
+  name: string;
+}
+export interface Rivalry {
+  a: RivalRef;
+  b: RivalRef;
+}
+/** A stable, order-independent key for a pair of athletes. */
+export function rivalryKey(x: number, y: number): string {
+  return [x, y].sort((m, n) => m - n).join("-");
+}
 
 export interface StoredAthlete {
   athleteId: number;
@@ -49,4 +63,24 @@ export async function getLastSeenSnapshot(): Promise<string | null> {
 }
 export async function setLastSeenSnapshot(id: string): Promise<void> {
   await set(K.lastSeen, id);
+}
+
+// ---- rivalries (pinned head-to-head duels) ----
+export async function getRivalries(): Promise<Rivalry[]> {
+  return (await get<Rivalry[]>(K.rivalries)) ?? [];
+}
+export async function toggleRivalry(pair: Rivalry): Promise<Rivalry[]> {
+  const list = await getRivalries();
+  const key = rivalryKey(pair.a.athleteId, pair.b.athleteId);
+  const exists = list.some((r) => rivalryKey(r.a.athleteId, r.b.athleteId) === key);
+  const next = exists
+    ? list.filter((r) => rivalryKey(r.a.athleteId, r.b.athleteId) !== key)
+    : [...list, pair];
+  await set(K.rivalries, next);
+  return next;
+}
+export async function isRivalry(aId: number, bId: number): Promise<boolean> {
+  const list = await getRivalries();
+  const key = rivalryKey(aId, bId);
+  return list.some((r) => rivalryKey(r.a.athleteId, r.b.athleteId) === key);
 }
