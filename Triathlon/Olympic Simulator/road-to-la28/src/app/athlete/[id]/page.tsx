@@ -67,9 +67,13 @@ export default async function AthleteCockpit({
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-xl font-extrabold leading-tight">{m.fullName}</h1>
           <div className="flex items-center gap-2 text-sm text-ink-dim">
-            <span className="inline-flex items-center gap-1.5 font-semibold">
+            <Link
+              href={`/war-room/${m.noc}`}
+              className="inline-flex items-center gap-1.5 font-semibold transition hover:text-ink"
+              title={`${m.noc} slot war room`}
+            >
               <Flag src={m.flag} noc={m.noc} size={18} /> {m.noc}
-            </span>
+            </Link>
             <span className="text-ink-faint">·</span>
             <span className="capitalize">{m.gender === "male" ? "Elite Men" : "Elite Women"}</span>
           </div>

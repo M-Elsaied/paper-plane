@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Gauge, ListOrdered, CalendarDays, Activity, Users, UserCircle2 } from "lucide-react";
+import { Gauge, ListOrdered, CalendarDays, Activity, Users, Shield, UserCircle2 } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
 import { cn } from "@/lib/utils";
 
@@ -11,6 +11,7 @@ export const TABS = [
   { href: "/race-week", label: "Race Week", icon: CalendarDays, match: (p: string) => p.startsWith("/race-week") || p.startsWith("/race/") },
   { href: "/pulse", label: "Pulse", icon: Activity, match: (p: string) => p.startsWith("/pulse") },
   { href: "/relay", label: "Relay", icon: Users, match: (p: string) => p.startsWith("/relay") },
+  { href: "/war-room", label: "War Room", icon: Shield, match: (p: string) => p.startsWith("/war-room") },
 ];
 
 /** Bottom tab bar — mobile only (lg:hidden). */

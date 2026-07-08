@@ -13,13 +13,14 @@ test("rankings show the qualification line and toggle genders", async ({ page })
   await expect(board.getByText("Vasco Vilaca")).toHaveCount(0);
 });
 
-test("bottom nav reaches all five tabs", async ({ page }) => {
+test("bottom nav reaches all tabs", async ({ page }) => {
   await page.goto("/");
   for (const [name, url] of [
     ["Rankings", /\/rankings/],
     ["Race Week", /\/race-week/],
     ["Pulse", /\/pulse/],
     ["Relay", /\/relay/],
+    ["War Room", /\/war-room/],
   ] as const) {
     await page.getByRole("link", { name, exact: false }).first().click();
     await expect(page).toHaveURL(url);
