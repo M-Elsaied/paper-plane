@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 export function UnrankedProfileView({ p }: { p: UnrankedProfile }) {
   const first = p.fullName.split(" ")[0];
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       {/* Hero */}
       <header className="card mb-4 overflow-hidden">
         <div className="flex items-start gap-3 p-4">
@@ -41,14 +41,14 @@ export function UnrankedProfileView({ p }: { p: UnrankedProfile }) {
             </div>
           </div>
           <div className="flex flex-col items-end gap-1.5">
-            <span className="rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-bold text-ink-dim">UNRANKED</span>
+            <span className="rounded-full bg-surface-2 px-2.5 py-1 text-[11px] font-bold text-ink-dim">UNRANKED</span>
             <ShareButton athleteId={p.athleteId} name={p.fullName} />
           </div>
         </div>
 
         {/* Career stats */}
         {p.stats && (
-          <div className="grid grid-cols-4 divide-x divide-white/8 border-t border-white/8">
+          <div className="grid grid-cols-4 divide-x divide-white/8 border-t border-hairline">
             <Stat icon={<CalendarDays size={13} />} value={p.stats.starts} label="Starts" />
             <Stat icon={<Medal size={13} />} value={p.stats.podiums} label="Podiums" accent={p.stats.podiums > 0} />
             <Stat icon={<Trophy size={13} />} value={p.stats.wins} label="Wins" accent={p.stats.wins > 0} />
@@ -56,7 +56,7 @@ export function UnrankedProfileView({ p }: { p: UnrankedProfile }) {
           </div>
         )}
         {p.ageGroupRank != null && (
-          <div className="flex items-center justify-between border-t border-white/8 px-4 py-2 text-[12px]">
+          <div className="flex items-center justify-between border-t border-hairline px-4 py-2 text-[12px]">
             <span className="text-ink-faint">Age-Group World Ranking</span>
             <span className="tnum font-bold text-ink">#{fmtPoints(p.ageGroupRank)}</span>
           </div>
@@ -158,7 +158,7 @@ function PositionBadge({ position }: { position: number | string | null }) {
     <span
       className={cn(
         "tnum flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-sm font-black",
-        isPodium ? "bg-la-gold/15" : "bg-white/8",
+        isPodium ? "bg-la-gold/15" : "bg-surface-2",
         isPodium ? medal : "text-ink-dim",
       )}
     >

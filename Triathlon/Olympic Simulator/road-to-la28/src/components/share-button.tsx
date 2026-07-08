@@ -50,7 +50,7 @@ export function ShareButton({
       onClick={share}
       aria-label={`Share ${name}`}
       className={cn(
-        "inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] font-semibold text-ink-dim transition active:scale-95",
+        "inline-flex items-center gap-1 rounded-full border border-hairline bg-surface px-2.5 py-1 text-[11px] font-semibold text-ink-dim transition active:scale-95",
         className,
       )}
     >

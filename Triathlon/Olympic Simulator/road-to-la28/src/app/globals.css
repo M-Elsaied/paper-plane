@@ -3,28 +3,36 @@
 /*
  * Road to LA28 — brand system.
  * World Triathlon (deep navy + electric blue) fused with LA28 (coral -> violet
- * -> gold gradient). Dark, broadcast-grade, kinetic. The gradient is reserved
- * for the qualification line, deltas, and hero numbers — never body chrome.
+ * -> gold gradient). The signature gradient is reserved for the qualification
+ * line, deltas, and hero numbers — never body chrome. Light + dark themes: the
+ * brand accents stay constant; only the neutral "canvas" tokens flip.
  */
 @theme {
+  /* Brand — constant across themes. Navy stays dark (used as text on the bright
+     gradient, and as a fixed dark accent). */
   --color-navy-950: #050d1c;
   --color-navy-900: #0b1e3c;
   --color-navy-800: #10294f;
   --color-navy-700: #17386b;
   --color-navy-600: #1e4a86;
-  --color-ink: #eaf2ff;
-  --color-ink-dim: #9db2d4;
-  --color-ink-faint: #5f7699;
 
   --color-electric: #00a3e0;
   --color-electric-bright: #35c8ff;
-
   --color-la-coral: #ff5c6c;
   --color-la-violet: #8b5cf6;
   --color-la-gold: #f5c518;
-
   --color-good: #21d07a;
   --color-bad: #ff5c6c;
+
+  /* Semantic canvas tokens — resolve to CSS vars that flip per theme. */
+  --color-bg: var(--bg);
+  --color-ink: var(--fg);
+  --color-ink-dim: var(--fg-dim);
+  --color-ink-faint: var(--fg-faint);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-hairline: var(--hairline);
+  --color-elevated: var(--elevated);
 
   --font-display: var(--font-display), "Arial Narrow", sans-serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
@@ -32,17 +40,49 @@
   --animate-pulse-line: pulse-line 2.6s ease-in-out infinite;
 }
 
+/* ---- Theme palettes ---- */
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #04070f;
+  --fg: #eaf2ff;
+  --fg-dim: #9db2d4;
+  --fg-faint: #5f7699;
+  --surface: rgba(255, 255, 255, 0.038);
+  --surface-2: rgba(255, 255, 255, 0.09);
+  --hairline: rgba(255, 255, 255, 0.1);
+  --elevated: #0b1e3c;
+  --card-top: rgba(255, 255, 255, 0.06);
+  --card-bottom: rgba(255, 255, 255, 0.02);
+  --bg-radial: rgba(16, 58, 107, 0.22);
+  --bg-base: linear-gradient(180deg, #050d1c 0%, #04070f 100%);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #eef2f8;
+  --fg: #0b1e3c;
+  --fg-dim: #46587a;
+  --fg-faint: #8193ad;
+  --surface: rgba(11, 30, 60, 0.035);
+  --surface-2: rgba(11, 30, 60, 0.075);
+  --hairline: rgba(11, 30, 60, 0.12);
+  --elevated: #ffffff;
+  --card-top: #ffffff;
+  --card-bottom: #ffffff;
+  --bg-radial: rgba(47, 111, 212, 0.1);
+  --bg-base: linear-gradient(180deg, #f3f6fb 0%, #e7edf6 100%);
+}
+
 @keyframes pulse-line {
   0%, 100% { opacity: 0.55; box-shadow: 0 0 14px 0 var(--color-la-gold); }
   50% { opacity: 1; box-shadow: 0 0 26px 3px var(--color-la-gold); }
 }
 
-:root { color-scheme: dark; }
-
 body {
   background:
-    radial-gradient(1200px 600px at 50% -10%, #103a6b33, transparent 60%),
-    linear-gradient(180deg, var(--color-navy-950) 0%, #04070f 100%);
+    radial-gradient(1200px 600px at 50% -10%, var(--bg-radial), transparent 60%),
+    var(--bg-base);
+  background-attachment: fixed;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -50,7 +90,7 @@ body {
   overflow-x: hidden;
 }
 
-/* The LA28 gradient — the app's signature. */
+/* The LA28 gradient — the app's signature (constant across themes). */
 .la-gradient {
   background: linear-gradient(90deg, var(--color-la-coral), var(--color-la-violet) 55%, var(--color-la-gold));
 }
@@ -69,10 +109,13 @@ body {
 
 /* Glassy card used across the app. */
 .card {
-  background: linear-gradient(180deg, #ffffff0a, #ffffff03);
-  border: 1px solid #ffffff14;
+  background: linear-gradient(180deg, var(--card-top), var(--card-bottom));
+  border: 1px solid var(--hairline);
   border-radius: 1rem;
   backdrop-filter: blur(8px);
+}
+:root[data-theme="light"] .card {
+  box-shadow: 0 1px 2px rgba(11, 30, 60, 0.04), 0 6px 20px rgba(11, 30, 60, 0.05);
 }
 
 .tnum { font-family: var(--font-display); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }

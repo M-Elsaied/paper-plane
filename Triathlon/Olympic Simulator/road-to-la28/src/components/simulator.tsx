@@ -125,7 +125,7 @@ export function Simulator({
         <div data-tour="sim-position">
           <div className="mb-2 flex items-center justify-between">
             <label className="text-sm font-bold">Finish position</label>
-            <span className="tnum rounded-lg bg-white/10 px-2.5 py-1 text-lg font-extrabold la-gradient-text">
+            <span className="tnum rounded-lg bg-surface-2 px-2.5 py-1 text-lg font-extrabold la-gradient-text">
               {ordinal(position)}
             </span>
           </div>
@@ -155,7 +155,7 @@ export function Simulator({
                   "rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition",
                   tier === t
                     ? "border-transparent la-gradient text-navy-950"
-                    : "border-white/10 bg-white/5 text-ink-dim",
+                    : "border-hairline bg-surface text-ink-dim",
                 )}
               >
                 {TIER_LABEL[t]}
@@ -176,7 +176,7 @@ export function Simulator({
                   "flex-1 rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition",
                   period === p
                     ? "border-electric/50 bg-electric/15 text-electric-bright"
-                    : "border-white/10 bg-white/5 text-ink-dim",
+                    : "border-hairline bg-surface text-ink-dim",
                 )}
               >
                 Period {p}
@@ -199,7 +199,7 @@ export function Simulator({
                 transition={{ type: "spring", stiffness: 500, damping: 40 }}
                 className={cn(
                   "flex items-center gap-2 rounded-lg px-2.5 py-2 text-sm",
-                  row.isMe ? "bg-electric/15 ring-1 ring-electric/50" : "bg-white/[0.03]",
+                  row.isMe ? "bg-electric/15 ring-1 ring-electric/50" : "bg-surface",
                 )}
               >
                 <span className={cn("tnum w-7 text-center font-bold", row.qualified ? "text-good" : "text-ink-faint")}>
@@ -233,7 +233,7 @@ function DeltaChip({ rankDelta, pointsDelta }: { rankDelta: number; pointsDelta:
     <div
       className={cn(
         "rounded-xl px-3 py-2 text-right",
-        rankDelta === 0 ? "bg-white/5" : up ? "bg-good/15" : "bg-bad/15",
+        rankDelta === 0 ? "bg-surface" : up ? "bg-good/15" : "bg-bad/15",
       )}
     >
       <div className={cn("tnum text-xl font-black", rankDelta === 0 ? "text-ink-dim" : up ? "text-good" : "text-bad")}>

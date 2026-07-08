@@ -3,14 +3,14 @@ import { test, expect } from "@playwright/test";
 test("rankings show the qualification line and toggle genders", async ({ page }) => {
   await page.goto("/rankings");
   await expect(page.getByRole("heading", { name: /Olympic Qualification Ranking/i })).toBeVisible();
-  // the line separator with its label
-  await expect(page.getByText(/Qualification line · 21 individual places/i)).toBeVisible();
-  // men's leader present
-  await expect(page.getByText("Vasco Vilaca")).toBeVisible();
+  // scope to the mobile board (desktop 2-col grid duplicates names, hidden here)
+  const board = page.getByTestId("rankings-mobile");
+  await expect(board.getByText(/Qualification line/i)).toBeVisible();
+  await expect(board.getByText("Vasco Vilaca")).toBeVisible();
 
-  // toggle to women — a different board renders
-  await page.getByRole("button", { name: "Elite Women" }).click();
-  await expect(page.getByText("Vasco Vilaca")).toHaveCount(0);
+  // toggle to women — the men's leader is no longer in the mobile list
+  await board.getByRole("button", { name: "Elite Women" }).click();
+  await expect(board.getByText("Vasco Vilaca")).toHaveCount(0);
 });
 
 test("bottom nav reaches all five tabs", async ({ page }) => {

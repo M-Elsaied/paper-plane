@@ -97,7 +97,7 @@ export function LiveRaceCompanion({ model }: { model: RaceModel }) {
               <Reorder.Item
                 key={id}
                 value={id}
-                className="flex touch-none items-center gap-2 rounded-lg border border-white/8 bg-white/[0.04] px-2.5 py-2 text-sm"
+                className="flex touch-none items-center gap-2 rounded-lg border border-hairline bg-surface px-2.5 py-2 text-sm"
               >
                 <span
                   className={cn(
@@ -140,8 +140,8 @@ export function LiveRaceCompanion({ model }: { model: RaceModel }) {
                     : r.dropsOut
                       ? "bg-bad/10 ring-1 ring-bad/40"
                       : r.isRacer
-                        ? "bg-white/[0.05]"
-                        : "bg-white/[0.02]",
+                        ? "bg-surface"
+                        : "bg-surface",
                 )}
               >
                 <span className={cn("tnum w-7 text-center font-bold", r.qualified ? "text-good" : "text-ink-faint")}>

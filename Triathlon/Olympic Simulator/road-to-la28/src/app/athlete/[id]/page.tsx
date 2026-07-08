@@ -59,7 +59,7 @@ export default async function AthleteCockpit({
   const today = getSeedMeta().today;
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       {/* Identity header */}
       <header className="mb-5 flex items-center gap-3">
         <AthleteAvatar name={m.fullName} src={m.profileImage} size={56} ring={m.qualified} />
@@ -118,7 +118,7 @@ export default async function AthleteCockpit({
       <Link
         data-tour="simulate"
         href={`/athlete/${m.athleteId}/simulate`}
-        className="mb-4 flex items-center justify-between rounded-2xl border border-white/10 la-gradient px-4 py-3.5 text-navy-950 shadow-lg transition active:scale-[0.99]"
+        className="mb-4 flex items-center justify-between rounded-2xl border border-hairline la-gradient px-4 py-3.5 text-navy-950 shadow-lg transition active:scale-[0.99]"
       >
         <span className="flex items-center gap-2 font-extrabold">
           <SlidersHorizontal size={18} /> Simulate a race result
@@ -209,7 +209,7 @@ export default async function AthleteCockpit({
           {m.chasers.map((c) => (
             <li
               key={c.athleteId}
-              className="flex items-center gap-2 rounded-lg bg-white/[0.03] px-3 py-2 text-sm"
+              className="flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm"
             >
               <span className="tnum w-6 text-ink-faint">#{c.rank}</span>
               <span className="flex-1 truncate">{c.fullName}</span>
@@ -244,7 +244,7 @@ function PeriodBars({
       {counted.map((c, i) => (
         <div key={i} className="flex items-center gap-2">
           <span className="w-6 text-[10px] font-semibold text-ink-faint">P{c.period}</span>
-          <div className="h-3 flex-1 overflow-hidden rounded-full bg-white/6">
+          <div className="h-3 flex-1 overflow-hidden rounded-full bg-surface">
             <div
               className={cn("h-full rounded-full", c.period === 1 ? "bg-electric" : "bg-la-violet")}
               style={{ width: `${(c.points / max) * 100}%` }}

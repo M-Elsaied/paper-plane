@@ -70,7 +70,7 @@ export function OnboardingHint() {
 function Step({ icon, n, text }: { icon: React.ReactNode; n: number; text: string }) {
   return (
     <li className="flex items-center gap-3">
-      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white/8 text-electric-bright">
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-surface-2 text-electric-bright">
         {icon}
       </span>
       <span className="text-[13px] text-ink-dim">

@@ -53,7 +53,7 @@ export function Celebration({ show }: { show: boolean }) {
             animate={{ scale: 1, y: 0, opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ type: "spring", stiffness: 400, damping: 18 }}
-            className="rounded-2xl bg-navy-950/70 px-5 py-2.5 text-lg font-black backdrop-blur-sm la-gradient-text"
+            className="rounded-2xl bg-elevated/70 px-5 py-2.5 text-lg font-black backdrop-blur-sm la-gradient-text"
           >
             QUALIFYING ZONE
           </motion.div>

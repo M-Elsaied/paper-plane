@@ -69,7 +69,7 @@ function PeriodChip({
   accent: "electric" | "violet";
 }) {
   return (
-    <div className="rounded-xl bg-white/[0.03] p-2.5">
+    <div className="rounded-xl bg-surface p-2.5">
       <div className="flex items-center justify-between">
         <span className="text-[11px] font-bold">Period {n}</span>
         <span

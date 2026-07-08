@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo, Inter } from "next/font/google";
 import "./globals.css";
-import { BottomNav } from "@/components/bottom-nav";
+import { BottomNav, Sidebar } from "@/components/nav";
+import { ThemeToggle, themeScript } from "@/components/theme-toggle";
 
 const display = Archivo({
   variable: "--font-display",
@@ -30,9 +31,21 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${inter.variable} antialiased`}>
-      <body className="min-h-[100dvh] pb-20">
-        <div className="mx-auto w-full max-w-md">{children}</div>
+    <html lang="en" className={`${display.variable} ${inter.variable} antialiased`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body className="min-h-[100dvh]">
+        <Sidebar />
+        {/* Content: full-width narrow on mobile (bottom nav), offset by the
+            sidebar and comfortably widened on desktop. */}
+        <div className="lg:pl-60">
+          {/* Floating theme toggle on mobile (sidebar has its own on desktop). */}
+          <div className="fixed right-3 top-3 z-30 lg:hidden">
+            <ThemeToggle className="h-9 w-9 justify-center !px-0" />
+          </div>
+          <div className="mx-auto w-full max-w-md pb-24 lg:max-w-5xl lg:px-8 lg:pb-10">{children}</div>
+        </div>
         <BottomNav />
       </body>
     </html>

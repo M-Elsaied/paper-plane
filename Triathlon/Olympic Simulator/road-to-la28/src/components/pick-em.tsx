@@ -102,7 +102,7 @@ export function PickEm({
               key={slot}
               className={cn(
                 "flex min-h-[64px] flex-col items-center justify-center rounded-xl border px-1 py-2 text-center",
-                a ? "border-la-gold/40 bg-la-gold/5" : "border-dashed border-white/15 bg-white/[0.02]",
+                a ? "border-la-gold/40 bg-la-gold/5" : "border-dashed border-hairline bg-surface",
               )}
             >
               <span className="text-lg leading-none">{MEDAL[slot]}</span>
@@ -128,7 +128,7 @@ export function PickEm({
       )}
 
       {locked && !scored && (
-        <div className="mb-3 flex items-center gap-1.5 rounded-lg bg-white/5 px-3 py-2 text-[12px] text-ink-dim">
+        <div className="mb-3 flex items-center gap-1.5 rounded-lg bg-surface px-3 py-2 text-[12px] text-ink-dim">
           <Lock size={13} className="text-la-gold" /> Locked in — scored automatically after the race.
         </div>
       )}
@@ -141,7 +141,7 @@ export function PickEm({
             disabled={draft.length !== 3 || saving}
             className={cn(
               "mb-3 flex w-full items-center justify-center gap-2 rounded-xl py-2.5 text-sm font-bold transition",
-              draft.length === 3 ? "la-gradient text-navy-950" : "bg-white/5 text-ink-faint",
+              draft.length === 3 ? "la-gradient text-navy-950" : "bg-surface text-ink-faint",
             )}
           >
             <Lock size={15} />
@@ -157,7 +157,7 @@ export function PickEm({
                   onClick={() => tap(a.athleteId)}
                   className={cn(
                     "flex w-full items-center gap-2 rounded-lg border px-2.5 py-2 text-left text-sm transition",
-                    picked ? "border-la-gold/50 bg-la-gold/10" : "border-white/8 bg-white/[0.03]",
+                    picked ? "border-la-gold/50 bg-la-gold/10" : "border-hairline bg-surface",
                   )}
                 >
                   <span className="w-6 text-center">{picked ? MEDAL[idx] : <span className="text-ink-faint">+</span>}</span>
@@ -173,7 +173,7 @@ export function PickEm({
       {/* Crowd forecast */}
       <AnimatePresence>
         {crowd.total > 0 && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-3 border-t border-white/8 pt-3">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-3 border-t border-hairline pt-3">
             <div className="mb-2 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wide text-ink-faint">
               <Sparkles size={12} /> Who the crowd is calling to win
             </div>
@@ -189,7 +189,7 @@ export function PickEm({
                       <span className="w-24 shrink-0 truncate text-[12px] font-semibold">
                         {a?.fullName ?? c.athleteId}
                       </span>
-                      <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-white/6">
+                      <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-surface">
                         <div className="h-full rounded-full la-gradient" style={{ width: `${pct}%` }} />
                       </div>
                       <span className="tnum w-9 text-right text-[11px] font-semibold text-ink-dim">{pct}%</span>

@@ -20,18 +20,18 @@ export default async function Home() {
   const days = daysToDeadline();
 
   return (
-    <main className="px-4 pt-8">
+    <main className="mx-auto px-4 pt-8 lg:max-w-2xl">
       {/* Hero */}
       <header className="mb-6">
         <div className="mb-2 flex items-center justify-between">
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-semibold text-ink-dim">
+          <div className="inline-flex items-center gap-2 rounded-full border border-hairline bg-surface px-3 py-1 text-[11px] font-semibold text-ink-dim">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-good" />
             LIVE · Olympic Qualification Ranking
           </div>
           <Link
             href="/account"
             aria-label="Your board, sync & alerts"
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim transition hover:text-ink"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline bg-surface text-ink-dim transition hover:text-ink"
           >
             <UserCircle2 size={18} />
           </Link>
@@ -59,11 +59,11 @@ export default async function Home() {
       <FlightpathDigest />
 
       <div className="my-5 flex items-center gap-3">
-        <div className="h-px flex-1 bg-white/10" />
+        <div className="h-px flex-1 bg-surface-2" />
         <span className="text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
           Pick your athlete
         </span>
-        <div className="h-px flex-1 bg-white/10" />
+        <div className="h-px flex-1 bg-surface-2" />
       </div>
 
       <AthletePicker directory={directory} />

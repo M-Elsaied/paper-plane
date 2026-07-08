@@ -11,7 +11,7 @@ export default function RaceWeekPage() {
   const grouped = groupByWeek(events);
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <header className="mb-4">
         <h1 className="text-2xl font-extrabold">Race Week</h1>
         <p className="text-sm text-ink-faint">
@@ -35,7 +35,7 @@ export default function RaceWeekPage() {
                 <Link key={e.eventId} href={`/race/${e.eventId}`} className="card block p-4 transition hover:border-electric/40">
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0">
-                      <div className="mb-1 inline-flex items-center gap-1 rounded-full bg-white/8 px-2 py-0.5 text-[10px] font-bold text-electric-bright">
+                      <div className="mb-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-[10px] font-bold text-electric-bright">
                         {e.tierLabel}
                       </div>
                       <h2 className="truncate text-sm font-bold leading-tight">

@@ -82,7 +82,7 @@ function BoardRow({
     <div
       className={cn(
         "flex items-center gap-2 rounded-lg px-2.5 py-2 text-sm",
-        tone === "you" ? "bg-electric/15 ring-1 ring-electric/50" : "bg-white/[0.03]",
+        tone === "you" ? "bg-electric/15 ring-1 ring-electric/50" : "bg-surface",
       )}
     >
       <span className={cn("min-w-0 flex-1 truncate", tone === "you" && "font-bold")}>{name}</span>

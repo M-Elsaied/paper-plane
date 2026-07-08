@@ -22,7 +22,7 @@ export function PulseBoard({ men, women }: { men: Mover[]; women: Mover[] }) {
 
   return (
     <div>
-      <div className="mb-3 flex rounded-xl border border-white/10 bg-white/5 p-0.5 text-sm font-semibold">
+      <div className="mb-3 flex rounded-xl border border-hairline bg-surface p-0.5 text-sm font-semibold">
         {(["male", "female"] as const).map((g) => (
           <button
             key={g}
@@ -47,7 +47,7 @@ export function PulseBoard({ men, women }: { men: Mover[]; women: Mover[] }) {
           >
             <Link
               href={`/athlete/${m.athleteId}`}
-              className="flex items-center gap-3 rounded-xl bg-white/[0.03] px-3 py-2.5 transition hover:bg-white/[0.06]"
+              className="flex items-center gap-3 rounded-xl bg-surface px-3 py-2.5 transition hover:bg-surface-2"
             >
               <AthleteAvatar name={m.fullName} src={m.profileImage} size={36} />
               <div className="min-w-0 flex-1">

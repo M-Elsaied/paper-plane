@@ -25,11 +25,11 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
   const s = road.subject;
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <div className="mb-4 flex items-center gap-2">
         <Link
           href={`/athlete/${s.athleteId}`}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim"
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline bg-surface text-ink-dim"
         >
           <ChevronLeft size={18} />
         </Link>
@@ -93,10 +93,10 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
           <h2 className="mb-2 text-sm font-bold">Recent results</h2>
           <ul className="space-y-1">
             {view.results.map((r, i) => (
-              <li key={`${r.eventId}-${i}`} className="flex items-center gap-2 rounded-lg bg-white/[0.03] px-3 py-2 text-sm">
+              <li key={`${r.eventId}-${i}`} className="flex items-center gap-2 rounded-lg bg-surface px-3 py-2 text-sm">
                 <span className="min-w-0 flex-1 truncate">{r.eventTitle.replace(/^\d{4}\s+/, "")}</span>
                 <span className="text-[11px] text-ink-faint">{r.date}</span>
-                <span className="tnum shrink-0 rounded-md bg-white/8 px-2 py-0.5 text-xs font-bold text-ink-dim">
+                <span className="tnum shrink-0 rounded-md bg-surface-2 px-2 py-0.5 text-xs font-bold text-ink-dim">
                   {r.position ?? "—"}
                 </span>
               </li>

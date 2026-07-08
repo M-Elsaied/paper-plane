@@ -26,7 +26,7 @@ export function QualMeter({
   return (
     <div className="relative h-14">
       {/* track */}
-      <div className="absolute inset-x-0 top-1/2 h-2 -translate-y-1/2 overflow-hidden rounded-full bg-white/8">
+      <div className="absolute inset-x-0 top-1/2 h-2 -translate-y-1/2 overflow-hidden rounded-full bg-surface-2">
         <div
           className="h-full la-gradient opacity-30"
           style={{ width: `${linePos}%` }}

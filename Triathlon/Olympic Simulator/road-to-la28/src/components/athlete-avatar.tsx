@@ -24,7 +24,7 @@ export function AthleteAvatar({
   return (
     <div
       className={cn(
-        "relative shrink-0 overflow-hidden rounded-full bg-navy-800 text-ink-dim",
+        "relative shrink-0 overflow-hidden rounded-full bg-surface-2 text-ink-dim",
         ring && "ring-2 ring-electric/60",
         className,
       )}

@@ -18,11 +18,11 @@ export default async function SimulatePage({
   const state = await getQualState(found.athlete.gender);
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <div className="mb-4 flex items-center gap-2">
         <Link
           href={`/athlete/${athleteId}`}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim"
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline bg-surface text-ink-dim"
         >
           <ChevronLeft size={18} />
         </Link>

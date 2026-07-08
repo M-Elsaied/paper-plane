@@ -11,7 +11,7 @@ export default async function RelayPage() {
   const nations = [...(await getMrNations())].sort((a, b) => a.rank - b.rank);
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <header className="mb-4">
         <h1 className="text-2xl font-extrabold">Mixed Relay pathway</h1>
         <p className="text-sm text-ink-faint">
@@ -26,7 +26,7 @@ export default async function RelayPage() {
             <li
               className={cn(
                 "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm",
-                n.rank <= MR_OQR_PLACES ? "bg-good/10" : "bg-white/[0.03]",
+                n.rank <= MR_OQR_PLACES ? "bg-good/10" : "bg-surface",
               )}
             >
               <span className={cn("tnum w-7 text-center font-bold", n.rank <= MR_OQR_PLACES ? "text-good" : "text-ink-faint")}>
@@ -38,7 +38,7 @@ export default async function RelayPage() {
             {n.rank === MR_OQR_PLACES && (
               <li aria-hidden className="relative py-2">
                 <div className="qual-line" />
-                <span className="absolute -top-1 left-1/2 -translate-x-1/2 rounded-full bg-navy-950 px-2 text-[9px] font-bold uppercase tracking-wider text-la-gold">
+                <span className="absolute -top-1 left-1/2 -translate-x-1/2 rounded-full bg-elevated px-2 text-[9px] font-bold uppercase tracking-wider text-la-gold">
                   Relay qualification line · 16 nations
                 </span>
               </li>

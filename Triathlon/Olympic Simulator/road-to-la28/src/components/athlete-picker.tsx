@@ -81,7 +81,7 @@ export function AthletePicker({ directory }: { directory: DirEntry[] }) {
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-2">
-        <div className="flex flex-1 items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2.5">
+        <div className="flex flex-1 items-center gap-2 rounded-xl border border-hairline bg-surface px-3 py-2.5">
           {loading ? (
             <Loader2 size={16} className="animate-spin text-electric-bright" />
           ) : (
@@ -95,7 +95,7 @@ export function AthletePicker({ directory }: { directory: DirEntry[] }) {
           />
         </div>
         {!searching && (
-          <div className="flex rounded-xl border border-white/10 bg-white/5 p-0.5 text-xs font-semibold">
+          <div className="flex rounded-xl border border-hairline bg-surface p-0.5 text-xs font-semibold">
             {(["male", "female"] as const).map((g) => (
               <button
                 key={g}
@@ -129,7 +129,7 @@ export function AthletePicker({ directory }: { directory: DirEntry[] }) {
                   "flex w-full items-center gap-3 rounded-xl border px-3 py-2 text-left transition",
                   isMine
                     ? "border-electric/50 bg-electric/10"
-                    : "border-white/5 bg-white/[0.03] hover:bg-white/[0.06]",
+                    : "border-hairline bg-surface hover:bg-surface-2",
                 )}
               >
                 <span className="tnum w-7 shrink-0 text-center text-sm text-ink-faint">

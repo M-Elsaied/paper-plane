@@ -24,11 +24,11 @@ export default async function RacePage({
   if (!model) notFound();
 
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <div className="mb-4 flex items-center gap-2">
         <Link
           href="/race-week"
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim"
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline bg-surface text-ink-dim"
         >
           <ChevronLeft size={18} />
         </Link>
@@ -36,7 +36,7 @@ export default async function RacePage({
       </div>
 
       {/* Gender toggle */}
-      <div className="mb-4 flex rounded-xl border border-white/10 bg-white/5 p-0.5 text-sm font-semibold">
+      <div className="mb-4 flex rounded-xl border border-hairline bg-surface p-0.5 text-sm font-semibold">
         {(
           [
             { key: "men", label: "Elite Men" },

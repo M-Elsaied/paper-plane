@@ -22,11 +22,11 @@ import { cn } from "@/lib/utils";
 
 export default function AccountPage() {
   return (
-    <main className="px-4 pt-6">
+    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
       <div className="mb-4 flex items-center gap-2">
         <Link
           href="/"
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ink-dim"
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline bg-surface text-ink-dim"
         >
           <ChevronLeft size={18} />
         </Link>
@@ -120,7 +120,7 @@ function AccountBody() {
             </p>
             <button
               onClick={onCopyRecovery}
-              className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 py-2.5 text-sm font-semibold"
+              className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl border border-hairline bg-surface py-2.5 text-sm font-semibold"
             >
               {copied ? <Check size={15} className="text-good" /> : <Link2 size={15} />}
               {copied ? "Copied recovery link" : "Copy recovery link"}
@@ -174,7 +174,7 @@ function AccountBody() {
             disabled={busy}
             className={cn(
               "mt-3 w-full rounded-xl py-2.5 text-sm font-bold disabled:opacity-60",
-              pushState === "on" ? "border border-white/10 bg-white/5 text-ink-dim" : "la-gradient text-navy-950",
+              pushState === "on" ? "border border-hairline bg-surface text-ink-dim" : "la-gradient text-navy-950",
             )}
           >
             {busy ? "…" : pushState === "on" ? "Turn off alerts" : "Turn on alerts"}
@@ -183,7 +183,7 @@ function AccountBody() {
         {pushState === "on" && (
           <button
             onClick={onTest}
-            className="mt-2 flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 py-2 text-[13px] font-semibold text-ink-dim"
+            className="mt-2 flex w-full items-center justify-center gap-2 rounded-xl border border-hairline py-2 text-[13px] font-semibold text-ink-dim"
           >
             {testSent ? <Check size={14} className="text-good" /> : <Send size={14} />}
             {testSent ? "Sent — check your notifications" : "Send a test notification"}

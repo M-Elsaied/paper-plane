@@ -34,5 +34,5 @@ export const STATUS_TONE: Record<StatusTone, { text: string; bg: string; dot: st
   good: { text: "text-good", bg: "bg-good/15", dot: "bg-good" },
   electric: { text: "text-electric-bright", bg: "bg-electric/15", dot: "bg-electric" },
   warn: { text: "text-la-gold", bg: "bg-la-gold/15", dot: "bg-la-gold" },
-  muted: { text: "text-ink-faint", bg: "bg-white/10", dot: "bg-ink-faint" },
+  muted: { text: "text-ink-faint", bg: "bg-surface-2", dot: "bg-ink-faint" },
 };

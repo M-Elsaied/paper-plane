@@ -164,7 +164,7 @@ export function ProductTour({
           initial={reduce ? false : { opacity: 0, y: below ? -6 : 6 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0 }}
-          className="absolute rounded-2xl border border-white/10 bg-navy-900 p-4 shadow-2xl"
+          className="absolute rounded-2xl border border-hairline bg-elevated p-4 shadow-2xl"
           style={{ left: tipLeft, top: tipTop, width: tipWidth }}
         >
           <button
@@ -194,7 +194,7 @@ export function ProductTour({
               {index > 0 && (
                 <button
                   onClick={() => setIndex((i) => i - 1)}
-                  className="rounded-lg border border-white/10 px-3 py-1.5 text-xs font-semibold text-ink-dim"
+                  className="rounded-lg border border-hairline px-3 py-1.5 text-xs font-semibold text-ink-dim"
                 >
                   Back
                 </button>

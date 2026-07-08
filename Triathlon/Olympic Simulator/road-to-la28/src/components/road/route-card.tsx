@@ -7,7 +7,7 @@ const TONE: Record<RouteStatus, { text: string; bg: string; bar: string; label: 
   on_track: { text: "text-good", bg: "bg-good/15", bar: "bg-good", label: "ON TRACK", Icon: Check },
   in_contention: { text: "text-electric-bright", bg: "bg-electric/15", bar: "bg-electric", label: "IN CONTENTION", Icon: TrendingUp },
   stretch: { text: "text-la-gold", bg: "bg-la-gold/15", bar: "bg-la-gold", label: "STRETCH", Icon: TrendingUp },
-  locked_out: { text: "text-ink-faint", bg: "bg-white/10", bar: "bg-white/25", label: "CLOSED", Icon: Ban },
+  locked_out: { text: "text-ink-faint", bg: "bg-surface-2", bar: "bg-surface-2", label: "CLOSED", Icon: Ban },
 };
 
 export function RouteCard({ route, primary }: { route: RouteAssessment; primary?: boolean }) {
@@ -22,7 +22,7 @@ export function RouteCard({ route, primary }: { route: RouteAssessment; primary?
       </div>
 
       {/* realism bar */}
-      <div className="mb-2 h-1.5 overflow-hidden rounded-full bg-white/6">
+      <div className="mb-2 h-1.5 overflow-hidden rounded-full bg-surface">
         <div className={cn("h-full rounded-full", t.bar)} style={{ width: `${route.realism}%` }} />
       </div>
 
@@ -31,7 +31,7 @@ export function RouteCard({ route, primary }: { route: RouteAssessment; primary?
       <p className="mt-2 text-[11px] leading-snug text-ink-faint">{route.mechanic}</p>
 
       {route.competitors.length > 0 && (
-        <div className="mt-3 border-t border-white/8 pt-2.5">
+        <div className="mt-3 border-t border-hairline pt-2.5">
           <div className="mb-1.5 text-[10px] font-bold uppercase tracking-wide text-ink-faint">
             Who you&apos;re up against
           </div>
@@ -41,7 +41,7 @@ export function RouteCard({ route, primary }: { route: RouteAssessment; primary?
                 <span
                   className={cn(
                     "inline-flex items-center gap-1 rounded-full px-2 py-1 text-[11px]",
-                    c.ahead ? "bg-bad/10 text-bad" : "bg-white/8 text-ink-dim",
+                    c.ahead ? "bg-bad/10 text-bad" : "bg-surface-2 text-ink-dim",
                   )}
                 >
                   {c.ahead && <MinusCircle size={10} />}

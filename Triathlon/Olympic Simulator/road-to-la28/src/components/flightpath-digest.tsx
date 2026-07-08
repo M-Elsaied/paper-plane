@@ -19,7 +19,7 @@ export async function FlightpathDigest() {
 
   return (
     <section className="card mb-5 overflow-hidden">
-      <div className="flex items-center gap-2 border-b border-white/8 px-4 py-2.5">
+      <div className="flex items-center gap-2 border-b border-hairline px-4 py-2.5">
         <span className="h-1.5 w-1.5 rounded-full bg-good" />
         <span className="text-[11px] font-bold uppercase tracking-wide text-ink-dim">
           On the road today
@@ -31,7 +31,7 @@ export async function FlightpathDigest() {
           <Link
             key={m.athleteId}
             href={`/athlete/${m.athleteId}`}
-            className="flex items-center gap-3 px-4 py-2.5 transition hover:bg-white/[0.03]"
+            className="flex items-center gap-3 px-4 py-2.5 transition hover:bg-surface-2"
           >
             <Activity size={16} className="text-electric-bright" />
             <div className="min-w-0 flex-1">
