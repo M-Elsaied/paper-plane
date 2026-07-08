@@ -10,7 +10,7 @@ test("account: claim then recover on a fresh device", async ({ browser, baseURL 
   await pageA.goto("/");
   const gotIt = pageA.getByRole("button", { name: /let.?s go/i });
   if (await gotIt.isVisible().catch(() => false)) await gotIt.click();
-  await pageA.getByPlaceholder(/search athletes/i).fill("Vilaca");
+  await pageA.getByPlaceholder(/search any athlete/i).fill("Vilaca");
   await pageA.getByRole("button", { name: /Vasco Vilaca/i }).first().click();
   await expect(pageA).toHaveURL(/\/athlete\/86042/);
 

@@ -11,14 +11,22 @@ import { ExplainLineCard } from "@/components/explain-line";
 import { PeriodTimeline } from "@/components/period-timeline";
 import { ShareButton } from "@/components/share-button";
 import { CockpitTour } from "@/components/tour/cockpit-tour";
+import { UnrankedProfileView } from "@/components/unranked-profile";
+import { buildUnrankedProfile } from "@/lib/athlete-profile";
 import { fmtPoints } from "@/lib/format";
 import { getSeedMeta, findAthlete } from "@/lib/data";
+import { fetchAthleteProfile } from "@/lib/wt-api/athletes";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const found = await findAthlete(Number(id));
-  if (!found) return { title: "Athlete · Road to LA28" };
+  // Ranked athletes get the broadcast card; unranked get a plain title.
+  if (!found) {
+    const profile = await fetchAthleteProfile(Number(id)).catch(() => null);
+    const nm = profile?.fullName ?? "Athlete";
+    return { title: `${nm} · Road to LA28`, description: `${nm}'s World Triathlon profile.` };
+  }
   const name = found.athlete.fullName;
   return {
     title: `${name} · Road to LA28`,
@@ -38,7 +46,12 @@ export default async function AthleteCockpit({
 }) {
   const { id } = await params;
   const m = await buildCockpit(Number(id));
-  if (!m) notFound();
+  if (!m) {
+    // Not in the OQR — show an honest profile (or 404 if the id is unknown to WT).
+    const profile = await buildUnrankedProfile(Number(id), getSeedMeta().today).catch(() => null);
+    if (!profile) notFound();
+    return <UnrankedProfileView p={profile} />;
+  }
 
   const insideBy = -m.gapToLine; // positive when inside the line
   const explain = explainPosition(m);

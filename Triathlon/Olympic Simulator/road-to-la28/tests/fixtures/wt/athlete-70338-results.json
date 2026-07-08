@@ -1,0 +1,917 @@
+{
+  "code": 200,
+  "status": "success",
+  "current_page": 1,
+  "data": [
+    {
+      "event_id": 173162,
+      "event_title": "2023 Africa Triathlon Championships Hurghada",
+      "event_slug": "2023-africa-triathlon-championships-sharm-el-sheikh",
+      "event_edit_date": "2024-09-16 11:59:32",
+      "event_venue": "Hurghada",
+      "event_website": "http://triathlonegypt.org/",
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2023-10-13",
+      "event_finish_date": "2023-10-15",
+      "event_country": "Egypt",
+      "event_country_isoa2": "EG",
+      "event_country_noc": "EGY",
+      "event_region_id": 12,
+      "event_country_id": 158,
+      "event_region_name": "Africa",
+      "event_logo": "https://prod-tri-assets.imgix.net/d5974b1a-dc30-4329-ad84-f2e174b276d4.jpeg",
+      "event_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0.svg",
+      "event_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970.svg",
+      "event_latitude": 27.2579,
+      "event_longitude": 33.81161,
+      "event_categories": [
+        {
+          "event_id": 173162,
+          "cat_id": 340,
+          "cat_name": "Continental Championships",
+          "cat_parent_id": 1
+        },
+        {
+          "event_id": 173162,
+          "cat_id": 483,
+          "cat_name": "Age-Group Event",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 173162,
+          "cat_id": 357,
+          "cat_name": "Triathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 173162,
+          "cat_id": 377,
+          "cat_name": "Standard",
+          "cat_parent_id": 357
+        },
+        {
+          "event_id": 173162,
+          "cat_id": 380,
+          "cat_name": "Mixed Relay",
+          "cat_parent_id": 357
+        },
+        {
+          "event_id": 173162,
+          "cat_id": 381,
+          "cat_name": "Paratriathlon",
+          "cat_parent_id": 357
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2023-africa-triathlon-championships-sharm-el-sheikh",
+      "event_api_listing": "https://api.triathlon.org/v1/events/173162",
+      "prog_id": 582750,
+      "prog_name": "Elite Men",
+      "prog_date": "2023-10-13",
+      "prog_time": null,
+      "result_id": 1139724,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": "DNF",
+      "total_time": "DNF",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2023-africa-triathlon-championships-sharm-el-sheikh/582750",
+      "result_api_listing": "https://api.triathlon.org/v1/events/173162/programs/582750/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Swim"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Bike"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:00:00",
+        "00:00:00",
+        "00:00:00",
+        "00:00:00",
+        "00:00:00",
+        "DNF"
+      ]
+    },
+    {
+      "event_id": 163569,
+      "event_title": "2022 World Triathlon Age-Group Championships Abu Dhabi",
+      "event_slug": "2022-world-triathlon-age-group-championships-abu-dhabi",
+      "event_edit_date": "2024-09-16 11:03:41",
+      "event_venue": "Abu Dhabi",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": 163568,
+      "event_date": "2022-11-24",
+      "event_finish_date": "2022-11-26",
+      "event_country": "United Arab Emirates",
+      "event_country_isoa2": "AE",
+      "event_country_noc": "UAE",
+      "event_region_id": 13,
+      "event_country_id": 291,
+      "event_region_name": "Asia",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/b2a0ae6c-2d7b-4364-8b9e-064af1e16e83.svg",
+      "event_flag": "https://cms.triathlon.org/assets/a8bddc81-91a1-4879-b5fd-22c830d7456d.svg",
+      "event_latitude": 24.45388,
+      "event_longitude": 54.37734,
+      "event_categories": [
+        {
+          "event_id": 163569,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 483,
+          "cat_name": "Age-Group Event",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 163569,
+          "cat_id": 357,
+          "cat_name": "Triathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 377,
+          "cat_name": "Standard",
+          "cat_parent_id": 357
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 378,
+          "cat_name": "Super Sprint",
+          "cat_parent_id": 357
+        }
+      ],
+      "parent": {
+        "event_id": 163568,
+        "event_title": "2022 World Triathlon Championship Finals Abu Dhabi",
+        "event_slug": "2022-world-triathlon-championship-finals-abu-dhabi",
+        "event_venue": "Abu Dhabi",
+        "event_date": "2022-11-24",
+        "event_finish_date": "2022-11-26",
+        "event_country": "United Arab Emirates",
+        "event_country_isoa2": "AE",
+        "event_country_noc": "UAE",
+        "event_listing": "https://www.triathlon.org/events/2022-world-triathlon-championship-finals-abu-dhabi",
+        "event_api_listing": "https://api.triathlon.org/v1/events/163568"
+      },
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2022-world-triathlon-age-group-championships-abu-dhabi",
+      "event_api_listing": "https://api.triathlon.org/v1/events/163569",
+      "prog_id": 563068,
+      "prog_name": "25-29 Male AG",
+      "prog_date": "2022-11-26",
+      "prog_time": null,
+      "result_id": 1086528,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 36,
+      "total_time": "02:32:33",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2022-world-triathlon-age-group-championships-abu-dhabi/563068",
+      "result_api_listing": "https://api.triathlon.org/v1/events/163569/programs/563068/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Swim"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Bike"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:22:53",
+        "00:03:44",
+        "01:06:47",
+        "00:04:02",
+        "00:55:09",
+        "02:32:33"
+      ]
+    },
+    {
+      "event_id": 163569,
+      "event_title": "2022 World Triathlon Age-Group Championships Abu Dhabi",
+      "event_slug": "2022-world-triathlon-age-group-championships-abu-dhabi",
+      "event_edit_date": "2024-09-16 11:03:41",
+      "event_venue": "Abu Dhabi",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": 163568,
+      "event_date": "2022-11-24",
+      "event_finish_date": "2022-11-26",
+      "event_country": "United Arab Emirates",
+      "event_country_isoa2": "AE",
+      "event_country_noc": "UAE",
+      "event_region_id": 13,
+      "event_country_id": 291,
+      "event_region_name": "Asia",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/b2a0ae6c-2d7b-4364-8b9e-064af1e16e83.svg",
+      "event_flag": "https://cms.triathlon.org/assets/a8bddc81-91a1-4879-b5fd-22c830d7456d.svg",
+      "event_latitude": 24.45388,
+      "event_longitude": 54.37734,
+      "event_categories": [
+        {
+          "event_id": 163569,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 483,
+          "cat_name": "Age-Group Event",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 163569,
+          "cat_id": 357,
+          "cat_name": "Triathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 377,
+          "cat_name": "Standard",
+          "cat_parent_id": 357
+        },
+        {
+          "event_id": 163569,
+          "cat_id": 378,
+          "cat_name": "Super Sprint",
+          "cat_parent_id": 357
+        }
+      ],
+      "parent": {
+        "event_id": 163568,
+        "event_title": "2022 World Triathlon Championship Finals Abu Dhabi",
+        "event_slug": "2022-world-triathlon-championship-finals-abu-dhabi",
+        "event_venue": "Abu Dhabi",
+        "event_date": "2022-11-24",
+        "event_finish_date": "2022-11-26",
+        "event_country": "United Arab Emirates",
+        "event_country_isoa2": "AE",
+        "event_country_noc": "UAE",
+        "event_listing": "https://www.triathlon.org/events/2022-world-triathlon-championship-finals-abu-dhabi",
+        "event_api_listing": "https://api.triathlon.org/v1/events/163568"
+      },
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2022-world-triathlon-age-group-championships-abu-dhabi",
+      "event_api_listing": "https://api.triathlon.org/v1/events/163569",
+      "prog_id": 563097,
+      "prog_name": "25-29 Male AG Super Sprint",
+      "prog_date": "2022-11-24",
+      "prog_time": null,
+      "result_id": 1084635,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 14,
+      "total_time": "00:42:06",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2022-world-triathlon-age-group-championships-abu-dhabi/563097",
+      "result_api_listing": "https://api.triathlon.org/v1/events/163569/programs/563097/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Swim"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Bike"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:06:19",
+        "00:04:05",
+        "00:19:07",
+        "00:02:14",
+        "00:10:23",
+        "00:42:06"
+      ]
+    },
+    {
+      "event_id": 98582,
+      "event_title": "2016 Cozumel ITU Aquathlon World Championships",
+      "event_slug": "2016-cozumel-itu-aquathlon-world-championships",
+      "event_edit_date": "2024-09-16 10:02:34",
+      "event_venue": "Cozumel",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2016-09-11",
+      "event_finish_date": "2016-09-18",
+      "event_country": "Mexico",
+      "event_country_isoa2": "MX",
+      "event_country_noc": "MEX",
+      "event_region_id": 11,
+      "event_country_id": 219,
+      "event_region_name": "Americas",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d.svg",
+      "event_flag": "https://cms.triathlon.org/assets/07d6935b-6ee3-4379-a08d-5adca229e882.svg",
+      "event_latitude": 20.42298,
+      "event_longitude": -86.92234,
+      "event_categories": [
+        {
+          "event_id": 98582,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 98582,
+          "cat_id": 353,
+          "cat_name": "Aquathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 98582,
+          "cat_id": 359,
+          "cat_name": "Standard",
+          "cat_parent_id": 353
+        },
+        {
+          "event_id": 98582,
+          "cat_id": 361,
+          "cat_name": "Paratriathlon",
+          "cat_parent_id": 353
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2016-cozumel-itu-aquathlon-world-championships",
+      "event_api_listing": "https://api.triathlon.org/v1/events/98582",
+      "prog_id": 281514,
+      "prog_name": "U23 Men",
+      "prog_date": "2016-09-14",
+      "prog_time": null,
+      "result_id": 547466,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 6,
+      "total_time": "00:37:34",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2016-cozumel-itu-aquathlon-world-championships/281514",
+      "result_api_listing": "https://api.triathlon.org/v1/events/98582/programs/281514/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Run"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Swim"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:08:18",
+        "00:01:12",
+        "00:15:59",
+        "00:01:48",
+        "00:10:18"
+      ]
+    },
+    {
+      "event_id": 98582,
+      "event_title": "2016 Cozumel ITU Aquathlon World Championships",
+      "event_slug": "2016-cozumel-itu-aquathlon-world-championships",
+      "event_edit_date": "2024-09-16 10:02:34",
+      "event_venue": "Cozumel",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2016-09-11",
+      "event_finish_date": "2016-09-18",
+      "event_country": "Mexico",
+      "event_country_isoa2": "MX",
+      "event_country_noc": "MEX",
+      "event_region_id": 11,
+      "event_country_id": 219,
+      "event_region_name": "Americas",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d.svg",
+      "event_flag": "https://cms.triathlon.org/assets/07d6935b-6ee3-4379-a08d-5adca229e882.svg",
+      "event_latitude": 20.42298,
+      "event_longitude": -86.92234,
+      "event_categories": [
+        {
+          "event_id": 98582,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 98582,
+          "cat_id": 353,
+          "cat_name": "Aquathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 98582,
+          "cat_id": 359,
+          "cat_name": "Standard",
+          "cat_parent_id": 353
+        },
+        {
+          "event_id": 98582,
+          "cat_id": 361,
+          "cat_name": "Paratriathlon",
+          "cat_parent_id": 353
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2016-cozumel-itu-aquathlon-world-championships",
+      "event_api_listing": "https://api.triathlon.org/v1/events/98582",
+      "prog_id": 281512,
+      "prog_name": "Elite Men",
+      "prog_date": "2016-09-14",
+      "prog_time": null,
+      "result_id": 547440,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 23,
+      "total_time": "00:37:34",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2016-cozumel-itu-aquathlon-world-championships/281512",
+      "result_api_listing": "https://api.triathlon.org/v1/events/98582/programs/281512/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Run"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Swim"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:08:18",
+        "00:01:12",
+        "00:15:59",
+        "00:01:48",
+        "00:10:18"
+      ]
+    },
+    {
+      "event_id": 90168,
+      "event_title": "2015 ITU World Triathlon Grand Final Chicago",
+      "event_slug": "2015-itu-world-triathlon-grand-final-chicago",
+      "event_edit_date": "2024-09-16 09:57:32",
+      "event_venue": "Chicago",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2015-09-15",
+      "event_finish_date": "2015-09-20",
+      "event_country": "United States",
+      "event_country_isoa2": "US",
+      "event_country_noc": "USA",
+      "event_region_id": 11,
+      "event_country_id": 293,
+      "event_region_name": "Americas",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94.svg",
+      "event_flag": "https://cms.triathlon.org/assets/ecb540f9-1562-456d-ba43-2af6aaf2ba6d.svg",
+      "event_latitude": 41.87811,
+      "event_longitude": -87.6298,
+      "event_categories": [
+        {
+          "event_id": 90168,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        },
+        {
+          "event_id": 90168,
+          "cat_id": 351,
+          "cat_name": "World Championship Series",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 90168,
+          "cat_id": 357,
+          "cat_name": "Triathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 90168,
+          "cat_id": 376,
+          "cat_name": "Sprint",
+          "cat_parent_id": 357
+        },
+        {
+          "event_id": 90168,
+          "cat_id": 377,
+          "cat_name": "Standard",
+          "cat_parent_id": 357
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2015-itu-world-triathlon-grand-final-chicago",
+      "event_api_listing": "https://api.triathlon.org/v1/events/90168",
+      "prog_id": 272200,
+      "prog_name": "U23 Men",
+      "prog_date": "2015-09-17",
+      "prog_time": null,
+      "result_id": 500484,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": "DNF",
+      "total_time": "DNF",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2015-itu-world-triathlon-grand-final-chicago/272200",
+      "result_api_listing": "https://api.triathlon.org/v1/events/90168/programs/272200/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Swim"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Bike"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:19:32",
+        "00:01:31",
+        "00:00:00",
+        "00:00:00",
+        "00:00:00"
+      ]
+    },
+    {
+      "event_id": 94951,
+      "event_title": "2015 Chicago ITU Aquathlon World Championships",
+      "event_slug": "2015-chicago-itu-aquathlon-world-championships",
+      "event_edit_date": "2024-09-16 10:01:47",
+      "event_venue": "Chicago",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2015-09-16",
+      "event_finish_date": "2015-09-16",
+      "event_country": "United States",
+      "event_country_isoa2": "US",
+      "event_country_noc": "USA",
+      "event_region_id": 11,
+      "event_country_id": 293,
+      "event_region_name": "Americas",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94.svg",
+      "event_flag": "https://cms.triathlon.org/assets/ecb540f9-1562-456d-ba43-2af6aaf2ba6d.svg",
+      "event_latitude": 41.87811,
+      "event_longitude": -87.6298,
+      "event_categories": [
+        {
+          "event_id": 94951,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 94951,
+          "cat_id": 353,
+          "cat_name": "Aquathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 94951,
+          "cat_id": 359,
+          "cat_name": "Standard",
+          "cat_parent_id": 353
+        },
+        {
+          "event_id": 94951,
+          "cat_id": 361,
+          "cat_name": "Paratriathlon",
+          "cat_parent_id": 353
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2015-chicago-itu-aquathlon-world-championships",
+      "event_api_listing": "https://api.triathlon.org/v1/events/94951",
+      "prog_id": 276270,
+      "prog_name": "U23 Men",
+      "prog_date": "2015-09-16",
+      "prog_time": null,
+      "result_id": 498957,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 2,
+      "total_time": "00:30:48",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2015-chicago-itu-aquathlon-world-championships/276270",
+      "result_api_listing": "https://api.triathlon.org/v1/events/94951/programs/276270/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Run"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Swim"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:00:00",
+        "00:00:00",
+        "00:09:32",
+        "00:02:33",
+        "00:18:44"
+      ]
+    },
+    {
+      "event_id": 94951,
+      "event_title": "2015 Chicago ITU Aquathlon World Championships",
+      "event_slug": "2015-chicago-itu-aquathlon-world-championships",
+      "event_edit_date": "2024-09-16 10:01:47",
+      "event_venue": "Chicago",
+      "event_website": null,
+      "event_status": "scheduled",
+      "display_options": null,
+      "event_parent_id": null,
+      "event_date": "2015-09-16",
+      "event_finish_date": "2015-09-16",
+      "event_country": "United States",
+      "event_country_isoa2": "US",
+      "event_country_noc": "USA",
+      "event_region_id": 11,
+      "event_country_id": 293,
+      "event_region_name": "Americas",
+      "event_logo": null,
+      "event_flag_circle": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94.svg",
+      "event_flag": "https://cms.triathlon.org/assets/ecb540f9-1562-456d-ba43-2af6aaf2ba6d.svg",
+      "event_latitude": 41.87811,
+      "event_longitude": -87.6298,
+      "event_categories": [
+        {
+          "event_id": 94951,
+          "cat_id": 348,
+          "cat_name": "World Championships",
+          "cat_parent_id": 1
+        }
+      ],
+      "event_specifications": [
+        {
+          "event_id": 94951,
+          "cat_id": 353,
+          "cat_name": "Aquathlon",
+          "cat_parent_id": 3
+        },
+        {
+          "event_id": 94951,
+          "cat_id": 359,
+          "cat_name": "Standard",
+          "cat_parent_id": 353
+        },
+        {
+          "event_id": 94951,
+          "cat_id": 361,
+          "cat_name": "Paratriathlon",
+          "cat_parent_id": 353
+        }
+      ],
+      "parent": null,
+      "children": null,
+      "triathlonlive": false,
+      "event_listing": "https://www.triathlon.org/events/2015-chicago-itu-aquathlon-world-championships",
+      "event_api_listing": "https://api.triathlon.org/v1/events/94951",
+      "prog_id": 276267,
+      "prog_name": "Elite Men",
+      "prog_date": "2015-09-16",
+      "prog_time": null,
+      "result_id": 499009,
+      "result_country_noc": "EGY",
+      "result_country_id": 158,
+      "result_country_flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970",
+      "result_country_flag_circle": "https://cms.triathlon.org/assets/e7ef3e19-9dc4-4e0d-998b-3f1aba584fe0",
+      "position": 21,
+      "total_time": "00:30:48",
+      "team_order": null,
+      "team_id": null,
+      "result_listing": "https://www.triathlon.org/results/result/2015-chicago-itu-aquathlon-world-championships/276267",
+      "result_api_listing": "https://api.triathlon.org/v1/events/94951/programs/276267/results",
+      "headers": [
+        {
+          "segment": "leg1",
+          "name": "Run"
+        },
+        {
+          "segment": "t1",
+          "name": "T1"
+        },
+        {
+          "segment": "leg2",
+          "name": "Swim"
+        },
+        {
+          "segment": "t2",
+          "name": "T2"
+        },
+        {
+          "segment": "leg3",
+          "name": "Run"
+        }
+      ],
+      "headers_count": 5,
+      "splits": [
+        "00:00:00",
+        "00:00:00",
+        "00:09:32",
+        "00:02:33",
+        "00:18:44"
+      ]
+    }
+  ],
+  "first_page_url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=1",
+  "from": 1,
+  "last_page": 3,
+  "last_page_url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=3",
+  "links": [
+    {
+      "url": null,
+      "label": "&laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=2",
+      "label": "2",
+      "active": false
+    },
+    {
+      "url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=3",
+      "label": "3",
+      "active": false
+    },
+    {
+      "url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=2",
+      "label": "Next &raquo;",
+      "active": false
+    }
+  ],
+  "next_page_url": "https://api.triathlon.org/v1/athletes/70338/results?per_page=8&page=2",
+  "path": "https://api.triathlon.org/v1/athletes/70338/results",
+  "per_page": 8,
+  "prev_page_url": null,
+  "to": 8,
+  "total": 19
+}

@@ -27,6 +27,9 @@ const TARGETS: Target[] = [
   { file: "yokohama-men-results.json", path: "/events/195145/programs/677500/results" },
   { file: "hamburg-programs.json", path: "/events/195148/programs" },
   { file: "hamburg-men-entries.json", path: "/events/195148/programs/678086/entries" },
+  // An unranked athlete (Mohamed Elsaied, EGY) for the profile-view path.
+  { file: "athlete-70338.json", path: "/athletes/70338" },
+  { file: "athlete-70338-results.json", path: "/athletes/70338/results", params: { per_page: 8 } },
 ];
 
 async function main() {
