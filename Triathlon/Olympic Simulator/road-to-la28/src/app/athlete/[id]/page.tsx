@@ -59,7 +59,7 @@ export default async function AthleteCockpit({
   const today = getSeedMeta().today;
 
   return (
-    <main className="mx-auto px-4 pt-6 lg:max-w-2xl">
+    <main className="mx-auto px-4 pt-6 lg:max-w-5xl">
       {/* Identity header */}
       <header className="mb-5 flex items-center gap-3">
         <AthleteAvatar name={m.fullName} src={m.profileImage} size={56} ring={m.qualified} />
@@ -78,6 +78,11 @@ export default async function AthleteCockpit({
           <ShareButton athleteId={m.athleteId} name={m.fullName} />
         </div>
       </header>
+
+      {/* Two-column on desktop: at-a-glance (left) + detail (right). */}
+      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-5">
+      {/* --- left column --- */}
+      <div className="lg:space-y-4 [&>*]:lg:!mb-0">
 
       {/* Hero: rank + points */}
       <section data-tour="hero" className="card mb-4 p-4">
@@ -142,6 +147,11 @@ export default async function AthleteCockpit({
       <div data-tour="explain" className="mb-4">
         <ExplainLineCard lines={explain} />
       </div>
+
+      </div>{/* --- end left column --- */}
+
+      {/* --- right column --- */}
+      <div className="lg:space-y-4 [&>*]:lg:!mb-0">
 
       {/* Countdown + best-12 */}
       <section className="mb-4 grid grid-cols-2 gap-3">
@@ -219,6 +229,9 @@ export default async function AthleteCockpit({
           ))}
         </ul>
       </section>
+
+      </div>{/* --- end right column --- */}
+      </div>{/* --- end 2-column grid --- */}
 
       <div className="flex items-center justify-center gap-3 pt-3 text-center">
         <span className="text-[11px] text-ink-faint">
