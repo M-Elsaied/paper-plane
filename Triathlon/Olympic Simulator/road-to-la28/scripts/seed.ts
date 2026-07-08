@@ -6,7 +6,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { RANKING_IDS } from "../src/config/wt-api";
-import { fetchRankingState, fetchMrNations, fetchWorldRanking } from "../src/lib/wt-api/rankings";
+import { fetchRankingState, fetchMrNations, fetchWorldRanking, establishedNocsFrom } from "../src/lib/wt-api/rankings";
 import { fetchUpcomingEvents } from "../src/lib/wt-api/events";
 
 const OUT = join(process.cwd(), "src", "data");
@@ -30,8 +30,8 @@ async function main() {
   console.log("  %d athletes, published %s", women.athletes.length, women.publishedAt);
 
   console.log("Fetching World Ranking men/women (rankings %d/%d)…", RANKING_IDS.world_men.id, RANKING_IDS.world_women.id);
-  const worldMen = await fetchWorldRanking(RANKING_IDS.world_men.id, "male");
-  const worldWomen = await fetchWorldRanking(RANKING_IDS.world_women.id, "female");
+  const worldMen = await fetchWorldRanking(RANKING_IDS.world_men.id, "male", 1000);
+  const worldWomen = await fetchWorldRanking(RANKING_IDS.world_women.id, "female", 1000);
   console.log("  %d men, %d women", worldMen.length, worldWomen.length);
 
   console.log("Fetching Mixed Relay Olympic ranking (ranking %d)…", RANKING_IDS.mr_olympic.id);
@@ -49,8 +49,12 @@ async function main() {
 
   write("qual-state-men.json", men);
   write("qual-state-women.json", women);
+  const established = establishedNocsFrom(worldMen, worldWomen);
+  console.log("  established (non-New-Flag) nations: %d", established.length);
+
   write("world-ranking-men.json", worldMen);
   write("world-ranking-women.json", worldWomen);
+  write("established-nocs.json", established);
   write("mr-nations.json", mr);
   write("events.json", events);
   write("seed-meta.json", {

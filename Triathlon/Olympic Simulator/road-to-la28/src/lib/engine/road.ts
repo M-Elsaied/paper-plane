@@ -89,6 +89,9 @@ export interface RoadContext {
   assumptions: PathwayAssumptions;
   /** Subject's gender World Ranking (top ~500) — powers exhaustive New Flag rivals. */
   worldRanking?: WorldRankAthlete[];
+  /** NOCs with Olympic triathlon history — NOT New Flag eligible (New Flag is for
+   *  emerging nations only, e.g. Morocco is established and never a New Flag rival). */
+  establishedNocs?: Set<string>;
   /** Subject identity — required when the subject is unranked (not in `ranked`). */
   subjectId: number;
   subjectFallback?: { name: string; noc: string; gender: Gender; worldRank?: number | null };
@@ -160,9 +163,14 @@ export function analyzeRoad(ctx: RoadContext): Road {
   push(assessRelay(ctx, s));
   push(assessHost(ctx, s));
   push(assessMrChamp(ctx, s));
-  if (!qualified.has(s.noc)) {
-    push(assessNewFlagContinental(ctx, s, qualified));
-    push(assessNewFlagRanking(ctx, s, qualified));
+  // New Flag is for EMERGING nations only: not already qualified this cycle AND
+  // no Olympic triathlon history (an established nation like Morocco is never a
+  // New Flag case, even if it hasn't secured a place this cycle).
+  const established = ctx.establishedNocs ?? new Set<string>();
+  const newFlagEligible = !qualified.has(s.noc) && !established.has(s.noc);
+  if (newFlagEligible) {
+    push(assessNewFlagContinental(ctx, s, qualified, established));
+    push(assessNewFlagRanking(ctx, s, qualified, established));
     push(assessUniversality(ctx, s, qualified));
   }
 
@@ -367,7 +375,12 @@ interface Rival {
  * the full World Ranking (top ~500) when available — this is what makes the New
  * Flag rival picture exhaustive rather than limited to the OQR pool.
  */
-function continentalRivals(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): Rival[] {
+function continentalRivals(
+  ctx: RoadContext,
+  s: RoadSubject,
+  qualified: Set<string>,
+  established: Set<string>,
+): Rival[] {
   if (!s.continent) return [];
   const source: Rival[] = ctx.worldRanking?.length
     ? ctx.worldRanking.map((w) => ({ athleteId: w.athleteId, name: w.fullName, noc: w.noc, rank: w.rank }))
@@ -376,7 +389,10 @@ function continentalRivals(ctx: RoadContext, s: RoadSubject, qualified: Set<stri
   const seenNoc = new Set<string>();
   const rivals: Rival[] = [];
   for (const r of source.sort((a, b) => a.rank - b.rank)) {
-    if (r.noc === s.noc || qualified.has(r.noc) || continentOf(r.noc) !== s.continent) continue;
+    // Only genuine New Flag rivals: same continent, not the subject, not already
+    // qualified this cycle, and NOT an established (Olympic-history) nation.
+    if (r.noc === s.noc || qualified.has(r.noc) || established.has(r.noc)) continue;
+    if (continentOf(r.noc) !== s.continent) continue;
     if (seenNoc.has(r.noc)) continue; // best (lowest rank) per nation only
     seenNoc.add(r.noc);
     rivals.push(r);
@@ -407,9 +423,9 @@ function newFlagCompetitors(s: RoadSubject, rivals: Rival[]): Competitor[] {
   }));
 }
 
-function assessNewFlagContinental(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): RouteAssessment | null {
+function assessNewFlagContinental(ctx: RoadContext, s: RoadSubject, qualified: Set<string>, established: Set<string>): RouteAssessment | null {
   if (!s.continent) return null;
-  const rivals = continentalRivals(ctx, s, qualified);
+  const rivals = continentalRivals(ctx, s, qualified, established);
   const ahead = rivals.filter((r) => rivalAhead(s, r)).length;
   const status = newFlagStatus(s, ahead);
   return {
@@ -430,9 +446,9 @@ function assessNewFlagContinental(ctx: RoadContext, s: RoadSubject, qualified: S
   };
 }
 
-function assessNewFlagRanking(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): RouteAssessment | null {
+function assessNewFlagRanking(ctx: RoadContext, s: RoadSubject, qualified: Set<string>, established: Set<string>): RouteAssessment | null {
   if (!s.continent) return null;
-  const rivals = continentalRivals(ctx, s, qualified);
+  const rivals = continentalRivals(ctx, s, qualified, established);
   const ahead = rivals.filter((r) => rivalAhead(s, r)).length;
   const status = newFlagStatus(s, ahead);
   return {

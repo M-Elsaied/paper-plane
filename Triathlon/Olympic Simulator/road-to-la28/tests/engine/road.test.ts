@@ -16,10 +16,11 @@ function ctx(
   subjectId: number,
   fallback?: RoadContext["subjectFallback"],
   worldRanking?: WorldRankAthlete[],
+  establishedNocs?: Set<string>,
 ): RoadContext {
   const ranked = rankAthletes(pool);
   const line = computeQualificationLine(pool, { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } });
-  return { ranked, line, mrNations: mr, worldRanking, assumptions: { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } }, subjectId, subjectFallback: fallback };
+  return { ranked, line, mrNations: mr, worldRanking, establishedNocs, assumptions: { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } }, subjectId, subjectFallback: fallback };
 }
 
 describe("analyzeRoad", () => {
@@ -113,6 +114,33 @@ describe("analyzeRoad", () => {
     const road = analyzeRoad(ctx(pool, [], egy.athleteId, undefined, world));
     const nf = road.routes.find((r) => r.key === "newflag_ranking")!;
     expect(nf.status).toBe("on_track"); // #40 beats the only African rival (#142)
+  });
+
+  it("excludes ESTABLISHED nations (Olympic history) from New Flag rivals", () => {
+    // Morocco is established → must NOT appear as an EGY New Flag rival, even
+    // though it's not qualified this cycle. Tunisia (emerging) should.
+    const pool = [...Array.from({ length: 25 }, (_, i) => ath(`EUR${i}`, 1600 - i * 10)), ath("EGY", 250)];
+    const egy = pool.find((a) => a.noc === "EGY")!;
+    const world: WorldRankAthlete[] = [
+      { athleteId: egy.athleteId, fullName: "EGY Subject", noc: "EGY", rank: 300 },
+      { athleteId: 9001, fullName: "Morocco Runner", noc: "MAR", rank: 29 },
+      { athleteId: 9002, fullName: "Tunisia Runner", noc: "TUN", rank: 260 },
+    ];
+    const established = new Set(["MAR", "RSA", "MRI"]);
+    const road = analyzeRoad(ctx(pool, [], egy.athleteId, undefined, world, established));
+    const nf = road.routes.find((r) => r.key === "newflag_ranking")!;
+    const nocs = nf.competitors.map((c) => c.noc);
+    expect(nocs).not.toContain("MAR"); // established → excluded
+    expect(nocs).toContain("TUN"); // emerging → kept
+  });
+
+  it("gives an established-nation athlete NO New Flag routes", () => {
+    // An Italian outside the line: Italy is established → no New Flag, only
+    // individual/relay routes.
+    const pool = [...Array.from({ length: 25 }, (_, i) => ath(`EUR${i}`, 1600 - i * 10)), ath("ITA", 200)];
+    const ita = pool.find((a) => a.noc === "ITA")!;
+    const road = analyzeRoad(ctx(pool, [], ita.athleteId, undefined, undefined, new Set(["ITA"])));
+    expect(road.routes.some((r) => r.key.startsWith("newflag"))).toBe(false);
   });
 
   it("computes qualified NOCs from line + relay top 8", () => {

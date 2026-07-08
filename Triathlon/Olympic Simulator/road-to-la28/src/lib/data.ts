@@ -18,6 +18,7 @@ import men from "@/data/qual-state-men.json";
 import women from "@/data/qual-state-women.json";
 import worldMen from "@/data/world-ranking-men.json";
 import worldWomen from "@/data/world-ranking-women.json";
+import establishedNocs from "@/data/established-nocs.json";
 import mrNations from "@/data/mr-nations.json";
 import events from "@/data/events.json";
 import seedMeta from "@/data/seed-meta.json";
@@ -68,6 +69,12 @@ export const getMrNations = cache(async (): Promise<MrNationEntry[]> => {
 
 export function getUpcomingEvents(): UpcomingEvent[] {
   return events as unknown as UpcomingEvent[];
+}
+
+/** NOCs that already have Olympic triathlon history → NOT New Flag eligible.
+ *  Slow-moving reference data, refreshed by `npm run seed`. */
+export function getEstablishedNocs(): Set<string> {
+  return new Set(establishedNocs as string[]);
 }
 
 export function getSeedMeta() {

@@ -22,6 +22,8 @@ export interface RawRankingAthlete {
   athlete_profile_image?: string | null;
   athlete_flag_circle?: string | null;
   athlete_country_name?: string;
+  /** Previous Games this athlete qualified for, e.g. ["olympics_2024"]. */
+  olympics_qualifications?: string[] | null;
   rank: number;
   last_rank?: number;
   change?: number | string; // API sends "NEW" for new entrants
@@ -100,6 +102,9 @@ export interface WorldRankEntry {
   total: number;
   flag?: string;
   profileImage?: string;
+  /** True if this athlete has raced a previous Olympics (marks their NOC as
+   *  an established — NOT New Flag — nation). */
+  olympicHistory?: boolean;
 }
 
 export function normalizeWorldRanking(raw: RawRanking, gender: Gender): WorldRankEntry[] {
@@ -112,7 +117,15 @@ export function normalizeWorldRanking(raw: RawRanking, gender: Gender): WorldRan
     total: a.total,
     flag: a.athlete_flag_circle ?? undefined,
     profileImage: a.athlete_profile_image ?? undefined,
+    olympicHistory: (a.olympics_qualifications?.length ?? 0) > 0,
   }));
+}
+
+/** NOCs with any athlete who has Olympic history → established (not New Flag). */
+export function establishedNocsFrom(...lists: WorldRankEntry[][]): string[] {
+  const s = new Set<string>();
+  for (const list of lists) for (const e of list) if (e.olympicHistory) s.add(e.noc);
+  return [...s].sort();
 }
 
 export async function fetchWorldRanking(
