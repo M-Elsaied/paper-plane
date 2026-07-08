@@ -70,6 +70,40 @@ export async function readQualState(gender: Gender): Promise<QualState | null> {
   return { gender, publishedAt: snap.publishedAt ?? "", rankingId: snap.rankingId, athletes: list };
 }
 
+/** Compact World Ranking (top 500) from the latest snapshot, or null. */
+export async function readWorldRanking(gender: Gender) {
+  const db = getDb();
+  if (!db) return null;
+  const snap = await latestSnapshot(gender === "male" ? "world_men" : "world_women");
+  if (!snap) return null;
+  const rows = await db
+    .select({
+      athleteId: rankingEntries.athleteId,
+      rank: rankingEntries.rank,
+      total: rankingEntries.totalPoints,
+      fullName: athletes.fullName,
+      noc: athletes.noc,
+      gender: athletes.gender,
+      flag: athletes.flagUrl,
+      profileImage: athletes.headshotUrl,
+    })
+    .from(rankingEntries)
+    .innerJoin(athletes, eq(rankingEntries.athleteId, athletes.athleteId))
+    .where(eq(rankingEntries.snapshotId, snap.id))
+    .orderBy(rankingEntries.rank);
+  if (!rows.length) return null;
+  return rows.map((r) => ({
+    athleteId: r.athleteId!,
+    fullName: r.fullName,
+    noc: r.noc ?? "",
+    gender: (r.gender as Gender) ?? gender,
+    rank: r.rank,
+    total: r.total ?? 0,
+    flag: r.flag ?? undefined,
+    profileImage: r.profileImage ?? undefined,
+  }));
+}
+
 /** Mixed Relay nations from the latest MR snapshot, or null. */
 export async function readMrNations(): Promise<MrNationEntry[] | null> {
   const db = getDb();

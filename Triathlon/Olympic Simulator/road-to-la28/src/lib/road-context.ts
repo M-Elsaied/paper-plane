@@ -8,7 +8,7 @@ import { rankAthletes, computeQualificationLine } from "@/lib/engine/qualificati
 import { analyzeRoad, type Road } from "@/lib/engine/road";
 import { continentOf } from "@/config/continents";
 import { DEFAULT_ASSUMPTIONS } from "@/config/pathways";
-import { getQualState, getMrNations, findAthlete } from "@/lib/data";
+import { getQualState, getMrNations, getWorldRanking, findAthlete } from "@/lib/data";
 import { fetchAthleteProfile, fetchAthleteResults, type AthleteResult } from "@/lib/wt-api/athletes";
 import type { Gender } from "@/config/pathways";
 
@@ -37,6 +37,7 @@ export async function buildRoad(athleteId: number): Promise<RoadView | null> {
       ranked,
       line,
       mrNations: await getMrNations(),
+      worldRanking: await getWorldRanking(gender),
       assumptions: DEFAULT_ASSUMPTIONS,
       subjectId: athleteId,
     });
@@ -61,6 +62,7 @@ export async function buildRoad(athleteId: number): Promise<RoadView | null> {
     ranked,
     line,
     mrNations: await getMrNations(),
+    worldRanking: await getWorldRanking(gender),
     assumptions: DEFAULT_ASSUMPTIONS,
     subjectId: athleteId,
     subjectFallback: { name: profile.fullName, noc: profile.noc, gender, worldRank: null },

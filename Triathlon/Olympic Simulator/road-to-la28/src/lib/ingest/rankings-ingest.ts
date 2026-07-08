@@ -91,6 +91,26 @@ export async function ingestOqrSnapshot(
   return state;
 }
 
+/** Insert a World Ranking snapshot: upsert athletes (broad directory) + minimal
+ *  rank/total entries (no scores — the road engine only needs positions). */
+export async function ingestWorldSnapshot(
+  db: Db,
+  raw: RawRanking,
+  gender: Gender,
+  rankingType: string,
+  contentHash: string,
+  rawPayloadId: number | null,
+) {
+  await upsertAthletes(db, raw, gender);
+  const [snap] = await db
+    .insert(rankingSnapshots)
+    .values({ rankingId: raw.ranking_id, rankingType, contentHash, publishedAt: raw.published, rawPayloadId: rawPayloadId ?? undefined })
+    .returning();
+  await db.insert(rankingEntries).values(
+    raw.rankings.map((r) => ({ snapshotId: snap.id, athleteId: r.athlete_id, rank: r.rank, totalPoints: r.total })),
+  );
+}
+
 /** Insert a Mixed Relay snapshot (nations, not athletes). */
 export async function ingestMrSnapshot(
   db: Db,

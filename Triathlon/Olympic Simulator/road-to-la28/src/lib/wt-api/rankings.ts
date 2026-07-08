@@ -90,6 +90,40 @@ interface RawMrTeam {
   total: number;
 }
 
+/** A compact World Ranking entry — enough for New Flag continental analysis. */
+export interface WorldRankEntry {
+  athleteId: number;
+  fullName: string;
+  noc: string;
+  gender: Gender;
+  rank: number;
+  total: number;
+  flag?: string;
+  profileImage?: string;
+}
+
+export function normalizeWorldRanking(raw: RawRanking, gender: Gender): WorldRankEntry[] {
+  return raw.rankings.map((a) => ({
+    athleteId: a.athlete_id,
+    fullName: a.athlete_full_name,
+    noc: a.athlete_noc,
+    gender: a.athlete_gender ?? gender,
+    rank: a.rank,
+    total: a.total,
+    flag: a.athlete_flag_circle ?? undefined,
+    profileImage: a.athlete_profile_image ?? undefined,
+  }));
+}
+
+export async function fetchWorldRanking(
+  rankingId: number,
+  gender: Gender,
+  limit = 500,
+): Promise<WorldRankEntry[]> {
+  const res = await wtGet<RawRanking>(`/rankings/${rankingId}`, { limit });
+  return normalizeWorldRanking(res.data, gender);
+}
+
 /** Mixed Relay Olympic ranking -> per-nation entries (nations, not athletes). */
 export async function fetchMrNations(rankingId: number, limit = 100): Promise<MrNationEntry[]> {
   const res = await wtGet<{ rankings: RawMrTeam[] }>(`/rankings/${rankingId}`, { limit });

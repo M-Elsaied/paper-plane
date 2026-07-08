@@ -21,15 +21,17 @@ import {
   storeRawPayload,
   rankingContentHash,
 } from "@/lib/ingest/sync-run";
-import { ingestOqrSnapshot, ingestMrSnapshot } from "@/lib/ingest/rankings-ingest";
+import { ingestOqrSnapshot, ingestMrSnapshot, ingestWorldSnapshot } from "@/lib/ingest/rankings-ingest";
 import { notifyOnRankingUpdate } from "@/lib/ingest/notify";
 
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
-const TARGETS: { key: RankingKey; type: string; kind: "oqr" | "wtcs" | "mr"; gender?: "male" | "female" }[] = [
+const TARGETS: { key: RankingKey; type: string; kind: "oqr" | "world" | "wtcs" | "mr"; gender?: "male" | "female" }[] = [
   { key: "oqr_men", type: "oqr_men", kind: "oqr", gender: "male" },
   { key: "oqr_women", type: "oqr_women", kind: "oqr", gender: "female" },
+  { key: "world_men", type: "world_men", kind: "world", gender: "male" },
+  { key: "world_women", type: "world_women", kind: "world", gender: "female" },
   { key: "wtcs_men", type: "wtcs_men", kind: "wtcs" },
   { key: "wtcs_women", type: "wtcs_women", kind: "wtcs" },
   { key: "mr_olympic", type: "mr_olympic", kind: "mr" },
@@ -84,6 +86,8 @@ export async function GET(req: Request) {
 
       if (target.kind === "oqr" && target.gender) {
         await ingestOqrSnapshot(db, raw, target.gender, target.type, hash, rawId);
+      } else if (target.kind === "world" && target.gender) {
+        await ingestWorldSnapshot(db, raw, target.gender, target.type, hash, rawId);
       } else if (target.kind === "mr") {
         await ingestMrSnapshot(db, raw as never, target.type, hash, rawId);
       } else {

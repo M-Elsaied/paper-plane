@@ -12,9 +12,12 @@ import type { Gender } from "@/config/pathways";
 import type { QualState, AthleteScores } from "@/lib/engine/types";
 import type { MrNationEntry } from "@/lib/engine/mixed-relay";
 import type { UpcomingEvent } from "@/lib/wt-api/events";
-import { readQualState, readMrNations } from "@/lib/db-read";
+import type { WorldRankEntry } from "@/lib/wt-api/rankings";
+import { readQualState, readMrNations, readWorldRanking } from "@/lib/db-read";
 import men from "@/data/qual-state-men.json";
 import women from "@/data/qual-state-women.json";
+import worldMen from "@/data/world-ranking-men.json";
+import worldWomen from "@/data/world-ranking-women.json";
 import mrNations from "@/data/mr-nations.json";
 import events from "@/data/events.json";
 import seedMeta from "@/data/seed-meta.json";
@@ -37,6 +40,21 @@ export const getQualState = cache(async (gender: Gender): Promise<QualState> => 
 export async function getBothStates(): Promise<QualState[]> {
   return Promise.all([getQualState("male"), getQualState("female")]);
 }
+
+const SEED_WORLD: Record<Gender, WorldRankEntry[]> = {
+  male: worldMen as unknown as WorldRankEntry[],
+  female: worldWomen as unknown as WorldRankEntry[],
+};
+
+export const getWorldRanking = cache(async (gender: Gender): Promise<WorldRankEntry[]> => {
+  try {
+    const fromDb = await readWorldRanking(gender);
+    if (fromDb && fromDb.length) return fromDb;
+  } catch {
+    // fall through to seed JSON
+  }
+  return SEED_WORLD[gender];
+});
 
 export const getMrNations = cache(async (): Promise<MrNationEntry[]> => {
   try {

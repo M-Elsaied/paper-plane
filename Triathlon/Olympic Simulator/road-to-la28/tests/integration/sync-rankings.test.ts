@@ -25,7 +25,7 @@ describe("sync-rankings cron", () => {
 
     const db = getDb()!;
     const snaps = await db.select().from(rankingSnapshots);
-    expect(snaps.length).toBe(5);
+    expect(snaps.length).toBe(7);
 
     const menSnap = snaps.find((s) => s.rankingType === "oqr_men")!;
     const entries = await db.select().from(rankingEntries).where(eq(rankingEntries.snapshotId, menSnap.id));
@@ -50,7 +50,7 @@ describe("sync-rankings cron", () => {
     const body2 = await res2.json();
     expect(Object.values(body2.summary).every((v) => v === "unchanged" || String(v).startsWith("sent"))).toBe(true);
     const snaps = await getDb()!.select().from(rankingSnapshots);
-    expect(snaps.length).toBe(5); // no new snapshots
+    expect(snaps.length).toBe(7); // no new snapshots
   });
 
   it("detects a change and writes only the changed ranking", async () => {

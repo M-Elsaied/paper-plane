@@ -1,77 +1,117 @@
 [
   {
-    "noc": "FRA",
+    "noc": "USA",
     "rank": 1,
+    "total": 1082.88
+  },
+  {
+    "noc": "FRA",
+    "rank": 2,
     "total": 800
   },
   {
     "noc": "ITA",
-    "rank": 2,
+    "rank": 3,
     "total": 740
   },
   {
     "noc": "ESP",
-    "rank": 3,
+    "rank": 4,
     "total": 684.5
   },
   {
     "noc": "AUS",
-    "rank": 4,
+    "rank": 5,
     "total": 633.16
   },
   {
     "noc": "POR",
-    "rank": 5,
+    "rank": 6,
     "total": 585.68
   },
   {
-    "noc": "USA",
-    "rank": 6,
-    "total": 541.75
+    "noc": "MEX",
+    "rank": 7,
+    "total": 585
   },
   {
     "noc": "GBR",
-    "rank": 7,
+    "rank": 8,
     "total": 501.12
   },
   {
+    "noc": "CHI",
+    "rank": 9,
+    "total": 500.54
+  },
+  {
     "noc": "GER",
-    "rank": 8,
+    "rank": 10,
     "total": 463.53
   },
   {
+    "noc": "BRA",
+    "rank": 11,
+    "total": 463
+  },
+  {
     "noc": "NZL",
-    "rank": 9,
+    "rank": 12,
     "total": 428.77
   },
   {
+    "noc": "CAN",
+    "rank": 13,
+    "total": 428.28
+  },
+  {
     "noc": "SUI",
-    "rank": 10,
+    "rank": 14,
     "total": 396.61
   },
   {
+    "noc": "ARG",
+    "rank": 15,
+    "total": 396.15
+  },
+  {
     "noc": "BEL",
-    "rank": 11,
+    "rank": 16,
     "total": 366.87
   },
   {
+    "noc": "PER",
+    "rank": 17,
+    "total": 366.44
+  },
+  {
     "noc": "LUX",
-    "rank": 12,
+    "rank": 18,
     "total": 339.35
   },
   {
+    "noc": "CRC",
+    "rank": 19,
+    "total": 338.96
+  },
+  {
     "noc": "NED",
-    "rank": 13,
+    "rank": 20,
     "total": 313.9
   },
   {
+    "noc": "COL",
+    "rank": 21,
+    "total": 313.54
+  },
+  {
     "noc": "JPN",
-    "rank": 14,
+    "rank": 22,
     "total": 290.36
   },
   {
     "noc": "HUN",
-    "rank": 15,
+    "rank": 23,
     "total": 268.58
   }
 ]

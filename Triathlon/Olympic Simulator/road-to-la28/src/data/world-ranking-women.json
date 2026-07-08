@@ -1,0 +1,4765 @@
+[
+  {
+    "athleteId": 117212,
+    "fullName": "Beth Potter",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 1,
+    "total": 7399.97,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/c6a11d5e-b5cd-4146-8e28-e4f7de89ae3d.png"
+  },
+  {
+    "athleteId": 79065,
+    "fullName": "Lisa Tertsch",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 2,
+    "total": 6914.23,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Lisa_Tertsch.jpg"
+  },
+  {
+    "athleteId": 56557,
+    "fullName": "Jeanne Lehair",
+    "noc": "LUX",
+    "gender": "female",
+    "rank": 3,
+    "total": 6295.25,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/85b79f93-db3b-43eb-b84c-6fcf6bb36a9d.JPG"
+  },
+  {
+    "athleteId": 41158,
+    "fullName": "Leonie Periault",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 4,
+    "total": 6170.4,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Leonie_Periault.jpg"
+  },
+  {
+    "athleteId": 63163,
+    "fullName": "Cassandre Beaugrand",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 5,
+    "total": 5591.67,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Cassandra_Beaugrand.jpg"
+  },
+  {
+    "athleteId": 113106,
+    "fullName": "Jolien Vermeylen",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 6,
+    "total": 5111.37,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/d72a6648-0b86-4969-8e64-93c1864855d0.jpg"
+  },
+  {
+    "athleteId": 81334,
+    "fullName": "Taylor Spivey",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 7,
+    "total": 4879.35,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Taylor_Spivey.jpg"
+  },
+  {
+    "athleteId": 125375,
+    "fullName": "Emma Lombardi",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 8,
+    "total": 4767.29,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Emma_Lombardi.jpg"
+  },
+  {
+    "athleteId": 132753,
+    "fullName": "Diana Isakova",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 9,
+    "total": 4677.17,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/28a5a8c1-5845-4aba-832b-665dc88548c1.jpeg"
+  },
+  {
+    "athleteId": 106581,
+    "fullName": "Bianca Seregni",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 10,
+    "total": 4659.32,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7785.jpeg"
+  },
+  {
+    "athleteId": 125627,
+    "fullName": "Tanja Neubert",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 11,
+    "total": 4626.37,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/81f8966e-d74a-4181-8929-36db82018223.jpg"
+  },
+  {
+    "athleteId": 135877,
+    "fullName": "Tilda Månsson",
+    "noc": "SWE",
+    "gender": "female",
+    "rank": 12,
+    "total": 4277.16,
+    "flag": "https://cms.triathlon.org/assets/4564b8d3-64e6-4d9b-bcd5-6ca9746bf381",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_2500-Edit.jpg"
+  },
+  {
+    "athleteId": 104333,
+    "fullName": "Jessica Fullagar",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 13,
+    "total": 3673.1,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/cbf4fc3c-6dff-4a57-8b1f-a7612bd9a3db.jpg"
+  },
+  {
+    "athleteId": 71161,
+    "fullName": "Sian Rainsley",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 14,
+    "total": 3540.45,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/sophie_alden-GBR1.jpg"
+  },
+  {
+    "athleteId": 49545,
+    "fullName": "Georgia Taylor-Brown",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 15,
+    "total": 3519.05,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/georgia_taylorbrown_GBR.jpg"
+  },
+  {
+    "athleteId": 96759,
+    "fullName": "Valentina Riasova",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 16,
+    "total": 2995.97,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/71b84b71-be65-4ea7-9d87-520ade50550e.jpg"
+  },
+  {
+    "athleteId": 162101,
+    "fullName": "Tilly Anema",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 17,
+    "total": 2984.25,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/705b6679-27a3-41eb-a6d9-7a62c8efc193.jpg"
+  },
+  {
+    "athleteId": 135389,
+    "fullName": "Franka Rust",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 18,
+    "total": 2899.75,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/9cb26f0d-92d6-4967-89c3-9556651bcfe7.png"
+  },
+  {
+    "athleteId": 82483,
+    "fullName": "Sara Guerrero Manso",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 19,
+    "total": 2876.66,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ESP_Sara_Guerrero.jpg"
+  },
+  {
+    "athleteId": 30383,
+    "fullName": "Miriam Casillas García",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 20,
+    "total": 2876.58,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ESP_Miriam_Casillas1.jpg"
+  },
+  {
+    "athleteId": 125061,
+    "fullName": "Djenyfer Arnold",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 21,
+    "total": 2767.24,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/BRA_Djenyfer_Arnold.jpg"
+  },
+  {
+    "athleteId": 31827,
+    "fullName": "Anna Godoy Contreras",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 22,
+    "total": 2761.22,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ESP_Anna_Godoy.jpg"
+  },
+  {
+    "athleteId": 112738,
+    "fullName": "Maria Tomé",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 23,
+    "total": 2738.53,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/POR_Maria_Tome1.jpg"
+  },
+  {
+    "athleteId": 70413,
+    "fullName": "Laura Lindemann",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 24,
+    "total": 2729.44,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/8eb56f92-5eb9-44dc-85c6-ce7d2f4a63f5.png"
+  },
+  {
+    "athleteId": 83263,
+    "fullName": "Olivia Mathias",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 25,
+    "total": 2703.97,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/06B6ABFE-06EC-48DA-81B8-703A3FF349C8.jpeg"
+  },
+  {
+    "athleteId": 40887,
+    "fullName": "Gwen Jorgensen",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 26,
+    "total": 2674.86,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Gwen_Jorgensen.jpg"
+  },
+  {
+    "athleteId": 122267,
+    "fullName": "Marta Pintanel Raymundo",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 27,
+    "total": 2671.47,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/532525cc-f604-4c98-a352-1a00c5dab59a.jpg"
+  },
+  {
+    "athleteId": 132848,
+    "fullName": "Gina Sereno",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 28,
+    "total": 2667.07,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/TZAF5898.jpg"
+  },
+  {
+    "athleteId": 58449,
+    "fullName": "Verena Steinhauser",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 29,
+    "total": 2627.97,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/ITA_Verena_Steinhauser.jpg"
+  },
+  {
+    "athleteId": 127941,
+    "fullName": "Márta Kropkó",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 30,
+    "total": 2543.94,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/eac00b76-3adb-4649-b788-da30b84244c0.jpg"
+  },
+  {
+    "athleteId": 80813,
+    "fullName": "Rosa Maria Tapia Vidal",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 31,
+    "total": 2501.49,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_2849.jpeg"
+  },
+  {
+    "athleteId": 83323,
+    "fullName": "Maria Carolina Velasquez Soto",
+    "noc": "COL",
+    "gender": "female",
+    "rank": 32,
+    "total": 2481.55,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+    "profileImage": "https://prod-tri-assets.imgix.net/TZAF5846.jpg"
+  },
+  {
+    "athleteId": 158669,
+    "fullName": "Manami Hayashi",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 33,
+    "total": 2443.29,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/MANAMI_JPN2.jpg"
+  },
+  {
+    "athleteId": 73429,
+    "fullName": "Sophie Malowiecki",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 34,
+    "total": 2433.66,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/28e84e8b-1897-4290-9555-c90d75a5f644.jpeg"
+  },
+  {
+    "athleteId": 186318,
+    "fullName": "Danielle Orie",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 35,
+    "total": 2432.21,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/a7e724ef-3151-4d87-8d76-613923cb5c27.jpg"
+  },
+  {
+    "athleteId": 93409,
+    "fullName": "Desirae Ridenour",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 36,
+    "total": 2383.12,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/Desirae_Ridenour_(CAN)_-_JR2017.JPG"
+  },
+  {
+    "athleteId": 125021,
+    "fullName": "Zuzana Michalickova",
+    "noc": "SVK",
+    "gender": "female",
+    "rank": 37,
+    "total": 2291.03,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/93ffa799-9f48-4810-afda-1f4cd865a06f.avif"
+  },
+  {
+    "athleteId": 66197,
+    "fullName": "Alissa Konig",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 38,
+    "total": 2290.9,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/EF146B97-845A-47CC-8F86-BE6230C5E755.jpeg"
+  },
+  {
+    "athleteId": 131701,
+    "fullName": "Xinyu Lin",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 39,
+    "total": 2280.07,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+    "profileImage": "https://prod-tri-assets.imgix.net/lin_CHN.jpg"
+  },
+  {
+    "athleteId": 79066,
+    "fullName": "Nina Eim",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 40,
+    "total": 2273.72,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Nina_Eim.jpg"
+  },
+  {
+    "athleteId": 86051,
+    "fullName": "Kate Waugh",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 41,
+    "total": 2206.84,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/a22d119c-9afb-4318-9b09-9cb1149f0a5b.JPG"
+  },
+  {
+    "athleteId": 137276,
+    "fullName": "Julia Bröcker",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 42,
+    "total": 2176.82,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_6376.jpeg"
+  },
+  {
+    "athleteId": 125268,
+    "fullName": "Sophia Howell",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 43,
+    "total": 2168.12,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/6B4372FD-93F9-4906-A700-48754E9F49FD.jpeg"
+  },
+  {
+    "athleteId": 106848,
+    "fullName": "Mariana Vargem",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 44,
+    "total": 2145.5,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/c029564b-8dd9-4729-8783-06c28094c610.jpg"
+  },
+  {
+    "athleteId": 81066,
+    "fullName": "Eva Goodisson",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 45,
+    "total": 2096.7,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/Eva_Goodisson.jpg"
+  },
+  {
+    "athleteId": 106503,
+    "fullName": "Annika Koch",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 46,
+    "total": 2062.77,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/07A41E30-9790-4C56-A902-1669D7AEEA6F.jpeg"
+  },
+  {
+    "athleteId": 106041,
+    "fullName": "Erika Ackerlund",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 47,
+    "total": 2055.83,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/8c627d77-5e3c-4628-a6c4-c3ee8b19adf5.jpg"
+  },
+  {
+    "athleteId": 131511,
+    "fullName": "Robin Dreijling",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 48,
+    "total": 2037.14,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/47b0d941-005b-4331-902f-c926d56c3020.jpg"
+  },
+  {
+    "athleteId": 165635,
+    "fullName": "Aspen Anderson",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 49,
+    "total": 2018.86,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 123501,
+    "fullName": "Charlotte Derbyshire",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 50,
+    "total": 2014.25,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/charlotte_derbyshire_AUS1.jpg"
+  },
+  {
+    "athleteId": 161245,
+    "fullName": "Carina Reicht",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 51,
+    "total": 2002.64,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/d1d0cbe3-1bfb-4d68-b3fe-a6de175874ac.jpeg"
+  },
+  {
+    "athleteId": 139912,
+    "fullName": "Mako Hiraizumi",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 52,
+    "total": 1998.34,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 142820,
+    "fullName": "Naomi Ruff",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 53,
+    "total": 1988.05,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-42.jpg"
+  },
+  {
+    "athleteId": 115148,
+    "fullName": "Cathia Schär",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 54,
+    "total": 1958.55,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/CathiaSchar.JPG"
+  },
+  {
+    "athleteId": 79830,
+    "fullName": "Tereza Zimovjanova",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 55,
+    "total": 1905.53,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/320b32dd-6555-4684-88fc-9175d1f48aea.png"
+  },
+  {
+    "athleteId": 174983,
+    "fullName": "Fanni Szalai",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 56,
+    "total": 1903.94,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/90131be7-5e46-4b75-9aff-c16bf14f3f05.jpg"
+  },
+  {
+    "athleteId": 144059,
+    "fullName": "Tara Sosinski",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 57,
+    "total": 1873.4,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/4436cbfa-36c9-4f56-9aea-3a6f80d653b6.jpeg"
+  },
+  {
+    "athleteId": 189514,
+    "fullName": "Kelly Wetteland",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 58,
+    "total": 1858.07,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/8b4f1281-c5c9-4222-a80b-af8dbdf5c996.jpeg"
+  },
+  {
+    "athleteId": 64750,
+    "fullName": "Nicole Van Der Kaay",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 59,
+    "total": 1840.34,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/nicole_vanderkay_NZL.jpg"
+  },
+  {
+    "athleteId": 96687,
+    "fullName": "Lea Coninx",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 60,
+    "total": 1820.03,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/d4d0ef13-5661-40e2-b1e9-3dc8b05ab123.jpeg"
+  },
+  {
+    "athleteId": 103983,
+    "fullName": "Shanae Williams",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 61,
+    "total": 1812.12,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  },
+  {
+    "athleteId": 123462,
+    "fullName": "Barbara De Koning",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 62,
+    "total": 1808.02,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/barbara_dekoning_NED.jpg"
+  },
+  {
+    "athleteId": 124609,
+    "fullName": "Ana Maria Valentina Torres Gomez",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 63,
+    "total": 1802.98,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/aef6d4d2-f0a3-46d5-8eac-c4631943bf9f.jpeg"
+  },
+  {
+    "athleteId": 106305,
+    "fullName": "Beatrice Mallozzi",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 64,
+    "total": 1800.4,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/4147f42c-2cd7-4b1e-b3e7-f81cbe7979f2.jpeg"
+  },
+  {
+    "athleteId": 95441,
+    "fullName": "Miyu Sakai",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 65,
+    "total": 1777.4,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/miyu_sakai_jpn.jpg"
+  },
+  {
+    "athleteId": 115034,
+    "fullName": "Sarika Nakayama",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 66,
+    "total": 1749.87,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/sharika_nakayama_jpn.jpg"
+  },
+  {
+    "athleteId": 189862,
+    "fullName": "Kanae Takenaka",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 67,
+    "total": 1744.44,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/ef2f0541-3f31-4b71-98c9-fa3fdcf8edaa.jpeg"
+  },
+  {
+    "athleteId": 132893,
+    "fullName": "María Casals Mojica",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 68,
+    "total": 1723.86,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/8b64f25d-72aa-41a2-aeb7-38d5efefb5c7.jpeg"
+  },
+  {
+    "athleteId": 124901,
+    "fullName": "Angelica Prestia",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 69,
+    "total": 1718.03,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 80605,
+    "fullName": "Mathilde Gautier",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 70,
+    "total": 1707.74,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Trombinoscope_Equipe_de_France_FFTRI_2023_@F-Boukla_ActivImages.-2-6_.jpeg"
+  },
+  {
+    "athleteId": 79637,
+    "fullName": "Noelia Juan",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 71,
+    "total": 1701.08,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ESP_Noelia_Juan.jpg"
+  },
+  {
+    "athleteId": 123536,
+    "fullName": "Brea Roderick",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 72,
+    "total": 1671.61,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/Brea_Roderick.jpg"
+  },
+  {
+    "athleteId": 96506,
+    "fullName": "Carlotta Missaglia",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 73,
+    "total": 1644.49,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/598f191a-69da-4c9f-9001-2360ffd51723.png"
+  },
+  {
+    "athleteId": 168089,
+    "fullName": "Rosa Elena Martinez Melchior",
+    "noc": "VEN",
+    "gender": "female",
+    "rank": 74,
+    "total": 1639.22,
+    "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
+    "profileImage": "https://prod-tri-assets.imgix.net/81444056-2f6d-4a03-93b7-f871fe8db606.jpg"
+  },
+  {
+    "athleteId": 106358,
+    "fullName": "Roksana Slupek",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 75,
+    "total": 1630.93,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/45054385-DE4E-4F9C-B355-A5FEB858BE4B.jpeg"
+  },
+  {
+    "athleteId": 103832,
+    "fullName": "Ellie Hoitink",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 76,
+    "total": 1629.47,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 52323,
+    "fullName": "Sinem Francisca Tous Servera",
+    "noc": "TUR",
+    "gender": "female",
+    "rank": 77,
+    "total": 1606.77,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab",
+    "profileImage": "https://prod-tri-assets.imgix.net/d686fc8f-4e99-4ee7-901c-efa146ec23bd.JPG"
+  },
+  {
+    "athleteId": 69055,
+    "fullName": "Emy Legault",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 78,
+    "total": 1597.06,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/CAN_Emy_Legault.jpg"
+  },
+  {
+    "athleteId": 112651,
+    "fullName": "Giovanna Lacerda",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 79,
+    "total": 1595.73,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1533-Edit.jpg"
+  },
+  {
+    "athleteId": 117135,
+    "fullName": "Selina Klamt",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 80,
+    "total": 1576.37,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/6a08b460-9493-4847-8899-ffd652525e13.jpg"
+  },
+  {
+    "athleteId": 175021,
+    "fullName": "Martina Ayu Pratiwi",
+    "noc": "INA",
+    "gender": "female",
+    "rank": 81,
+    "total": 1576.31,
+    "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d"
+  },
+  {
+    "athleteId": 71740,
+    "fullName": "Ilaria Zane",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 82,
+    "total": 1562.72,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/ITA_Ilaria_Zane.jpg"
+  },
+  {
+    "athleteId": 17285,
+    "fullName": "Yuko Takahashi",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 83,
+    "total": 1559.34,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/JPN_Yuko_Takahashi.jpg"
+  },
+  {
+    "athleteId": 89532,
+    "fullName": "Kirsten Kasper",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 84,
+    "total": 1551.85,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Kirsten_Kasper.jpg"
+  },
+  {
+    "athleteId": 190635,
+    "fullName": "Eleanor Beveridge",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 85,
+    "total": 1544.73,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 165400,
+    "fullName": "Sidney Clement",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 86,
+    "total": 1543.64,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/4ad491df-fe98-44b3-aff2-95e778965b08.png"
+  },
+  {
+    "athleteId": 69077,
+    "fullName": "Cecilia Santamaria Surroca",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 87,
+    "total": 1538.75,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/Cecilia_Santamaria_Surroca.jpg"
+  },
+  {
+    "athleteId": 170914,
+    "fullName": "Ana Carballo Gómez",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 88,
+    "total": 1533.45,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/894c9bf8-e622-47fa-8f32-e027eecf8485.png"
+  },
+  {
+    "athleteId": 115545,
+    "fullName": "Asia Mercatelli",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 89,
+    "total": 1525.48,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 163834,
+    "fullName": "Himeka Sato",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 90,
+    "total": 1517.14,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/5a805ab6-8375-4cdf-928d-4e25ee58e02a.jfif"
+  },
+  {
+    "athleteId": 137116,
+    "fullName": "Candice Denizot",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 91,
+    "total": 1515.7,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/d2d995d5-8eef-44ef-a200-eb92f01cb962.jpg"
+  },
+  {
+    "athleteId": 135626,
+    "fullName": "Marcela Alvarez Solis",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 92,
+    "total": 1510.07,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-70.jpg"
+  },
+  {
+    "athleteId": 85273,
+    "fullName": "Sandra Dodet",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 93,
+    "total": 1486.28,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/598a742e-ef73-4734-a11e-304988b85fff.jpeg"
+  },
+  {
+    "athleteId": 186200,
+    "fullName": "Joy Gill",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 94,
+    "total": 1479.8,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/1cb0fa54-1f03-495d-910e-aee29b346d6c.jpg"
+  },
+  {
+    "athleteId": 89986,
+    "fullName": "Genesis Carolina Ruiz Volcan",
+    "noc": "VEN",
+    "gender": "female",
+    "rank": 95,
+    "total": 1455.25,
+    "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828"
+  },
+  {
+    "athleteId": 81882,
+    "fullName": "Vittoria Lopes",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 96,
+    "total": 1444.12,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/BRA_Vittoria_Lopes.jpg"
+  },
+  {
+    "athleteId": 166282,
+    "fullName": "Diana Dunajska",
+    "noc": "SVK",
+    "gender": "female",
+    "rank": 97,
+    "total": 1438.08,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/c0c70ec6-2f2f-4d16-98f5-fee209fe8208.jpeg"
+  },
+  {
+    "athleteId": 123626,
+    "fullName": "Richelle Hill",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 98,
+    "total": 1434.78,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 163065,
+    "fullName": "María Teresa Jiménez-Orta Guerrero",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 99,
+    "total": 1422.27,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/94C3A68E-0BED-4FDB-A030-3FED160FD2E4.jpeg"
+  },
+  {
+    "athleteId": 115147,
+    "fullName": "Nora Gmür",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 100,
+    "total": 1409.01,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/2865AC83-29BB-4B5D-9BF8-81ECAA686E24.png"
+  },
+  {
+    "athleteId": 148530,
+    "fullName": "Margareta Vrablova",
+    "noc": "SVK",
+    "gender": "female",
+    "rank": 101,
+    "total": 1401.03,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_20220905_140449.jpg"
+  },
+  {
+    "athleteId": 176716,
+    "fullName": "Michelle Magnani",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 102,
+    "total": 1365.05,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/6806ffcd-4968-4e58-baef-5c8f783056bb.jpeg"
+  },
+  {
+    "athleteId": 55701,
+    "fullName": "Maya Kingma",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 103,
+    "total": 1362.4,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/maya_kingma_NeD.jpg"
+  },
+  {
+    "athleteId": 119359,
+    "fullName": "Katie Rodda",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 104,
+    "total": 1355.82,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 165027,
+    "fullName": "Ayame Hayashi",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 105,
+    "total": 1339.63,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 80082,
+    "fullName": "Erica Hawley",
+    "noc": "BER",
+    "gender": "female",
+    "rank": 106,
+    "total": 1338.49,
+    "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
+    "profileImage": "https://prod-tri-assets.imgix.net/WhatsApp_Image_2024-06-22_at_5.03_.40_PM_.jpeg"
+  },
+  {
+    "athleteId": 80309,
+    "fullName": "Kira Hedgeland",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 107,
+    "total": 1323.86,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Kira_Hedgeland.jpg"
+  },
+  {
+    "athleteId": 125318,
+    "fullName": "Natalia Castro Santos",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 108,
+    "total": 1312.79,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/_MG_9082_123.jpeg"
+  },
+  {
+    "athleteId": 109517,
+    "fullName": "Minori Ikeno",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 109,
+    "total": 1297.76,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/Minori_Ikeno.jpg"
+  },
+  {
+    "athleteId": 141319,
+    "fullName": "Dominga Elena Jacome Espinoza",
+    "noc": "CHI",
+    "gender": "female",
+    "rank": 110,
+    "total": 1290.41,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_173020_PBA_7515b.jpg"
+  },
+  {
+    "athleteId": 70988,
+    "fullName": "Margot Garabedian",
+    "noc": "CAM",
+    "gender": "female",
+    "rank": 111,
+    "total": 1270.24,
+    "flag": "https://cms.triathlon.org/assets/00074095-0933-4a89-87a6-cde99d49ada0",
+    "profileImage": "https://prod-tri-assets.imgix.net/GARADEBIAN.jpg"
+  },
+  {
+    "athleteId": 151992,
+    "fullName": "Finja Schierl",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 112,
+    "total": 1261.35,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/8DE0BE62-2A18-4025-9B1D-48A4A7A7F440.jpeg"
+  },
+  {
+    "athleteId": 165427,
+    "fullName": "Zoe Clarke",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 113,
+    "total": 1259.24,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/fdc57be1-c965-4f95-8d72-d2870433f131.jpg"
+  },
+  {
+    "athleteId": 82885,
+    "fullName": "Therese Feuersinger",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 114,
+    "total": 1258.9,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/portrait.jpeg"
+  },
+  {
+    "athleteId": 192975,
+    "fullName": "Rachel Werking",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 115,
+    "total": 1253.87,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 137273,
+    "fullName": "Jule Behrens",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 116,
+    "total": 1248.42,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1893-Edit.jpg"
+  },
+  {
+    "athleteId": 95456,
+    "fullName": "Hye Rim Jeong",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 117,
+    "total": 1244.53,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/FFD646BF-F9CD-4F62-A1DF-162F14CE708E.png"
+  },
+  {
+    "athleteId": 25176,
+    "fullName": "Cecilia Perez",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 118,
+    "total": 1234.61,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Perez.jpg"
+  },
+  {
+    "athleteId": 135711,
+    "fullName": "Appoline Foltz",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 119,
+    "total": 1231.77,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7247.jpeg"
+  },
+  {
+    "athleteId": 127356,
+    "fullName": "Annabel Morton",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 120,
+    "total": 1227.6,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/2eaa4896-fca3-4c0e-9f76-110db4801129.jpg"
+  },
+  {
+    "athleteId": 124520,
+    "fullName": "Heidi Juránková",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 121,
+    "total": 1221.35,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/41ec36dd-e83e-4626-b2e3-0d3cd878a655.jpg"
+  },
+  {
+    "athleteId": 143310,
+    "fullName": "Alejandra Seguí Soria",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 122,
+    "total": 1207.99,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_36482.jpeg"
+  },
+  {
+    "athleteId": 84143,
+    "fullName": "Alina Khakimova",
+    "noc": "UZB",
+    "gender": "female",
+    "rank": 123,
+    "total": 1205.24,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_2276.jpeg"
+  },
+  {
+    "athleteId": 170870,
+    "fullName": "Yifan Yang",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 124,
+    "total": 1204.03,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 166118,
+    "fullName": "Amara Rae",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 125,
+    "total": 1199.93,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/64e44fac-39e6-4345-bb6b-8a65919cfc43.jpg"
+  },
+  {
+    "athleteId": 83371,
+    "fullName": "Hanna Maksimava",
+    "noc": "BLR",
+    "gender": "female",
+    "rank": 126,
+    "total": 1170.98,
+    "flag": "https://cms.triathlon.org/assets/cdd1c3f1-e63c-44c7-a917-93cfed159277",
+    "profileImage": "https://prod-tri-assets.imgix.net/2D6F05BD-3785-48F7-9E7A-5599EF105A9C.jpeg"
+  },
+  {
+    "athleteId": 111962,
+    "fullName": "Sofia Rodriguez Moreno",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 127,
+    "total": 1161.6,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Facetune_11-04-2024-21-46-44.jpeg"
+  },
+  {
+    "athleteId": 133284,
+    "fullName": "Aviv Levi",
+    "noc": "ISR",
+    "gender": "female",
+    "rank": 128,
+    "total": 1159.57,
+    "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+    "profileImage": "https://prod-tri-assets.imgix.net/9B371BBD-7073-42F2-8619-C6B4E7899DE7.jpeg"
+  },
+  {
+    "athleteId": 64903,
+    "fullName": "Tjasa Vrtacic",
+    "noc": "SLO",
+    "gender": "female",
+    "rank": 129,
+    "total": 1157.35,
+    "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_6905.PNG"
+  },
+  {
+    "athleteId": 169874,
+    "fullName": "Sophie Gießmann",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 130,
+    "total": 1152.1,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 23545,
+    "fullName": "Alessia Orla",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 131,
+    "total": 1147,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/09BDDF1C-128E-40DF-85D8-27E173BE0805.jpeg"
+  },
+  {
+    "athleteId": 125049,
+    "fullName": "Meiyi Lu",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 132,
+    "total": 1145.29,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 195910,
+    "fullName": "Phoebe Carter",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 133,
+    "total": 1127.98,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/6effc54f-c7c1-4cad-b6b2-d04a2abc776f.jpeg"
+  },
+  {
+    "athleteId": 86333,
+    "fullName": "Yuki Sugihara",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 134,
+    "total": 1118.39,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 125003,
+    "fullName": "Rebecca Beti",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 135,
+    "total": 1113.9,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/f6678f1f-7d7d-4a67-93bb-7a03bc25f380.jpeg"
+  },
+  {
+    "athleteId": 130014,
+    "fullName": "Lara Thekla Ungewickell",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 136,
+    "total": 1110.85,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/7e76f62c-2eb5-495a-984a-0e3c6fab9342.jpeg"
+  },
+  {
+    "athleteId": 113560,
+    "fullName": "Costanza Arpinelli",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 137,
+    "total": 1097.62,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/211d139b-9109-4d6d-bcea-6727214fb191.jpeg"
+  },
+  {
+    "athleteId": 84871,
+    "fullName": "Anabel Knoll",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 138,
+    "total": 1097.42,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Anabel_Knoll.jpg"
+  },
+  {
+    "athleteId": 109742,
+    "fullName": "Hollie Elliott",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 139,
+    "total": 1092.99,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/2514f9bf-a4cc-4e37-bbd4-f25af89bc4f7.jpeg"
+  },
+  {
+    "athleteId": 158274,
+    "fullName": "Paola Sacchi",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 140,
+    "total": 1091.23,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/74e80ace-0ed2-44f4-9fa3-cf6ab9b2ec76.png"
+  },
+  {
+    "athleteId": 116273,
+    "fullName": "Dominika Peszleg",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 141,
+    "total": 1086.57,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/2BF451EF-F6A8-4439-A7ED-43B3DFFE8A7A.JPG"
+  },
+  {
+    "athleteId": 186552,
+    "fullName": "Ellison Wolfe",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 142,
+    "total": 1085.18,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 158965,
+    "fullName": "Briana Mow",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 143,
+    "total": 1077.85,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 185074,
+    "fullName": "Lilly-Marie Overberg",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 144,
+    "total": 1072.02,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 121420,
+    "fullName": "Marina Muñoz Hernando",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 145,
+    "total": 1064.22,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/Marina_Munoz_Hernando.jpg"
+  },
+  {
+    "athleteId": 150487,
+    "fullName": "Josephine Seerig",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 146,
+    "total": 1061.39,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 112658,
+    "fullName": "Daniela Moya Chamorro",
+    "noc": "CHI",
+    "gender": "female",
+    "rank": 147,
+    "total": 1061.17,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236"
+  },
+  {
+    "athleteId": 109512,
+    "fullName": "Yoshiko Sato",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 148,
+    "total": 1053.23,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 166882,
+    "fullName": "Manon Laporte",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 149,
+    "total": 1051.59,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-24.jpg"
+  },
+  {
+    "athleteId": 140307,
+    "fullName": "Katrien Maes",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 150,
+    "total": 1044.97,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/Katrien_Maes.jpg"
+  },
+  {
+    "athleteId": 194236,
+    "fullName": "Katie McCune",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 151,
+    "total": 1042.62,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 175113,
+    "fullName": "Alexandra Campbell",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 152,
+    "total": 1036.05,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 110346,
+    "fullName": "Anqi Huang",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 153,
+    "total": 1033.69,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 160951,
+    "fullName": "Matylda Wojakiewicz",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 154,
+    "total": 1030.19,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 165513,
+    "fullName": "Isla Watson",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 155,
+    "total": 1024.6,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/A02EE266-0B52-4FF6-A555-2B4126CB9DAB.jpeg"
+  },
+  {
+    "athleteId": 129529,
+    "fullName": "Zuzanna Sudak",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 156,
+    "total": 1017.4,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 111232,
+    "fullName": "Celia Merle",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 157,
+    "total": 1015.69,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 39683,
+    "fullName": "Alice Betto",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 158,
+    "total": 1015.21,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/alice_betto_ITA.jpg"
+  },
+  {
+    "athleteId": 160569,
+    "fullName": "Liis Kapten",
+    "noc": "EST",
+    "gender": "female",
+    "rank": 159,
+    "total": 1005.35,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/5ac843d6-7d6e-4b37-aa8a-2b6e9cbfa842.png"
+  },
+  {
+    "athleteId": 80643,
+    "fullName": "Taylor Knibb",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 160,
+    "total": 1003.01,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/taylor_knibb_USA.jpg"
+  },
+  {
+    "athleteId": 143514,
+    "fullName": "Zoe Adam",
+    "noc": "PUR",
+    "gender": "female",
+    "rank": 161,
+    "total": 1000.59,
+    "flag": "https://cms.triathlon.org/assets/c92129ea-68f5-4522-847f-0481514f68be"
+  },
+  {
+    "athleteId": 132195,
+    "fullName": "Tallulah Wright",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 162,
+    "total": 999.95,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 165195,
+    "fullName": "Jimena Renata De La Peña Schott",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 163,
+    "total": 999.66,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_161808_PBA_7061b.jpg"
+  },
+  {
+    "athleteId": 7525,
+    "fullName": "Elizabeth Bravo",
+    "noc": "ECU",
+    "gender": "female",
+    "rank": 164,
+    "total": 993.61,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/514501ea-92e7-4559-9731-a777daf78bb7.jpg"
+  },
+  {
+    "athleteId": 6780,
+    "fullName": "Ji Yeon Kim",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 165,
+    "total": 990.87,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/d2185073-ae12-4046-9c56-8a9abec8fb78.jpeg"
+  },
+  {
+    "athleteId": 166741,
+    "fullName": "María López Faraudo",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 166,
+    "total": 975.49,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/35180efc-7fff-4a81-ab8d-98defa78aba7.jpeg"
+  },
+  {
+    "athleteId": 133000,
+    "fullName": "Maria De Los Angeles Bonilla Garcia",
+    "noc": "ECU",
+    "gender": "female",
+    "rank": 167,
+    "total": 973.01,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f"
+  },
+  {
+    "athleteId": 124447,
+    "fullName": "Kira Gupta-Baltazar",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 168,
+    "total": 971.33,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1641-Edit.jpg"
+  },
+  {
+    "athleteId": 158926,
+    "fullName": "Luisa Daniela Baca Vargas",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 169,
+    "total": 965.2,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/8063f313-c54c-49e4-be68-3441f4ea5b4e.jpeg"
+  },
+  {
+    "athleteId": 50760,
+    "fullName": "Sophie Evans",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 170,
+    "total": 952.95,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/GBR_Sophie_Coldwell.jpg"
+  },
+  {
+    "athleteId": 158795,
+    "fullName": "Ilona Hadhoum",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 171,
+    "total": 938.27,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-22.jpg"
+  },
+  {
+    "athleteId": 124359,
+    "fullName": "Mercedes Romero Orozco",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 172,
+    "total": 928,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/f594f9c8-c7d0-42e3-97c1-64a43162f784.jpeg"
+  },
+  {
+    "athleteId": 28114,
+    "fullName": "Yan Yin Hilda Choi",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 173,
+    "total": 922.87,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/91AD6CFE-144B-490F-987B-428D0B5502DE.jpeg"
+  },
+  {
+    "athleteId": 162897,
+    "fullName": "Britney Brown",
+    "noc": "TRI",
+    "gender": "female",
+    "rank": 174,
+    "total": 919.4,
+    "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-41.jpg"
+  },
+  {
+    "athleteId": 168492,
+    "fullName": "Léa Houart",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 175,
+    "total": 912.03,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/e40388ea-eea4-421f-8dc6-16633e8e457a.jpeg"
+  },
+  {
+    "athleteId": 175732,
+    "fullName": "Julia Maria Alcala Rosales",
+    "noc": "HON",
+    "gender": "female",
+    "rank": 176,
+    "total": 910.97,
+    "flag": "https://cms.triathlon.org/assets/8c09ac51-8a2c-4d7a-bc73-ed38981d0742"
+  },
+  {
+    "athleteId": 81873,
+    "fullName": "Madalena Amaral Almeida",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 177,
+    "total": 910.67,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/675ec919-b1a9-451c-afe2-a27ecef3127a.jpg"
+  },
+  {
+    "athleteId": 57913,
+    "fullName": "Romana Gajdošová",
+    "noc": "SVK",
+    "gender": "female",
+    "rank": 178,
+    "total": 906.21,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/599c63e4-5592-41e1-aff5-8c7228184c8c.jpeg"
+  },
+  {
+    "athleteId": 6150,
+    "fullName": "Barbara Riveros",
+    "noc": "CHI",
+    "gender": "female",
+    "rank": 179,
+    "total": 900.38,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/barbara_riveros_CHI.jpg"
+  },
+  {
+    "athleteId": 175731,
+    "fullName": "Camila Victoria Alcala Rosales",
+    "noc": "HON",
+    "gender": "female",
+    "rank": 180,
+    "total": 884.04,
+    "flag": "https://cms.triathlon.org/assets/8c09ac51-8a2c-4d7a-bc73-ed38981d0742"
+  },
+  {
+    "athleteId": 148089,
+    "fullName": "Grete Maria Savitsch",
+    "noc": "EST",
+    "gender": "female",
+    "rank": 181,
+    "total": 875.71,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/Riia_Grete.jpg"
+  },
+  {
+    "athleteId": 135532,
+    "fullName": "Isla Britton",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 182,
+    "total": 866.39,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1604-Edit.jpg"
+  },
+  {
+    "athleteId": 74402,
+    "fullName": "Sophie Alden",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 183,
+    "total": 866.26,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/sian_rainsley_GBR1.jpg"
+  },
+  {
+    "athleteId": 163053,
+    "fullName": "Ambre Grasset",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 184,
+    "total": 863.78,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_2024-10-30_at_13.45_.28_.png"
+  },
+  {
+    "athleteId": 180958,
+    "fullName": "Anouk Danna",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 185,
+    "total": 862.37,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc"
+  },
+  {
+    "athleteId": 136533,
+    "fullName": "Gayeon Park",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 186,
+    "total": 857.93,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/165f868b-676f-4c98-ad21-a3a340969296.jpg"
+  },
+  {
+    "athleteId": 123455,
+    "fullName": "Sophie Linn",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 187,
+    "total": 852.04,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AO3A9939_1.JPEG"
+  },
+  {
+    "athleteId": 176728,
+    "fullName": "Xinyi Xu",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 188,
+    "total": 847.44,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 181227,
+    "fullName": "Ziqing Lu",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 189,
+    "total": 840.82,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 190929,
+    "fullName": "Brooke Rousselle",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 190,
+    "total": 833.99,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 136130,
+    "fullName": "Adelaide Anna Badini Confalonieri",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 191,
+    "total": 832.42,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 102328,
+    "fullName": "Paulina Klimas",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 192,
+    "total": 825.86,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/4A6A70E0-B557-41C9-B4B6-DA063A6DD39E.jpeg"
+  },
+  {
+    "athleteId": 180776,
+    "fullName": "María Emilia Vargas",
+    "noc": "ARG",
+    "gender": "female",
+    "rank": 193,
+    "total": 824.69,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529"
+  },
+  {
+    "athleteId": 177997,
+    "fullName": "Sian Munks",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 194,
+    "total": 810.33,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 159181,
+    "fullName": "Clara Carlquist",
+    "noc": "DEN",
+    "gender": "female",
+    "rank": 195,
+    "total": 807.23,
+    "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-51.jpg"
+  },
+  {
+    "athleteId": 99067,
+    "fullName": "Natalia Casas",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 196,
+    "total": 801.56,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/4cb05a0c-5727-4b0f-b752-b4463a631bb8.jpeg"
+  },
+  {
+    "athleteId": 64952,
+    "fullName": "Emma Jeffcoat",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 197,
+    "total": 795.37,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/d3652bc7-781a-4aae-a6cd-c118ac36ffd9.jpeg"
+  },
+  {
+    "athleteId": 92305,
+    "fullName": "Ainsley Thorpe",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 198,
+    "total": 779.11,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/xac52288e02097b5f3ba8ca896c1760ae1a390642thorpe-ainsley-003__ScaleWidthWzU1NV0.pagespeed_.ic_.HmXqMPR57-_2.jpg"
+  },
+  {
+    "athleteId": 178100,
+    "fullName": "Kjara Reckmann",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 199,
+    "total": 772.19,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 95518,
+    "fullName": "Isabel Sterr",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 200,
+    "total": 770.64,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_2021-05-18-14-55-33-709_com.miui_.gallery_.jpg"
+  },
+  {
+    "athleteId": 114954,
+    "fullName": "Eva Daniels",
+    "noc": "LUX",
+    "gender": "female",
+    "rank": 201,
+    "total": 764.18,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/NBS_1114.jpg"
+  },
+  {
+    "athleteId": 135764,
+    "fullName": "Nele Dequae",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 202,
+    "total": 755.63,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-75.jpg"
+  },
+  {
+    "athleteId": 175217,
+    "fullName": "Béatrice Filion",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 203,
+    "total": 755.5,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 132194,
+    "fullName": "Cade Wright",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 204,
+    "total": 749.46,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 114151,
+    "fullName": "Wen Wei",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 205,
+    "total": 731.18,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 159279,
+    "fullName": "Maïra Carreau",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 206,
+    "total": 730.27,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/photo_profil3.jpg"
+  },
+  {
+    "athleteId": 163676,
+    "fullName": "Claudia Carmela Paladini",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 207,
+    "total": 729.4,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 176983,
+    "fullName": "Ikumi Seto",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 208,
+    "total": 729.37,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 144058,
+    "fullName": "Kelsey Mitchell",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 209,
+    "total": 725.89,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 170577,
+    "fullName": "Catalina Torres Espinoza",
+    "noc": "CRC",
+    "gender": "female",
+    "rank": 210,
+    "total": 721.49,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070"
+  },
+  {
+    "athleteId": 112653,
+    "fullName": "Gabrielle Lemes",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 211,
+    "total": 716.07,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 41079,
+    "fullName": "Julia Hauser",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 212,
+    "total": 713.36,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUT_Julia_Hauser.jpg"
+  },
+  {
+    "athleteId": 161289,
+    "fullName": "Diana Yerzhanova",
+    "noc": "KAZ",
+    "gender": "female",
+    "rank": 213,
+    "total": 708.73,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 96121,
+    "fullName": "Chi Wen Chang",
+    "noc": "TPE",
+    "gender": "female",
+    "rank": 214,
+    "total": 708.06,
+    "flag": "https://cms.triathlon.org/assets/bd388e65-778d-4e01-99a4-f174aa731213"
+  },
+  {
+    "athleteId": 50952,
+    "fullName": "Sofiya Pryyma",
+    "noc": "UKR",
+    "gender": "female",
+    "rank": 215,
+    "total": 697.46,
+    "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5",
+    "profileImage": "https://prod-tri-assets.imgix.net/fc8d7bfd-b594-4ab8-9409-5e617b457423.HEIC"
+  },
+  {
+    "athleteId": 195687,
+    "fullName": "Faith Duncan",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 216,
+    "total": 692.2,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 132421,
+    "fullName": "Anahi Alvarez Corral",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 217,
+    "total": 684.67,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/MEX_Anahi_Alvarez.jpg"
+  },
+  {
+    "athleteId": 186296,
+    "fullName": "Kaiye Mai",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 218,
+    "total": 679.67,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 186934,
+    "fullName": "Helena Knaapi",
+    "noc": "FIN",
+    "gender": "female",
+    "rank": 219,
+    "total": 677.75,
+    "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
+    "profileImage": "https://prod-tri-assets.imgix.net/9b02383a-fa09-4209-a5ce-d04d4e2b545b.jpeg"
+  },
+  {
+    "athleteId": 174533,
+    "fullName": "Kanade Sugiura",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 220,
+    "total": 673.61,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 198974,
+    "fullName": "Jirong Dong",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 221,
+    "total": 673.1,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 106357,
+    "fullName": "Magdalena Sudak",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 222,
+    "total": 672.34,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 71763,
+    "fullName": "Hannah Newman",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 223,
+    "total": 662.61,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG-20231007-WA00242.jpg"
+  },
+  {
+    "athleteId": 150488,
+    "fullName": "Felipa Herrmann",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 224,
+    "total": 661.42,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/232A9188-93E5-4DA9-9192-4B7A0406DC0B.jpeg"
+  },
+  {
+    "athleteId": 117013,
+    "fullName": "Bridget Theunissen",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 225,
+    "total": 654.43,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+    "profileImage": "https://prod-tri-assets.imgix.net/f56b9a18-4ef7-401f-913a-1511b8851029.jpeg"
+  },
+  {
+    "athleteId": 168244,
+    "fullName": "Julia Visgueiro",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 226,
+    "total": 653.31,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 143348,
+    "fullName": "Molly Lakustiak",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 227,
+    "total": 648.59,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/c2ef917f-9b8c-4436-a5c5-15a1f01d1789.jpeg"
+  },
+  {
+    "athleteId": 161242,
+    "fullName": "Anna Busse",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 228,
+    "total": 641.03,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 104179,
+    "fullName": "Bailee Brown",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 229,
+    "total": 639.99,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 148768,
+    "fullName": "Noémi Van der Kaaij",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 230,
+    "total": 639.41,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/50074b24-2e64-4578-9eb8-eeb35ad3623b.jpeg"
+  },
+  {
+    "athleteId": 181192,
+    "fullName": "Chiara Göttler",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 231,
+    "total": 635.66,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 163837,
+    "fullName": "Hinaka Masuda",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 232,
+    "total": 635.13,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 165494,
+    "fullName": "Manami Iijima",
+    "noc": "GUM",
+    "gender": "female",
+    "rank": 233,
+    "total": 625.72,
+    "flag": "https://cms.triathlon.org/assets/c24a53e8-cd27-4331-846d-9c562b627aa9",
+    "profileImage": "https://prod-tri-assets.imgix.net/240713_090300-44pbB22_(1).jpg"
+  },
+  {
+    "athleteId": 124748,
+    "fullName": "Hye Rang Kim",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 234,
+    "total": 625.59,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 106184,
+    "fullName": "Alzbeta Hruskova",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 235,
+    "total": 612.13,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/7323d85e-eb5a-44f5-ad27-7489d30d00c3.JPG"
+  },
+  {
+    "athleteId": 178014,
+    "fullName": "Mira Ivanova Georgieva",
+    "noc": "BUL",
+    "gender": "female",
+    "rank": 236,
+    "total": 603.51,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d"
+  },
+  {
+    "athleteId": 82782,
+    "fullName": "Henrika Parviainen",
+    "noc": "FIN",
+    "gender": "female",
+    "rank": 237,
+    "total": 602.26,
+    "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
+    "profileImage": "https://prod-tri-assets.imgix.net/Henrika_Parviainen_(FIN)_-_U232017.JPG"
+  },
+  {
+    "athleteId": 115103,
+    "fullName": "Chiara Lobba",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 238,
+    "total": 601.72,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/lobba_ITA.jpg"
+  },
+  {
+    "athleteId": 158203,
+    "fullName": "Borbála Sarcia",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 239,
+    "total": 596.42,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/ffc05375-7309-4d46-9088-7c5bc06ca82b.jpeg"
+  },
+  {
+    "athleteId": 111867,
+    "fullName": "Matilda Offord",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 240,
+    "total": 590.42,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 131272,
+    "fullName": "Valentina Alvarez Valencia",
+    "noc": "COL",
+    "gender": "female",
+    "rank": 241,
+    "total": 589.28,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+    "profileImage": "https://prod-tri-assets.imgix.net/ea83ef1a-e405-4aaa-8e43-a6054ce17460.jpeg"
+  },
+  {
+    "athleteId": 93585,
+    "fullName": "Moira Miranda",
+    "noc": "ARG",
+    "gender": "female",
+    "rank": 242,
+    "total": 585.91,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+    "profileImage": "https://prod-tri-assets.imgix.net/moira_miranda.jpg"
+  },
+  {
+    "athleteId": 124071,
+    "fullName": "Andie Kuipers",
+    "noc": "ZIM",
+    "gender": "female",
+    "rank": 243,
+    "total": 585.02,
+    "flag": "https://cms.triathlon.org/assets/2046e2e0-4a74-47e8-8a79-642704389bcd"
+  },
+  {
+    "athleteId": 159797,
+    "fullName": "Mit Wittemans",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 244,
+    "total": 584.73,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 166540,
+    "fullName": "Martina McDowell",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 245,
+    "total": 579.89,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 162677,
+    "fullName": "Gyeongmin Park",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 246,
+    "total": 579.24,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 151111,
+    "fullName": "Iva Pavlovic",
+    "noc": "SRB",
+    "gender": "female",
+    "rank": 247,
+    "total": 573.77,
+    "flag": "https://cms.triathlon.org/assets/80f61391-9151-4ccb-a76c-4595150a2816",
+    "profileImage": "https://prod-tri-assets.imgix.net/E73CD531-F1E2-4B75-9C3A-7663843DA489.jpeg"
+  },
+  {
+    "athleteId": 128034,
+    "fullName": "Joanna Woźniak",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 248,
+    "total": 567.12,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/ab17d135-c221-4c75-a3dd-f7d3f5257c4b.jpeg"
+  },
+  {
+    "athleteId": 136125,
+    "fullName": "Alina Sinevich",
+    "noc": "BLR",
+    "gender": "female",
+    "rank": 249,
+    "total": 566.91,
+    "flag": "https://cms.triathlon.org/assets/cdd1c3f1-e63c-44c7-a917-93cfed159277"
+  },
+  {
+    "athleteId": 106712,
+    "fullName": "Tatiana Baskakova",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 250,
+    "total": 564.42,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 140773,
+    "fullName": "Elena Polaert",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 251,
+    "total": 564.22,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 161351,
+    "fullName": "Diana Biktimirova",
+    "noc": "UZB",
+    "gender": "female",
+    "rank": 252,
+    "total": 560.7,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7"
+  },
+  {
+    "athleteId": 160574,
+    "fullName": "Michaela Sterbova",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 253,
+    "total": 553.31,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/3b305a16-0ac7-4bd3-ba55-5715b6de96a6.jpeg"
+  },
+  {
+    "athleteId": 158436,
+    "fullName": "Tinkara Stres",
+    "noc": "SLO",
+    "gender": "female",
+    "rank": 254,
+    "total": 552.77,
+    "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12"
+  },
+  {
+    "athleteId": 7795,
+    "fullName": "Vicky Holland",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 255,
+    "total": 546.43,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/vicky_holland_GBR.jpg"
+  },
+  {
+    "athleteId": 141785,
+    "fullName": "Sofya Kryvetskaya",
+    "noc": "BLR",
+    "gender": "female",
+    "rank": 256,
+    "total": 544.46,
+    "flag": "https://cms.triathlon.org/assets/cdd1c3f1-e63c-44c7-a917-93cfed159277"
+  },
+  {
+    "athleteId": 175115,
+    "fullName": "Hannah Pollock",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 257,
+    "total": 540.5,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 141286,
+    "fullName": "Nika Rimaj",
+    "noc": "CRO",
+    "gender": "female",
+    "rank": 258,
+    "total": 534.33,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2"
+  },
+  {
+    "athleteId": 151968,
+    "fullName": "Léonie Douche",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 259,
+    "total": 531.17,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 141306,
+    "fullName": "Sofia Gelati",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 260,
+    "total": 529.68,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 22170,
+    "fullName": "Rachel Klamer",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 261,
+    "total": 525.41,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/2600256b-225a-4cc1-a007-4a4faaf15961.jpg"
+  },
+  {
+    "athleteId": 116271,
+    "fullName": "Karolina Helga Horváth",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 262,
+    "total": 520.69,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7565.jpeg"
+  },
+  {
+    "athleteId": 143473,
+    "fullName": "Marlen Alejandra Abigail Aguilar Bolaños",
+    "noc": "GUA",
+    "gender": "female",
+    "rank": 263,
+    "total": 519.12,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d",
+    "profileImage": "https://prod-tri-assets.imgix.net/c47013da-7fff-43f3-b939-959a5295d045.jpeg"
+  },
+  {
+    "athleteId": 186664,
+    "fullName": "Isabella Fernandez",
+    "noc": "PUR",
+    "gender": "female",
+    "rank": 264,
+    "total": 518.59,
+    "flag": "https://cms.triathlon.org/assets/c92129ea-68f5-4522-847f-0481514f68be"
+  },
+  {
+    "athleteId": 149442,
+    "fullName": "Hasse Fleerackers",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 265,
+    "total": 516.12,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 127928,
+    "fullName": "Myral Greco",
+    "noc": "ALB",
+    "gender": "female",
+    "rank": 266,
+    "total": 514.3,
+    "flag": "https://cms.triathlon.org/assets/98be0253-3929-44b8-b2a7-b84bc48eb03c"
+  },
+  {
+    "athleteId": 47942,
+    "fullName": "Melanie Santos",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 267,
+    "total": 509.89,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/POR_Melanie_Santos.jpg"
+  },
+  {
+    "athleteId": 162670,
+    "fullName": "Anna Zehnder",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 268,
+    "total": 509.46,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Anna_Zehnder_Swiss_Triathlon_Team_Portraits_2021_2000px_mitchproductions.jpg"
+  },
+  {
+    "athleteId": 134890,
+    "fullName": "Lana Gavrilović",
+    "noc": "SRB",
+    "gender": "female",
+    "rank": 269,
+    "total": 499.13,
+    "flag": "https://cms.triathlon.org/assets/80f61391-9151-4ccb-a76c-4595150a2816",
+    "profileImage": "https://prod-tri-assets.imgix.net/a71be73f-f3b3-4b65-b7d9-1d80307edca7.jpeg"
+  },
+  {
+    "athleteId": 39533,
+    "fullName": "Leslie Amat Alvarez",
+    "noc": "CUB",
+    "gender": "female",
+    "rank": 270,
+    "total": 493.3,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa",
+    "profileImage": "https://prod-tri-assets.imgix.net/leslie_amat_alvarez_1.jpg"
+  },
+  {
+    "athleteId": 136132,
+    "fullName": "Alice Perjoiu",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 271,
+    "total": 493.05,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 140952,
+    "fullName": "Dana Prikrylova",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 272,
+    "total": 491,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/CollageMaker_20210924_182809529.jpg"
+  },
+  {
+    "athleteId": 165599,
+    "fullName": "Raven Alcoseba",
+    "noc": "PHI",
+    "gender": "female",
+    "rank": 273,
+    "total": 489.51,
+    "flag": "https://cms.triathlon.org/assets/e4fee7b5-8c65-402f-a89b-7d4d5fe30225"
+  },
+  {
+    "athleteId": 153719,
+    "fullName": "Matilde Silva Santos",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 274,
+    "total": 488.73,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-351.jpg"
+  },
+  {
+    "athleteId": 93997,
+    "fullName": "Raquel Solis",
+    "noc": "CRC",
+    "gender": "female",
+    "rank": 275,
+    "total": 487.05,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070",
+    "profileImage": "https://prod-tri-assets.imgix.net/raquel_g.jpg"
+  },
+  {
+    "athleteId": 195224,
+    "fullName": "Ava Henville",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 276,
+    "total": 486.32,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 155470,
+    "fullName": "Lydia Musleh",
+    "noc": "JOR",
+    "gender": "female",
+    "rank": 277,
+    "total": 481.94,
+    "flag": "https://cms.triathlon.org/assets/2a5fedcb-6eaa-46e9-96d7-fc82c0ef4213",
+    "profileImage": "https://prod-tri-assets.imgix.net/2c9498e7-7e2d-47f9-bb65-4049e55c50d6.jpg"
+  },
+  {
+    "athleteId": 72769,
+    "fullName": "Claire Michel",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 278,
+    "total": 480.23,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/claire.JPG"
+  },
+  {
+    "athleteId": 166822,
+    "fullName": "Sofia De Rosas",
+    "noc": "ARG",
+    "gender": "female",
+    "rank": 279,
+    "total": 479.88,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+    "profileImage": "https://prod-tri-assets.imgix.net/foto_WT.jpg"
+  },
+  {
+    "athleteId": 170625,
+    "fullName": "Babette Rosman",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 280,
+    "total": 478.95,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8"
+  },
+  {
+    "athleteId": 31760,
+    "fullName": "Marlene Gomez-Göggel",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 281,
+    "total": 476.49,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Marlene_Gomez-Goggel.jpg"
+  },
+  {
+    "athleteId": 132954,
+    "fullName": "Rafaela Capó",
+    "noc": "CHI",
+    "gender": "female",
+    "rank": 282,
+    "total": 474.76,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236"
+  },
+  {
+    "athleteId": 177162,
+    "fullName": "Chelsea Webber",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 283,
+    "total": 473.79,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 198507,
+    "fullName": "Iana Chenskaia",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 284,
+    "total": 470.32,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 137277,
+    "fullName": "Sophia Weiler",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 285,
+    "total": 470.25,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 136171,
+    "fullName": "Bethany Cook",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 286,
+    "total": 469.85,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/ce2269f0-318f-45b3-9227-83619f161f74.jpg"
+  },
+  {
+    "athleteId": 96853,
+    "fullName": "Carlotta Bonacina",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 287,
+    "total": 464.9,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 188682,
+    "fullName": "Lærke Ruby",
+    "noc": "DEN",
+    "gender": "female",
+    "rank": 288,
+    "total": 462.45,
+    "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63"
+  },
+  {
+    "athleteId": 158865,
+    "fullName": "Merel Veltman",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 289,
+    "total": 461.55,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/2ffff621-7d91-445b-991b-5c68140b2120.jfif"
+  },
+  {
+    "athleteId": 187426,
+    "fullName": "Sofia Tikhonova",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 290,
+    "total": 460.9,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 187277,
+    "fullName": "Maša Marković",
+    "noc": "SRB",
+    "gender": "female",
+    "rank": 291,
+    "total": 456.5,
+    "flag": "https://cms.triathlon.org/assets/80f61391-9151-4ccb-a76c-4595150a2816"
+  },
+  {
+    "athleteId": 139929,
+    "fullName": "Imene Maldji",
+    "noc": "ALG",
+    "gender": "female",
+    "rank": 292,
+    "total": 452.88,
+    "flag": "https://cms.triathlon.org/assets/536b4ac1-632a-461f-af91-44e39e1408a2"
+  },
+  {
+    "athleteId": 161766,
+    "fullName": "Yeva Soroka",
+    "noc": "UKR",
+    "gender": "female",
+    "rank": 293,
+    "total": 452.79,
+    "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5"
+  },
+  {
+    "athleteId": 161236,
+    "fullName": "Leann Dietzel",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 294,
+    "total": 452.1,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-33.jpg"
+  },
+  {
+    "athleteId": 92476,
+    "fullName": "Lauren Kerwick",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 295,
+    "total": 451.21,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 143556,
+    "fullName": "Bivian Andrea Luisita Diaz Fuentes",
+    "noc": "GUA",
+    "gender": "female",
+    "rank": 296,
+    "total": 450.94,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d"
+  },
+  {
+    "athleteId": 185830,
+    "fullName": "Karmen Fabris",
+    "noc": "CRO",
+    "gender": "female",
+    "rank": 297,
+    "total": 447.59,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2"
+  },
+  {
+    "athleteId": 186610,
+    "fullName": "Valentina Sofia Negron",
+    "noc": "PUR",
+    "gender": "female",
+    "rank": 298,
+    "total": 446.53,
+    "flag": "https://cms.triathlon.org/assets/c92129ea-68f5-4522-847f-0481514f68be"
+  },
+  {
+    "athleteId": 186103,
+    "fullName": "Mia Foster",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 299,
+    "total": 444.64,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 175514,
+    "fullName": "Ruth Pardy",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 300,
+    "total": 440.86,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 166829,
+    "fullName": "Yaniuska Mared Jimenez Arriechi",
+    "noc": "VEN",
+    "gender": "female",
+    "rank": 301,
+    "total": 439.77,
+    "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828"
+  },
+  {
+    "athleteId": 186339,
+    "fullName": "Sophie Webber",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 302,
+    "total": 435.42,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 188885,
+    "fullName": "Claire Spicknall",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 303,
+    "total": 434.27,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 115330,
+    "fullName": "Hannelore Willen",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 304,
+    "total": 433.45,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/d1b5e3d6-b4a4-4464-b833-fca193b71d75.png"
+  },
+  {
+    "athleteId": 168605,
+    "fullName": "Isabella Hayes",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 305,
+    "total": 432.25,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/b85987e4-476d-4e18-b6eb-a4c0a83ee7e8.jpeg"
+  },
+  {
+    "athleteId": 136366,
+    "fullName": "Siyi Zhang",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 306,
+    "total": 432.01,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_154246_PBA_6763b.jpg"
+  },
+  {
+    "athleteId": 170038,
+    "fullName": "Beate Jansone",
+    "noc": "LAT",
+    "gender": "female",
+    "rank": 307,
+    "total": 426.85,
+    "flag": "https://cms.triathlon.org/assets/2e9f54c2-ce97-44a1-813f-91179b186145",
+    "profileImage": "https://prod-tri-assets.imgix.net/8b1a6ac3-cfeb-4203-903d-2cf71e564ccc.JPG"
+  },
+  {
+    "athleteId": 164828,
+    "fullName": "Yuan Yuan",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 308,
+    "total": 415.08,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 170079,
+    "fullName": "Millie Breese",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 309,
+    "total": 410.41,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 131224,
+    "fullName": "Marie Wattiez",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 310,
+    "total": 408.02,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_4290.jpeg"
+  },
+  {
+    "athleteId": 83986,
+    "fullName": "Gyuri Kim",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 311,
+    "total": 407.81,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/Gyuri_Kim.jpg"
+  },
+  {
+    "athleteId": 182213,
+    "fullName": "Julia Bodenschatz",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 312,
+    "total": 401.5,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 132504,
+    "fullName": "Aimee Roux",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 313,
+    "total": 401.47,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  },
+  {
+    "athleteId": 184069,
+    "fullName": "Seoeun Park",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 314,
+    "total": 401.41,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 115022,
+    "fullName": "Anja Weber",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 315,
+    "total": 396.4,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Picsart_23-09-05_19-50-26-8791.png"
+  },
+  {
+    "athleteId": 166176,
+    "fullName": "Charlotte Brown",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 316,
+    "total": 386.21,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 118919,
+    "fullName": "Herlene Natasha Yu",
+    "noc": "SGP",
+    "gender": "female",
+    "rank": 317,
+    "total": 385.5,
+    "flag": "https://cms.triathlon.org/assets/f418db4b-45e7-485a-9088-827b2aa80852"
+  },
+  {
+    "athleteId": 110580,
+    "fullName": "Ellie White",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 318,
+    "total": 381.78,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 176013,
+    "fullName": "Maja Jeanne Brinkmann",
+    "noc": "NAM",
+    "gender": "female",
+    "rank": 319,
+    "total": 381.09,
+    "flag": "https://cms.triathlon.org/assets/afd1b1cf-dbd4-4f3a-b8c5-244d5858d1f5"
+  },
+  {
+    "athleteId": 175020,
+    "fullName": "Binta Erlen Salsabela",
+    "noc": "INA",
+    "gender": "female",
+    "rank": 320,
+    "total": 378.64,
+    "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d"
+  },
+  {
+    "athleteId": 26478,
+    "fullName": "Petra Kurikova",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 321,
+    "total": 377.65,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/COV_foto_003_id_sOH3fkC9ThAAAAAAAAORow.jpg"
+  },
+  {
+    "athleteId": 159697,
+    "fullName": "Annie Fuller",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 322,
+    "total": 367.16,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 79059,
+    "fullName": "Lena Meißner",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 323,
+    "total": 363.59,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Lena_Meissner.jpg"
+  },
+  {
+    "athleteId": 180779,
+    "fullName": "Lara Atkinson",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 324,
+    "total": 361.21,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 97023,
+    "fullName": "Désirée Gmür",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 325,
+    "total": 360.31,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/DESIwasser1.jpg"
+  },
+  {
+    "athleteId": 175585,
+    "fullName": "Emma O'Brien",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 326,
+    "total": 356.61,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746"
+  },
+  {
+    "athleteId": 170123,
+    "fullName": "Mürya Karayel",
+    "noc": "TUR",
+    "gender": "female",
+    "rank": 327,
+    "total": 356.5,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab"
+  },
+  {
+    "athleteId": 7915,
+    "fullName": "Long Hoi",
+    "noc": "MAC",
+    "gender": "female",
+    "rank": 328,
+    "total": 355.85,
+    "flag": "https://cms.triathlon.org/assets/6cab901f-290c-44cf-8139-553b17278b4c",
+    "profileImage": "https://prod-tri-assets.imgix.net/mmexport1527573136724.jpg"
+  },
+  {
+    "athleteId": 155297,
+    "fullName": "Ghizlane Assou",
+    "noc": "MAR",
+    "gender": "female",
+    "rank": 329,
+    "total": 355.2,
+    "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
+    "profileImage": "https://prod-tri-assets.imgix.net/98bfea5b-7e00-4703-bd67-60c6e29b5cc4.JPEG"
+  },
+  {
+    "athleteId": 173480,
+    "fullName": "Saoirse O'Brien",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 330,
+    "total": 349.11,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746"
+  },
+  {
+    "athleteId": 167863,
+    "fullName": "Esther Joy Hong Li Chen",
+    "noc": "MAS",
+    "gender": "female",
+    "rank": 331,
+    "total": 348.82,
+    "flag": "https://cms.triathlon.org/assets/afe87cfc-00eb-45ac-9636-d643e86c1525"
+  },
+  {
+    "athleteId": 165656,
+    "fullName": "Manon Pomme",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 332,
+    "total": 348.64,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 180365,
+    "fullName": "Lisa Lecompte",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 333,
+    "total": 347.18,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 163842,
+    "fullName": "Yume Obara",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 334,
+    "total": 345.67,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 136162,
+    "fullName": "Huiwen Jia",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 335,
+    "total": 345.44,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 188987,
+    "fullName": "Tunde Georgiana Crisan",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 336,
+    "total": 342.21,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 173277,
+    "fullName": "Nora Nouri",
+    "noc": "MAR",
+    "gender": "female",
+    "rank": 337,
+    "total": 342.03,
+    "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095"
+  },
+  {
+    "athleteId": 165722,
+    "fullName": "Cristina Jímenez-Orta Guerrero",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 338,
+    "total": 341.66,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 159799,
+    "fullName": "Odil Wittemans",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 339,
+    "total": 340.42,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 187081,
+    "fullName": "Gabriela Machado Penteado",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 340,
+    "total": 338.78,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 166211,
+    "fullName": "Etriin Etverk",
+    "noc": "EST",
+    "gender": "female",
+    "rank": 341,
+    "total": 338.14,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954"
+  },
+  {
+    "athleteId": 132458,
+    "fullName": "Vanessa Possberg",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 342,
+    "total": 336.17,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-20.jpg"
+  },
+  {
+    "athleteId": 70073,
+    "fullName": "Paula Jara",
+    "noc": "ECU",
+    "gender": "female",
+    "rank": 343,
+    "total": 335.63,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/FB_IMG_1569460560204.jpg"
+  },
+  {
+    "athleteId": 186294,
+    "fullName": "Ziye Liu",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 344,
+    "total": 334.03,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 83096,
+    "fullName": "Summer Rappaport",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 345,
+    "total": 332.86,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Summer_Rappaport.jpg"
+  },
+  {
+    "athleteId": 195317,
+    "fullName": "Addison Houslip",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 346,
+    "total": 332.28,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 158201,
+    "fullName": "Nora Romina Nádas",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 347,
+    "total": 328.67,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/1037fc04-3412-4944-875f-ea91fb82588e.png"
+  },
+  {
+    "athleteId": 113388,
+    "fullName": "Colette Reimer",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 348,
+    "total": 326.85,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 163846,
+    "fullName": "Saki Yanagihara",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 349,
+    "total": 325.37,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 84816,
+    "fullName": "Julie Derron",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 350,
+    "total": 325,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Dan_Ciric.jpg"
+  },
+  {
+    "athleteId": 158232,
+    "fullName": "Sara Crociani",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 351,
+    "total": 323.81,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 167091,
+    "fullName": "Johanna Uherek",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 352,
+    "total": 321.15,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 63045,
+    "fullName": "Daryna Moskalenko",
+    "noc": "UKR",
+    "gender": "female",
+    "rank": 353,
+    "total": 320.81,
+    "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5",
+    "profileImage": "https://prod-tri-assets.imgix.net/6b4c2827-6abe-4b2b-96d6-edbca09c5b6d.jpeg"
+  },
+  {
+    "athleteId": 186113,
+    "fullName": "Gwen Watson",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 354,
+    "total": 319.25,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 163841,
+    "fullName": "Rio Noda",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 355,
+    "total": 318.12,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 119200,
+    "fullName": "Elizabeth Carr",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 356,
+    "total": 314.99,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/Elizabeth_Carr_(IRL)_-_U232017.JPG"
+  },
+  {
+    "athleteId": 135763,
+    "fullName": "Rhune Vansteenkiste",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 357,
+    "total": 312.82,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 136170,
+    "fullName": "Lizzy Edge",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 358,
+    "total": 312.04,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-60.jpg"
+  },
+  {
+    "athleteId": 161461,
+    "fullName": "Beāte Bula",
+    "noc": "LAT",
+    "gender": "female",
+    "rank": 359,
+    "total": 309.45,
+    "flag": "https://cms.triathlon.org/assets/2e9f54c2-ce97-44a1-813f-91179b186145"
+  },
+  {
+    "athleteId": 116266,
+    "fullName": "Inês Rico",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 360,
+    "total": 309.03,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/bc70c172-9e69-4253-8c75-b9a93312f914.jpeg"
+  },
+  {
+    "athleteId": 127361,
+    "fullName": "Nataliia Kolesova",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 361,
+    "total": 307.42,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_6138.JPG"
+  },
+  {
+    "athleteId": 162109,
+    "fullName": "Dóra Pusztai",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 362,
+    "total": 305.43,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640"
+  },
+  {
+    "athleteId": 179171,
+    "fullName": "Rebecca Jansen",
+    "noc": "ARU",
+    "gender": "female",
+    "rank": 363,
+    "total": 302.57,
+    "flag": "https://cms.triathlon.org/assets/bf4c38ba-b114-4a73-bf37-4e444683347a"
+  },
+  {
+    "athleteId": 181260,
+    "fullName": "Míriam Andreu Diaz",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 364,
+    "total": 300.46,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/504db7e1-c1b9-41af-8ae6-56d65c95dd85.png"
+  },
+  {
+    "athleteId": 185396,
+    "fullName": "Narumi Kanke",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 365,
+    "total": 300.29,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 169322,
+    "fullName": "Sawa Eguchi",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 366,
+    "total": 299.37,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 176099,
+    "fullName": "Cara Macdonald",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 367,
+    "total": 298.54,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 178154,
+    "fullName": "Valeria Arce Núñez",
+    "noc": "CRC",
+    "gender": "female",
+    "rank": 368,
+    "total": 292.99,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070"
+  },
+  {
+    "athleteId": 123702,
+    "fullName": "Alexandra Poole",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 369,
+    "total": 290.67,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 202811,
+    "fullName": "Hanna Röser",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 370,
+    "total": 288.36,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d"
+  },
+  {
+    "athleteId": 151350,
+    "fullName": "Anna Maria Besenyei",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 371,
+    "total": 286.07,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 132766,
+    "fullName": "Kerry Morris",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 372,
+    "total": 285.3,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746"
+  },
+  {
+    "athleteId": 69374,
+    "fullName": "Ivana Kuriackova",
+    "noc": "SVK",
+    "gender": "female",
+    "rank": 373,
+    "total": 284.97,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7749.jpeg"
+  },
+  {
+    "athleteId": 181546,
+    "fullName": "Carlotta Bülck",
+    "noc": "GER",
+    "gender": "female",
+    "rank": 374,
+    "total": 282.44,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 122353,
+    "fullName": "Erin McConnell",
+    "noc": "IRL",
+    "gender": "female",
+    "rank": 375,
+    "total": 281.29,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/2e71d207-b5f2-4a32-8cce-bd800cfa52ce.png"
+  },
+  {
+    "athleteId": 111680,
+    "fullName": "Liberty Ricca",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 376,
+    "total": 280.23,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 158366,
+    "fullName": "Alice Riebler",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 377,
+    "total": 277.42,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 158770,
+    "fullName": "Tabea Huys",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 378,
+    "total": 276.68,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_2993.jpeg"
+  },
+  {
+    "athleteId": 170078,
+    "fullName": "Eve Whitaker",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 379,
+    "total": 275.84,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 191988,
+    "fullName": "Caroline Theil",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 380,
+    "total": 273.9,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 158843,
+    "fullName": "Linda Hehenwarter",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 381,
+    "total": 272.17,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/20220322194929.JPG"
+  },
+  {
+    "athleteId": 58591,
+    "fullName": "Tamara Gorman",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 382,
+    "total": 267.09,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/tamara_gorman_USA.jpg"
+  },
+  {
+    "athleteId": 123552,
+    "fullName": "Cecilia Sayuri Ramirez Alavez",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 383,
+    "total": 266.65,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Ramirez1.jpg"
+  },
+  {
+    "athleteId": 132459,
+    "fullName": "Sarah McClure",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 384,
+    "total": 261.84,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 123934,
+    "fullName": "Eliana Estefania Diaz",
+    "noc": "ARG",
+    "gender": "female",
+    "rank": 385,
+    "total": 260.42,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG-20230423-WA0064.jpg"
+  },
+  {
+    "athleteId": 45790,
+    "fullName": "Jolanda Annen",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 386,
+    "total": 260.38,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/VL_SHT_JOLANDA_3582366-Bearbeitet.jpg"
+  },
+  {
+    "athleteId": 171429,
+    "fullName": "Yen Ling Kathlyn Yeo",
+    "noc": "SGP",
+    "gender": "female",
+    "rank": 387,
+    "total": 259.75,
+    "flag": "https://cms.triathlon.org/assets/f418db4b-45e7-485a-9088-827b2aa80852"
+  },
+  {
+    "athleteId": 161410,
+    "fullName": "Emma Ryšávková",
+    "noc": "CZE",
+    "gender": "female",
+    "rank": 388,
+    "total": 254.35,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229"
+  },
+  {
+    "athleteId": 190412,
+    "fullName": "Alua Nurmuhamet",
+    "noc": "KAZ",
+    "gender": "female",
+    "rank": 389,
+    "total": 252.42,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 187429,
+    "fullName": "Elizaveta Polianskaia",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 390,
+    "total": 252.28,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 167043,
+    "fullName": "Michelle Stratton",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 391,
+    "total": 251.96,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 202341,
+    "fullName": "Elke Rayward",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 392,
+    "total": 251.93,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 186871,
+    "fullName": "Kayla Nadia Shafa",
+    "noc": "INA",
+    "gender": "female",
+    "rank": 393,
+    "total": 251.08,
+    "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d"
+  },
+  {
+    "athleteId": 166152,
+    "fullName": "Lulu Johnson",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 394,
+    "total": 248.28,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-90.jpg"
+  },
+  {
+    "athleteId": 155235,
+    "fullName": "Maria Alzaga Criado",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 395,
+    "total": 246.29,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 172495,
+    "fullName": "Renata Berliana Aditya",
+    "noc": "INA",
+    "gender": "female",
+    "rank": 396,
+    "total": 245.07,
+    "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d"
+  },
+  {
+    "athleteId": 7776,
+    "fullName": "Flora Duffy",
+    "noc": "BER",
+    "gender": "female",
+    "rank": 397,
+    "total": 244.03,
+    "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
+    "profileImage": "https://prod-tri-assets.imgix.net/flora_duffy_BER.jpg"
+  },
+  {
+    "athleteId": 114796,
+    "fullName": "Silke De Wolde",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 398,
+    "total": 243.17,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/Sicke_DeWolde.jpg"
+  },
+  {
+    "athleteId": 169876,
+    "fullName": "Linda Krombach",
+    "noc": "LUX",
+    "gender": "female",
+    "rank": 399,
+    "total": 241.15,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/2c5856cd-4c87-4f7c-9895-62197270ed0a.jpeg"
+  },
+  {
+    "athleteId": 163939,
+    "fullName": "Roza Sporcic",
+    "noc": "CRO",
+    "gender": "female",
+    "rank": 400,
+    "total": 236.9,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2"
+  },
+  {
+    "athleteId": 195373,
+    "fullName": "Victoria Arce Nuñez",
+    "noc": "CRC",
+    "gender": "female",
+    "rank": 401,
+    "total": 235.77,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070"
+  },
+  {
+    "athleteId": 161330,
+    "fullName": "Lotte Minnebo",
+    "noc": "BEL",
+    "gender": "female",
+    "rank": 402,
+    "total": 235.57,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 39381,
+    "fullName": "Dominika Jamnicky",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 403,
+    "total": 230.29,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/377999555_686944240136059_1183515696531684544_n.jpeg"
+  },
+  {
+    "athleteId": 143329,
+    "fullName": "Noemie Beaulieu",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 404,
+    "total": 228.14,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1613-Edit.jpg"
+  },
+  {
+    "athleteId": 124477,
+    "fullName": "Xinying Yu",
+    "noc": "CHN",
+    "gender": "female",
+    "rank": 405,
+    "total": 227.74,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 190142,
+    "fullName": "Yukiho Okuma",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 406,
+    "total": 226.76,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 163047,
+    "fullName": "Iida Reini",
+    "noc": "FIN",
+    "gender": "female",
+    "rank": 407,
+    "total": 223.77,
+    "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73"
+  },
+  {
+    "athleteId": 12785,
+    "fullName": "Juri Ide",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 408,
+    "total": 222.79,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/Juri_Ide.jpg"
+  },
+  {
+    "athleteId": 149873,
+    "fullName": "Aleksandra Ferchmin",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 409,
+    "total": 221.65,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 190112,
+    "fullName": "Jasmine Cooper",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 410,
+    "total": 219.63,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 195859,
+    "fullName": "Rachel O'Donoghue",
+    "noc": "ZIM",
+    "gender": "female",
+    "rank": 411,
+    "total": 218.18,
+    "flag": "https://cms.triathlon.org/assets/2046e2e0-4a74-47e8-8a79-642704389bcd",
+    "profileImage": "https://prod-tri-assets.imgix.net/c7577bb0-028c-4436-b13c-173adb263d6e.jpeg"
+  },
+  {
+    "athleteId": 182671,
+    "fullName": "Anita Ghelardoni",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 412,
+    "total": 217.16,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 196864,
+    "fullName": "Eliana Portillo Laflamme",
+    "noc": "ESA",
+    "gender": "female",
+    "rank": 413,
+    "total": 216.54,
+    "flag": "https://cms.triathlon.org/assets/96baef4a-4a18-43b3-a4f6-086b07432075"
+  },
+  {
+    "athleteId": 162510,
+    "fullName": "Natalija Seslija",
+    "noc": "SRB",
+    "gender": "female",
+    "rank": 414,
+    "total": 214.54,
+    "flag": "https://cms.triathlon.org/assets/80f61391-9151-4ccb-a76c-4595150a2816"
+  },
+  {
+    "athleteId": 195901,
+    "fullName": "Manuela Ortega Arteaga",
+    "noc": "ECU",
+    "gender": "female",
+    "rank": 415,
+    "total": 213.9,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f"
+  },
+  {
+    "athleteId": 199871,
+    "fullName": "Indie Williams",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 416,
+    "total": 210.69,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 165327,
+    "fullName": "Marley Andelman",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 417,
+    "total": 210.68,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 166262,
+    "fullName": "Gabriella Jackson",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 418,
+    "total": 209.85,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 73426,
+    "fullName": "Lizeth Rueda Santos",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 419,
+    "total": 208.1,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-35.jpg"
+  },
+  {
+    "athleteId": 107629,
+    "fullName": "Sharon Spimi",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 420,
+    "total": 206.72,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/received_5225548521469221.jpeg"
+  },
+  {
+    "athleteId": 165723,
+    "fullName": "Amélie Gorka",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 421,
+    "total": 202.87,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc"
+  },
+  {
+    "athleteId": 135034,
+    "fullName": "Józefina Młynarska",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 422,
+    "total": 198.31,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/F71A97F6-F8D2-408B-ADD7-6CD554FD3573.jpeg"
+  },
+  {
+    "athleteId": 127440,
+    "fullName": "Emma Jean Neal",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 423,
+    "total": 198.26,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 165328,
+    "fullName": "Mia Wentzy",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 424,
+    "total": 196.83,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 187082,
+    "fullName": "Maria Luiza Simão de Oliveira",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 425,
+    "total": 192.53,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 149367,
+    "fullName": "Inna Sysoeva",
+    "noc": "AIN",
+    "gender": "female",
+    "rank": 426,
+    "total": 190.36,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 168232,
+    "fullName": "Jamie Harker",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 427,
+    "total": 189.61,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 144056,
+    "fullName": "Madison Toovey",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 427,
+    "total": 189.61,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 186145,
+    "fullName": "Hayley Cornwall",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 429,
+    "total": 189.45,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 81025,
+    "fullName": "Luma Guillen",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 430,
+    "total": 188.89,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 125368,
+    "fullName": "Fruzsina Dóra Kovács",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 431,
+    "total": 188.66,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640"
+  },
+  {
+    "athleteId": 169742,
+    "fullName": "Amalia Maria Singuran",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 432,
+    "total": 187.86,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 169659,
+    "fullName": "Denise Cavallini",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 433,
+    "total": 187.58,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_2428.jpeg"
+  },
+  {
+    "athleteId": 168263,
+    "fullName": "Mayda Del Milagro Hernandez",
+    "noc": "GUA",
+    "gender": "female",
+    "rank": 434,
+    "total": 187.21,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d"
+  },
+  {
+    "athleteId": 113440,
+    "fullName": "Mariam Shaban",
+    "noc": "JOR",
+    "gender": "female",
+    "rank": 435,
+    "total": 185.65,
+    "flag": "https://cms.triathlon.org/assets/2a5fedcb-6eaa-46e9-96d7-fc82c0ef4213"
+  },
+  {
+    "athleteId": 202330,
+    "fullName": "Jasmine Hume",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 436,
+    "total": 185.12,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 197349,
+    "fullName": "Ana Victoria Portillo Prono",
+    "noc": "PAR",
+    "gender": "female",
+    "rank": 437,
+    "total": 183.02,
+    "flag": "https://cms.triathlon.org/assets/388d2ccd-1fba-4111-9f4e-8e4b512654c7"
+  },
+  {
+    "athleteId": 184984,
+    "fullName": "Alexis Lashley",
+    "noc": "BAR",
+    "gender": "female",
+    "rank": 438,
+    "total": 182.54,
+    "flag": "https://cms.triathlon.org/assets/f12587d9-4bbc-408b-9392-3813ee60799c"
+  },
+  {
+    "athleteId": 158318,
+    "fullName": "Sonja De Koning",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 439,
+    "total": 180.7,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_9346.png"
+  },
+  {
+    "athleteId": 106890,
+    "fullName": "Ellie Hobbs",
+    "noc": "TRI",
+    "gender": "female",
+    "rank": 440,
+    "total": 180.66,
+    "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731"
+  },
+  {
+    "athleteId": 163061,
+    "fullName": "Cassilda Carvalho",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 441,
+    "total": 179.99,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/88eef468-810f-4b8e-a981-e76ad4ba49be.jpeg"
+  },
+  {
+    "athleteId": 142813,
+    "fullName": "Faith Dasso",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 442,
+    "total": 179.59,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_160821_PBA_6909b.jpg"
+  },
+  {
+    "athleteId": 136359,
+    "fullName": "Pauline Courret",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 443,
+    "total": 178.22,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_173049_PBA_7521b.jpg"
+  },
+  {
+    "athleteId": 136596,
+    "fullName": "Yeonu Choi",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 444,
+    "total": 176.8,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 109635,
+    "fullName": "Louisa Marie Middleditch",
+    "noc": "SGP",
+    "gender": "female",
+    "rank": 445,
+    "total": 175.38,
+    "flag": "https://cms.triathlon.org/assets/f418db4b-45e7-485a-9088-827b2aa80852"
+  },
+  {
+    "athleteId": 166470,
+    "fullName": "Luna Sraka",
+    "noc": "SLO",
+    "gender": "female",
+    "rank": 446,
+    "total": 174.57,
+    "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12"
+  },
+  {
+    "athleteId": 175408,
+    "fullName": "Nina James",
+    "noc": "GRN",
+    "gender": "female",
+    "rank": 447,
+    "total": 174.4,
+    "flag": "https://cms.triathlon.org/assets/f747c57a-d7b8-44d1-a44d-7ae4be42dba4"
+  },
+  {
+    "athleteId": 157742,
+    "fullName": "Aniek Mars",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 448,
+    "total": 173.3,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/12c41acd-e0c3-4894-a123-f3ca60399634.png"
+  },
+  {
+    "athleteId": 166410,
+    "fullName": "Costanza Antoniotti",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 449,
+    "total": 173.02,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 128157,
+    "fullName": "Livia Wespe",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 450,
+    "total": 172.84,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc"
+  },
+  {
+    "athleteId": 166212,
+    "fullName": "Mirtel-Madlen Siimar",
+    "noc": "EST",
+    "gender": "female",
+    "rank": 451,
+    "total": 172.55,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954"
+  },
+  {
+    "athleteId": 163488,
+    "fullName": "Isabel Rodriguez Silverio",
+    "noc": "CUB",
+    "gender": "female",
+    "rank": 452,
+    "total": 171.25,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa"
+  },
+  {
+    "athleteId": 179280,
+    "fullName": "Raluca Vilcu",
+    "noc": "ROU",
+    "gender": "female",
+    "rank": 453,
+    "total": 171.14,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 116384,
+    "fullName": "Libby Coleman",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 454,
+    "total": 170.83,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 188676,
+    "fullName": "Mirolyuba Nenkova",
+    "noc": "BUL",
+    "gender": "female",
+    "rank": 455,
+    "total": 170.07,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d"
+  },
+  {
+    "athleteId": 170251,
+    "fullName": "Marie Romanens",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 456,
+    "total": 168.81,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc"
+  },
+  {
+    "athleteId": 7757,
+    "fullName": "Zsófia Kovács",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 457,
+    "total": 168.36,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/Zsofia_Kovacs_(HUN)_-_Elite2017.JPG"
+  },
+  {
+    "athleteId": 170621,
+    "fullName": "Valentina Villa Ramirez",
+    "noc": "COL",
+    "gender": "female",
+    "rank": 458,
+    "total": 165.25,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c"
+  },
+  {
+    "athleteId": 178049,
+    "fullName": "Kathrin Ritter",
+    "noc": "AUT",
+    "gender": "female",
+    "rank": 459,
+    "total": 164.25,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d"
+  },
+  {
+    "athleteId": 133792,
+    "fullName": "Clara Aulinas Prat",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 460,
+    "total": 163.97,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/90df7db3-60db-4c56-8e35-e80bc116e41d.png"
+  },
+  {
+    "athleteId": 165449,
+    "fullName": "Grace Kells",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 461,
+    "total": 162.73,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 94515,
+    "fullName": "Solveig Løvseth",
+    "noc": "NOR",
+    "gender": "female",
+    "rank": 462,
+    "total": 162.01,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+    "profileImage": "https://prod-tri-assets.imgix.net/NOR_Solveig_Lovseth.jpg"
+  },
+  {
+    "athleteId": 161193,
+    "fullName": "Tiphaine Brun",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 463,
+    "total": 161.36,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 180366,
+    "fullName": "Anouk Rigaud",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 464,
+    "total": 160.34,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 16368,
+    "fullName": "Zsanett Kuttor-Bragmayer",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 465,
+    "total": 156.35,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/E0109658-DCB1-4F81-9732-7824E8C8E21E.jpeg"
+  },
+  {
+    "athleteId": 184061,
+    "fullName": "Sarah Modiano",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 466,
+    "total": 156.15,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 116290,
+    "fullName": "Gillian Cridge",
+    "noc": "USA",
+    "gender": "female",
+    "rank": 467,
+    "total": 155.67,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/gillian_cridge_USA.jpg"
+  },
+  {
+    "athleteId": 135673,
+    "fullName": "Luna De Bruin",
+    "noc": "NED",
+    "gender": "female",
+    "rank": 468,
+    "total": 155.42,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-98.jpg"
+  },
+  {
+    "athleteId": 166259,
+    "fullName": "Megan Irungu",
+    "noc": "KEN",
+    "gender": "female",
+    "rank": 469,
+    "total": 154.17,
+    "flag": "https://cms.triathlon.org/assets/78db3ae8-0f66-4560-9755-3d2396c69c19"
+  },
+  {
+    "athleteId": 199583,
+    "fullName": "Louna Cariou",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 470,
+    "total": 150,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 158958,
+    "fullName": "Kathia Mayela Flores Sepulveda",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 471,
+    "total": 148.81,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/0cb3ecfe-5d61-40b9-9ac4-f887c90479a1.jpg"
+  },
+  {
+    "athleteId": 189739,
+    "fullName": "Jeanne Cucheval",
+    "noc": "FRA",
+    "gender": "female",
+    "rank": 472,
+    "total": 148.73,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 143378,
+    "fullName": "Jordan Tissink",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 473,
+    "total": 148.09,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  },
+  {
+    "athleteId": 168911,
+    "fullName": "Laura Szobácsi",
+    "noc": "HUN",
+    "gender": "female",
+    "rank": 474,
+    "total": 147.91,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/16777514536781.jpg"
+  },
+  {
+    "athleteId": 165658,
+    "fullName": "Matilde Tomás",
+    "noc": "POR",
+    "gender": "female",
+    "rank": 475,
+    "total": 147.75,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/a00ed0a9-e7d7-4de9-9700-3e18558df6ae.jpg"
+  },
+  {
+    "athleteId": 187256,
+    "fullName": "Hanna Foltyniewicz",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 476,
+    "total": 147.48,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 171945,
+    "fullName": "Beatrice Normand",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 477,
+    "total": 147.37,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 196898,
+    "fullName": "Tsubomi Yokokura",
+    "noc": "JPN",
+    "gender": "female",
+    "rank": 478,
+    "total": 147.28,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 141644,
+    "fullName": "Sam McInnes",
+    "noc": "GBR",
+    "gender": "female",
+    "rank": 479,
+    "total": 144.85,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 135436,
+    "fullName": "Letizia Martinelli",
+    "noc": "SUI",
+    "gender": "female",
+    "rank": 480,
+    "total": 144.84,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/88189cbc-36c4-41f4-89a7-718d34742cf5.png"
+  },
+  {
+    "athleteId": 199890,
+    "fullName": "Sienna Carter",
+    "noc": "AUS",
+    "gender": "female",
+    "rank": 481,
+    "total": 144.8,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 185135,
+    "fullName": "Charlotte Chiles",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 482,
+    "total": 144.05,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 132250,
+    "fullName": "Ava Snyder",
+    "noc": "CAN",
+    "gender": "female",
+    "rank": 483,
+    "total": 143.22,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 168030,
+    "fullName": "Ula Sijaviciute",
+    "noc": "LTU",
+    "gender": "female",
+    "rank": 484,
+    "total": 142.21,
+    "flag": "https://cms.triathlon.org/assets/0a75b44e-5d39-424a-8b9b-5a97fe8d02ad"
+  },
+  {
+    "athleteId": 158231,
+    "fullName": "Alice Alessandri",
+    "noc": "ITA",
+    "gender": "female",
+    "rank": 485,
+    "total": 139.91,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/99A0ADE5-9916-46F5-B523-CBC18D0C1A82.jpeg"
+  },
+  {
+    "athleteId": 103964,
+    "fullName": "Gihyeon Nam",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 486,
+    "total": 139.28,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 116998,
+    "fullName": "Yejin Park",
+    "noc": "KOR",
+    "gender": "female",
+    "rank": 487,
+    "total": 137.07,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/_반명함_사진.jpg"
+  },
+  {
+    "athleteId": 172937,
+    "fullName": "Lai Ki Nicole Man",
+    "noc": "HKG",
+    "gender": "female",
+    "rank": 488,
+    "total": 136.97,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 123725,
+    "fullName": "Olivia Cummings",
+    "noc": "NZL",
+    "gender": "female",
+    "rank": 489,
+    "total": 136.66,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-341.jpg"
+  },
+  {
+    "athleteId": 170911,
+    "fullName": "María Barceló Serra",
+    "noc": "ESP",
+    "gender": "female",
+    "rank": 490,
+    "total": 136.14,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/22366eac-2fee-48ec-aff0-783ca809b380.png"
+  },
+  {
+    "athleteId": 180851,
+    "fullName": "Martyna Gajda",
+    "noc": "POL",
+    "gender": "female",
+    "rank": 491,
+    "total": 135.66,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 166868,
+    "fullName": "Melany Valeska Tohom Castro",
+    "noc": "GUA",
+    "gender": "female",
+    "rank": 492,
+    "total": 135.62,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d"
+  },
+  {
+    "athleteId": 131972,
+    "fullName": "Gianella Debra Coaguila Pita",
+    "noc": "PER",
+    "gender": "female",
+    "rank": 493,
+    "total": 134.44,
+    "flag": "https://cms.triathlon.org/assets/aedba00d-8cdd-4550-b4c5-b69e04e4eb6f",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-92.jpg"
+  },
+  {
+    "athleteId": 152192,
+    "fullName": "Anastasiya Peycheva",
+    "noc": "BUL",
+    "gender": "female",
+    "rank": 494,
+    "total": 131.37,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d"
+  },
+  {
+    "athleteId": 129928,
+    "fullName": "Yu-Ting Pan",
+    "noc": "TPE",
+    "gender": "female",
+    "rank": 495,
+    "total": 130.69,
+    "flag": "https://cms.triathlon.org/assets/bd388e65-778d-4e01-99a4-f174aa731213"
+  },
+  {
+    "athleteId": 195203,
+    "fullName": "Claudia Gurri Naranjo",
+    "noc": "CUB",
+    "gender": "female",
+    "rank": 496,
+    "total": 130.63,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa"
+  },
+  {
+    "athleteId": 132926,
+    "fullName": "Amanda Moro",
+    "noc": "BRA",
+    "gender": "female",
+    "rank": 497,
+    "total": 129.82,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/foto5x5.jpg"
+  },
+  {
+    "athleteId": 128224,
+    "fullName": "Lizeth Lopez Ortega",
+    "noc": "MEX",
+    "gender": "female",
+    "rank": 498,
+    "total": 129.8,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/722621d0-e574-45c9-ac87-67cac77d9a4e.jpg"
+  },
+  {
+    "athleteId": 187360,
+    "fullName": "Ashleigh Thomas",
+    "noc": "TTO",
+    "gender": "female",
+    "rank": 499,
+    "total": 128.34,
+    "flag": "https://cms.triathlon.org/assets/57716152-71d6-44e2-8e09-608dcc64504d"
+  },
+  {
+    "athleteId": 175790,
+    "fullName": "Lomé Gouws",
+    "noc": "RSA",
+    "gender": "female",
+    "rank": 500,
+    "total": 127.6,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  }
+]

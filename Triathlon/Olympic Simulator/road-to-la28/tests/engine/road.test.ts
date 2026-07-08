@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { analyzeRoad, computeQualifiedNocs, type RoadContext } from "@/lib/engine/road";
+import { analyzeRoad, computeQualifiedNocs, type RoadContext, type WorldRankAthlete } from "@/lib/engine/road";
 import { rankAthletes, computeQualificationLine } from "@/lib/engine/qualification";
 import { DEFAULT_ASSUMPTIONS } from "@/config/pathways";
 import type { AthleteScores } from "@/lib/engine/types";
@@ -10,10 +10,16 @@ function ath(noc: string, total: number): AthleteScores {
   return { athleteId: ++id, fullName: `${noc} Athlete-${total}`, noc, gender: "male", scores: [{ points: total, period: 1 }] };
 }
 
-function ctx(pool: AthleteScores[], mr: MrNationEntry[], subjectId: number, fallback?: RoadContext["subjectFallback"]): RoadContext {
+function ctx(
+  pool: AthleteScores[],
+  mr: MrNationEntry[],
+  subjectId: number,
+  fallback?: RoadContext["subjectFallback"],
+  worldRanking?: WorldRankAthlete[],
+): RoadContext {
   const ranked = rankAthletes(pool);
   const line = computeQualificationLine(pool, { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } });
-  return { ranked, line, mrNations: mr, assumptions: { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } }, subjectId, subjectFallback: fallback };
+  return { ranked, line, mrNations: mr, worldRanking, assumptions: { ...DEFAULT_ASSUMPTIONS, host: { noc: "USA", perGender: 0 } }, subjectId, subjectFallback: fallback };
 }
 
 describe("analyzeRoad", () => {
@@ -72,6 +78,41 @@ describe("analyzeRoad", () => {
     const gbr = pool[0];
     const road = analyzeRoad(ctx(pool, [], gbr.athleteId));
     expect(road.routes.some((r) => r.key.startsWith("newflag"))).toBe(false);
+  });
+
+  it("draws New Flag rivals from the full World Ranking, not just the OQR pool", () => {
+    // OQR pool: only Europeans + one EGY subject. The African rivals (MAR, RSA)
+    // exist ONLY in the World Ranking — they must still surface as New Flag rivals.
+    const pool = [...Array.from({ length: 25 }, (_, i) => ath(`EUR${i}`, 1600 - i * 10)), ath("EGY", 250)];
+    const egy = pool.find((a) => a.noc === "EGY")!;
+    const world: WorldRankAthlete[] = [
+      { athleteId: egy.athleteId, fullName: "EGY Subject", noc: "EGY", rank: 300 },
+      { athleteId: 9001, fullName: "Morocco Runner", noc: "MAR", rank: 29 },
+      { athleteId: 9002, fullName: "South Africa Runner", noc: "RSA", rank: 142 },
+      { athleteId: 9003, fullName: "Kenya Runner", noc: "KEN", rank: 260 },
+    ];
+    const road = analyzeRoad(ctx(pool, [], egy.athleteId, undefined, world));
+    expect(road.subject.worldRank).toBe(300);
+    const nf = road.routes.find((r) => r.key === "newflag_ranking")!;
+    const nocs = nf.competitors.map((c) => c.noc);
+    expect(nocs).toContain("MAR"); // only in the World Ranking, not the OQR pool
+    expect(nocs).toContain("RSA");
+    // MAR (#29) is ahead of the subject (#300); KEN (#260) is ahead too
+    expect(nf.competitors.find((c) => c.noc === "MAR")!.ahead).toBe(true);
+    // 3 African rivals rank ahead → in_contention needs <=2, so this is a stretch
+    expect(nf.status).toBe("stretch");
+  });
+
+  it("marks New Flag on_track when the subject is their continent's best not-yet-qualified athlete", () => {
+    const pool = [...Array.from({ length: 25 }, (_, i) => ath(`EUR${i}`, 1600 - i * 10)), ath("EGY", 250)];
+    const egy = pool.find((a) => a.noc === "EGY")!;
+    const world: WorldRankAthlete[] = [
+      { athleteId: egy.athleteId, fullName: "EGY Subject", noc: "EGY", rank: 40 },
+      { athleteId: 9002, fullName: "South Africa Runner", noc: "RSA", rank: 142 },
+    ];
+    const road = analyzeRoad(ctx(pool, [], egy.athleteId, undefined, world));
+    const nf = road.routes.find((r) => r.key === "newflag_ranking")!;
+    expect(nf.status).toBe("on_track"); // #40 beats the only African rival (#142)
   });
 
   it("computes qualified NOCs from line + relay top 8", () => {

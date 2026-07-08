@@ -73,12 +73,22 @@ export interface Road {
   verdict: string;
 }
 
+/** A World-Ranking athlete (top ~500) — the exhaustive universe for New Flag. */
+export interface WorldRankAthlete {
+  athleteId: number;
+  fullName: string;
+  noc: string;
+  rank: number;
+}
+
 export interface RoadContext {
   /** Subject's gender OQR pool, already ranked (index 0 = rank 1). */
   ranked: RankedAthlete[];
   line: QualLine;
   mrNations: MrNationEntry[];
   assumptions: PathwayAssumptions;
+  /** Subject's gender World Ranking (top ~500) — powers exhaustive New Flag rivals. */
+  worldRanking?: WorldRankAthlete[];
   /** Subject identity — required when the subject is unranked (not in `ranked`). */
   subjectId: number;
   subjectFallback?: { name: string; noc: string; gender: Gender; worldRank?: number | null };
@@ -112,6 +122,7 @@ export function computeQualifiedNocs(ctx: RoadContext): Set<string> {
 }
 
 function subjectOf(ctx: RoadContext): RoadSubject {
+  const wr = ctx.worldRanking?.find((w) => w.athleteId === ctx.subjectId)?.rank ?? null;
   const idx = ctx.ranked.findIndex((a) => a.athleteId === ctx.subjectId);
   if (idx >= 0) {
     const a = ctx.ranked[idx];
@@ -123,7 +134,7 @@ function subjectOf(ctx: RoadContext): RoadSubject {
       continent: continentOf(a.noc),
       oqrRank: idx + 1,
       total: a.total,
-      worldRank: ctx.subjectFallback?.worldRank ?? null,
+      worldRank: wr ?? ctx.subjectFallback?.worldRank ?? null,
     };
   }
   const f = ctx.subjectFallback;
@@ -135,7 +146,7 @@ function subjectOf(ctx: RoadContext): RoadSubject {
     continent: continentOf(f?.noc),
     oqrRank: null,
     total: 0,
-    worldRank: f?.worldRank ?? null,
+    worldRank: wr ?? f?.worldRank ?? null,
   };
 }
 
@@ -343,51 +354,86 @@ function assessMrChamp(ctx: RoadContext, s: RoadSubject): RouteAssessment | null
 }
 
 // ---------- new flag ----------
-/** Not-yet-qualified athletes on the subject's continent, best-ranked first. */
-function continentalRivals(ctx: RoadContext, s: RoadSubject, qualified: Set<string>) {
+interface Rival {
+  athleteId: number;
+  name: string;
+  noc: string;
+  rank: number; // World Ranking position (or OQR position if world data absent)
+}
+
+/**
+ * Not-yet-qualified athletes on the subject's continent, best-ranked first, one
+ * representative per nation (New Flag awards one place per NOC-block). Drawn from
+ * the full World Ranking (top ~500) when available — this is what makes the New
+ * Flag rival picture exhaustive rather than limited to the OQR pool.
+ */
+function continentalRivals(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): Rival[] {
   if (!s.continent) return [];
-  return ctx.ranked
-    .map((a, i) => ({ a, rank: i + 1 }))
-    .filter(({ a }) => a.noc !== s.noc && !qualified.has(a.noc) && continentOf(a.noc) === s.continent)
-    // one representative (best) per nation — New Flag is one place per NOC-block
-    .filter((x, _i, arr) => arr.findIndex((y) => y.a.noc === x.a.noc) === arr.indexOf(x));
+  const source: Rival[] = ctx.worldRanking?.length
+    ? ctx.worldRanking.map((w) => ({ athleteId: w.athleteId, name: w.fullName, noc: w.noc, rank: w.rank }))
+    : ctx.ranked.map((a, i) => ({ athleteId: a.athleteId, name: a.fullName, noc: a.noc, rank: i + 1 }));
+
+  const seenNoc = new Set<string>();
+  const rivals: Rival[] = [];
+  for (const r of source.sort((a, b) => a.rank - b.rank)) {
+    if (r.noc === s.noc || qualified.has(r.noc) || continentOf(r.noc) !== s.continent) continue;
+    if (seenNoc.has(r.noc)) continue; // best (lowest rank) per nation only
+    seenNoc.add(r.noc);
+    rivals.push(r);
+  }
+  return rivals;
+}
+
+/** Is a continental rival ahead of the subject? Uses World Ranking when both have one. */
+function rivalAhead(s: RoadSubject, r: Rival): boolean {
+  if (s.worldRank != null) return r.rank < s.worldRank;
+  return true; // subject has no World Ranking → every ranked rival is ahead
 }
 
 function newFlagStatus(s: RoadSubject, rivalsAhead: number): RouteStatus {
-  if (s.oqrRank == null && (s.worldRank == null || s.worldRank > 160)) return "stretch";
+  if (s.worldRank == null) return "stretch"; // no World Ranking yet → must build one first
   if (rivalsAhead === 0) return "on_track";
   if (rivalsAhead <= 2) return "in_contention";
   return "stretch";
 }
 
+function newFlagCompetitors(s: RoadSubject, rivals: Rival[]): Competitor[] {
+  return rivals.slice(0, 6).map((r) => ({
+    athleteId: r.athleteId,
+    name: r.name,
+    noc: r.noc,
+    note: `${r.noc} · World #${r.rank} · ${s.continent} New Flag rival`,
+    ahead: rivalAhead(s, r),
+  }));
+}
+
 function assessNewFlagContinental(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): RouteAssessment | null {
   if (!s.continent) return null;
   const rivals = continentalRivals(ctx, s, qualified);
-  const ahead = rivals.filter((r) => s.oqrRank == null || r.rank < s.oqrRank).length;
+  const ahead = rivals.filter((r) => rivalAhead(s, r)).length;
   const status = newFlagStatus(s, ahead);
-  const label = "New Flag — Continental Games";
   return {
     key: "newflag_continental",
-    label,
+    label: "New Flag — Continental Games",
     mechanic: `One place per continent goes to the best not-yet-qualified nation at the 2026–27 Continental Games (${s.continent}).`,
     status,
     headline:
       status === "on_track"
-        ? `${first(s)} could be ${s.noc}'s New Flag hope at the ${s.continent} Games`
+        ? `${first(s)} is the top not-yet-qualified ${s.continent} athlete — a live New Flag hope`
         : `Contested New Flag route via the ${s.continent} Continental Games`,
     detail:
-      s.oqrRank == null
-        ? `With ${s.noc} not yet qualified, a strong ${s.continent} Continental Games could earn this place — but ${first(s)} must be that Games' best athlete from a not-yet-qualified nation.`
-        : `${ahead === 0 ? `${first(s)} is the top-ranked not-yet-qualified ${s.continent} athlete here.` : `${ahead} continental rival${ahead === 1 ? "" : "s"} rank ahead.`} Peak for the ${s.continent} Games.`,
+      s.worldRank == null
+        ? `With ${s.noc} not yet qualified, a strong ${s.continent} Continental Games could earn this place — but ${first(s)} first needs to be on the World Ranking, then be that Games' best athlete from a not-yet-qualified nation.`
+        : `${ahead === 0 ? `${first(s)} is the top-ranked not-yet-qualified ${s.continent} athlete (World #${s.worldRank}).` : `${ahead} not-yet-qualified ${s.continent} rival${ahead === 1 ? "" : "s"} rank ahead on the World Ranking.`} Peak for the ${s.continent} Games.`,
     realism: realism("newflag_continental", status),
-    competitors: rivals.slice(0, 5).map((r) => ({ athleteId: r.a.athleteId, name: r.a.fullName, noc: r.a.noc, note: `${r.a.noc} · ${s.continent} New Flag rival`, ahead: s.oqrRank == null || r.rank < s.oqrRank })),
+    competitors: newFlagCompetitors(s, rivals),
   };
 }
 
 function assessNewFlagRanking(ctx: RoadContext, s: RoadSubject, qualified: Set<string>): RouteAssessment | null {
   if (!s.continent) return null;
   const rivals = continentalRivals(ctx, s, qualified);
-  const ahead = rivals.filter((r) => s.oqrRank == null || r.rank < s.oqrRank).length;
+  const ahead = rivals.filter((r) => rivalAhead(s, r)).length;
   const status = newFlagStatus(s, ahead);
   return {
     key: "newflag_ranking",
@@ -396,14 +442,14 @@ function assessNewFlagRanking(ctx: RoadContext, s: RoadSubject, qualified: Set<s
     status,
     headline:
       status === "on_track"
-        ? `Top not-yet-qualified ${s.continent} athlete — a live New Flag route`
+        ? `Top not-yet-qualified ${s.continent} athlete on the World Ranking — a live route`
         : `New Flag via the World Ranking (${s.continent})`,
     detail:
-      s.worldRank == null && s.oqrRank == null
-        ? `${first(s)} first needs a World Triathlon Ranking. This place goes to the best-ranked ${s.continent} athlete whose nation hasn't qualified — build ranking points to enter that race.`
-        : `Be the highest-ranked ${s.continent} athlete from a not-yet-qualified nation by 18 May 2028. ${ahead === 0 ? "Currently that's you." : `${ahead} rival${ahead === 1 ? "" : "s"} ahead.`}`,
+      s.worldRank == null
+        ? `${first(s)} first needs a World Triathlon Ranking. This place goes to the best-ranked ${s.continent} athlete whose nation hasn't qualified — building ranking points is step one.`
+        : `Be the highest-ranked ${s.continent} athlete from a not-yet-qualified nation by 18 May 2028. ${ahead === 0 ? `Currently that's ${first(s)} (World #${s.worldRank}).` : `${ahead} rival${ahead === 1 ? "" : "s"} ahead.`}`,
     realism: realism("newflag_ranking", status),
-    competitors: rivals.slice(0, 5).map((r) => ({ athleteId: r.a.athleteId, name: r.a.fullName, noc: r.a.noc, note: `${r.a.noc} · ${s.continent} New Flag rival`, ahead: s.oqrRank == null || r.rank < s.oqrRank })),
+    competitors: newFlagCompetitors(s, rivals),
   };
 }
 

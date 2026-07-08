@@ -1,0 +1,4814 @@
+[
+  {
+    "athleteId": 86042,
+    "fullName": "Vasco Vilaca",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 1,
+    "total": 6789.14,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/POR_Vasco_Vilaca.jpg"
+  },
+  {
+    "athleteId": 105480,
+    "fullName": "Miguel Hidalgo",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 2,
+    "total": 6703.27,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/BRA_Miguel_Hidalgo.jpg"
+  },
+  {
+    "athleteId": 80795,
+    "fullName": "Matthew Hauser",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 3,
+    "total": 6341.13,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Matthew_Hauser.jpg"
+  },
+  {
+    "athleteId": 125064,
+    "fullName": "Henry Graf",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 4,
+    "total": 5726.26,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Henri_Graff.JPG"
+  },
+  {
+    "athleteId": 132889,
+    "fullName": "David Cantero Del Campo",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 5,
+    "total": 5062.49,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_8694.jpeg"
+  },
+  {
+    "athleteId": 94446,
+    "fullName": "Csongor Lehmann",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 6,
+    "total": 5030.42,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/image01.jpeg"
+  },
+  {
+    "athleteId": 49390,
+    "fullName": "Dorian Coninx",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 7,
+    "total": 4545.9,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Dorian_Coninx.jpg"
+  },
+  {
+    "athleteId": 55495,
+    "fullName": "Luke Willian",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 8,
+    "total": 4534.96,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Luke_Willian.jpg"
+  },
+  {
+    "athleteId": 98121,
+    "fullName": "Ricardo Batista",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 9,
+    "total": 4458.14,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/f0a2cd18-36c7-42d2-9036-e51a9a0aa121.jpg"
+  },
+  {
+    "athleteId": 107730,
+    "fullName": "Alessio Crociani",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 10,
+    "total": 3921.5,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/37829af2-a0b1-41f7-94b3-f790a5fbb5b8.jpg"
+  },
+  {
+    "athleteId": 168603,
+    "fullName": "Oliver Conway",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 11,
+    "total": 3615.89,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/f5daa6fd-e0e9-450d-89e7-39f59e5bc99e.jpg"
+  },
+  {
+    "athleteId": 79706,
+    "fullName": "Charles Paquet",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 12,
+    "total": 3603.84,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/charles_pacquet_can_u23.jpg"
+  },
+  {
+    "athleteId": 70032,
+    "fullName": "Max Studer",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 13,
+    "total": 3506.47,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/SUI_Max_Studer.jpg"
+  },
+  {
+    "athleteId": 63651,
+    "fullName": "Tom Richard",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 14,
+    "total": 3423.94,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/46DA7B6C-B5B0-46AE-A951-3F71A2F9A1D6.jpeg"
+  },
+  {
+    "athleteId": 49411,
+    "fullName": "Tyler Mislawchuk",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 15,
+    "total": 3179.07,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/CAN_Tyler_Mislawchuk.jpg"
+  },
+  {
+    "athleteId": 164894,
+    "fullName": "John Reed",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 16,
+    "total": 3147.66,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_John_Reed1.JPG"
+  },
+  {
+    "athleteId": 56027,
+    "fullName": "Diego Moya",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 17,
+    "total": 3035.2,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/0d4ce563-b7f6-4080-8ee4-30a13bcaa321.jpg"
+  },
+  {
+    "athleteId": 92430,
+    "fullName": "Callum McClusky",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 18,
+    "total": 2913.63,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/collum_mcclusky_aus_u23.jpg"
+  },
+  {
+    "athleteId": 94563,
+    "fullName": "Tjebbe Kaindl",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 19,
+    "total": 2859.45,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/69a2a2ab-85a2-452e-a144-97f240b07332.jpg"
+  },
+  {
+    "athleteId": 56153,
+    "fullName": "Márk Dévay",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 20,
+    "total": 2754.6,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_20240625_192245_Gallery.jpg"
+  },
+  {
+    "athleteId": 128063,
+    "fullName": "Yanis Seguin",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 21,
+    "total": 2719.13,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Yanis_Seguin.JPG"
+  },
+  {
+    "athleteId": 98130,
+    "fullName": "Miguel Tiago Silva",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 22,
+    "total": 2691.63,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/12c77564-32fd-4ef9-b706-d06d2ad9000f.jpg"
+  },
+  {
+    "athleteId": 96040,
+    "fullName": "Vetle Bergsvik Thorn",
+    "noc": "NOR",
+    "gender": "male",
+    "rank": 23,
+    "total": 2673.35,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+    "profileImage": "https://prod-tri-assets.imgix.net/NOR_Vetle_Thorn.jpg"
+  },
+  {
+    "athleteId": 33705,
+    "fullName": "Nicola Azzano",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 24,
+    "total": 2654.2,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/5aededd1-9911-4d2b-9e73-0cb0362cc199.jpg"
+  },
+  {
+    "athleteId": 165479,
+    "fullName": "Brayden Mercer",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 25,
+    "total": 2631.04,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 162549,
+    "fullName": "Reese Vannerson",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 26,
+    "total": 2628.23,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/REESE_VANNERSON.jpg"
+  },
+  {
+    "athleteId": 156380,
+    "fullName": "João Nuno Batista",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 27,
+    "total": 2624.68,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/128a3eba-eabf-4a6c-b6b4-258b12c966c0.jpg"
+  },
+  {
+    "athleteId": 104034,
+    "fullName": "Hayden Wilde",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 28,
+    "total": 2591.66,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/NZL_Hayden_Wilde.jpg"
+  },
+  {
+    "athleteId": 155563,
+    "fullName": "Jawad Abdelmoula",
+    "noc": "MAR",
+    "gender": "male",
+    "rank": 29,
+    "total": 2536.18,
+    "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
+    "profileImage": "https://prod-tri-assets.imgix.net/ASICS_TEAM_007.JPG"
+  },
+  {
+    "athleteId": 63429,
+    "fullName": "Roberto Sanchez Mantecon",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 30,
+    "total": 2482.92,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ae35a043-db07-4f1e-9a6d-67072de94e69.png"
+  },
+  {
+    "athleteId": 74419,
+    "fullName": "Alberto Gonzalez Garcia",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 31,
+    "total": 2474.98,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/b53004e3-320a-4d7b-ab08-825f0e60aae8.jpg"
+  },
+  {
+    "athleteId": 80601,
+    "fullName": "Nathan Grayel",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 32,
+    "total": 2466.55,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/5cd89881-f406-4766-8342-573054b4db93.jpeg"
+  },
+  {
+    "athleteId": 104983,
+    "fullName": "Max Stapley",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 33,
+    "total": 2458.34,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/d08c1b93-7fa5-40a9-b922-0f214c40753b.JPG"
+  },
+  {
+    "athleteId": 74423,
+    "fullName": "Jack Willis",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 34,
+    "total": 2427.98,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/70c52693-2054-4a98-af26-d1e50478ad96.jpg"
+  },
+  {
+    "athleteId": 63428,
+    "fullName": "Antonio Serrat Seoane",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 35,
+    "total": 2407.9,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/ESP_Antonio_Serrat.jpg"
+  },
+  {
+    "athleteId": 162136,
+    "fullName": "Izan Edo Aguilar",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 36,
+    "total": 2399.59,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/75f4e62e-82a5-41a0-96f9-a0a70237e260.jpeg"
+  },
+  {
+    "athleteId": 103124,
+    "fullName": "Harry Leleu",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 37,
+    "total": 2371.8,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/Linked_in_PP.jpeg"
+  },
+  {
+    "athleteId": 69143,
+    "fullName": "Manoel Messias",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 38,
+    "total": 2370.48,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/BRA_Manoel_Messias.jpg"
+  },
+  {
+    "athleteId": 144208,
+    "fullName": "Mathis Beaulieu",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 39,
+    "total": 2369.97,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/Beaulieu.jpg"
+  },
+  {
+    "athleteId": 98547,
+    "fullName": "Takumi Hojo",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 40,
+    "total": 2305.24,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/JPN_Takumi_Hojo.jpg"
+  },
+  {
+    "athleteId": 96742,
+    "fullName": "Alex Yee",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 41,
+    "total": 2291.22,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/GBR_Alex_Yee.jpg"
+  },
+  {
+    "athleteId": 123461,
+    "fullName": "Ian Pennekamp",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 42,
+    "total": 2258.54,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/9d265e97-d739-4d7c-9f3e-cb51372c7934.jpeg"
+  },
+  {
+    "athleteId": 116917,
+    "fullName": "Denis Kolobrodov",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 43,
+    "total": 2203.04,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/4cd27b74-f1f6-4476-b4de-fcf8152709ce.jpg"
+  },
+  {
+    "athleteId": 167968,
+    "fullName": "Hugo Milner",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 44,
+    "total": 2175.24,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/Hugo_Miller.jpg"
+  },
+  {
+    "athleteId": 160628,
+    "fullName": "Michael Gar",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 45,
+    "total": 2172.57,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/35176e79-d88e-4736-a186-42bf3739f119.jpg"
+  },
+  {
+    "athleteId": 111852,
+    "fullName": "Luke Schofield",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 46,
+    "total": 2130.59,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/3b2aa82d-79e4-440e-86ff-6d8ebd026c8b.jpg"
+  },
+  {
+    "athleteId": 106885,
+    "fullName": "Tim Hellwig",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 47,
+    "total": 2122.46,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7832.jpeg"
+  },
+  {
+    "athleteId": 54025,
+    "fullName": "Jérémy Quindos",
+    "noc": "UZB",
+    "gender": "male",
+    "rank": 48,
+    "total": 2107.46,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7",
+    "profileImage": "https://prod-tri-assets.imgix.net/81cd7679-30e8-4d26-8a14-4ca48244edcf.jpg"
+  },
+  {
+    "athleteId": 172101,
+    "fullName": "Braxton Legg",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 49,
+    "total": 2088.28,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/949c970e-074f-44be-a60a-1cf7c7a94a56.png"
+  },
+  {
+    "athleteId": 103634,
+    "fullName": "Saxon Morgan",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 50,
+    "total": 2083.19,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/9403c63d-b781-4a52-ae02-d1667707d49e.jpg"
+  },
+  {
+    "athleteId": 110784,
+    "fullName": "Aoba Yasumatsu",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 51,
+    "total": 2074.32,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/aoba_yasumatsu_JPN.jpg"
+  },
+  {
+    "athleteId": 93402,
+    "fullName": "Martin Sobey",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 52,
+    "total": 2065.4,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/martin_sobey_can_u23.jpg"
+  },
+  {
+    "athleteId": 98098,
+    "fullName": "Simon Westermann",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 53,
+    "total": 2052.42,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Westermann.jpg"
+  },
+  {
+    "athleteId": 116279,
+    "fullName": "Sergio Baxter Cabrera",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 54,
+    "total": 2034.42,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/sergio_baxter_ESP.jpg"
+  },
+  {
+    "athleteId": 123392,
+    "fullName": "Morgan Pearson",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 55,
+    "total": 2026.02,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Morgan_Pearson.jpg"
+  },
+  {
+    "athleteId": 103258,
+    "fullName": "Liam Donnelly",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 56,
+    "total": 2023.53,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/national_team_headshot.jpg"
+  },
+  {
+    "athleteId": 106595,
+    "fullName": "Valentin Morlec",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 57,
+    "total": 2023.1,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/valentin_morlec_FRA.jpg"
+  },
+  {
+    "athleteId": 41870,
+    "fullName": "Shachar Sagiv",
+    "noc": "ISR",
+    "gender": "male",
+    "rank": 58,
+    "total": 2020.72,
+    "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+    "profileImage": "https://prod-tri-assets.imgix.net/ISR_Shachar_Sagiv.jpg"
+  },
+  {
+    "athleteId": 125294,
+    "fullName": "Connor Bentley",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 59,
+    "total": 2005.98,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/0cb7b25e-1769-4aab-b130-9e4640fcb7df.jpeg"
+  },
+  {
+    "athleteId": 169633,
+    "fullName": "Nils Serre Gehri",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 60,
+    "total": 1929.94,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_2024-10-30_at_13.45_.41_.png"
+  },
+  {
+    "athleteId": 158362,
+    "fullName": "Euan De Nigro",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 61,
+    "total": 1929.52,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/phoca_thumb_m_ballabio_fitri_caorle-67511.jpg"
+  },
+  {
+    "athleteId": 163852,
+    "fullName": "Kazushi Jozuka",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 62,
+    "total": 1917.57,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-52.jpg"
+  },
+  {
+    "athleteId": 160772,
+    "fullName": "Tom Lerno",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 63,
+    "total": 1912.36,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/d58320ce-1668-44ac-895a-050b07c49d31.jpeg"
+  },
+  {
+    "athleteId": 171947,
+    "fullName": "Sullivan Middaugh",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 64,
+    "total": 1910.93,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/SullivanMiddaugh.jpg"
+  },
+  {
+    "athleteId": 63564,
+    "fullName": "Maxime Hueber-Moosbrugger",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 65,
+    "total": 1905.97,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/820dc851-851b-426e-8d75-8a3fb3e57113.jpg"
+  },
+  {
+    "athleteId": 93364,
+    "fullName": "Arnaud Mengal",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 66,
+    "total": 1864.03,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/305337721_385456173783558_6104767894135043717_n.jpg"
+  },
+  {
+    "athleteId": 96667,
+    "fullName": "Chase McQueen",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 67,
+    "total": 1839.8,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/chase_mcqueen_USA.jpg"
+  },
+  {
+    "athleteId": 131932,
+    "fullName": "Keller Norland",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 68,
+    "total": 1835.08,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/Keller_Norland.jpg"
+  },
+  {
+    "athleteId": 39264,
+    "fullName": "Kenji Nener",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 69,
+    "total": 1806.54,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/JPN_Kenji_Nener.jpg"
+  },
+  {
+    "athleteId": 144247,
+    "fullName": "Henry McMecking",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 70,
+    "total": 1791.81,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-87.jpg"
+  },
+  {
+    "athleteId": 159183,
+    "fullName": "Pelayo González Turrez",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 71,
+    "total": 1783.33,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 158978,
+    "fullName": "Pablo Isotton",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 72,
+    "total": 1766.47,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-30.jpg"
+  },
+  {
+    "athleteId": 83434,
+    "fullName": "Ben Dijkstra",
+    "noc": "TRI",
+    "gender": "male",
+    "rank": 73,
+    "total": 1753.73,
+    "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
+    "profileImage": "https://prod-tri-assets.imgix.net/Ben_Dijkstra_(GBR)_-_JR2017.jpg"
+  },
+  {
+    "athleteId": 49084,
+    "fullName": "Lukas Pertl",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 74,
+    "total": 1752.19,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/755ec208-fd6c-41c3-a986-07470c0db961.jpeg"
+  },
+  {
+    "athleteId": 76425,
+    "fullName": "Seth Rider",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 75,
+    "total": 1748.86,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/seth-rider.jpeg"
+  },
+  {
+    "athleteId": 123538,
+    "fullName": "James Corbett",
+    "noc": "TRI",
+    "gender": "male",
+    "rank": 76,
+    "total": 1743.79,
+    "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731"
+  },
+  {
+    "athleteId": 173756,
+    "fullName": "Igor Dupuis",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 77,
+    "total": 1741.47,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/23840c29-bc15-488c-a795-67b4a265b341.png"
+  },
+  {
+    "athleteId": 92397,
+    "fullName": "Brandon Copeland",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 78,
+    "total": 1737.68,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Brandon_Copeland.jpg"
+  },
+  {
+    "athleteId": 132948,
+    "fullName": "Andree Buc",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 79,
+    "total": 1732.33,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_162221_PBA_7109b.jpg"
+  },
+  {
+    "athleteId": 123682,
+    "fullName": "Maciej Bruzdziak",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 80,
+    "total": 1731.94,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/f74e5375-a8f4-4e49-977c-79f21c2a923c.jpg"
+  },
+  {
+    "athleteId": 54985,
+    "fullName": "Tayler Reid",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 81,
+    "total": 1730.02,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/taylor_reid_NZL.jpg"
+  },
+  {
+    "athleteId": 163850,
+    "fullName": "Takuto Oshima",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 82,
+    "total": 1723.58,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/Takuto_Oshima_.jpg"
+  },
+  {
+    "athleteId": 178178,
+    "fullName": "Blake Bullard",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 83,
+    "total": 1696.01,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/d35b2106-43fa-4169-b5c4-60bc3640aef0.png"
+  },
+  {
+    "athleteId": 104128,
+    "fullName": "Lachlan Jones",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 84,
+    "total": 1695.11,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Lachlan_Jones.JPG"
+  },
+  {
+    "athleteId": 98125,
+    "fullName": "Louis Vitiello",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 85,
+    "total": 1692.43,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Louis_Vitiello_(FRA)_-_JR2017.jpg"
+  },
+  {
+    "athleteId": 165500,
+    "fullName": "Oscar Wootton",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 86,
+    "total": 1689.85,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 95497,
+    "fullName": "Oscar Coggins",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 87,
+    "total": 1689.56,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/Oscar_Coggins_(HKG)_-_JR2017.jpg"
+  },
+  {
+    "athleteId": 56550,
+    "fullName": "Adrien Briffod",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 88,
+    "total": 1666.51,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/SUI_Adrien_Briffod.jpg"
+  },
+  {
+    "athleteId": 85863,
+    "fullName": "Badr Siwane",
+    "noc": "MAR",
+    "gender": "male",
+    "rank": 89,
+    "total": 1644.06,
+    "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
+    "profileImage": "https://prod-tri-assets.imgix.net/878e9fd3-5f3e-455b-9113-9c5b84ce9764.JPG"
+  },
+  {
+    "athleteId": 144053,
+    "fullName": "Toby Powers",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 90,
+    "total": 1636.01,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-65.jpg"
+  },
+  {
+    "athleteId": 136365,
+    "fullName": "Xirui Zhang",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 91,
+    "total": 1620.37,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 61357,
+    "fullName": "Valentin Wernz",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 92,
+    "total": 1618.49,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/169b17fa-1a6e-4525-94d2-4dcf8837e5b1.jpg"
+  },
+  {
+    "athleteId": 158469,
+    "fullName": "Márton Kropkó",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 93,
+    "total": 1614.22,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/b5e708db-04ce-4f3b-bb14-b515097fd62a.jpg"
+  },
+  {
+    "athleteId": 149968,
+    "fullName": "Benedikt Bettin",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 94,
+    "total": 1610.63,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/833b1424-747e-41e4-b315-d95dd9a5f9b4.jpeg"
+  },
+  {
+    "athleteId": 98124,
+    "fullName": "Paul Georgenthum",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 95,
+    "total": 1589.97,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_3573.jpeg"
+  },
+  {
+    "athleteId": 106589,
+    "fullName": "Jonas Osterholt",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 96,
+    "total": 1560.45,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/GER_Jonas_Horterhorf.JPG"
+  },
+  {
+    "athleteId": 166286,
+    "fullName": "Logan Campbell",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 97,
+    "total": 1558.28,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 104247,
+    "fullName": "Genta Uchida",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 98,
+    "total": 1555.88,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/genta_uchida_JPN.jpg"
+  },
+  {
+    "athleteId": 162320,
+    "fullName": "Vinicius Avi Santana",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 99,
+    "total": 1551.19,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-99.jpg"
+  },
+  {
+    "athleteId": 80663,
+    "fullName": "Darr Smith",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 100,
+    "total": 1544.59,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/Darr_Smith_(USA)_-_JR2017.jpg"
+  },
+  {
+    "athleteId": 127536,
+    "fullName": "Sebastian Wernersen",
+    "noc": "NOR",
+    "gender": "male",
+    "rank": 101,
+    "total": 1543.81,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+    "profileImage": "https://prod-tri-assets.imgix.net/8f0220cf-f938-4efd-9878-f7af4510eb41.jpeg"
+  },
+  {
+    "athleteId": 63162,
+    "fullName": "Léo Bergere",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 102,
+    "total": 1527.99,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Leo_bergere.jpg"
+  },
+  {
+    "athleteId": 127901,
+    "fullName": "Eric Diener",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 103,
+    "total": 1518.2,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/Eric_Diener.jpg"
+  },
+  {
+    "athleteId": 158977,
+    "fullName": "Jules Rethoret",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 104,
+    "total": 1517.18,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/08f6f464-7e3d-4fae-ab43-b022b3af02db.jpeg"
+  },
+  {
+    "athleteId": 113561,
+    "fullName": "Daryn Konysbayev",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 105,
+    "total": 1513.74,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 104254,
+    "fullName": "Zsombor Dévay",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 106,
+    "total": 1510.78,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/Zsombor_Devay.jpg"
+  },
+  {
+    "athleteId": 106946,
+    "fullName": "Chris Ziehmer",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 107,
+    "total": 1508.59,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/A38E24EE-A504-40C0-B93C-20FC9BA44A481.jpeg"
+  },
+  {
+    "athleteId": 90031,
+    "fullName": "Ren Sato",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 108,
+    "total": 1468.42,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/JPN_Ren_Sato.jpg"
+  },
+  {
+    "athleteId": 161941,
+    "fullName": "Jaspar Ortfeld",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 109,
+    "total": 1445.94,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-9.jpg"
+  },
+  {
+    "athleteId": 103530,
+    "fullName": "Aram Michell Peñaflor Moysen",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 110,
+    "total": 1434.13,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/MEX_Aram_Penaflor.jpg"
+  },
+  {
+    "athleteId": 115699,
+    "fullName": "Baptiste Passemard",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 111,
+    "total": 1424.87,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FRA_Baptiste_Passemard.JPG"
+  },
+  {
+    "athleteId": 50700,
+    "fullName": "Bence Bicsák",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 112,
+    "total": 1424.4,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/ffaf3f0a-a055-46cd-bd50-73f63b76a6f3.jpg"
+  },
+  {
+    "athleteId": 135049,
+    "fullName": "Mitch Kolkman",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 113,
+    "total": 1386.52,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/7fd6b9b4-eec6-448c-ae2a-e80840985c4c.jpeg"
+  },
+  {
+    "athleteId": 149810,
+    "fullName": "Justus Töpper",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 114,
+    "total": 1365.66,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/0ed9bd58-4261-43d8-b338-f188863aec82.jpeg"
+  },
+  {
+    "athleteId": 110356,
+    "fullName": "Junjie Fan",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 115,
+    "total": 1364.04,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 123460,
+    "fullName": "Gjalt Panjer",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 116,
+    "total": 1352.84,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/0bb87a75-8ad9-4fa5-a490-bbee217bcfc2.png"
+  },
+  {
+    "athleteId": 190835,
+    "fullName": "Porter Middaugh",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 117,
+    "total": 1335.66,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 111851,
+    "fullName": "Jayden Schofield",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 118,
+    "total": 1334.42,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/PXL_20240308_070849855.PORTRAIT_.ORIGINAL-01_.jpeg"
+  },
+  {
+    "athleteId": 111669,
+    "fullName": "Zach Leachman",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 119,
+    "total": 1330.93,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/USA_Zack_leachman.JPG"
+  },
+  {
+    "athleteId": 73205,
+    "fullName": "Grigory Antipov",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 120,
+    "total": 1316.07,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/8cce88cb-c673-4a68-a0f1-ea97bd550b68.jpg"
+  },
+  {
+    "athleteId": 116270,
+    "fullName": "Gergely Kiss",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 121,
+    "total": 1310.11,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/fb9295fd-e175-479b-9dde-e82237139bf4.jpg"
+  },
+  {
+    "athleteId": 178019,
+    "fullName": "Joel Lange",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 122,
+    "total": 1305.2,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/0ae70e89-3a4c-47e0-823f-a0ee575100e8.jpg"
+  },
+  {
+    "athleteId": 165174,
+    "fullName": "Eloy Canales Escribano",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 123,
+    "total": 1303.63,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/61da2a36-4175-4b4a-b6fa-43cf0a8c9854.jpeg"
+  },
+  {
+    "athleteId": 176644,
+    "fullName": "Panagiotis Bitados",
+    "noc": "GRE",
+    "gender": "male",
+    "rank": 124,
+    "total": 1289.15,
+    "flag": "https://cms.triathlon.org/assets/daba8420-fd47-4dea-ac6d-3bf7b78132c3",
+    "profileImage": "https://prod-tri-assets.imgix.net/GRE_Panaggiotis_Bitados.JPG"
+  },
+  {
+    "athleteId": 124358,
+    "fullName": "Erik Yamir Ramos Croda",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 125,
+    "total": 1278.75,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/b994aeaf-1af7-46e6-afda-40c101aa273c.png"
+  },
+  {
+    "athleteId": 165623,
+    "fullName": "Solomon Okrafo-Smart",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 126,
+    "total": 1273.37,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/a5d1e5bc-5000-4af1-bd38-bb82a108e582.png"
+  },
+  {
+    "athleteId": 160313,
+    "fullName": "Kuba Gajda",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 127,
+    "total": 1263.88,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/45fe12d4-4927-4929-ac3f-9b69c3a305dd.jpeg"
+  },
+  {
+    "athleteId": 97101,
+    "fullName": "Samuele Angelini",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 128,
+    "total": 1261.36,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/1d8e3fc5-9141-4015-a1bf-a80a392b7977.jpeg"
+  },
+  {
+    "athleteId": 63402,
+    "fullName": "Ayan Beisenbayev",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 129,
+    "total": 1254.35,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Ayan.jpg"
+  },
+  {
+    "athleteId": 94378,
+    "fullName": "Gültigin Er",
+    "noc": "TUR",
+    "gender": "male",
+    "rank": 130,
+    "total": 1247.65,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab",
+    "profileImage": "https://prod-tri-assets.imgix.net/8df6e928-25e9-4ac2-9630-c204c6f37fe7.jpeg"
+  },
+  {
+    "athleteId": 125302,
+    "fullName": "Hamish Reilly",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 131,
+    "total": 1242.6,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/GBR_Hamish_Reilley.JPG"
+  },
+  {
+    "athleteId": 144052,
+    "fullName": "Darcy Williams",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 132,
+    "total": 1229.82,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 176721,
+    "fullName": "Yunfeng Teng",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 133,
+    "total": 1224.88,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 163836,
+    "fullName": "Kenshin Mori",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 134,
+    "total": 1223.4,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 102728,
+    "fullName": "Hokuto Obara",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 135,
+    "total": 1220.1,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 124579,
+    "fullName": "Dylan Didier Campa Carranza",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 136,
+    "total": 1214.54,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/DylanTri-1.jpg"
+  },
+  {
+    "athleteId": 163519,
+    "fullName": "Jarno Pousada Troitiño",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 137,
+    "total": 1204.4,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 166876,
+    "fullName": "Daniel Ubilla Sabada",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 138,
+    "total": 1201.3,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236"
+  },
+  {
+    "athleteId": 12773,
+    "fullName": "Rodrigo Gonzalez Lopez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 139,
+    "total": 1200.44,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/rodrigo_gonzalez_mex_elite.jpg"
+  },
+  {
+    "athleteId": 92017,
+    "fullName": "Satoshi Iwamoto",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 140,
+    "total": 1192.37,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 74435,
+    "fullName": "Philip Pertl",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 141,
+    "total": 1185.64,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/e044e0f1-ee31-4027-af9f-302427dbba74.jpeg"
+  },
+  {
+    "athleteId": 186572,
+    "fullName": "Julian Birkel",
+    "noc": "RSA",
+    "gender": "male",
+    "rank": 142,
+    "total": 1182.4,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_8371.jpeg"
+  },
+  {
+    "athleteId": 160361,
+    "fullName": "Roman Mineev",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 143,
+    "total": 1177.06,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/5ce76f84-ab81-4484-9c73-23727b70bb0c.jpeg"
+  },
+  {
+    "athleteId": 158485,
+    "fullName": "Andrés Prieto Villar",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 144,
+    "total": 1175.39,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/4cfb17c5-3d6c-4b4e-89ca-570f092254f9.jpg"
+  },
+  {
+    "athleteId": 151889,
+    "fullName": "Miguel Espuna Larramona",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 145,
+    "total": 1163.9,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-82.jpg"
+  },
+  {
+    "athleteId": 165278,
+    "fullName": "Osvaldo Darell Zuñiga Fierro",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 146,
+    "total": 1163.33,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-72.jpg"
+  },
+  {
+    "athleteId": 166574,
+    "fullName": "Ignacio Flores Arana",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 147,
+    "total": 1159.95,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236"
+  },
+  {
+    "athleteId": 158742,
+    "fullName": "Yegor Krupyakov",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 148,
+    "total": 1149.39,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_51321.jpeg"
+  },
+  {
+    "athleteId": 144817,
+    "fullName": "Lucas Cambresy",
+    "noc": "LUX",
+    "gender": "male",
+    "rank": 149,
+    "total": 1148.41,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/LUX_lucas_cambresy.JPG"
+  },
+  {
+    "athleteId": 116705,
+    "fullName": "Peter Luftensteiner",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 150,
+    "total": 1141.96,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Peter_Luftenstiener.jpg"
+  },
+  {
+    "athleteId": 86080,
+    "fullName": "Kevin Tarek Viñuela Gonzalez",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 151,
+    "total": 1140.17,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/Kevin_Tarek_Viñuela_Gonzalez.jpg"
+  },
+  {
+    "athleteId": 83081,
+    "fullName": "Aurelien Jem",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 152,
+    "total": 1133.39,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/0b09833d-abc8-4233-8ea5-3595e2fc5bb8.jpeg"
+  },
+  {
+    "athleteId": 110028,
+    "fullName": "Mateo Mendoza Burgos",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 153,
+    "total": 1126.93,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/CHI_Mateo_Mendoza1.JPG"
+  },
+  {
+    "athleteId": 164818,
+    "fullName": "Yunxiang Ma",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 154,
+    "total": 1126.24,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 29226,
+    "fullName": "Matthew Wright",
+    "noc": "BAR",
+    "gender": "male",
+    "rank": 155,
+    "total": 1106.15,
+    "flag": "https://cms.triathlon.org/assets/f12587d9-4bbc-408b-9392-3813ee60799c",
+    "profileImage": "https://prod-tri-assets.imgix.net/matthew_wright3.jpg"
+  },
+  {
+    "athleteId": 160745,
+    "fullName": "Carol Popa",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 156,
+    "total": 1099.44,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 135431,
+    "fullName": "Till Kramp",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 157,
+    "total": 1097.02,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 30249,
+    "fullName": "Pierre Le Corre",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 158,
+    "total": 1079.75,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/pierre_lecorre_FRA.jpg"
+  },
+  {
+    "athleteId": 125038,
+    "fullName": "Antonio Bravo Neto",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 159,
+    "total": 1073.74,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/Antonio_Bravo_Neto.jpg"
+  },
+  {
+    "athleteId": 103482,
+    "fullName": "Alejandro Rodriguez Diez",
+    "noc": "CUB",
+    "gender": "male",
+    "rank": 160,
+    "total": 1061.72,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa"
+  },
+  {
+    "athleteId": 106804,
+    "fullName": "Mitsuho Mochizuki",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 161,
+    "total": 1059.67,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/mitsuho_mochizuki_jpn.jpg"
+  },
+  {
+    "athleteId": 96111,
+    "fullName": "Joris Basslé",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 162,
+    "total": 1058.11,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/c8a149dc-c0e8-4286-bdef-e7e584659368.jpg"
+  },
+  {
+    "athleteId": 123620,
+    "fullName": "Rory Thornhill",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 163,
+    "total": 1057.29,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 177421,
+    "fullName": "Daniel Damian",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 164,
+    "total": 1050.08,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 51605,
+    "fullName": "Ryousuke Maeda",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 165,
+    "total": 1048.89,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 175528,
+    "fullName": "Carter Stuhlmacher",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 166,
+    "total": 1044.9,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 165612,
+    "fullName": "Jordan Rieck",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 167,
+    "total": 1038.05,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 135074,
+    "fullName": "David Lang",
+    "noc": "LUX",
+    "gender": "male",
+    "rank": 168,
+    "total": 1035.16,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/77d8c3a5-3c35-4696-ad9d-cb54950ea9b4.jpeg"
+  },
+  {
+    "athleteId": 104309,
+    "fullName": "Mingxu Li",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 169,
+    "total": 1032.91,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 125287,
+    "fullName": "Esteban Basanta Fouz",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 170,
+    "total": 1032.62,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_4576.jpeg"
+  },
+  {
+    "athleteId": 164866,
+    "fullName": "Andreas Nikolajsen",
+    "noc": "DEN",
+    "gender": "male",
+    "rank": 171,
+    "total": 1032.5,
+    "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63",
+    "profileImage": "https://prod-tri-assets.imgix.net/3c58d46d-7b9d-433c-8435-54abaeb60b88.jpeg"
+  },
+  {
+    "athleteId": 103632,
+    "fullName": "Dylan McCullough",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 172,
+    "total": 1020.02,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/x6589a430fda7e9487c16675ad90da027fa901804mccullough-dylan-white__ScaleWidthWzU1NV0.jpg.pagespeed_.ic_.HUcGQJhOFE_.jpg"
+  },
+  {
+    "athleteId": 110704,
+    "fullName": "Luke McCarron",
+    "noc": "IRL",
+    "gender": "male",
+    "rank": 173,
+    "total": 1015.71,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/5d921908-8047-45a8-8b01-deaffa5cfe37.jpeg"
+  },
+  {
+    "athleteId": 122645,
+    "fullName": "Kyotaro Yoshikawa",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 174,
+    "total": 1015.42,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/kiotaro-yoshikama-jpn.jpg"
+  },
+  {
+    "athleteId": 41831,
+    "fullName": "Gregor Payet",
+    "noc": "LUX",
+    "gender": "male",
+    "rank": 175,
+    "total": 1008.89,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/40ABEFC4-ECA9-4D90-A904-148FD7D90FAA.jpeg"
+  },
+  {
+    "athleteId": 55960,
+    "fullName": "Koki Yamamoto",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 176,
+    "total": 998.93,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 102726,
+    "fullName": "Ryoya Tamazaki",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 177,
+    "total": 996.41,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 103889,
+    "fullName": "Alvaro Campos Solano",
+    "noc": "CRC",
+    "gender": "male",
+    "rank": 178,
+    "total": 987.21,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070",
+    "profileImage": "https://prod-tri-assets.imgix.net/TZAF5826.jpg"
+  },
+  {
+    "athleteId": 113747,
+    "fullName": "Enes Kizilcik",
+    "noc": "TUR",
+    "gender": "male",
+    "rank": 179,
+    "total": 971.85,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab",
+    "profileImage": "https://prod-tri-assets.imgix.net/e2a6f62f-2940-4634-8aca-1295ad921ee0.jpg"
+  },
+  {
+    "athleteId": 158272,
+    "fullName": "Pietro Giovannini",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 180,
+    "total": 971.3,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/bf2cc28d-5360-4de7-9292-70a0eb2a2c32.jpg"
+  },
+  {
+    "athleteId": 113383,
+    "fullName": "Tristen Jones",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 181,
+    "total": 966.53,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/72684451-f806-4ab9-937e-9c6639bc92c0.jpeg"
+  },
+  {
+    "athleteId": 179295,
+    "fullName": "Kazuna Asanuma",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 182,
+    "total": 966,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 142895,
+    "fullName": "Nicolas Probert Vargas",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 183,
+    "total": 953.31,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-71.jpg"
+  },
+  {
+    "athleteId": 41102,
+    "fullName": "Martin Demuth",
+    "noc": "CZE",
+    "gender": "male",
+    "rank": 184,
+    "total": 951.07,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/FC6A2A77-551D-4E21-BC40-0C8593D970A3.jpeg"
+  },
+  {
+    "athleteId": 158445,
+    "fullName": "Zalán Hóbor",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 185,
+    "total": 949.97,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_20230714_231649_426.jpg"
+  },
+  {
+    "athleteId": 135249,
+    "fullName": "Raf De Dobbelaere",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 186,
+    "total": 939.55,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-78.jpg"
+  },
+  {
+    "athleteId": 55886,
+    "fullName": "Kauê Willy",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 187,
+    "total": 936.9,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/Kaue_Willy_(BRA)_-_U232017.JPG"
+  },
+  {
+    "athleteId": 160696,
+    "fullName": "Thomas Hansmaennel",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 188,
+    "total": 929.55,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-29.jpg"
+  },
+  {
+    "athleteId": 42996,
+    "fullName": "Erwin Vanderplancke",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 189,
+    "total": 927.67,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/erwin_vanderplancke_BEL.jpg"
+  },
+  {
+    "athleteId": 188761,
+    "fullName": "Robbie White",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 190,
+    "total": 925.96,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 164373,
+    "fullName": "Eirik Berling Grande",
+    "noc": "NOR",
+    "gender": "male",
+    "rank": 191,
+    "total": 912.54,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5"
+  },
+  {
+    "athleteId": 70410,
+    "fullName": "Lasse Lührs",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 192,
+    "total": 911.5,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/bd8701e3-05a7-4c13-b888-1f657bf2e86f.jpg"
+  },
+  {
+    "athleteId": 47611,
+    "fullName": "Genis Grau",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 193,
+    "total": 910.47,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/Genuis_Grau.jpg"
+  },
+  {
+    "athleteId": 39560,
+    "fullName": "Juan Jose Andrade Figueroa",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 194,
+    "total": 897.23,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/juan_jose_andrade_1.jpg"
+  },
+  {
+    "athleteId": 136780,
+    "fullName": "Alexandr Ten",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 195,
+    "total": 884.88,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 165438,
+    "fullName": "Jack Crome",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 196,
+    "total": 881.82,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_171722_PBA_7269b.jpg"
+  },
+  {
+    "athleteId": 172565,
+    "fullName": "Tiago Muñoz",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 197,
+    "total": 881.37,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529"
+  },
+  {
+    "athleteId": 79730,
+    "fullName": "Tyler Smith",
+    "noc": "BER",
+    "gender": "male",
+    "rank": 198,
+    "total": 876.09,
+    "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
+    "profileImage": "https://prod-tri-assets.imgix.net/tyler_smith1.jpg"
+  },
+  {
+    "athleteId": 171485,
+    "fullName": "Jan Scheffold",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 199,
+    "total": 873.68,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 181477,
+    "fullName": "Ibe Baelde",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 200,
+    "total": 869.95,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/b20e9f94-5f24-4364-a9e0-0a0ff6c6579d.png"
+  },
+  {
+    "athleteId": 168923,
+    "fullName": "Jan Semmler",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 201,
+    "total": 862,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/f59c698a-8ff1-4b2a-ae14-4a383cbc9e2f.jpg"
+  },
+  {
+    "athleteId": 175609,
+    "fullName": "Matthew Van Coller",
+    "noc": "RSA",
+    "gender": "male",
+    "rank": 202,
+    "total": 853.71,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  },
+  {
+    "athleteId": 186411,
+    "fullName": "Caleb Wagener",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 203,
+    "total": 849.15,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 119074,
+    "fullName": "Sébastien Pascal",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 204,
+    "total": 846.95,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 106582,
+    "fullName": "Sergiy Polikarpenko",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 205,
+    "total": 827.55,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG-20230221-WA0001.jpg"
+  },
+  {
+    "athleteId": 75822,
+    "fullName": "Michał Oliwa",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 206,
+    "total": 825.32,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/DSC_00601.JPG"
+  },
+  {
+    "athleteId": 175384,
+    "fullName": "Rongheng Chen",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 207,
+    "total": 819.24,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 186454,
+    "fullName": "Theo Marti",
+    "noc": "LUX",
+    "gender": "male",
+    "rank": 208,
+    "total": 814.46,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60"
+  },
+  {
+    "athleteId": 141071,
+    "fullName": "Gabriel Lecheta",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 209,
+    "total": 814.03,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/ce8d9b17-a81d-485d-b060-4d28b2606d3c.jpeg"
+  },
+  {
+    "athleteId": 106994,
+    "fullName": "Aleksandr Kurishov",
+    "noc": "UZB",
+    "gender": "male",
+    "rank": 210,
+    "total": 811.92,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7",
+    "profileImage": "https://prod-tri-assets.imgix.net/alexandr_kurishov.jpg"
+  },
+  {
+    "athleteId": 178041,
+    "fullName": "Thomas Francisco Chica Perez",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 211,
+    "total": 809.2,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/2fc4e1df-d452-4efc-b9fa-a24470a3f246.jpeg"
+  },
+  {
+    "athleteId": 140793,
+    "fullName": "Nathan Lessmann",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 212,
+    "total": 804.56,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/c9d4d46f-74e7-4e05-ad43-545f6788a387.jpeg"
+  },
+  {
+    "athleteId": 165651,
+    "fullName": "Tristan Douche",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 213,
+    "total": 792.87,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 39908,
+    "fullName": "Vicente Hernandez",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 214,
+    "total": 789.72,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/vicente_hernandez_ESP.jpg"
+  },
+  {
+    "athleteId": 58385,
+    "fullName": "Sylvain Fridelance",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 215,
+    "total": 782.67,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/SUI_Sylvain_Fridelance.jpg"
+  },
+  {
+    "athleteId": 116814,
+    "fullName": "Tzu I Pan",
+    "noc": "TPE",
+    "gender": "male",
+    "rank": 216,
+    "total": 778.97,
+    "flag": "https://cms.triathlon.org/assets/bd388e65-778d-4e01-99a4-f174aa731213",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_6082.jpeg"
+  },
+  {
+    "athleteId": 158794,
+    "fullName": "Gregor Rasva",
+    "noc": "EST",
+    "gender": "male",
+    "rank": 217,
+    "total": 777.79,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/9D00B260-B54F-4C80-8712-3F6150793F25.jpeg"
+  },
+  {
+    "athleteId": 103075,
+    "fullName": "Aiden Longcroft-Harris",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 218,
+    "total": 777.57,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/Aiden_Longcroft-Harris_(CAN)_-_JR2017.JPG"
+  },
+  {
+    "athleteId": 166391,
+    "fullName": "Alexander Bozhilov",
+    "noc": "BUL",
+    "gender": "male",
+    "rank": 219,
+    "total": 777.25,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d",
+    "profileImage": "https://prod-tri-assets.imgix.net/40b2f32c-4d9a-4ed7-8635-30c800b881f1.png"
+  },
+  {
+    "athleteId": 124696,
+    "fullName": "Kanta Ando",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 220,
+    "total": 775.18,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 137944,
+    "fullName": "Thomas Windischbauer",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 221,
+    "total": 773.22,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Thomas_Windischbauer.jpg"
+  },
+  {
+    "athleteId": 168497,
+    "fullName": "Milan Lariviere",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 222,
+    "total": 765.42,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/pp_world_triathlon1.jpg"
+  },
+  {
+    "athleteId": 21622,
+    "fullName": "Alois Knabl",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 223,
+    "total": 760.61,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUT_Alois_Knabl.jpg"
+  },
+  {
+    "athleteId": 143337,
+    "fullName": "Kamil Kulik",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 224,
+    "total": 753.06,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+    "profileImage": "https://prod-tri-assets.imgix.net/526A49B1-BFD2-4AF3-93AA-2CD62F02912C.jpeg"
+  },
+  {
+    "athleteId": 168247,
+    "fullName": "Mateo Vidal",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 225,
+    "total": 750.11,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 136255,
+    "fullName": "Gyula Kovács",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 226,
+    "total": 747.36,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-44.jpg"
+  },
+  {
+    "athleteId": 168496,
+    "fullName": "Adam Fouchal",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 227,
+    "total": 739.65,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 149809,
+    "fullName": "Fabian Schönke",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 228,
+    "total": 732.8,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-10.jpg"
+  },
+  {
+    "athleteId": 124975,
+    "fullName": "Gergő Dobi",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 229,
+    "total": 725.05,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/845dae08-1459-476a-a0f6-4ef8af818cd8.jpeg"
+  },
+  {
+    "athleteId": 170219,
+    "fullName": "Hector Tolsa Garcia",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 230,
+    "total": 725,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_20392.jpeg"
+  },
+  {
+    "athleteId": 103256,
+    "fullName": "Pavlos Antoniades",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 231,
+    "total": 721.52,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/83e9289a-9223-4ce7-942d-5839dd1589be.jpeg"
+  },
+  {
+    "athleteId": 132947,
+    "fullName": "Andres Gras",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 232,
+    "total": 718.86,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_162241_PBA_7117b.jpg"
+  },
+  {
+    "athleteId": 136357,
+    "fullName": "Tak Long Yip",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 233,
+    "total": 717.08,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/230712_173117_PBA_7532b.jpg"
+  },
+  {
+    "athleteId": 175619,
+    "fullName": "Arlan Zhanabay",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 234,
+    "total": 716.61,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 166177,
+    "fullName": "William Taylor",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 235,
+    "total": 715.13,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 186536,
+    "fullName": "Jelle Kaindl",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 236,
+    "total": 714.41,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d"
+  },
+  {
+    "athleteId": 132341,
+    "fullName": "Peter Rojtas",
+    "noc": "SVK",
+    "gender": "male",
+    "rank": 237,
+    "total": 712.19,
+    "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+    "profileImage": "https://prod-tri-assets.imgix.net/SLO_peter_rojtas.JPG"
+  },
+  {
+    "athleteId": 166429,
+    "fullName": "Andrea Balestreri",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 238,
+    "total": 710.91,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 125293,
+    "fullName": "Fynn Batkin",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 239,
+    "total": 709.79,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 170069,
+    "fullName": "Brandon Pye",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 240,
+    "total": 696.91,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/6b316fd4-f812-4cd2-856a-48c1bdcf4c4a.jpeg"
+  },
+  {
+    "athleteId": 193174,
+    "fullName": "Aiden Petersen",
+    "noc": "RSA",
+    "gender": "male",
+    "rank": 241,
+    "total": 696.9,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+    "profileImage": "https://prod-tri-assets.imgix.net/9de1afa8-a4ab-4ac4-995e-15df19409b64.jpg"
+  },
+  {
+    "athleteId": 174233,
+    "fullName": "Finnley Oliver",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 242,
+    "total": 695.49,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 127186,
+    "fullName": "Antoine Duval",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 243,
+    "total": 695.48,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_3947.jpeg"
+  },
+  {
+    "athleteId": 128159,
+    "fullName": "Alexis Lherieau",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 244,
+    "total": 692.86,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Photo_Valencia_Cool.jpg"
+  },
+  {
+    "athleteId": 186340,
+    "fullName": "Joshua Bird",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 245,
+    "total": 690.98,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 79840,
+    "fullName": "Ivan Anzaldo",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 246,
+    "total": 690.21,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+    "profileImage": "https://prod-tri-assets.imgix.net/Ivan_Anzaldo_(ARG)_-_JR2017.jpg"
+  },
+  {
+    "athleteId": 109796,
+    "fullName": "Cheung Sing Nicholas Tsang",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 247,
+    "total": 687.67,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 155232,
+    "fullName": "Eduardo Blanco Mollá",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 248,
+    "total": 687.57,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/9c321d98-20de-47da-a664-4a0bca01d6b5.JPG"
+  },
+  {
+    "athleteId": 165196,
+    "fullName": "Alfredo Miguel Rodríguez Figueroa",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 249,
+    "total": 682.52,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/1e701172-0c99-4f9a-ac72-670eb83479b2.jpeg"
+  },
+  {
+    "athleteId": 170774,
+    "fullName": "Samuel Künz",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 250,
+    "total": 677.17,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d"
+  },
+  {
+    "athleteId": 135253,
+    "fullName": "Uzziel Valderrabano Chavez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 251,
+    "total": 676.6,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/fe314059-01cf-4711-bdd3-5ff68640a6f0.jpeg"
+  },
+  {
+    "athleteId": 112754,
+    "fullName": "Gabriel Terán Carvajal",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 252,
+    "total": 675.22,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/gabriel_teran.jpg"
+  },
+  {
+    "athleteId": 168245,
+    "fullName": "Achille Besson",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 253,
+    "total": 673.71,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 172097,
+    "fullName": "Rashif Amila Yaqin",
+    "noc": "INA",
+    "gender": "male",
+    "rank": 254,
+    "total": 667.98,
+    "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d"
+  },
+  {
+    "athleteId": 124356,
+    "fullName": "Eduardo Nuñez Gomez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 255,
+    "total": 666.83,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/7213a11b-f4a2-43e1-b1fe-2fa036c7a303.jpeg"
+  },
+  {
+    "athleteId": 165069,
+    "fullName": "Andres Hilario Morales",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 256,
+    "total": 663.56,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 102855,
+    "fullName": "João Teixeira Alvares",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 257,
+    "total": 662.54,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 158640,
+    "fullName": "Zakaria Chtioui",
+    "noc": "TUN",
+    "gender": "male",
+    "rank": 258,
+    "total": 660.98,
+    "flag": "https://cms.triathlon.org/assets/9bc42709-3e34-44ea-a621-76adf25120b0",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_0265.jpeg"
+  },
+  {
+    "athleteId": 136772,
+    "fullName": "Noah Künz",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 259,
+    "total": 658.89,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_3332.jpeg"
+  },
+  {
+    "athleteId": 11143,
+    "fullName": "Vincent Luis",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 260,
+    "total": 654.75,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/vincent_luis_FRA1.jpg"
+  },
+  {
+    "athleteId": 133261,
+    "fullName": "Pau Noguera Salmeron",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 261,
+    "total": 654.38,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 165163,
+    "fullName": "Cis Huyghe",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 262,
+    "total": 653.73,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/d3b9c0aa-d0a2-4c70-bc9b-09daa31b8fd0.png"
+  },
+  {
+    "athleteId": 125008,
+    "fullName": "Robin Elg",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 263,
+    "total": 644.97,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/d28ff045-ad53-4bc3-b415-bacf8b8ab632.jpg"
+  },
+  {
+    "athleteId": 163071,
+    "fullName": "Bautista Arbizu",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 264,
+    "total": 640.79,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+    "profileImage": "https://prod-tri-assets.imgix.net/e24a5452-ac26-4bdb-b64e-8a6b07b4f55e.jpeg"
+  },
+  {
+    "athleteId": 98126,
+    "fullName": "Guillaume Hay",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 265,
+    "total": 638.06,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/U23-FFTRI-FR-65.jpg"
+  },
+  {
+    "athleteId": 96851,
+    "fullName": "Johannes Sikk",
+    "noc": "EST",
+    "gender": "male",
+    "rank": 266,
+    "total": 637.88,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/F657122C-14EB-4EEB-BE18-A45661938964.jpeg"
+  },
+  {
+    "athleteId": 84908,
+    "fullName": "Tsz To Wong",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 267,
+    "total": 632.74,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 165255,
+    "fullName": "Thomas Castañeda Maldonado",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 268,
+    "total": 632.63,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529"
+  },
+  {
+    "athleteId": 175433,
+    "fullName": "Sebastian Zurob",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 269,
+    "total": 629.41,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236"
+  },
+  {
+    "athleteId": 149960,
+    "fullName": "Ul Denša",
+    "noc": "SLO",
+    "gender": "male",
+    "rank": 270,
+    "total": 628.69,
+    "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7495.jpeg"
+  },
+  {
+    "athleteId": 139770,
+    "fullName": "Jan Diener",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 271,
+    "total": 622.51,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/615124f0-ccb9-4b1e-b0ae-21225f4dbd21.jpeg"
+  },
+  {
+    "athleteId": 163625,
+    "fullName": "Pao Millo",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 272,
+    "total": 620.36,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/223d1639-6a81-455e-866a-cfedeceb2f07.jpeg"
+  },
+  {
+    "athleteId": 168922,
+    "fullName": "Tim Semmler",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 273,
+    "total": 617.78,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/P8050847_(002).jpeg"
+  },
+  {
+    "athleteId": 94517,
+    "fullName": "Maxime Fluri",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 274,
+    "total": 617.09,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Maxime_Fluri.jpg"
+  },
+  {
+    "athleteId": 116727,
+    "fullName": "Itamar Levanon",
+    "noc": "ISR",
+    "gender": "male",
+    "rank": 275,
+    "total": 614.55,
+    "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+    "profileImage": "https://prod-tri-assets.imgix.net/4C64FD78-1DEB-4D6E-966C-62A6EDB31B24.jpeg"
+  },
+  {
+    "athleteId": 133130,
+    "fullName": "Shachar Agur",
+    "noc": "ISR",
+    "gender": "male",
+    "rank": 276,
+    "total": 608.44,
+    "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+    "profileImage": "https://prod-tri-assets.imgix.net/Shachar_Agur.jpg"
+  },
+  {
+    "athleteId": 143420,
+    "fullName": "Blake Harris",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 277,
+    "total": 597.85,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/d4280c00-bac9-4f76-b2b7-097a82e53bbb.jpg"
+  },
+  {
+    "athleteId": 73393,
+    "fullName": "Mikhail Antipov",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 278,
+    "total": 595.59,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/3dcede57-90d0-49ed-ba36-3585f56a0362.jpeg"
+  },
+  {
+    "athleteId": 116321,
+    "fullName": "Veikka Saren",
+    "noc": "FIN",
+    "gender": "male",
+    "rank": 279,
+    "total": 589.37,
+    "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
+    "profileImage": "https://prod-tri-assets.imgix.net/61728ac6-19f1-48b8-ac1d-b40b23d34cb8.jpeg"
+  },
+  {
+    "athleteId": 160627,
+    "fullName": "Alex Robin",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 280,
+    "total": 585.89,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 106431,
+    "fullName": "Vitalii Vorontsov",
+    "noc": "UKR",
+    "gender": "male",
+    "rank": 281,
+    "total": 584.89,
+    "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5",
+    "profileImage": "https://prod-tri-assets.imgix.net/vitalii_vorontsov1.jpg"
+  },
+  {
+    "athleteId": 162137,
+    "fullName": "Eneko De Castro Cativiela",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 282,
+    "total": 584.1,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/08565bf4-c477-4ee1-9741-02f864f5c471.png"
+  },
+  {
+    "athleteId": 123686,
+    "fullName": "Remy Gerard",
+    "noc": "MRI",
+    "gender": "male",
+    "rank": 283,
+    "total": 580.77,
+    "flag": "https://cms.triathlon.org/assets/d748e84b-5dbc-4fd1-a884-425c0a02473e"
+  },
+  {
+    "athleteId": 158313,
+    "fullName": "Simeone Romano",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 284,
+    "total": 579.45,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 165596,
+    "fullName": "Bradley Course",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 285,
+    "total": 577.62,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/AUS_Bradley_Course.JPG"
+  },
+  {
+    "athleteId": 136129,
+    "fullName": "Fiorenzo Angelini",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 286,
+    "total": 576.88,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-831.jpg"
+  },
+  {
+    "athleteId": 106181,
+    "fullName": "Artjoms Gajevskis",
+    "noc": "LAT",
+    "gender": "male",
+    "rank": 287,
+    "total": 576.48,
+    "flag": "https://cms.triathlon.org/assets/2e9f54c2-ce97-44a1-813f-91179b186145",
+    "profileImage": "https://prod-tri-assets.imgix.net/F47CBB57-FC21-4E09-9737-3F9F124852D1.jpeg"
+  },
+  {
+    "athleteId": 106609,
+    "fullName": "Armin Angerjärv",
+    "noc": "EST",
+    "gender": "male",
+    "rank": 288,
+    "total": 575.97,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/603EABFB-DE95-4BF8-BDEE-54A8E9A42463.JPG"
+  },
+  {
+    "athleteId": 168498,
+    "fullName": "Martin Hubner",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 289,
+    "total": 574.81,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 83242,
+    "fullName": "James Edgar",
+    "noc": "IRL",
+    "gender": "male",
+    "rank": 290,
+    "total": 574.16,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/7DBABFBF-A46C-493C-A20E-D4BE14D26495.jpeg"
+  },
+  {
+    "athleteId": 158866,
+    "fullName": "Lukas Meckel",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 291,
+    "total": 571.95,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 113435,
+    "fullName": "Seifeddine Selmi",
+    "noc": "TUN",
+    "gender": "male",
+    "rank": 292,
+    "total": 570.29,
+    "flag": "https://cms.triathlon.org/assets/9bc42709-3e34-44ea-a621-76adf25120b0",
+    "profileImage": "https://prod-tri-assets.imgix.net/08623acc-577b-40a5-b757-82c0bc224b2a.jpg"
+  },
+  {
+    "athleteId": 186112,
+    "fullName": "Wade Barr",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 293,
+    "total": 570.22,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 139819,
+    "fullName": "Yuya Kobayashi",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 294,
+    "total": 568.95,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/e59679bd-1023-45af-ac91-697d15e75f33.jpeg"
+  },
+  {
+    "athleteId": 135829,
+    "fullName": "Gabriel Barac",
+    "noc": "CRO",
+    "gender": "male",
+    "rank": 295,
+    "total": 564.31,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2",
+    "profileImage": "https://prod-tri-assets.imgix.net/ja.png"
+  },
+  {
+    "athleteId": 106810,
+    "fullName": "Yann Allichon",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 296,
+    "total": 562.64,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/7c43c4c4-99ec-4e7b-bc9c-0a876fb4a338.jpeg"
+  },
+  {
+    "athleteId": 169738,
+    "fullName": "Angel Yael Yépez Meza",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 297,
+    "total": 560.35,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/e95ba244-0b4a-4cc4-a720-4e4fb5795f37.JPG"
+  },
+  {
+    "athleteId": 158227,
+    "fullName": "Antoine L'hôte",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 298,
+    "total": 557.27,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-211.jpg"
+  },
+  {
+    "athleteId": 76434,
+    "fullName": "Casper Stornes",
+    "noc": "NOR",
+    "gender": "male",
+    "rank": 299,
+    "total": 555.98,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+    "profileImage": "https://prod-tri-assets.imgix.net/Casper_Stornes.jpg"
+  },
+  {
+    "athleteId": 171949,
+    "fullName": "Leandre Binette",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 300,
+    "total": 553.84,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/26c0494e-1c2d-466f-87f6-766f491d3a5f.jpeg"
+  },
+  {
+    "athleteId": 143170,
+    "fullName": "Rodrigo Probert González",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 301,
+    "total": 547.3,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/f975bed0-22d1-41da-a8eb-969187051693.jpeg"
+  },
+  {
+    "athleteId": 166687,
+    "fullName": "Jens Smolders",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 302,
+    "total": 541.39,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/Schermafbeelding_2023-08-08_om_10.27_.04_.png"
+  },
+  {
+    "athleteId": 125002,
+    "fullName": "Ben Fäh",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 303,
+    "total": 539.17,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+    "profileImage": "https://prod-tri-assets.imgix.net/Ben_Fah.jpg"
+  },
+  {
+    "athleteId": 70824,
+    "fullName": "Gyuseo Choi",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 304,
+    "total": 538.08,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/Gyuseo_Choi.jpg"
+  },
+  {
+    "athleteId": 165090,
+    "fullName": "Henry Bristol",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 305,
+    "total": 536.64,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 169330,
+    "fullName": "Rintaro Kuramoto",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 306,
+    "total": 536.59,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 98198,
+    "fullName": "Chris Gregor",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 307,
+    "total": 533.1,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 132432,
+    "fullName": "Jorge Raul Cabinal Gramajo",
+    "noc": "GUA",
+    "gender": "male",
+    "rank": 308,
+    "total": 533.04,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d"
+  },
+  {
+    "athleteId": 142828,
+    "fullName": "Luke Anthony",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 309,
+    "total": 520.43,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-40.jpg"
+  },
+  {
+    "athleteId": 163859,
+    "fullName": "Kira Wakatake",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 310,
+    "total": 518.09,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 136103,
+    "fullName": "Oliver Hostrup Sahlberg",
+    "noc": "DEN",
+    "gender": "male",
+    "rank": 311,
+    "total": 512.62,
+    "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-54.jpg"
+  },
+  {
+    "athleteId": 132936,
+    "fullName": "Abdelrahman Tantish",
+    "noc": "PLE",
+    "gender": "male",
+    "rank": 312,
+    "total": 512.41,
+    "flag": "https://cms.triathlon.org/assets/9f531e87-e2c8-492e-9ef8-763d7a3bee02"
+  },
+  {
+    "athleteId": 125303,
+    "fullName": "Jack Stanton-Stock",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 313,
+    "total": 512.32,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/Headshot4.jpg"
+  },
+  {
+    "athleteId": 133037,
+    "fullName": "Jack Spence",
+    "noc": "RSA",
+    "gender": "male",
+    "rank": 314,
+    "total": 505.27,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+    "profileImage": "https://prod-tri-assets.imgix.net/64b8e338-232e-4165-b104-f919b00fde8e.jpeg"
+  },
+  {
+    "athleteId": 165992,
+    "fullName": "Gus Marfell",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 315,
+    "total": 502.42,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 116391,
+    "fullName": "Jan Bader",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 316,
+    "total": 502.3,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/027A8525.jpg"
+  },
+  {
+    "athleteId": 73078,
+    "fullName": "Lasse Nygaard Priester",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 317,
+    "total": 499.4,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+    "profileImage": "https://prod-tri-assets.imgix.net/Lasse_Nygaard_Priester.jpg"
+  },
+  {
+    "athleteId": 158271,
+    "fullName": "Nicolo' Astori",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 318,
+    "total": 499.03,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/E0F177B7-A9C4-4951-9566-FD542A76360B.jpeg"
+  },
+  {
+    "athleteId": 162674,
+    "fullName": "Juyoung Kim",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 319,
+    "total": 498.47,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 160706,
+    "fullName": "Enzo Bourdon",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 320,
+    "total": 497.82,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_4246.jpeg"
+  },
+  {
+    "athleteId": 166120,
+    "fullName": "Benjamin Airey",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 321,
+    "total": 495.81,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 160748,
+    "fullName": "Raul Petre",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 322,
+    "total": 495.28,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/d886a1fe-291f-427a-8f95-a88d365a16d4.jpeg"
+  },
+  {
+    "athleteId": 160784,
+    "fullName": "Filip Vilenica",
+    "noc": "CRO",
+    "gender": "male",
+    "rank": 323,
+    "total": 494.75,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2"
+  },
+  {
+    "athleteId": 186213,
+    "fullName": "Gerald Rojas Carvajal",
+    "noc": "CRC",
+    "gender": "male",
+    "rank": 324,
+    "total": 491,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070"
+  },
+  {
+    "athleteId": 23656,
+    "fullName": "Felix Duchampt",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 325,
+    "total": 490.68,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/felix_duchampt_ROU.jpg"
+  },
+  {
+    "athleteId": 166519,
+    "fullName": "Rodrigo Pacheco Gajá",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 326,
+    "total": 490.64,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/53ccedf7-cdc6-48db-8e5a-7660cdcfb866.jpeg"
+  },
+  {
+    "athleteId": 187855,
+    "fullName": "Christophe Gardner",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 327,
+    "total": 488.13,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 159703,
+    "fullName": "Taha Eren Coşgun",
+    "noc": "TUR",
+    "gender": "male",
+    "rank": 328,
+    "total": 487.56,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab"
+  },
+  {
+    "athleteId": 181188,
+    "fullName": "Luis Rühl",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 329,
+    "total": 484.3,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 168086,
+    "fullName": "Yhousman David Perdomo Peña",
+    "noc": "VEN",
+    "gender": "male",
+    "rank": 330,
+    "total": 479.14,
+    "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
+    "profileImage": "https://prod-tri-assets.imgix.net/7a651913-f95b-42b3-8540-5ec79e65cb3f.png"
+  },
+  {
+    "athleteId": 143481,
+    "fullName": "Ivan Abele",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 331,
+    "total": 476.61,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-86.jpg"
+  },
+  {
+    "athleteId": 164737,
+    "fullName": "Luigi Antonio Loddi Vanzella",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 332,
+    "total": 471.12,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 168754,
+    "fullName": "Matthew McGoey",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 333,
+    "total": 466.66,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 143435,
+    "fullName": "Oliver Batista",
+    "noc": "PAN",
+    "gender": "male",
+    "rank": 334,
+    "total": 466.18,
+    "flag": "https://cms.triathlon.org/assets/5f19a72e-6b0a-4080-87fe-ad0f4e2a6824"
+  },
+  {
+    "athleteId": 165290,
+    "fullName": "Cole Jamieson ",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 335,
+    "total": 465.16,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 132434,
+    "fullName": "Clayton Hutchins",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 336,
+    "total": 462.97,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_8219.jpeg"
+  },
+  {
+    "athleteId": 168499,
+    "fullName": "Quentin Criado",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 337,
+    "total": 456.71,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 160360,
+    "fullName": "Dmitrii Karpeev",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 338,
+    "total": 455.64,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 119073,
+    "fullName": "Thomas Rivet",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 339,
+    "total": 455.55,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/FB_IMG_1556094973900.jpg"
+  },
+  {
+    "athleteId": 136600,
+    "fullName": "Taegi Kim",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 340,
+    "total": 453.45,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 91064,
+    "fullName": "Luke Bate",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 341,
+    "total": 451.78,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/luke_bate_AUS1.jpg"
+  },
+  {
+    "athleteId": 118190,
+    "fullName": "Minho Kweon",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 342,
+    "total": 449.63,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/Minho_Kweon.jpg"
+  },
+  {
+    "athleteId": 158569,
+    "fullName": "Julian Piller",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 343,
+    "total": 447.73,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d"
+  },
+  {
+    "athleteId": 158456,
+    "fullName": "Davide Menichelli",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 344,
+    "total": 446.78,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/bd5df7ce-f4c2-46c1-9b56-772406b57e37.heic"
+  },
+  {
+    "athleteId": 135674,
+    "fullName": "Niels Van Lanen",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 345,
+    "total": 446.7,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-96.jpg"
+  },
+  {
+    "athleteId": 113035,
+    "fullName": "Li Rong, Luke Chua",
+    "noc": "SGP",
+    "gender": "male",
+    "rank": 346,
+    "total": 445.82,
+    "flag": "https://cms.triathlon.org/assets/f418db4b-45e7-485a-9088-827b2aa80852"
+  },
+  {
+    "athleteId": 189854,
+    "fullName": "Robi Racine",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 347,
+    "total": 444.29,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 168804,
+    "fullName": "Marcos Alejandro Fernández González",
+    "noc": "CUB",
+    "gender": "male",
+    "rank": 348,
+    "total": 441.94,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa"
+  },
+  {
+    "athleteId": 198937,
+    "fullName": "Aleksey Makarov",
+    "noc": "UZB",
+    "gender": "male",
+    "rank": 349,
+    "total": 439.35,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7"
+  },
+  {
+    "athleteId": 176980,
+    "fullName": "Ryan Luczak",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 350,
+    "total": 438.24,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94"
+  },
+  {
+    "athleteId": 150057,
+    "fullName": "Gergő Gyula Soós",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 351,
+    "total": 435.93,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/2d4d7b7b-4385-4ce7-ad6e-655e7f5bd9f4.jpeg"
+  },
+  {
+    "athleteId": 137296,
+    "fullName": "Jimmy Lund",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 352,
+    "total": 434.07,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/f47703a7-2a14-4a27-939d-294a14c32e33.jpeg"
+  },
+  {
+    "athleteId": 175770,
+    "fullName": "Albert García Serra",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 353,
+    "total": 426.58,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 175764,
+    "fullName": "Alejandro Pla Estebanez",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 354,
+    "total": 423.8,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 179213,
+    "fullName": "Nicolas Alejandro Calvopiña Castellano",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 355,
+    "total": 423.39,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f"
+  },
+  {
+    "athleteId": 194707,
+    "fullName": "Hugo Fernandez Tovar",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 356,
+    "total": 422.93,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54"
+  },
+  {
+    "athleteId": 159184,
+    "fullName": "Jesús Vela Vela",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 357,
+    "total": 422.61,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/d9e10c02-32ce-4133-a460-46fcb7bf709b.jpg"
+  },
+  {
+    "athleteId": 169892,
+    "fullName": "Brett Saunders",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 358,
+    "total": 422.23,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 175773,
+    "fullName": "Damian Suarez Couto",
+    "noc": "ESP",
+    "gender": "male",
+    "rank": 359,
+    "total": 420.33,
+    "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+    "profileImage": "https://prod-tri-assets.imgix.net/60f22681-5566-45e2-8367-8b850b3bbec1.jpg"
+  },
+  {
+    "athleteId": 124534,
+    "fullName": "Niklas Keller",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 360,
+    "total": 418.85,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/Niklas_Keller.jpg"
+  },
+  {
+    "athleteId": 46791,
+    "fullName": "Delian Stateff",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 361,
+    "total": 417.04,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/Stateff_Delian_1.jpg"
+  },
+  {
+    "athleteId": 55763,
+    "fullName": "Temirlan Temirov",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 362,
+    "total": 414.49,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d",
+    "profileImage": "https://prod-tri-assets.imgix.net/409aaa3e-99ac-4aac-97c4-1b8806543d48.jpeg"
+  },
+  {
+    "athleteId": 158697,
+    "fullName": "Burak Cağdaş",
+    "noc": "TUR",
+    "gender": "male",
+    "rank": 363,
+    "total": 414.27,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab"
+  },
+  {
+    "athleteId": 158639,
+    "fullName": "Mohamed Aziz Hamdi",
+    "noc": "TUN",
+    "gender": "male",
+    "rank": 364,
+    "total": 412.47,
+    "flag": "https://cms.triathlon.org/assets/9bc42709-3e34-44ea-a621-76adf25120b0",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_20240516_192019.jpg"
+  },
+  {
+    "athleteId": 184341,
+    "fullName": "Zixiang Lin",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 365,
+    "total": 411.81,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 166162,
+    "fullName": "Gert Martin Savitsch",
+    "noc": "EST",
+    "gender": "male",
+    "rank": 366,
+    "total": 408.57,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954"
+  },
+  {
+    "athleteId": 180819,
+    "fullName": "Jakub Suchan",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 367,
+    "total": 406.46,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 216201,
+    "fullName": "Semen Kashitsyn",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 368,
+    "total": 406.19,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg"
+  },
+  {
+    "athleteId": 109797,
+    "fullName": "Jason Tai Long Ng",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 369,
+    "total": 402.03,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+    "profileImage": "https://prod-tri-assets.imgix.net/Jason_Tai_Long_Ng_(HKG)_-_JR2017.JPG"
+  },
+  {
+    "athleteId": 124590,
+    "fullName": "Mohamed Nemsi",
+    "noc": "MAR",
+    "gender": "male",
+    "rank": 370,
+    "total": 401.47,
+    "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095"
+  },
+  {
+    "athleteId": 115255,
+    "fullName": "Victor Goené",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 371,
+    "total": 398.96,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_7705.JPG"
+  },
+  {
+    "athleteId": 115036,
+    "fullName": "Naoshige Oura",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 372,
+    "total": 398.7,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/oura_naoshige_jpn.jpg"
+  },
+  {
+    "athleteId": 162964,
+    "fullName": "Yael Vladimir González Melendez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 373,
+    "total": 396.43,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/499a3034-93d5-4535-a4b9-c3b7d7a4e7302.jpeg"
+  },
+  {
+    "athleteId": 181758,
+    "fullName": "Luke McIntyre",
+    "noc": "BAR",
+    "gender": "male",
+    "rank": 374,
+    "total": 387.24,
+    "flag": "https://cms.triathlon.org/assets/f12587d9-4bbc-408b-9392-3813ee60799c"
+  },
+  {
+    "athleteId": 180813,
+    "fullName": "Alexandru-Rares Popa",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 375,
+    "total": 387.22,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 128545,
+    "fullName": "Yoann Colin",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 376,
+    "total": 385.31,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 103900,
+    "fullName": "Omar Abdulla Hamza Ali",
+    "noc": "BRN",
+    "gender": "male",
+    "rank": 377,
+    "total": 382.53,
+    "flag": "https://cms.triathlon.org/assets/fa85fe6d-9bd6-4827-bca4-2f1dee2c6c48"
+  },
+  {
+    "athleteId": 187003,
+    "fullName": "William Pearson Inman",
+    "noc": "RSA",
+    "gender": "male",
+    "rank": 378,
+    "total": 381.37,
+    "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699"
+  },
+  {
+    "athleteId": 166390,
+    "fullName": "Boris Andreev",
+    "noc": "BUL",
+    "gender": "male",
+    "rank": 379,
+    "total": 380.72,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d",
+    "profileImage": "https://prod-tri-assets.imgix.net/f1d8d126-e511-4d66-b29e-db2b48a7f78d.jpeg"
+  },
+  {
+    "athleteId": 118191,
+    "fullName": "Sangmin Park",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 380,
+    "total": 375.51,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/KOR_Sangmin_park.JPG"
+  },
+  {
+    "athleteId": 165609,
+    "fullName": "Christopher Deegan",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 381,
+    "total": 373.76,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/Aus_Triathlon_Headshot.jpg"
+  },
+  {
+    "athleteId": 166042,
+    "fullName": "Grayson Westgate",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 382,
+    "total": 371.84,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 180956,
+    "fullName": "Thibault Rivier",
+    "noc": "SUI",
+    "gender": "male",
+    "rank": 383,
+    "total": 371.68,
+    "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc"
+  },
+  {
+    "athleteId": 186149,
+    "fullName": "Jack Woodberry",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 384,
+    "total": 366.42,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 140597,
+    "fullName": "Vlad Adrian Remzing",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 385,
+    "total": 363.45,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d"
+  },
+  {
+    "athleteId": 186587,
+    "fullName": "Konosuke Uchida",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 386,
+    "total": 361.85,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 136785,
+    "fullName": "Maxim Shmulich",
+    "noc": "KAZ",
+    "gender": "male",
+    "rank": 387,
+    "total": 361.77,
+    "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d"
+  },
+  {
+    "athleteId": 116679,
+    "fullName": "Radim Grebík",
+    "noc": "CZE",
+    "gender": "male",
+    "rank": 388,
+    "total": 358.85,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/12.png"
+  },
+  {
+    "athleteId": 56561,
+    "fullName": "Mikita Katsianeu",
+    "noc": "BLR",
+    "gender": "male",
+    "rank": 389,
+    "total": 357.86,
+    "flag": "https://cms.triathlon.org/assets/cdd1c3f1-e63c-44c7-a917-93cfed159277",
+    "profileImage": "https://prod-tri-assets.imgix.net/c4dab326-6f17-4336-be86-69b0ea231805.jpg"
+  },
+  {
+    "athleteId": 25867,
+    "fullName": "David Nuñez Gomez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 390,
+    "total": 356.03,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/442B033B-7F4F-47AD-B912-FE51AAA786C4.jpeg"
+  },
+  {
+    "athleteId": 124939,
+    "fullName": "Jesse Cuijpers",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 391,
+    "total": 353.75,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8"
+  },
+  {
+    "athleteId": 172262,
+    "fullName": "Lukas Vadeika",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 392,
+    "total": 350.48,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 182214,
+    "fullName": "Kjell Arved Brandt",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 393,
+    "total": 347.31,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 126234,
+    "fullName": "Kamran Khodjaev",
+    "noc": "UZB",
+    "gender": "male",
+    "rank": 394,
+    "total": 341.39,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7"
+  },
+  {
+    "athleteId": 141960,
+    "fullName": "Petter Ellingsbø",
+    "noc": "NOR",
+    "gender": "male",
+    "rank": 395,
+    "total": 338.62,
+    "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5"
+  },
+  {
+    "athleteId": 168996,
+    "fullName": "Thomas Hattee",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 396,
+    "total": 337.4,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 81152,
+    "fullName": "Christian Davey",
+    "noc": "NZL",
+    "gender": "male",
+    "rank": 397,
+    "total": 336.49,
+    "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88"
+  },
+  {
+    "athleteId": 158267,
+    "fullName": "Kiril Polikarpenko",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 398,
+    "total": 331.34,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 125404,
+    "fullName": "Oussama Berrouane",
+    "noc": "ALG",
+    "gender": "male",
+    "rank": 399,
+    "total": 330.15,
+    "flag": "https://cms.triathlon.org/assets/536b4ac1-632a-461f-af91-44e39e1408a2",
+    "profileImage": "https://prod-tri-assets.imgix.net/b15d1064-af02-4036-b428-f0c2e8bb00f5.jpeg"
+  },
+  {
+    "athleteId": 90737,
+    "fullName": "Hugo Mario Ruiz Dimate",
+    "noc": "COL",
+    "gender": "male",
+    "rank": 400,
+    "total": 329.06,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+    "profileImage": "https://prod-tri-assets.imgix.net/hugo_mario_ruiz_dimate_COL.jpeg"
+  },
+  {
+    "athleteId": 168021,
+    "fullName": "Christiaan Jansen",
+    "noc": "ARU",
+    "gender": "male",
+    "rank": 401,
+    "total": 324.63,
+    "flag": "https://cms.triathlon.org/assets/bf4c38ba-b114-4a73-bf37-4e444683347a"
+  },
+  {
+    "athleteId": 158424,
+    "fullName": "Domen Bojanc",
+    "noc": "SLO",
+    "gender": "male",
+    "rank": 402,
+    "total": 324.62,
+    "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12"
+  },
+  {
+    "athleteId": 160342,
+    "fullName": "Daniil Babanschi",
+    "noc": "MDA",
+    "gender": "male",
+    "rank": 403,
+    "total": 324.28,
+    "flag": "https://cms.triathlon.org/assets/55c2b138-f000-41b2-b836-7a069c018fe2"
+  },
+  {
+    "athleteId": 168805,
+    "fullName": "Alain Brian Fernández Pérez",
+    "noc": "CUB",
+    "gender": "male",
+    "rank": 404,
+    "total": 324.22,
+    "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa"
+  },
+  {
+    "athleteId": 18332,
+    "fullName": "Carlos Javier Quinchara Forero",
+    "noc": "COL",
+    "gender": "male",
+    "rank": 405,
+    "total": 323.68,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+    "profileImage": "https://prod-tri-assets.imgix.net/carlos-quinchara-0x200.jpg"
+  },
+  {
+    "athleteId": 56054,
+    "fullName": "Ramón Armando Matute",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 406,
+    "total": 323.63,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+    "profileImage": "https://prod-tri-assets.imgix.net/armando_matute.jpg"
+  },
+  {
+    "athleteId": 84714,
+    "fullName": "Jean Gael Laurent L`entete",
+    "noc": "MRI",
+    "gender": "male",
+    "rank": 407,
+    "total": 322.96,
+    "flag": "https://cms.triathlon.org/assets/d748e84b-5dbc-4fd1-a884-425c0a02473e"
+  },
+  {
+    "athleteId": 118188,
+    "fullName": "Seongsik Kim",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 408,
+    "total": 322.92,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05"
+  },
+  {
+    "athleteId": 175530,
+    "fullName": "Isaac Lamprecht",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 409,
+    "total": 322.44,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/8649dd8f-51a9-4f3d-9dfd-f0f4b5c23eda.jpeg"
+  },
+  {
+    "athleteId": 164746,
+    "fullName": "Julio Monteiro Martins",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 410,
+    "total": 321.11,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 80831,
+    "fullName": "Kye Wylde",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 411,
+    "total": 319.05,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/kye_wylde_AUS.jpg"
+  },
+  {
+    "athleteId": 136616,
+    "fullName": "Tadeo Baruffato",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 412,
+    "total": 318.49,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529"
+  },
+  {
+    "athleteId": 172976,
+    "fullName": "Ruslan Karnilov",
+    "noc": "UZB",
+    "gender": "male",
+    "rank": 413,
+    "total": 314.78,
+    "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7"
+  },
+  {
+    "athleteId": 199591,
+    "fullName": "Naim Mokhfi",
+    "noc": "ALG",
+    "gender": "male",
+    "rank": 414,
+    "total": 313.62,
+    "flag": "https://cms.triathlon.org/assets/536b4ac1-632a-461f-af91-44e39e1408a2"
+  },
+  {
+    "athleteId": 175677,
+    "fullName": "Diego Ladera Querales",
+    "noc": "PER",
+    "gender": "male",
+    "rank": 415,
+    "total": 313.46,
+    "flag": "https://cms.triathlon.org/assets/aedba00d-8cdd-4550-b4c5-b69e04e4eb6f",
+    "profileImage": "https://prod-tri-assets.imgix.net/875c7353-67e3-4fc8-8282-153aebc60485.jpg"
+  },
+  {
+    "athleteId": 166544,
+    "fullName": "Francis Daniels Veģeris",
+    "noc": "LAT",
+    "gender": "male",
+    "rank": 416,
+    "total": 313.21,
+    "flag": "https://cms.triathlon.org/assets/2e9f54c2-ce97-44a1-813f-91179b186145"
+  },
+  {
+    "athleteId": 124180,
+    "fullName": "Matheus Oliveira Martinhaki",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 417,
+    "total": 312.08,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_81291.jpeg"
+  },
+  {
+    "athleteId": 186111,
+    "fullName": "Bowen Bamford",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 418,
+    "total": 311.39,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 175112,
+    "fullName": "Daniel Epp",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 419,
+    "total": 310.79,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 158901,
+    "fullName": "Valentin Van Wersch",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 420,
+    "total": 309.4,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/cd8efc9a-a17a-4fd6-9ba0-a012b1eea737.jpeg"
+  },
+  {
+    "athleteId": 167641,
+    "fullName": "Gerónimo Dherete",
+    "noc": "ARG",
+    "gender": "male",
+    "rank": 421,
+    "total": 308.77,
+    "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529"
+  },
+  {
+    "athleteId": 174162,
+    "fullName": "Jose Ferreira",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 422,
+    "total": 303.69,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b"
+  },
+  {
+    "athleteId": 181219,
+    "fullName": "Simeon Bobekov",
+    "noc": "BUL",
+    "gender": "male",
+    "rank": 423,
+    "total": 303.17,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d",
+    "profileImage": "https://prod-tri-assets.imgix.net/29c17a93-d9a5-42aa-b42d-0b11ed346660.png"
+  },
+  {
+    "athleteId": 185047,
+    "fullName": "Daniel Van Aardt",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 424,
+    "total": 303.11,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 182776,
+    "fullName": "Tyreece Collins",
+    "noc": "SAM",
+    "gender": "male",
+    "rank": 425,
+    "total": 302.32,
+    "flag": "https://cms.triathlon.org/assets/2a4ba366-9b08-4f8f-aafe-e22e8b4d0566"
+  },
+  {
+    "athleteId": 194370,
+    "fullName": "Jayden Scott Koslick",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 426,
+    "total": 301.02,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 201610,
+    "fullName": "Youssef Slama",
+    "noc": "TUN",
+    "gender": "male",
+    "rank": 426,
+    "total": 301.02,
+    "flag": "https://cms.triathlon.org/assets/9bc42709-3e34-44ea-a621-76adf25120b0"
+  },
+  {
+    "athleteId": 160052,
+    "fullName": "Humberto Castañeiras Jenner",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 428,
+    "total": 300.77,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+    "profileImage": "https://prod-tri-assets.imgix.net/c6df1a70-e35c-42c5-ad9c-f0a87085f5ad.jpeg"
+  },
+  {
+    "athleteId": 150924,
+    "fullName": "David Korous",
+    "noc": "CZE",
+    "gender": "male",
+    "rank": 429,
+    "total": 299.93,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/Korous_DSC_1698.jpg"
+  },
+  {
+    "athleteId": 116387,
+    "fullName": "Sam Hart",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 430,
+    "total": 298.76,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/GBR_Sam_Hart.JPG"
+  },
+  {
+    "athleteId": 174873,
+    "fullName": "Deri McCluskey",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 431,
+    "total": 297.78,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 172064,
+    "fullName": "Robin Randoja",
+    "noc": "EST",
+    "gender": "male",
+    "rank": 432,
+    "total": 297.75,
+    "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
+    "profileImage": "https://prod-tri-assets.imgix.net/16b0a4fe-ae62-4223-815f-83c5d47bd47f.jpeg"
+  },
+  {
+    "athleteId": 196899,
+    "fullName": "Daiki Nishizaki",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 433,
+    "total": 297.09,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 136364,
+    "fullName": "Shengyin Gao",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 434,
+    "total": 294.88,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 188038,
+    "fullName": "Zahn Spies",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 435,
+    "total": 292.15,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 83325,
+    "fullName": "Juan Giraldo Gomez",
+    "noc": "COL",
+    "gender": "male",
+    "rank": 436,
+    "total": 291.92,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c"
+  },
+  {
+    "athleteId": 96552,
+    "fullName": "Neal Van Vaerenbergh",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 437,
+    "total": 290.77,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080"
+  },
+  {
+    "athleteId": 161816,
+    "fullName": "Marin Stipčević",
+    "noc": "CRO",
+    "gender": "male",
+    "rank": 438,
+    "total": 289.11,
+    "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2"
+  },
+  {
+    "athleteId": 123609,
+    "fullName": "Fernando Jacome",
+    "noc": "CHI",
+    "gender": "male",
+    "rank": 439,
+    "total": 286.68,
+    "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+    "profileImage": "https://prod-tri-assets.imgix.net/WhatsApp_Image_2022-05-21_at_6.52_.21_PM_.jpeg"
+  },
+  {
+    "athleteId": 132998,
+    "fullName": "David Vega Campoverde",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 440,
+    "total": 285.71,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f"
+  },
+  {
+    "athleteId": 6777,
+    "fullName": "Min Ho Heo",
+    "noc": "KOR",
+    "gender": "male",
+    "rank": 441,
+    "total": 285.54,
+    "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+    "profileImage": "https://prod-tri-assets.imgix.net/a990d82f-30de-4a8a-b784-32e80b3bef05.jpeg"
+  },
+  {
+    "athleteId": 195067,
+    "fullName": "Cristian Torrealba",
+    "noc": "VEN",
+    "gender": "male",
+    "rank": 442,
+    "total": 284.11,
+    "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828"
+  },
+  {
+    "athleteId": 181053,
+    "fullName": "Hugo Borel",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 443,
+    "total": 280.95,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 115245,
+    "fullName": "Filip Michalek",
+    "noc": "CZE",
+    "gender": "male",
+    "rank": 444,
+    "total": 280.86,
+    "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+    "profileImage": "https://prod-tri-assets.imgix.net/4c40b37a-28ef-4853-bafb-030b45a8dbc5.jpeg"
+  },
+  {
+    "athleteId": 132737,
+    "fullName": "Reece Harris",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 445,
+    "total": 277.8,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 135830,
+    "fullName": "Emir Aracı",
+    "noc": "TUR",
+    "gender": "male",
+    "rank": 446,
+    "total": 273.7,
+    "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab"
+  },
+  {
+    "athleteId": 158952,
+    "fullName": "Niccolò Sancisi",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 447,
+    "total": 271.99,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/00a1b9b7-eeef-4eb1-a2e4-07ed7832676a.jpg"
+  },
+  {
+    "athleteId": 180896,
+    "fullName": "Tomás Figueiredo",
+    "noc": "POR",
+    "gender": "male",
+    "rank": 448,
+    "total": 267.53,
+    "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+    "profileImage": "https://prod-tri-assets.imgix.net/8894dda8-3da4-4be0-bfb9-9cb2225d1fd5.JPG"
+  },
+  {
+    "athleteId": 161240,
+    "fullName": "Maximilian Betts",
+    "noc": "NAM",
+    "gender": "male",
+    "rank": 449,
+    "total": 265.62,
+    "flag": "https://cms.triathlon.org/assets/afd1b1cf-dbd4-4f3a-b8c5-244d5858d1f5"
+  },
+  {
+    "athleteId": 115570,
+    "fullName": "Cameron Main",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 450,
+    "total": 263.09,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+    "profileImage": "https://prod-tri-assets.imgix.net/Cameron_Main.jpg"
+  },
+  {
+    "athleteId": 135070,
+    "fullName": "Aurelien Carre",
+    "noc": "LUX",
+    "gender": "male",
+    "rank": 451,
+    "total": 261.33,
+    "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+    "profileImage": "https://prod-tri-assets.imgix.net/3d5f37d3-4ec1-4b43-bdab-23a18ddcc003.jpeg"
+  },
+  {
+    "athleteId": 184062,
+    "fullName": "Yi Jun Tey",
+    "noc": "SGP",
+    "gender": "male",
+    "rank": 452,
+    "total": 259.62,
+    "flag": "https://cms.triathlon.org/assets/f418db4b-45e7-485a-9088-827b2aa80852"
+  },
+  {
+    "athleteId": 124906,
+    "fullName": "Matias Sebastian Bravo Delgado",
+    "noc": "ECU",
+    "gender": "male",
+    "rank": 453,
+    "total": 258.75,
+    "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f"
+  },
+  {
+    "athleteId": 196897,
+    "fullName": "Isaki Oku",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 454,
+    "total": 258.13,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 165164,
+    "fullName": "Jasper Devos",
+    "noc": "BEL",
+    "gender": "male",
+    "rank": 455,
+    "total": 257.59,
+    "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+    "profileImage": "https://prod-tri-assets.imgix.net/474bfcad-7861-481d-a97c-cd2b1864c7f9.jpeg"
+  },
+  {
+    "athleteId": 162612,
+    "fullName": "Nicolas Gomez",
+    "noc": "COL",
+    "gender": "male",
+    "rank": 456,
+    "total": 257.2,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c"
+  },
+  {
+    "athleteId": 166302,
+    "fullName": "Zalán Trungel-Nagy",
+    "noc": "HUN",
+    "gender": "male",
+    "rank": 457,
+    "total": 256.01,
+    "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_2415.JPG"
+  },
+  {
+    "athleteId": 194809,
+    "fullName": "Mack Downey",
+    "noc": "GBR",
+    "gender": "male",
+    "rank": 458,
+    "total": 255,
+    "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f"
+  },
+  {
+    "athleteId": 40710,
+    "fullName": "Russell White",
+    "noc": "IRL",
+    "gender": "male",
+    "rank": 459,
+    "total": 254.65,
+    "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+    "profileImage": "https://prod-tri-assets.imgix.net/russel_white_IRL1.jpg"
+  },
+  {
+    "athleteId": 162909,
+    "fullName": "Amu Omuro",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 460,
+    "total": 253.31,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+    "profileImage": "https://prod-tri-assets.imgix.net/Amu_Omaro_JPN.jpg"
+  },
+  {
+    "athleteId": 95498,
+    "fullName": "Shing Him Yu",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 461,
+    "total": 252.9,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 127192,
+    "fullName": "Pavel Sorokin",
+    "noc": "AIN",
+    "gender": "male",
+    "rank": 462,
+    "total": 251.92,
+    "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+    "profileImage": "https://prod-tri-assets.imgix.net/1faed165-d790-4f42-8881-59f82d97f3cb.jpeg"
+  },
+  {
+    "athleteId": 124922,
+    "fullName": "Akira Fukushima",
+    "noc": "JPN",
+    "gender": "male",
+    "rank": 463,
+    "total": 250.14,
+    "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8"
+  },
+  {
+    "athleteId": 132735,
+    "fullName": "Lleyton Wall",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 464,
+    "total": 249.7,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e"
+  },
+  {
+    "athleteId": 159272,
+    "fullName": "Erick Arturo Ortigoza Rodriguez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 465,
+    "total": 247.16,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d"
+  },
+  {
+    "athleteId": 175212,
+    "fullName": "Nathan Max Centlivres Chase",
+    "noc": "NAM",
+    "gender": "male",
+    "rank": 466,
+    "total": 246.72,
+    "flag": "https://cms.triathlon.org/assets/afd1b1cf-dbd4-4f3a-b8c5-244d5858d1f5"
+  },
+  {
+    "athleteId": 184225,
+    "fullName": "Basile Fouchard",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 467,
+    "total": 246.3,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 161353,
+    "fullName": "Rick Van der Knaap",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 468,
+    "total": 244.78,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+    "profileImage": "https://prod-tri-assets.imgix.net/82d005da-3699-43fc-8c7c-0965db351edf.jpg"
+  },
+  {
+    "athleteId": 101321,
+    "fullName": "Chi Zhang",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 469,
+    "total": 241.76,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 159757,
+    "fullName": "Horea Darius Rusu",
+    "noc": "ROU",
+    "gender": "male",
+    "rank": 470,
+    "total": 241.27,
+    "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/296296104_588590539444148_8456192159505968039_n.jpg"
+  },
+  {
+    "athleteId": 172928,
+    "fullName": "Nok Hei Wong",
+    "noc": "HKG",
+    "gender": "male",
+    "rank": 471,
+    "total": 239.05,
+    "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124"
+  },
+  {
+    "athleteId": 162696,
+    "fullName": "Alexandre Leblanc",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 472,
+    "total": 237.32,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 166568,
+    "fullName": "Lorenzo Pelliciardi",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 473,
+    "total": 237.21,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 171490,
+    "fullName": "Leon Vollstedt",
+    "noc": "GER",
+    "gender": "male",
+    "rank": 474,
+    "total": 236.65,
+    "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800"
+  },
+  {
+    "athleteId": 128041,
+    "fullName": "Matteo Carlo Perri",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 475,
+    "total": 236.48,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0"
+  },
+  {
+    "athleteId": 163812,
+    "fullName": "Eloi Adjavon",
+    "noc": "TOG",
+    "gender": "male",
+    "rank": 476,
+    "total": 236.4,
+    "flag": "https://cms.triathlon.org/assets/6c9689fa-2b59-449a-828d-70db6573f44c",
+    "profileImage": "https://prod-tri-assets.imgix.net/eloi_togo01.JPG"
+  },
+  {
+    "athleteId": 166420,
+    "fullName": "Giovanni Lombardo",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 477,
+    "total": 235.59,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/f82b55d8-02d8-49c6-9946-1a0004adbe65.jpeg"
+  },
+  {
+    "athleteId": 114950,
+    "fullName": "Petar Bozhilov",
+    "noc": "BUL",
+    "gender": "male",
+    "rank": 478,
+    "total": 234.89,
+    "flag": "https://cms.triathlon.org/assets/2e8f51c2-5672-4f00-9b78-51610068dd4d",
+    "profileImage": "https://prod-tri-assets.imgix.net/b35a7d5b-8818-41de-bb09-5dae6a7ba2fa.jpg"
+  },
+  {
+    "athleteId": 166170,
+    "fullName": "Isaac Tan",
+    "noc": "MAS",
+    "gender": "male",
+    "rank": 479,
+    "total": 234.73,
+    "flag": "https://cms.triathlon.org/assets/afe87cfc-00eb-45ac-9636-d643e86c1525"
+  },
+  {
+    "athleteId": 182427,
+    "fullName": "Luis Miguel Chávez Sanchez",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 480,
+    "total": 234.05,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d"
+  },
+  {
+    "athleteId": 141545,
+    "fullName": "Mateusz Gluszkowski",
+    "noc": "POL",
+    "gender": "male",
+    "rank": 481,
+    "total": 233.35,
+    "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f"
+  },
+  {
+    "athleteId": 143294,
+    "fullName": "Brener Valencia Nuñez",
+    "noc": "PER",
+    "gender": "male",
+    "rank": 482,
+    "total": 232.06,
+    "flag": "https://cms.triathlon.org/assets/aedba00d-8cdd-4550-b4c5-b69e04e4eb6f"
+  },
+  {
+    "athleteId": 161210,
+    "fullName": "Oscar Lilja",
+    "noc": "SWE",
+    "gender": "male",
+    "rank": 483,
+    "total": 231.91,
+    "flag": "https://cms.triathlon.org/assets/4564b8d3-64e6-4d9b-bcd5-6ca9746bf381",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-50.jpg"
+  },
+  {
+    "athleteId": 201988,
+    "fullName": "David Robati",
+    "noc": "COK",
+    "gender": "male",
+    "rank": 484,
+    "total": 231.26,
+    "flag": "https://cms.triathlon.org/assets/36ea6277-402a-4234-88b4-f352c7a0b01f"
+  },
+  {
+    "athleteId": 135710,
+    "fullName": "Léo Fernandez",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 485,
+    "total": 231.2,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+    "profileImage": "https://prod-tri-assets.imgix.net/juniors-23.jpg"
+  },
+  {
+    "athleteId": 167098,
+    "fullName": "Edgar Martinez Hidalgo",
+    "noc": "MEX",
+    "gender": "male",
+    "rank": 486,
+    "total": 229.96,
+    "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d"
+  },
+  {
+    "athleteId": 127291,
+    "fullName": "Nicolas Harvey",
+    "noc": "CAN",
+    "gender": "male",
+    "rank": 487,
+    "total": 228.48,
+    "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168"
+  },
+  {
+    "athleteId": 188731,
+    "fullName": "Malcom Menzies",
+    "noc": "BAH",
+    "gender": "male",
+    "rank": 488,
+    "total": 226.8,
+    "flag": "https://cms.triathlon.org/assets/3933f89c-46f4-4949-afd1-6a8d540c6694"
+  },
+  {
+    "athleteId": 71738,
+    "fullName": "Gianluca Pozzatti",
+    "noc": "ITA",
+    "gender": "male",
+    "rank": 489,
+    "total": 226.48,
+    "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+    "profileImage": "https://prod-tri-assets.imgix.net/Gilanluca_Pozzatti.jpg"
+  },
+  {
+    "athleteId": 197342,
+    "fullName": "Sergio Campos Hernandez",
+    "noc": "CRC",
+    "gender": "male",
+    "rank": 490,
+    "total": 226.21,
+    "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070"
+  },
+  {
+    "athleteId": 96230,
+    "fullName": "Samuel Mileham",
+    "noc": "AUS",
+    "gender": "male",
+    "rank": 491,
+    "total": 226.2,
+    "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+    "profileImage": "https://prod-tri-assets.imgix.net/70A9C384-D338-42D8-986E-470FB5FDFE72.jpeg"
+  },
+  {
+    "athleteId": 171955,
+    "fullName": "Nicolaos Keramidas",
+    "noc": "GRE",
+    "gender": "male",
+    "rank": 492,
+    "total": 225.72,
+    "flag": "https://cms.triathlon.org/assets/daba8420-fd47-4dea-ac6d-3bf7b78132c3"
+  },
+  {
+    "athleteId": 156590,
+    "fullName": "Samuel Zuluaga Cardona",
+    "noc": "COL",
+    "gender": "male",
+    "rank": 493,
+    "total": 222.58,
+    "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+    "profileImage": "https://prod-tri-assets.imgix.net/Foto_Samuel_Z.jpg"
+  },
+  {
+    "athleteId": 165295,
+    "fullName": "Jake Adler",
+    "noc": "USA",
+    "gender": "male",
+    "rank": 494,
+    "total": 221.51,
+    "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+    "profileImage": "https://prod-tri-assets.imgix.net/IMG_3100.jpeg"
+  },
+  {
+    "athleteId": 114146,
+    "fullName": "Qing Chen",
+    "noc": "CHN",
+    "gender": "male",
+    "rank": 495,
+    "total": 220.7,
+    "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f"
+  },
+  {
+    "athleteId": 193809,
+    "fullName": "Anderson Samuel Andrés Tohom Alvarado",
+    "noc": "GUA",
+    "gender": "male",
+    "rank": 496,
+    "total": 220.67,
+    "flag": "https://cms.triathlon.org/assets/27a9f5a4-5a44-497e-8f4b-92fbdc093a3d"
+  },
+  {
+    "athleteId": 170772,
+    "fullName": "Jan Gaberc",
+    "noc": "AUT",
+    "gender": "male",
+    "rank": 497,
+    "total": 220.01,
+    "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+    "profileImage": "https://prod-tri-assets.imgix.net/4a724492-584f-4f01-8c2c-0702ea85a4e2.jpeg"
+  },
+  {
+    "athleteId": 82428,
+    "fullName": "Yago Alves",
+    "noc": "BRA",
+    "gender": "male",
+    "rank": 498,
+    "total": 219.97,
+    "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451"
+  },
+  {
+    "athleteId": 140772,
+    "fullName": "Theotime Lawson",
+    "noc": "FRA",
+    "gender": "male",
+    "rank": 499,
+    "total": 219.63,
+    "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d"
+  },
+  {
+    "athleteId": 135627,
+    "fullName": "Dorian Horsten",
+    "noc": "NED",
+    "gender": "male",
+    "rank": 500,
+    "total": 217.59,
+    "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8"
+  }
+]

@@ -18,9 +18,13 @@ describe("cockpit view-model", () => {
     expect(await buildCockpit(424242)).toBeNull();
   });
 
-  it("builds a ranking whose cut sits at the individual slot count", async () => {
+  it("builds a ranking whose cut fills the individual places (allowing NOC-cap skips)", async () => {
     const { line, rows } = await buildRanking("male");
-    expect(line.cutRank).toBe(21);
+    // 21 places, but NOC caps push the cut a few ranks past 21 as blocked
+    // athletes are skipped — assert exactly 21 qualified, cut at/just past 21.
+    expect(line.qualified.length).toBe(21);
+    expect(line.cutRank).toBeGreaterThanOrEqual(21);
+    expect(line.cutRank).toBeLessThanOrEqual(30);
     expect(rows[0].rank).toBe(1);
     expect(rows.find((r) => r.athleteId === 86042)!.qualified).toBe(true);
   });

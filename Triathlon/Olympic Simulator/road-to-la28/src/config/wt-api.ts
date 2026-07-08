@@ -26,6 +26,8 @@ export function wtApiKey(): string {
 export const RANKING_IDS = {
   oqr_men: { id: 11, expectName: "Elite Men", category: "Olympic" },
   oqr_women: { id: 12, expectName: "Elite Women", category: "Olympic" },
+  world_men: { id: 13, expectName: "Elite Men", category: "World Rankings" },
+  world_women: { id: 14, expectName: "Elite Women", category: "World Rankings" },
   wtcs_men: { id: 15, expectName: "Elite Men", category: "World Triathlon Series" },
   wtcs_women: { id: 16, expectName: "Elite Women", category: "World Triathlon Series" },
   mr_olympic: { id: 64, expectName: "Mixed Relay", category: "Mixed Relay Olympic" },
