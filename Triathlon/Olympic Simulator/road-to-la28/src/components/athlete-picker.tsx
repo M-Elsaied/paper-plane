@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search, Star, Loader2, Globe } from "lucide-react";
 import { AthleteAvatar } from "./athlete-avatar";
+import { Flag } from "./flag";
 import { useMyAthlete } from "@/lib/local/use-my-athlete";
 import { cn } from "@/lib/utils";
 
@@ -23,6 +24,7 @@ interface SearchHit {
   gender: "male" | "female";
   rank: number | null;
   profileImage?: string;
+  flag?: string;
 }
 
 export function AthletePicker({ directory }: { directory: DirEntry[] }) {
@@ -136,8 +138,8 @@ export function AthletePicker({ directory }: { directory: DirEntry[] }) {
                 <AthleteAvatar name={d.fullName} src={d.profileImage} size={36} ring={isMine} />
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm font-semibold">{d.fullName}</span>
-                  <span className="text-xs text-ink-faint">
-                    {d.noc}
+                  <span className="inline-flex items-center gap-1 text-xs text-ink-faint">
+                    <Flag src={d.flag} noc={d.noc} size={12} /> {d.noc}
                     {searching && (
                       <span className="ml-1.5 text-ink-faint">· {d.gender === "male" ? "M" : "W"}</span>
                     )}

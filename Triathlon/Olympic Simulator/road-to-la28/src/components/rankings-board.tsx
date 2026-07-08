@@ -2,6 +2,7 @@
 import { Fragment, useState } from "react";
 import Link from "next/link";
 import { AthleteAvatar } from "./athlete-avatar";
+import { Flag } from "./flag";
 import type { RankingRow } from "@/lib/cockpit";
 import { useMyAthlete } from "@/lib/local/use-my-athlete";
 import { fmtPoints } from "@/lib/format";
@@ -57,7 +58,9 @@ export function RankingsBoard({
                   <AthleteAvatar name={r.fullName} src={r.profileImage} size={30} ring={isMine} />
                   <span className="min-w-0 flex-1">
                     <span className="block truncate font-semibold">{r.fullName}</span>
-                    <span className="text-[11px] text-ink-faint">{r.noc}</span>
+                    <span className="flex items-center gap-1 text-[11px] text-ink-faint">
+                      <Flag src={r.flag} noc={r.noc} size={12} /> {r.noc}
+                    </span>
                   </span>
                   <span className="tnum font-semibold">{fmtPoints(r.total)}</span>
                 </Link>

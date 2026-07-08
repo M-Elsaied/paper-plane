@@ -12,6 +12,7 @@ import { PeriodTimeline } from "@/components/period-timeline";
 import { ShareButton } from "@/components/share-button";
 import { CockpitTour } from "@/components/tour/cockpit-tour";
 import { UnrankedProfileView } from "@/components/unranked-profile";
+import { Flag } from "@/components/flag";
 import { buildUnrankedProfile } from "@/lib/athlete-profile";
 import { fmtPoints } from "@/lib/format";
 import { getSeedMeta, findAthlete } from "@/lib/data";
@@ -65,7 +66,9 @@ export default async function AthleteCockpit({
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-xl font-extrabold leading-tight">{m.fullName}</h1>
           <div className="flex items-center gap-2 text-sm text-ink-dim">
-            <span className="font-semibold">{m.noc}</span>
+            <span className="inline-flex items-center gap-1.5 font-semibold">
+              <Flag src={m.flag} noc={m.noc} size={18} /> {m.noc}
+            </span>
             <span className="text-ink-faint">·</span>
             <span className="capitalize">{m.gender === "male" ? "Elite Men" : "Elite Women"}</span>
           </div>

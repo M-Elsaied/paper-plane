@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ChevronLeft, Compass, Flag } from "lucide-react";
 import { buildRoad } from "@/lib/road-context";
 import { AthleteAvatar } from "@/components/athlete-avatar";
+import { Flag as CountryFlag } from "@/components/flag";
 import { RouteCard } from "@/components/road/route-card";
 import { GameBoard } from "@/components/road/game-board";
 import { CONTINENT_LABEL } from "@/config/continents";
@@ -45,7 +46,9 @@ export default async function RoadPage({ params }: { params: Promise<{ id: strin
           <div className="min-w-0 flex-1">
             <h2 className="truncate text-lg font-extrabold leading-tight">{s.name}</h2>
             <div className="flex items-center gap-2 text-sm text-ink-dim">
-              <span className="font-semibold">{s.noc}</span>
+              <span className="inline-flex items-center gap-1.5 font-semibold">
+                <CountryFlag src={display.flag} noc={s.noc} size={18} /> {s.noc}
+              </span>
               {s.continent && (
                 <>
                   <span className="text-ink-faint">·</span>
