@@ -12,7 +12,7 @@ import { fetchUpcomingEvents } from "../src/lib/wt-api/events";
 const OUT = join(process.cwd(), "src", "data");
 
 /** Seed date is pinned so re-runs are reproducible; matches the app "today". */
-const TODAY = "2026-07-06";
+const TODAY = "2026-09-08";
 function plusDays(iso: string, days: number): string {
   const d = new Date(iso);
   d.setUTCDate(d.getUTCDate() + days);
