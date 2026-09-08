@@ -3,6 +3,7 @@
  * sentences a fan or coach can reconcile against the official criteria. This is
  * the trust layer made visible — no black box.
  */
+import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
 import { fmtPoints, ordinal } from "@/lib/format";
 import type { CockpitModel } from "@/lib/cockpit";
 
@@ -52,10 +53,10 @@ export function explainPosition(m: CockpitModel): ExplainLine[] {
   // 3) Mixed Relay pathway.
   if (m.mr.rank) {
     lines.push({
-      tone: m.mr.insideTop16 ? "good" : "electric",
-      text: m.mr.insideTop16
-        ? `Separately, ${m.noc}'s Mixed Relay team is ${ordinal(m.mr.rank)} — inside the top 16 that earns relay places, a second route to the Games.`
-        : `${m.noc}'s Mixed Relay team is ${ordinal(m.mr.rank)}, ${fmtPoints(m.mr.gapToTop16)} points outside the top-16 relay cut.`,
+      tone: m.mr.insideRelayCut ? "good" : "electric",
+      text: m.mr.insideRelayCut
+        ? `Separately, ${m.noc}'s Mixed Relay team is ${ordinal(m.mr.rank)} — inside the top ${MR_OQR_PLACES} that qualifies a relay team, a second route to the Games.`
+        : `${m.noc}'s Mixed Relay team is ${ordinal(m.mr.rank)}, ${fmtPoints(m.mr.gapToRelayCut)} points outside the top-${MR_OQR_PLACES} relay cut.`,
     });
   }
 
