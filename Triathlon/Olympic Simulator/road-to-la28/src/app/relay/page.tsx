@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { getMrNations } from "@/lib/data";
 import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
+import { QUOTA } from "@/config/pathways";
 import { fmtPoints } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
@@ -15,8 +16,9 @@ export default async function RelayPage() {
       <header className="mb-4">
         <h1 className="text-2xl font-extrabold">Mixed Relay pathway</h1>
         <p className="text-sm text-ink-faint">
-          Top {MR_OQR_PLACES} nations on the Mixed Relay Olympic Qualification Ranking earn relay
-          places. Tracked, not simulated in v1.
+          The top {MR_OQR_PLACES} nations on the Mixed Relay Olympic Qualification Ranking each qualify a
+          relay team (2 men + 2 women). The host and the 2026 and 2027 Mixed Relay World Champions
+          join them for {QUOTA.relay.teams} teams. Tracked, not simulated in v1.
         </p>
       </header>
 
@@ -39,7 +41,7 @@ export default async function RelayPage() {
               <li aria-hidden className="relative py-2">
                 <div className="qual-line" />
                 <span className="absolute -top-1 left-1/2 -translate-x-1/2 rounded-full bg-elevated px-2 text-[9px] font-bold uppercase tracking-wider text-la-gold">
-                  Relay qualification line · 16 nations
+                  Relay ranking cut · top {MR_OQR_PLACES}
                 </span>
               </li>
             )}
