@@ -13,7 +13,7 @@ import { fmtPoints } from "@/lib/format";
 export async function FlightpathDigest() {
   const [movers, women] = await Promise.all([getMovers("male", 1), getMovers("female", 1)]);
   const topMovers = [movers[0], women[0]].filter(Boolean);
-  const nextRace = getUpcomingEvents()[0];
+  const nextRace = (await getUpcomingEvents())[0];
 
   if (!topMovers.length && !nextRace) return null;
 
