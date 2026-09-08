@@ -76,7 +76,7 @@ function NationCard({ n }: { n: NocWarRoom }) {
             <Lock size={10} /> {n.blockedTotal} locked out
           </span>
         )}
-        {n.mr.insideTop16 && (
+        {n.mr.insideRelayCut && (
           <span className="inline-flex items-center gap-1 rounded-md bg-good/10 px-1.5 py-0.5 text-[10px] font-bold text-good">
             <Users size={10} /> Relay
           </span>
