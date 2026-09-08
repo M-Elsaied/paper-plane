@@ -17,17 +17,94 @@
     "endDate": "2026-09-21",
     "venue": null,
     "flag": "https://cms.triathlon.org/assets/4f536358-6f57-47d1-a4a7-fbcd34d9b158.svg",
+    "categoryLabel": "Major Games",
+    "tier": "games",
+    "tierLabel": "Games"
+  },
+  {
+    "eventId": 195088,
+    "title": "2026 World Triathlon Championship Finals Pontevedra",
+    "date": "2026-09-23",
+    "endDate": "2026-09-27",
+    "venue": "Pontevedra",
+    "flag": "https://cms.triathlon.org/assets/df2805aa-1437-4ab5-94fe-16ced320f764.svg",
+    "categoryLabel": "WTCS Final",
+    "tier": "wtcs_final",
+    "tierLabel": "WTCS Final"
+  },
+  {
+    "eventId": 195161,
+    "title": "2026 World Triathlon Cup Rome",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "venue": "Laghetto Eur",
+    "flag": "https://cms.triathlon.org/assets/9b100a17-b57e-4ce4-9ec2-2735e71f417c.svg",
     "categoryLabel": "World Cup",
     "tier": "world_cup",
     "tierLabel": "World Cup"
   },
   {
-    "eventId": 194999,
-    "title": "Dakar 2026 Youth Olympic Games",
-    "date": "2026-11-05",
-    "endDate": "2026-11-06",
-    "venue": "Dakar",
-    "flag": "https://cms.triathlon.org/assets/bc635351-1a2f-4a7f-aca5-fb2c2f92bd26.svg",
+    "eventId": 195223,
+    "title": "2026 Africa Triathlon Championships Hurghada",
+    "date": "2026-10-09",
+    "endDate": "2026-10-11",
+    "venue": "Sahl Hasheesh",
+    "flag": "https://cms.triathlon.org/assets/99ab8be3-8fa8-4e4a-a014-4dbbd5830970.svg",
+    "categoryLabel": "Continental Champs",
+    "tier": "continental_champs",
+    "tierLabel": "Continental Champs"
+  },
+  {
+    "eventId": 195457,
+    "title": "2026 World Triathlon Cup Beijing",
+    "date": "2026-10-17",
+    "endDate": "2026-10-17",
+    "venue": "Yanqi Lake",
+    "flag": "https://cms.triathlon.org/assets/d6acd89e-58d0-46cb-b729-717120bf60b5.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195162,
+    "title": "2026 World Triathlon Cup Tongyeong",
+    "date": "2026-10-24",
+    "endDate": "2026-10-24",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/dc59c2f0-aba9-4086-b97c-dc0fc9852961.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195164,
+    "title": "2026 World Triathlon Cup San Pedro de la Paz",
+    "date": "2026-11-01",
+    "endDate": "2026-11-01",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/33659278-f2ba-494c-b5be-95e11e582f0e.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195165,
+    "title": "2026 World Triathlon Cup Hong Kong",
+    "date": "2026-11-07",
+    "endDate": "2026-11-08",
+    "venue": "Lung Wo Road",
+    "flag": "https://cms.triathlon.org/assets/03635ff2-683c-4f85-a411-af608aac2c18.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195163,
+    "title": "2026 World Triathlon Cup Iquique",
+    "date": "2026-11-08",
+    "endDate": "2026-11-08",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/33659278-f2ba-494c-b5be-95e11e582f0e.svg",
     "categoryLabel": "World Cup",
     "tier": "world_cup",
     "tierLabel": "World Cup"
@@ -42,5 +119,60 @@
     "categoryLabel": "WTCS",
     "tier": "wtcs",
     "tierLabel": "WTCS"
+  },
+  {
+    "eventId": 195166,
+    "title": "2026 World Triathlon Cup Miyazaki",
+    "date": "2026-11-14",
+    "endDate": "2026-11-14",
+    "venue": "Miyazaki Seaside Park",
+    "flag": "https://cms.triathlon.org/assets/4f536358-6f57-47d1-a4a7-fbcd34d9b158.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195167,
+    "title": "2026 World Triathlon Cup Tauranga",
+    "date": "2026-11-22",
+    "endDate": "2026-11-22",
+    "venue": "Pilot Bay",
+    "flag": "https://cms.triathlon.org/assets/fcc9a2af-e988-4eb0-a5e7-44485572a7f7.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195302,
+    "title": "2026 Asia Triathlon Sprint Championships Aqaba",
+    "date": "2026-11-26",
+    "endDate": "2026-11-26",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/d8339eb1-9d43-4e5c-9021-09b0bb91b83b.svg",
+    "categoryLabel": "Continental Champs",
+    "tier": "continental_champs",
+    "tierLabel": "Continental Champs"
+  },
+  {
+    "eventId": 195168,
+    "title": "2026 World Triathlon Cup Jeddah",
+    "date": "2026-11-27",
+    "endDate": "2026-11-28",
+    "venue": null,
+    "flag": "https://cms.triathlon.org/assets/9da11cc0-6cb7-4f34-b7d0-a14e007bee49.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
+  },
+  {
+    "eventId": 195381,
+    "title": "2026 World Triathlon Women's Cup Dubai",
+    "date": "2026-12-06",
+    "endDate": "2026-12-06",
+    "venue": "Al Mamzar Park",
+    "flag": "https://cms.triathlon.org/assets/a8bddc81-91a1-4879-b5fd-22c830d7456d.svg",
+    "categoryLabel": "World Cup",
+    "tier": "world_cup",
+    "tierLabel": "World Cup"
   }
 ]
