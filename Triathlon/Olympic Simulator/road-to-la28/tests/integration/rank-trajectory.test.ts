@@ -3,6 +3,7 @@ import { testDb } from "../helpers/setup";
 import { rankingSnapshots, rankingEntries } from "@/db/schema";
 import { getRankTrajectory } from "@/lib/data";
 import { buildCockpit } from "@/lib/cockpit";
+import seedMen from "@/data/qual-state-men.json";
 
 async function snapshot(hash: string, publishedAt: string, fetchedAt: string) {
   const [s] = await testDb()
@@ -49,10 +50,14 @@ describe("rank trajectory", () => {
   it("falls back to the athlete's own last→now official ranks when there is no history", async () => {
     // No snapshots inserted → getQualState uses seed JSON; the cockpit synthesizes
     // a two-point trend from the athlete's stored lastRank.
-    const m = (await buildCockpit(56027))!; // Diego Moya, seed lastRank 15
+    // Any seeded athlete with a previous rank works; derive the expectation from
+    // the committed seed so a reseed (ranks move) doesn't break the test.
+    const seeded = seedMen.athletes.find((a) => a.athleteId === 56027)!; // Diego Moya
+    expect(seeded.lastRank).toBeTypeOf("number");
+    const m = (await buildCockpit(56027))!;
     expect(m).not.toBeNull();
     expect(m.trajectory).toHaveLength(2);
-    expect(m.trajectory[0].rank).toBe(15);
+    expect(m.trajectory[0].rank).toBe(seeded.lastRank);
     expect(m.trajectory[0].label).toBe("last ranking");
     expect(m.trajectory[1].label).toBe("now");
     expect(m.trajectory[1].rank).toBe(m.rank);
