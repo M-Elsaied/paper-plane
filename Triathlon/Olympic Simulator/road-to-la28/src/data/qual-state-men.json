@@ -1,6 +1,6 @@
 {
   "gender": "male",
-  "publishedAt": "2026-07-06 10:39:22",
+  "publishedAt": "2026-08-29 03:09:05",
   "rankingId": 11,
   "athletes": [
     {
@@ -22,71 +22,107 @@
         {
           "points": 925,
           "period": 2
+        },
+        {
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 925,
+          "period": 2
         }
       ]
     },
     {
-      "athleteId": 49390,
-      "fullName": "Dorian Coninx",
-      "noc": "FRA",
+      "athleteId": 74419,
+      "fullName": "Alberto Gonzalez Garcia",
+      "noc": "ESP",
       "gender": "male",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Dorian_Coninx.jpg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/3a102e84-3d91-4708-b128-55e7acb8e134.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
       "publishedRank": 2,
-      "lastRank": 2,
-      "change": 0,
+      "lastRank": 9,
+      "change": 7,
+      "scores": [
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 138.17,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 80795,
+      "fullName": "Matthew Hauser",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/AUS_Matthew_Hauser.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 3,
+      "lastRank": 8,
+      "change": 5,
       "scores": [
         {
           "points": 1000,
           "period": 2
         },
         {
-          "points": 791.45,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 98121,
-      "fullName": "Ricardo Batista",
-      "noc": "POR",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/f0a2cd18-36c7-42d2-9036-e51a9a0aa121.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 3,
-      "lastRank": 3,
-      "change": 0,
-      "scores": [
-        {
-          "points": 855.63,
+          "points": 1000,
           "period": 2
         },
         {
-          "points": 855.63,
+          "points": 495.76,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 105480,
-      "fullName": "Miguel Hidalgo",
-      "noc": "BRA",
+      "athleteId": 49411,
+      "fullName": "Tyler Mislawchuk",
+      "noc": "CAN",
       "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Miguel_Hidalgo.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/CAN_Tyler_Mislawchuk.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
       "publishedRank": 4,
-      "lastRank": 4,
-      "change": 0,
+      "lastRank": 17,
+      "change": 13,
       "scores": [
         {
-          "points": 925,
+          "points": 855.63,
           "period": 2
         },
         {
-          "points": 732.09,
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 194.53,
           "period": 2
         }
       ]
@@ -100,9 +136,13 @@
       "profileImage": "https://prod-tri-assets.imgix.net/69a2a2ab-85a2-452e-a144-97f240b07332.jpg",
       "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
       "publishedRank": 5,
-      "lastRank": 5,
-      "change": 0,
+      "lastRank": 2,
+      "change": -3,
       "scores": [
+        {
+          "points": 677.19,
+          "period": 2
+        },
         {
           "points": 535.96,
           "period": 2
@@ -114,79 +154,13 @@
         {
           "points": 335.73,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 56153,
-      "fullName": "Márk Dévay",
-      "noc": "HUN",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_20240625_192245_Gallery.jpg",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 6,
-      "lastRank": 6,
-      "change": 0,
-      "scores": [
+        },
         {
-          "points": 399.72,
+          "points": 289.71,
           "period": 2
         },
         {
-          "points": 395.73,
-          "period": 2
-        },
-        {
-          "points": 362.95,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 56027,
-      "fullName": "Diego Moya",
-      "noc": "CHI",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/0d4ce563-b7f6-4080-8ee4-30a13bcaa321.jpg",
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 7,
-      "lastRank": 15,
-      "change": 8,
-      "scores": [
-        {
-          "points": 495.76,
-          "period": 2
-        },
-        {
-          "points": 359.75,
-          "period": 2
-        },
-        {
-          "points": 227.35,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 162549,
-      "fullName": "Reese Vannerson",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/REESE_VANNERSON.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 8,
-      "lastRank": 38,
-      "change": 30,
-      "scores": [
-        {
-          "points": 585,
-          "period": 2
-        },
-        {
-          "points": 395.73,
+          "points": 65.31,
           "period": 2
         }
       ]
@@ -199,10 +173,14 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/image01.jpeg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 9,
-      "lastRank": 7,
-      "change": -2,
+      "publishedRank": 6,
+      "lastRank": 3,
+      "change": -3,
       "scores": [
+        {
+          "points": 855.63,
+          "period": 2
+        },
         {
           "points": 500,
           "period": 2
@@ -210,89 +188,163 @@
         {
           "points": 424.19,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 168603,
-      "fullName": "Oliver Conway",
-      "noc": "GBR",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/f5daa6fd-e0e9-450d-89e7-39f59e5bc99e.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 10,
-      "lastRank": 8,
-      "change": -2,
-      "scores": [
-        {
-          "points": 650,
-          "period": 2
         },
         {
-          "points": 245.78,
+          "points": 362.95,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 49411,
-      "fullName": "Tyler Mislawchuk",
-      "noc": "CAN",
+      "athleteId": 105480,
+      "fullName": "Miguel Hidalgo",
+      "noc": "BRA",
       "gender": "male",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/CAN_Tyler_Mislawchuk.jpg",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 11,
-      "lastRank": 9,
-      "change": -2,
-      "scores": [
-        {
-          "points": 500,
-          "period": 2
-        },
-        {
-          "points": 310.55,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 144208,
-      "fullName": "Mathis Beaulieu",
-      "noc": "CAN",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/Beaulieu.jpg",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 12,
-      "lastRank": 49,
-      "change": 37,
-      "scores": [
-        {
-          "points": 460.49,
-          "period": 2
-        },
-        {
-          "points": 338.59,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 132889,
-      "fullName": "David Cantero Del Campo",
-      "noc": "ESP",
-      "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_8694.jpeg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 13,
-      "lastRank": 10,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Miguel_Hidalgo.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 7,
+      "lastRank": 4,
       "change": -3,
       "scores": [
         {
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 458.58,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 98121,
+      "fullName": "Ricardo Batista",
+      "noc": "POR",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/f0a2cd18-36c7-42d2-9036-e51a9a0aa121.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 8,
+      "lastRank": 5,
+      "change": -3,
+      "scores": [
+        {
+          "points": 855.63,
+          "period": 2
+        },
+        {
+          "points": 855.63,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 166.44,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 49390,
+      "fullName": "Dorian Coninx",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Dorian_Coninx.jpg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 9,
+      "lastRank": 6,
+      "change": -3,
+      "scores": [
+        {
+          "points": 1000,
+          "period": 2
+        },
+        {
           "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 227.35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 56027,
+      "fullName": "Diego Moya",
+      "noc": "CHI",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/0d4ce563-b7f6-4080-8ee4-30a13bcaa321.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 10,
+      "lastRank": 7,
+      "change": -3,
+      "scores": [
+        {
+          "points": 495.76,
+          "period": 2
+        },
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 359.75,
+          "period": 2
+        },
+        {
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 131.73,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 92430,
+      "fullName": "Callum McClusky",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/collum_mcclusky_aus_u23.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 11,
+      "lastRank": 22,
+      "change": 11,
+      "scores": [
+        {
+          "points": 677.19,
+          "period": 2
+        },
+        {
+          "points": 424.19,
+          "period": 2
+        },
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 104.26,
           "period": 2
         }
       ]
@@ -305,8 +357,42 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/5aededd1-9911-4d2b-9e73-0cb0362cc199.jpg",
       "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 14,
-      "lastRank": 11,
+      "publishedRank": 12,
+      "lastRank": 29,
+      "change": 17,
+      "scores": [
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 677.19,
+          "period": 2
+        },
+        {
+          "points": 210.3,
+          "period": 2
+        },
+        {
+          "points": 112.71,
+          "period": 2
+        },
+        {
+          "points": 25.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 63651,
+      "fullName": "Tom Richard",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 1993,
+      "profileImage": "https://prod-tri-assets.imgix.net/46DA7B6C-B5B0-46AE-A951-3F71A2F9A1D6.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 13,
+      "lastRank": 10,
       "change": -3,
       "scores": [
         {
@@ -314,47 +400,127 @@
           "period": 2
         },
         {
-          "points": 112.71,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 128063,
-      "fullName": "Yanis Seguin",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Yanis_Seguin.JPG",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 15,
-      "lastRank": 12,
-      "change": -3,
-      "scores": [
-        {
           "points": 579.42,
           "period": 2
         },
         {
-          "points": 194.53,
+          "points": 495.76,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 96667,
-      "fullName": "Chase McQueen",
-      "noc": "USA",
+      "athleteId": 132889,
+      "fullName": "David Cantero Del Campo",
+      "noc": "ESP",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/chase_mcqueen_USA.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 16,
-      "lastRank": 34,
-      "change": 18,
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_8694.jpeg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 14,
+      "lastRank": 42,
+      "change": 28,
       "scores": [
         {
-          "points": 316.92,
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 18.76,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 56153,
+      "fullName": "Márk Dévay",
+      "noc": "HUN",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_20240625_192245_Gallery.jpg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 15,
+      "lastRank": 11,
+      "change": -4,
+      "scores": [
+        {
+          "points": 399.72,
+          "period": 2
+        },
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 156380,
+      "fullName": "João Nuno Batista",
+      "noc": "POR",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/128a3eba-eabf-4a6c-b6b4-258b12c966c0.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 16,
+      "lastRank": 44,
+      "change": 28,
+      "scores": [
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 89.21,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 171947,
+      "fullName": "Sullivan Middaugh",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/SullivanMiddaugh.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 17,
+      "lastRank": 12,
+      "change": -5,
+      "scores": [
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 289.71,
           "period": 2
         },
         {
@@ -362,7 +528,127 @@
           "period": 2
         },
         {
-          "points": 179.94,
+          "points": 214.62,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 132948,
+      "fullName": "Andree Buc",
+      "noc": "CHI",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/230712_162221_PBA_7109b.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 18,
+      "lastRank": 13,
+      "change": -5,
+      "scores": [
+        {
+          "points": 407.44,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 65.31,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 144208,
+      "fullName": "Mathis Beaulieu",
+      "noc": "CAN",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/Beaulieu.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 19,
+      "lastRank": 14,
+      "change": -5,
+      "scores": [
+        {
+          "points": 460.49,
+          "period": 2
+        },
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125064,
+      "fullName": "Henry Graf",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/GER_Henri_Graff.JPG",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 20,
+      "lastRank": 15,
+      "change": -5,
+      "scores": [
+        {
+          "points": 855.63,
+          "period": 2
+        },
+        {
+          "points": 626.4,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 162549,
+      "fullName": "Reese Vannerson",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/REESE_VANNERSON.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 21,
+      "lastRank": 16,
+      "change": -5,
+      "scores": [
+        {
+          "points": 585,
+          "period": 2
+        },
+        {
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 71.21,
           "period": 2
         }
       ]
@@ -375,12 +661,20 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/4cd27b74-f1f6-4476-b4de-fcf8152709ce.jpg",
       "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 17,
-      "lastRank": 13,
-      "change": -4,
+      "publishedRank": 22,
+      "lastRank": 21,
+      "change": -1,
       "scores": [
         {
+          "points": 458.58,
+          "period": 2
+        },
+        {
           "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 265.71,
           "period": 2
         },
         {
@@ -401,308 +695,16 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/charles_pacquet_can_u23.jpg",
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 18,
-      "lastRank": 14,
-      "change": -4,
-      "scores": [
-        {
-          "points": 732.09,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 132948,
-      "fullName": "Andree Buc",
-      "noc": "CHI",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/230712_162221_PBA_7109b.jpg",
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 19,
-      "lastRank": 56,
-      "change": 37,
-      "scores": [
-        {
-          "points": 407.44,
-          "period": 2
-        },
-        {
-          "points": 229.29,
-          "period": 2
-        },
-        {
-          "points": 65.31,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 63651,
-      "fullName": "Tom Richard",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 1993,
-      "profileImage": "https://prod-tri-assets.imgix.net/46DA7B6C-B5B0-46AE-A951-3F71A2F9A1D6.jpeg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 20,
-      "lastRank": 16,
-      "change": -4,
-      "scores": [
-        {
-          "points": 677.19,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 171947,
-      "fullName": "Sullivan Middaugh",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/SullivanMiddaugh.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 21,
-      "lastRank": 31,
-      "change": 10,
-      "scores": [
-        {
-          "points": 462.5,
-          "period": 2
-        },
-        {
-          "points": 214.62,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 74419,
-      "fullName": "Alberto Gonzalez Garcia",
-      "noc": "ESP",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/b53004e3-320a-4d7b-ab08-825f0e60aae8.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 22,
-      "lastRank": 17,
-      "change": -5,
-      "scores": [
-        {
-          "points": 535.96,
-          "period": 2
-        },
-        {
-          "points": 138.17,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 103124,
-      "fullName": "Harry Leleu",
-      "noc": "GBR",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/Linked_in_PP.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
       "publishedRank": 23,
       "lastRank": 18,
       "change": -5,
       "scores": [
         {
-          "points": 458.58,
+          "points": 732.09,
           "period": 2
         },
         {
-          "points": 204.03,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125064,
-      "fullName": "Henry Graf",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/GER_Henri_Graff.JPG",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 24,
-      "lastRank": 19,
-      "change": -5,
-      "scores": [
-        {
-          "points": 626.4,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 156380,
-      "fullName": "João Nuno Batista",
-      "noc": "POR",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/128a3eba-eabf-4a6c-b6b4-258b12c966c0.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 24,
-      "lastRank": 19,
-      "change": -5,
-      "scores": [
-        {
-          "points": 626.4,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 123461,
-      "fullName": "Ian Pennekamp",
-      "noc": "NED",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/9d265e97-d739-4d7c-9f3e-cb51372c7934.jpeg",
-      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 26,
-      "lastRank": 21,
-      "change": -5,
-      "scores": [
-        {
-          "points": 301.3,
-          "period": 2
-        },
-        {
-          "points": 179.94,
-          "period": 2
-        },
-        {
-          "points": 121.85,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 164894,
-      "fullName": "John Reed",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/USA_John_Reed1.JPG",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 27,
-      "lastRank": 22,
-      "change": -5,
-      "scores": [
-        {
-          "points": 579.42,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 160628,
-      "fullName": "Michael Gar",
-      "noc": "GBR",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/35176e79-d88e-4736-a186-42bf3739f119.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 28,
-      "lastRank": 23,
-      "change": -5,
-      "scores": [
-        {
-          "points": 577.2,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 158978,
-      "fullName": "Pablo Isotton",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-30.jpg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 29,
-      "lastRank": 24,
-      "change": -5,
-      "scores": [
-        {
-          "points": 289.71,
-          "period": 2
-        },
-        {
-          "points": 278.7,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 172101,
-      "fullName": "Braxton Legg",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/949c970e-074f-44be-a60a-1cf7c7a94a56.png",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 30,
-      "lastRank": 54,
-      "change": 24,
-      "scores": [
-        {
-          "points": 313.2,
-          "period": 2
-        },
-        {
-          "points": 250.83,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 162320,
-      "fullName": "Vinicius Avi Santana",
-      "noc": "BRA",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-99.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 31,
-      "lastRank": 35,
-      "change": 4,
-      "scores": [
-        {
-          "points": 427.81,
-          "period": 2
-        },
-        {
-          "points": 124.35,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 63428,
-      "fullName": "Antonio Serrat Seoane",
-      "noc": "ESP",
-      "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Antonio_Serrat.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 32,
-      "lastRank": 25,
-      "change": -7,
-      "scores": [
-        {
-          "points": 452.72,
-          "period": 2
-        },
-        {
-          "points": 96.44,
+          "points": 732.09,
           "period": 2
         }
       ]
@@ -715,12 +717,20 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/seth-rider.jpeg",
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 33,
-      "lastRank": 26,
-      "change": -7,
+      "publishedRank": 24,
+      "lastRank": 19,
+      "change": -5,
       "scores": [
         {
+          "points": 495.76,
+          "period": 2
+        },
+        {
           "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 310.55,
           "period": 2
         },
         {
@@ -730,120 +740,117 @@
       ]
     },
     {
-      "athleteId": 92430,
-      "fullName": "Callum McClusky",
-      "noc": "AUS",
+      "athleteId": 172101,
+      "fullName": "Braxton Legg",
+      "noc": "USA",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/collum_mcclusky_aus_u23.jpg",
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 34,
-      "lastRank": 27,
-      "change": -7,
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/949c970e-074f-44be-a60a-1cf7c7a94a56.png",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 25,
+      "lastRank": 20,
+      "change": -5,
+      "scores": [
+        {
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 250.83,
+          "period": 2
+        },
+        {
+          "points": 210.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 164894,
+      "fullName": "John Reed",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_John_Reed1.JPG",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 26,
+      "lastRank": 60,
+      "change": 34,
+      "scores": [
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 20.28,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116270,
+      "fullName": "Gergely Kiss",
+      "noc": "HUN",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/fb9295fd-e175-479b-9dde-e82237139bf4.jpg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 27,
+      "lastRank": 45,
+      "change": 18,
       "scores": [
         {
           "points": 424.19,
           "period": 2
         },
         {
-          "points": 104.26,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 131932,
-      "fullName": "Keller Norland",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/Keller_Norland.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 35,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 519.48,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 93364,
-      "fullName": "Arnaud Mengal",
-      "noc": "BEL",
-      "gender": "male",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/305337721_385456173783558_6104767894135043717_n.jpg",
-      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 36,
-      "lastRank": 28,
-      "change": -8,
-      "scores": [
-        {
-          "points": 287.26,
+          "points": 366.05,
           "period": 2
         },
         {
-          "points": 149.37,
+          "points": 196.19,
           "period": 2
         },
         {
-          "points": 76.33,
+          "points": 161.48,
+          "period": 2
+        },
+        {
+          "points": 60.41,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 63429,
-      "fullName": "Roberto Sanchez Mantecon",
-      "noc": "ESP",
+      "athleteId": 165623,
+      "fullName": "Solomon Okrafo-Smart",
+      "noc": "GBR",
       "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/ae35a043-db07-4f1e-9a6d-67072de94e69.png",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 37,
-      "lastRank": 29,
-      "change": -8,
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/a5d1e5bc-5000-4af1-bd38-bb82a108e582.png",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 28,
+      "lastRank": 61,
+      "change": 33,
       "scores": [
         {
-          "points": 511.67,
+          "points": 579.42,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 155563,
-      "fullName": "Jawad Abdelmoula",
-      "noc": "MAR",
-      "gender": "male",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/ASICS_TEAM_007.JPG",
-      "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
-      "publishedRank": 38,
-      "lastRank": 30,
-      "change": -8,
-      "scores": [
+        },
         {
-          "points": 495.76,
+          "points": 500,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 160772,
-      "fullName": "Tom Lerno",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/d58320ce-1668-44ac-895a-050b07c49d31.jpeg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 39,
-      "lastRank": 31,
-      "change": -8,
-      "scores": [
+        },
         {
-          "points": 462.5,
+          "points": 93.57,
           "period": 2
         }
       ]
@@ -856,51 +863,389 @@
       "yearOfBirth": 1996,
       "profileImage": "https://prod-tri-assets.imgix.net/AUS_Luke_Willian.jpg",
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 29,
+      "lastRank": 23,
+      "change": -6,
+      "scores": [
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 458.58,
+          "period": 2
+        },
+        {
+          "points": 60.41,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 131932,
+      "fullName": "Keller Norland",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/Keller_Norland.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 30,
+      "lastRank": 24,
+      "change": -6,
+      "scores": [
+        {
+          "points": 519.48,
+          "period": 2
+        },
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 229.29,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 168603,
+      "fullName": "Oliver Conway",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/f5daa6fd-e0e9-450d-89e7-39f59e5bc99e.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 31,
+      "lastRank": 25,
+      "change": -6,
+      "scores": [
+        {
+          "points": 650,
+          "period": 2
+        },
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 96040,
+      "fullName": "Vetle Bergsvik Thorn",
+      "noc": "NOR",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/NOR_Vetle_Thorn.jpg",
+      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+      "publishedRank": 32,
+      "lastRank": 26,
+      "change": -6,
+      "scores": [
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 37.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 103632,
+      "fullName": "Dylan McCullough",
+      "noc": "NZL",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/x6589a430fda7e9487c16675ad90da027fa901804mccullough-dylan-white__ScaleWidthWzU1NV0.jpg.pagespeed_.ic_.HUcGQJhOFE_.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 33,
+      "lastRank": 27,
+      "change": -6,
+      "scores": [
+        {
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 89.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 162136,
+      "fullName": "Izan Edo Aguilar",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/75f4e62e-82a5-41a0-96f9-a0a70237e260.jpeg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 34,
+      "lastRank": 53,
+      "change": 19,
+      "scores": [
+        {
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 325.73,
+          "period": 2
+        },
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 104.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 63428,
+      "fullName": "Antonio Serrat Seoane",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Antonio_Serrat.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 35,
+      "lastRank": 28,
+      "change": -7,
+      "scores": [
+        {
+          "points": 452.72,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 166.44,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 104983,
+      "fullName": "Max Stapley",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/d08c1b93-7fa5-40a9-b922-0f214c40753b.JPG",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 36,
+      "lastRank": 30,
+      "change": -6,
+      "scores": [
+        {
+          "points": 424.19,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 265.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 70032,
+      "fullName": "Max Studer",
+      "noc": "SUI",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/SUI_Max_Studer.jpg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 37,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 1000,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 123461,
+      "fullName": "Ian Pennekamp",
+      "noc": "NED",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/9d265e97-d739-4d7c-9f3e-cb51372c7934.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 38,
+      "lastRank": 31,
+      "change": -7,
+      "scores": [
+        {
+          "points": 301.3,
+          "period": 2
+        },
+        {
+          "points": 194.53,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        },
+        {
+          "points": 97.26,
+          "period": 2
+        },
+        {
+          "points": 70.6,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 98098,
+      "fullName": "Simon Westermann",
+      "noc": "SUI",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/Westermann.jpg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 39,
+      "lastRank": 32,
+      "change": -7,
+      "scores": [
+        {
+          "points": 424.19,
+          "period": 2
+        },
+        {
+          "points": 210.3,
+          "period": 2
+        },
+        {
+          "points": 167.86,
+          "period": 2
+        },
+        {
+          "points": 153.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125294,
+      "fullName": "Connor Bentley",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/0cb7b25e-1769-4aab-b130-9e4640fcb7df.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
       "publishedRank": 40,
       "lastRank": 33,
       "change": -7,
       "scores": [
         {
-          "points": 458.58,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 178178,
-      "fullName": "Blake Bullard",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2006,
-      "profileImage": "https://prod-tri-assets.imgix.net/d35b2106-43fa-4169-b5c4-60bc3640aef0.png",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 41,
-      "lastRank": 85,
-      "change": 44,
-      "scores": [
-        {
-          "points": 293.15,
+          "points": 677.19,
           "period": 2
         },
         {
-          "points": 143.63,
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 44.23,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 159183,
-      "fullName": "Pelayo González Turrez",
+      "athleteId": 63429,
+      "fullName": "Roberto Sanchez Mantecon",
       "noc": "ESP",
       "gender": "male",
-      "yearOfBirth": 2004,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/ae35a043-db07-4f1e-9a6d-67072de94e69.png",
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 42,
-      "lastRank": 35,
-      "change": -7,
+      "publishedRank": 41,
+      "lastRank": 46,
+      "change": 5,
       "scores": [
         {
-          "points": 427.81,
+          "points": 511.67,
+          "period": 2
+        },
+        {
+          "points": 153.96,
+          "period": 2
+        },
+        {
+          "points": 142.41,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 96667,
+      "fullName": "Chase McQueen",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/chase_mcqueen_USA.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 42,
+      "lastRank": 41,
+      "change": -1,
+      "scores": [
+        {
+          "points": 316.92,
+          "period": 2
+        },
+        {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 112.71,
+          "period": 2
+        },
+        {
+          "points": 51.69,
           "period": 2
         }
       ]
@@ -914,51 +1259,49 @@
       "profileImage": "https://prod-tri-assets.imgix.net/755ec208-fd6c-41c3-a986-07470c0db961.jpeg",
       "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
       "publishedRank": 43,
-      "lastRank": 37,
-      "change": -6,
+      "lastRank": 34,
+      "change": -9,
       "scores": [
         {
           "points": 267.98,
           "period": 2
         },
         {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
           "points": 142.41,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 96040,
-      "fullName": "Vetle Bergsvik Thorn",
-      "noc": "NOR",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/NOR_Vetle_Thorn.jpg",
-      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
-      "publishedRank": 44,
-      "lastRank": 39,
-      "change": -5,
-      "scores": [
+        },
         {
-          "points": 392.37,
+          "points": 89.97,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 104254,
-      "fullName": "Zsombor Dévay",
-      "noc": "HUN",
+      "athleteId": 135049,
+      "fullName": "Mitch Kolkman",
+      "noc": "NED",
       "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/Zsombor_Devay.jpg",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 45,
-      "lastRank": 40,
-      "change": -5,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/7fd6b9b4-eec6-448c-ae2a-e80840985c4c.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 44,
+      "lastRank": 35,
+      "change": -9,
       "scores": [
         {
-          "points": 238.46,
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 335.73,
           "period": 2
         },
         {
@@ -968,23 +1311,23 @@
       ]
     },
     {
-      "athleteId": 80601,
-      "fullName": "Nathan Grayel",
-      "noc": "FRA",
+      "athleteId": 123392,
+      "fullName": "Morgan Pearson",
+      "noc": "USA",
       "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/5cd89881-f406-4766-8342-573054b4db93.jpeg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 46,
-      "lastRank": 41,
-      "change": -5,
+      "yearOfBirth": 1993,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_Morgan_Pearson.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 45,
+      "lastRank": 36,
+      "change": -9,
       "scores": [
         {
-          "points": 313.2,
+          "points": 791.45,
           "period": 2
         },
         {
-          "points": 63.36,
+          "points": 112.71,
           "period": 2
         }
       ]
@@ -997,12 +1340,340 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/08f6f464-7e3d-4fae-ab43-b022b3af02db.jpeg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 46,
+      "lastRank": 37,
+      "change": -9,
+      "scores": [
+        {
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 366.05,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 103124,
+      "fullName": "Harry Leleu",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/Linked_in_PP.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
       "publishedRank": 47,
-      "lastRank": 42,
+      "lastRank": 52,
+      "change": 5,
+      "scores": [
+        {
+          "points": 458.58,
+          "period": 2
+        },
+        {
+          "points": 204.03,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 47.81,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 128063,
+      "fullName": "Yanis Seguin",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Yanis_Seguin.JPG",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 48,
+      "lastRank": 38,
+      "change": -10,
+      "scores": [
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 194.53,
+          "period": 2
+        },
+        {
+          "points": 89.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 169633,
+      "fullName": "Nils Serre Gehri",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_2024-10-30_at_13.45_.41_.png",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 49,
+      "lastRank": 39,
+      "change": -10,
+      "scores": [
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 54.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 160628,
+      "fullName": "Michael Gar",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/35176e79-d88e-4736-a186-42bf3739f119.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 50,
+      "lastRank": 40,
+      "change": -10,
+      "scores": [
+        {
+          "points": 577.2,
+          "period": 2
+        },
+        {
+          "points": 265.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 158362,
+      "fullName": "Euan De Nigro",
+      "noc": "ITA",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/phoca_thumb_m_ballabio_fitri_caorle-67511.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 51,
+      "lastRank": 43,
+      "change": -8,
+      "scores": [
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 181.47,
+          "period": 2
+        },
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 142.41,
+          "period": 2
+        },
+        {
+          "points": 40.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 80601,
+      "fullName": "Nathan Grayel",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/5cd89881-f406-4766-8342-573054b4db93.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 52,
+      "lastRank": 47,
       "change": -5,
       "scores": [
         {
-          "points": 366.05,
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 63.36,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 144053,
+      "fullName": "Toby Powers",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-65.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 53,
+      "lastRank": 48,
+      "change": -5,
+      "scores": [
+        {
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 160772,
+      "fullName": "Tom Lerno",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/d58320ce-1668-44ac-895a-050b07c49d31.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 54,
+      "lastRank": 49,
+      "change": -5,
+      "scores": [
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 287.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 93364,
+      "fullName": "Arnaud Mengal",
+      "noc": "BEL",
+      "gender": "male",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/305337721_385456173783558_6104767894135043717_n.jpg",
+      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+      "publishedRank": 55,
+      "lastRank": 50,
+      "change": -5,
+      "scores": [
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 153.96,
+          "period": 2
+        },
+        {
+          "points": 149.37,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 155563,
+      "fullName": "Jawad Abdelmoula",
+      "noc": "MAR",
+      "gender": "male",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/ASICS_TEAM_007.JPG",
+      "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
+      "publishedRank": 56,
+      "lastRank": 51,
+      "change": -5,
+      "scores": [
+        {
+          "points": 495.76,
+          "period": 2
+        },
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 56.36,
+          "period": 2
+        },
+        {
+          "points": 29.95,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 166574,
+      "fullName": "Ignacio Flores Arana",
+      "noc": "CHI",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/d414d51a-e079-4db3-9697-7fa20ceff282.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 57,
+      "lastRank": 54,
+      "change": -3,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 134.44,
+          "period": 2
+        },
+        {
+          "points": 132.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 149810,
+      "fullName": "Justus Töpper",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/0ed9bd58-4261-43d8-b338-f188863aec82.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 58,
+      "lastRank": 55,
+      "change": -3,
+      "scores": [
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 196.19,
           "period": 2
         }
       ]
@@ -1015,12 +1686,16 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/45fe12d4-4927-4929-ac3f-9b69c3a305dd.jpeg",
       "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 47,
-      "lastRank": 42,
-      "change": -5,
+      "publishedRank": 59,
+      "lastRank": 56,
+      "change": -3,
       "scores": [
         {
           "points": 366.05,
+          "period": 2
+        },
+        {
+          "points": 289.71,
           "period": 2
         }
       ]
@@ -1033,12 +1708,16 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_20230714_231649_426.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 49,
-      "lastRank": 44,
-      "change": -5,
+      "publishedRank": 60,
+      "lastRank": 81,
+      "change": 21,
       "scores": [
         {
           "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 287.26,
           "period": 2
         },
         {
@@ -1048,89 +1727,83 @@
       ]
     },
     {
-      "athleteId": 98098,
-      "fullName": "Simon Westermann",
-      "noc": "SUI",
+      "athleteId": 98547,
+      "fullName": "Takumi Hojo",
+      "noc": "JPN",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/Westermann.jpg",
-      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 50,
-      "lastRank": 45,
-      "change": -5,
-      "scores": [
-        {
-          "points": 210.3,
-          "period": 2
-        },
-        {
-          "points": 153.96,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 111852,
-      "fullName": "Luke Schofield",
-      "noc": "AUS",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/3b2aa82d-79e4-440e-86ff-6d8ebd026c8b.jpg",
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 51,
-      "lastRank": 46,
-      "change": -5,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/JPN_Takumi_Hojo.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 61,
+      "lastRank": 76,
+      "change": 15,
       "scores": [
         {
           "points": 245.78,
           "period": 2
         },
         {
-          "points": 113.67,
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        },
+        {
+          "points": 112.71,
+          "period": 2
+        },
+        {
+          "points": 37.84,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 116270,
-      "fullName": "Gergely Kiss",
-      "noc": "HUN",
+      "athleteId": 162320,
+      "fullName": "Vinicius Avi Santana",
+      "noc": "BRA",
       "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/fb9295fd-e175-479b-9dde-e82237139bf4.jpg",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 52,
-      "lastRank": 47,
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-99.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 62,
+      "lastRank": 57,
       "change": -5,
       "scores": [
         {
-          "points": 196.19,
+          "points": 427.81,
           "period": 2
         },
         {
-          "points": 161.48,
+          "points": 124.35,
+          "period": 2
+        },
+        {
+          "points": 83.22,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 142895,
-      "fullName": "Nicolas Probert Vargas",
-      "noc": "MEX",
+      "athleteId": 106885,
+      "fullName": "Tim Hellwig",
+      "noc": "GER",
       "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-71.jpg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 53,
-      "lastRank": 91,
-      "change": 38,
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7832.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 63,
+      "lastRank": 58,
+      "change": -5,
       "scores": [
         {
-          "points": 232.02,
+          "points": 535.96,
           "period": 2
         },
         {
-          "points": 122.89,
+          "points": 96.44,
           "period": 2
         }
       ]
@@ -1143,10 +1816,14 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/LUX_lucas_cambresy.JPG",
       "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
-      "publishedRank": 54,
-      "lastRank": 48,
-      "change": -6,
+      "publishedRank": 64,
+      "lastRank": 72,
+      "change": 8,
       "scores": [
+        {
+          "points": 210.3,
+          "period": 2
+        },
         {
           "points": 166.44,
           "period": 2
@@ -1157,6 +1834,10 @@
         },
         {
           "points": 86.55,
+          "period": 2
+        },
+        {
+          "points": 65.87,
           "period": 2
         }
       ]
@@ -1169,12 +1850,16 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/national_team_headshot.jpg",
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 55,
-      "lastRank": 57,
-      "change": 2,
+      "publishedRank": 65,
+      "lastRank": 59,
+      "change": -6,
       "scores": [
         {
           "points": 289.71,
+          "period": 2
+        },
+        {
+          "points": 267.98,
           "period": 2
         },
         {
@@ -1184,19 +1869,31 @@
       ]
     },
     {
-      "athleteId": 167968,
-      "fullName": "Hugo Milner",
-      "noc": "GBR",
+      "athleteId": 123538,
+      "fullName": "James Corbett",
+      "noc": "TRI",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/Hugo_Miller.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 56,
-      "lastRank": 50,
-      "change": -6,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/1a4cc073-b311-4ed1-92b6-85142dd0f486.jpg",
+      "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
+      "publishedRank": 66,
+      "lastRank": 62,
+      "change": -4,
       "scores": [
         {
-          "points": 335.73,
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 70.6,
+          "period": 2
+        },
+        {
+          "points": 60.93,
           "period": 2
         }
       ]
@@ -1209,10 +1906,14 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/aoba_yasumatsu_JPN.jpg",
       "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 57,
-      "lastRank": 51,
-      "change": -6,
+      "publishedRank": 67,
+      "lastRank": 63,
+      "change": -4,
       "scores": [
+        {
+          "points": 245.78,
+          "period": 2
+        },
         {
           "points": 153.96,
           "period": 2
@@ -1228,80 +1929,391 @@
       ]
     },
     {
-      "athleteId": 166574,
-      "fullName": "Ignacio Flores Arana",
-      "noc": "CHI",
-      "gender": "male",
-      "yearOfBirth": 2006,
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 58,
-      "lastRank": 72,
-      "change": 14,
-      "scores": [
-        {
-          "points": 196.19,
-          "period": 2
-        },
-        {
-          "points": 134.44,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 158362,
-      "fullName": "Euan De Nigro",
-      "noc": "ITA",
+      "athleteId": 158978,
+      "fullName": "Pablo Isotton",
+      "noc": "FRA",
       "gender": "male",
       "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/phoca_thumb_m_ballabio_fitri_caorle-67511.jpg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 59,
-      "lastRank": 52,
-      "change": -7,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-30.jpg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 68,
+      "lastRank": 64,
+      "change": -4,
       "scores": [
         {
-          "points": 287.26,
+          "points": 289.71,
           "period": 2
         },
         {
-          "points": 40.91,
+          "points": 278.7,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 162136,
-      "fullName": "Izan Edo Aguilar",
-      "noc": "ESP",
+      "athleteId": 69143,
+      "fullName": "Manoel Messias",
+      "noc": "BRA",
       "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/75f4e62e-82a5-41a0-96f9-a0a70237e260.jpeg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 60,
-      "lastRank": 53,
-      "change": -7,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Manoel_Messias.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 69,
+      "lastRank": 65,
+      "change": -4,
       "scores": [
         {
-          "points": 325.73,
+          "points": 366.05,
+          "period": 2
+        },
+        {
+          "points": 194.53,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 104983,
-      "fullName": "Max Stapley",
-      "noc": "GBR",
+      "athleteId": 178178,
+      "fullName": "Blake Bullard",
+      "noc": "USA",
       "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/d08c1b93-7fa5-40a9-b922-0f214c40753b.JPG",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 61,
-      "lastRank": 55,
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/d35b2106-43fa-4169-b5c4-60bc3640aef0.png",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 70,
+      "lastRank": 66,
+      "change": -4,
+      "scores": [
+        {
+          "points": 293.15,
+          "period": 2
+        },
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 93402,
+      "fullName": "Martin Sobey",
+      "noc": "CAN",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/martin_sobey_can_u23.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 71,
+      "lastRank": 67,
+      "change": -4,
+      "scores": [
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 183.63,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 39264,
+      "fullName": "Kenji Nener",
+      "noc": "JPN",
+      "gender": "male",
+      "yearOfBirth": 1993,
+      "profileImage": "https://prod-tri-assets.imgix.net/JPN_Kenji_Nener.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 72,
+      "lastRank": 127,
+      "change": 55,
+      "scores": [
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 51.69,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 190835,
+      "fullName": "Porter Middaugh",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/7352377e-4aff-4ef3-a33a-a14031751976.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 73,
+      "lastRank": 68,
+      "change": -5,
+      "scores": [
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 115.03,
+          "period": 2
+        },
+        {
+          "points": 27.94,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 92397,
+      "fullName": "Brandon Copeland",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/AUS_Brandon_Copeland.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 74,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 458.58,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 104254,
+      "fullName": "Zsombor Dévay",
+      "noc": "HUN",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/Zsombor_Devay.jpg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 75,
+      "lastRank": 69,
       "change": -6,
       "scores": [
         {
-          "points": 310.55,
+          "points": 238.46,
+          "period": 2
+        },
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 70.6,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 41102,
+      "fullName": "Martin Demuth",
+      "noc": "CZE",
+      "gender": "male",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/FC6A2A77-551D-4E21-BC40-0C8593D970A3.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+      "publishedRank": 76,
+      "lastRank": 83,
+      "change": 7,
+      "scores": [
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        },
+        {
+          "points": 24.86,
+          "period": 2
+        },
+        {
+          "points": 20.45,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 160745,
+      "fullName": "Carol Popa",
+      "noc": "ROU",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/448887c2-06fd-4460-a68d-c5c1f52c03b9.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
+      "publishedRank": 77,
+      "lastRank": 70,
+      "change": -7,
+      "scores": [
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 181.47,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 159183,
+      "fullName": "Pelayo González Turrez",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 78,
+      "lastRank": 71,
+      "change": -7,
+      "scores": [
+        {
+          "points": 427.81,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 123682,
+      "fullName": "Maciej Bruzdziak",
+      "noc": "POL",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/f74e5375-a8f4-4e49-977c-79f21c2a923c.jpg",
+      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+      "publishedRank": 79,
+      "lastRank": 91,
+      "change": 12,
+      "scores": [
+        {
+          "points": 210.3,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        },
+        {
+          "points": 58.61,
+          "period": 2
+        },
+        {
+          "points": 25.62,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 70410,
+      "fullName": "Lasse Lührs",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/bd8701e3-05a7-4c13-b888-1f657bf2e86f.jpg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 80,
+      "lastRank": 201,
+      "change": 121,
+      "scores": [
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 23,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 128159,
+      "fullName": "Alexis Lherieau",
+      "noc": "SUI",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/Photo_Valencia_Cool.jpg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 81,
+      "lastRank": 73,
+      "change": -8,
+      "scores": [
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 196.19,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 29226,
+      "fullName": "Matthew Wright",
+      "noc": "BAR",
+      "gender": "male",
+      "yearOfBirth": 1992,
+      "profileImage": "https://prod-tri-assets.imgix.net/matthew_wright3.jpg",
+      "flag": "https://cms.triathlon.org/assets/f12587d9-4bbc-408b-9392-3813ee60799c",
+      "publishedRank": 82,
+      "lastRank": 74,
+      "change": -8,
+      "scores": [
+        {
+          "points": 198.52,
+          "period": 2
+        },
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 104.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124358,
+      "fullName": "Erik Yamir Ramos Croda",
+      "noc": "MEX",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/b994aeaf-1af7-46e6-afda-40c101aa273c.png",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 83,
+      "lastRank": 75,
+      "change": -8,
+      "scores": [
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 77.89,
+          "period": 2
+        },
+        {
+          "points": 60.93,
           "period": 2
         }
       ]
@@ -1314,16 +2326,410 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/MEX_Aram_Penaflor.jpg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 62,
-      "lastRank": 75,
-      "change": 13,
+      "publishedRank": 84,
+      "lastRank": 77,
+      "change": -7,
       "scores": [
         {
           "points": 181.47,
           "period": 2
         },
         {
+          "points": 113.67,
+          "period": 2
+        },
+        {
           "points": 106.4,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 111852,
+      "fullName": "Luke Schofield",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/3b2aa82d-79e4-440e-86ff-6d8ebd026c8b.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 85,
+      "lastRank": 78,
+      "change": -7,
+      "scores": [
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 27.7,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 163852,
+      "fullName": "Kazushi Jozuka",
+      "noc": "JPN",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/44faf57c-9c0c-485c-8673-630b333abeb1.jpeg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 86,
+      "lastRank": 92,
+      "change": 6,
+      "scores": [
+        {
+          "points": 153.96,
+          "period": 2
+        },
+        {
+          "points": 89.21,
+          "period": 2
+        },
+        {
+          "points": 60.93,
+          "period": 2
+        },
+        {
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 30.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 127901,
+      "fullName": "Eric Diener",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/Eric_Diener.jpg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 87,
+      "lastRank": 79,
+      "change": -8,
+      "scores": [
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 167.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 41870,
+      "fullName": "Shachar Sagiv",
+      "noc": "ISR",
+      "gender": "male",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/ISR_Shachar_Sagiv.jpg",
+      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+      "publishedRank": 88,
+      "lastRank": 80,
+      "change": -8,
+      "scores": [
+        {
+          "points": 366.05,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 96742,
+      "fullName": "Alex Yee",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/GBR_Alex_Yee.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 89,
+      "lastRank": 82,
+      "change": -7,
+      "scores": [
+        {
+          "points": 362.95,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 142895,
+      "fullName": "Nicolas Probert Vargas",
+      "noc": "MEX",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-71.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 90,
+      "lastRank": 84,
+      "change": -6,
+      "scores": [
+        {
+          "points": 232.02,
+          "period": 2
+        },
+        {
+          "points": 122.89,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 61357,
+      "fullName": "Valentin Wernz",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/169b17fa-1a6e-4525-94d2-4dcf8837e5b1.jpg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 91,
+      "lastRank": 126,
+      "change": 35,
+      "scores": [
+        {
+          "points": 194.53,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        },
+        {
+          "points": 40.91,
+          "period": 2
+        },
+        {
+          "points": 40.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116279,
+      "fullName": "Sergio Baxter Cabrera",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/sergio_baxter_ESP.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 92,
+      "lastRank": 85,
+      "change": -7,
+      "scores": [
+        {
+          "points": 265.71,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 165612,
+      "fullName": "Jordan Rieck",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/1eec4c06-84e6-4ebc-ace5-0070d22a5f8c.jpg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 93,
+      "lastRank": 86,
+      "change": -7,
+      "scores": [
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        },
+        {
+          "points": 65.87,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 167968,
+      "fullName": "Hugo Milner",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/Hugo_Miller.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 94,
+      "lastRank": 87,
+      "change": -7,
+      "scores": [
+        {
+          "points": 335.73,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 136365,
+      "fullName": "Xirui Zhang",
+      "noc": "CHN",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 95,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 310.55,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 98124,
+      "fullName": "Paul Georgenthum",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_3573.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 96,
+      "lastRank": 88,
+      "change": -8,
+      "scores": [
+        {
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 60.93,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 97101,
+      "fullName": "Samuele Angelini",
+      "noc": "ITA",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/1d8e3fc5-9141-4015-a1bf-a80a392b7977.jpeg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 97,
+      "lastRank": 89,
+      "change": -8,
+      "scores": [
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 89.97,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 103634,
+      "fullName": "Saxon Morgan",
+      "noc": "NZL",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/9403c63d-b781-4a52-ae02-d1667707d49e.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 98,
+      "lastRank": 90,
+      "change": -8,
+      "scores": [
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        },
+        {
+          "points": 65.31,
+          "period": 2
+        },
+        {
+          "points": 23.7,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 123460,
+      "fullName": "Gjalt Panjer",
+      "noc": "NED",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/0bb87a75-8ad9-4fa5-a490-bbee217bcfc2.png",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 99,
+      "lastRank": 121,
+      "change": 22,
+      "scores": [
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 104.26,
+          "period": 2
+        },
+        {
+          "points": 42.91,
+          "period": 2
+        },
+        {
+          "points": 22.11,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 111669,
+      "fullName": "Zach Leachman",
+      "noc": "USA",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_Zack_leachman.JPG",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 100,
+      "lastRank": 107,
+      "change": 7,
+      "scores": [
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 70.6,
           "period": 2
         }
       ]
@@ -1336,9 +2742,9 @@
       "yearOfBirth": 1996,
       "profileImage": "https://prod-tri-assets.imgix.net/taylor_reid_NZL.jpg",
       "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 63,
-      "lastRank": 58,
-      "change": -5,
+      "publishedRank": 101,
+      "lastRank": 93,
+      "change": -8,
       "scores": [
         {
           "points": 155.27,
@@ -1358,8 +2764,9 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/tyler_smith1.jpg",
       "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
-      "publishedRank": 64,
-      "lastRank": 0,
+      "publishedRank": 102,
+      "lastRank": 94,
+      "change": -8,
       "scores": [
         {
           "points": 271.17,
@@ -1375,9 +2782,9 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/845dae08-1459-476a-a0f6-4ef8af818cd8.jpeg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 65,
-      "lastRank": 59,
-      "change": -6,
+      "publishedRank": 103,
+      "lastRank": 95,
+      "change": -8,
       "scores": [
         {
           "points": 181.47,
@@ -1390,28 +2797,6 @@
       ]
     },
     {
-      "athleteId": 123682,
-      "fullName": "Maciej Bruzdziak",
-      "noc": "POL",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/f74e5375-a8f4-4e49-977c-79f21c2a923c.jpg",
-      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 66,
-      "lastRank": 60,
-      "change": -6,
-      "scores": [
-        {
-          "points": 210.3,
-          "period": 2
-        },
-        {
-          "points": 58.61,
-          "period": 2
-        }
-      ]
-    },
-    {
       "athleteId": 107730,
       "fullName": "Alessio Crociani",
       "noc": "ITA",
@@ -1419,9 +2804,9 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/37829af2-a0b1-41f7-94b3-f790a5fbb5b8.jpg",
       "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 67,
-      "lastRank": 61,
-      "change": -6,
+      "publishedRank": 104,
+      "lastRank": 96,
+      "change": -8,
       "scores": [
         {
           "points": 265.71,
@@ -1430,19 +2815,87 @@
       ]
     },
     {
-      "athleteId": 116279,
-      "fullName": "Sergio Baxter Cabrera",
-      "noc": "ESP",
+      "athleteId": 80663,
+      "fullName": "Darr Smith",
+      "noc": "USA",
       "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/sergio_baxter_ESP.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 67,
-      "lastRank": 61,
-      "change": -6,
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/Darr_Smith_(USA)_-_JR2017.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 105,
+      "lastRank": 186,
+      "change": 81,
       "scores": [
         {
-          "points": 265.71,
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 37.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 112754,
+      "fullName": "Gabriel Terán Carvajal",
+      "noc": "ECU",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/gabriel_teran.jpg",
+      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+      "publishedRank": 106,
+      "lastRank": 97,
+      "change": -9,
+      "scores": [
+        {
+          "points": 157.12,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        },
+        {
+          "points": 27.94,
+          "period": 2
+        },
+        {
+          "points": 6.87,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 55886,
+      "fullName": "Kauê Willy",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/Kaue_Willy_(BRA)_-_U232017.JPG",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 107,
+      "lastRank": 98,
+      "change": -9,
+      "scores": [
+        {
+          "points": 91.04,
+          "period": 2
+        },
+        {
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 35.3,
+          "period": 2
+        },
+        {
+          "points": 30.2,
+          "period": 2
+        },
+        {
+          "points": 22.11,
           "period": 2
         }
       ]
@@ -1455,9 +2908,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-44.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 69,
-      "lastRank": 63,
-      "change": -6,
+      "publishedRank": 108,
+      "lastRank": 99,
+      "change": -9,
       "scores": [
         {
           "points": 227.35,
@@ -1477,9 +2930,9 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/833b1424-747e-41e4-b315-d95dd9a5f9b4.jpeg",
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 70,
-      "lastRank": 64,
-      "change": -6,
+      "publishedRank": 109,
+      "lastRank": 100,
+      "change": -9,
       "scores": [
         {
           "points": 188.73,
@@ -1492,58 +2945,41 @@
       ]
     },
     {
-      "athleteId": 160745,
-      "fullName": "Carol Popa",
-      "noc": "ROU",
-      "gender": "male",
-      "yearOfBirth": 2006,
-      "flag": "https://cms.triathlon.org/assets/9e4c2b26-6477-4278-b4f1-27f04ee68f6d",
-      "publishedRank": 71,
-      "lastRank": 65,
-      "change": -6,
-      "scores": [
-        {
-          "points": 247.88,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 144053,
-      "fullName": "Toby Powers",
+      "athleteId": 165596,
+      "fullName": "Bradley Course",
       "noc": "AUS",
       "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-65.jpg",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/AUS_Bradley_Course.JPG",
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 71,
-      "lastRank": 65,
-      "change": -6,
+      "publishedRank": 110,
+      "lastRank": 101,
+      "change": -9,
       "scores": [
         {
-          "points": 247.88,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 124358,
-      "fullName": "Erik Yamir Ramos Croda",
-      "noc": "MEX",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/b994aeaf-1af7-46e6-afda-40c101aa273c.png",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 73,
-      "lastRank": 81,
-      "change": 8,
-      "scores": [
-        {
-          "points": 155.27,
+          "points": 212.09,
           "period": 2
         },
         {
-          "points": 77.89,
+          "points": 30.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 170069,
+      "fullName": "Brandon Pye",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/6b316fd4-f812-4cd2-856a-48c1bdcf4c4a.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 111,
+      "lastRank": 102,
+      "change": -9,
+      "scores": [
+        {
+          "points": 229.29,
           "period": 2
         }
       ]
@@ -1555,105 +2991,12 @@
       "gender": "male",
       "yearOfBirth": 2002,
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 74,
-      "lastRank": 67,
-      "change": -7,
+      "publishedRank": 111,
+      "lastRank": 102,
+      "change": -9,
       "scores": [
         {
           "points": 229.29,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 73205,
-      "fullName": "Grigory Antipov",
-      "noc": "AIN",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/8cce88cb-c673-4a68-a0f1-ea97bd550b68.jpg",
-      "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 75,
-      "lastRank": 68,
-      "change": -7,
-      "scores": [
-        {
-          "points": 220.58,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 103634,
-      "fullName": "Saxon Morgan",
-      "noc": "NZL",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/9403c63d-b781-4a52-ae02-d1667707d49e.jpg",
-      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 76,
-      "lastRank": 69,
-      "change": -7,
-      "scores": [
-        {
-          "points": 131.73,
-          "period": 2
-        },
-        {
-          "points": 82.52,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 111669,
-      "fullName": "Zach Leachman",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/USA_Zack_leachman.JPG",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 77,
-      "lastRank": 70,
-      "change": -7,
-      "scores": [
-        {
-          "points": 212.09,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 128159,
-      "fullName": "Alexis Lherieau",
-      "noc": "SUI",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/Photo_Valencia_Cool.jpg",
-      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 77,
-      "lastRank": 70,
-      "change": -7,
-      "scores": [
-        {
-          "points": 212.09,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 29226,
-      "fullName": "Matthew Wright",
-      "noc": "BAR",
-      "gender": "male",
-      "yearOfBirth": 1992,
-      "profileImage": "https://prod-tri-assets.imgix.net/matthew_wright3.jpg",
-      "flag": "https://cms.triathlon.org/assets/f12587d9-4bbc-408b-9392-3813ee60799c",
-      "publishedRank": 79,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 198.52,
           "period": 2
         }
       ]
@@ -1666,9 +3009,9 @@
       "yearOfBirth": 1995,
       "profileImage": "https://prod-tri-assets.imgix.net/ffaf3f0a-a055-46cd-bd50-73f63b76a6f3.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 80,
-      "lastRank": 73,
-      "change": -7,
+      "publishedRank": 113,
+      "lastRank": 104,
+      "change": -9,
       "scores": [
         {
           "points": 82.52,
@@ -1681,84 +3024,75 @@
         {
           "points": 44.6,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 69143,
-      "fullName": "Manoel Messias",
-      "noc": "BRA",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Manoel_Messias.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 81,
-      "lastRank": 74,
-      "change": -7,
-      "scores": [
+        },
         {
-          "points": 194.53,
+          "points": 32.38,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 124579,
-      "fullName": "Dylan Didier Campa Carranza",
-      "noc": "MEX",
+      "athleteId": 42996,
+      "fullName": "Erwin Vanderplancke",
+      "noc": "BEL",
       "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/DylanTri-1.jpg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 82,
-      "lastRank": 87,
-      "change": 5,
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/erwin_vanderplancke_BEL.jpg",
+      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+      "publishedRank": 114,
+      "lastRank": 131,
+      "change": 17,
       "scores": [
         {
-          "points": 132.86,
+          "points": 97.26,
           "period": 2
         },
         {
-          "points": 57.03,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 112754,
-      "fullName": "Gabriel Terán Carvajal",
-      "noc": "ECU",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/gabriel_teran.jpg",
-      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 83,
-      "lastRank": 145,
-      "change": 62,
-      "scores": [
-        {
-          "points": 157.12,
+          "points": 76.33,
           "period": 2
         },
         {
-          "points": 27.94,
+          "points": 52.13,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 93402,
-      "fullName": "Martin Sobey",
-      "noc": "CAN",
+      "athleteId": 73205,
+      "fullName": "Grigory Antipov",
+      "noc": "AIN",
       "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/martin_sobey_can_u23.jpg",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 84,
-      "lastRank": 0,
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/8cce88cb-c673-4a68-a0f1-ea97bd550b68.jpg",
+      "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+      "publishedRank": 115,
+      "lastRank": 105,
+      "change": -10,
       "scores": [
         {
-          "points": 183.63,
+          "points": 220.58,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 186572,
+      "fullName": "Julian Birkel",
+      "noc": "RSA",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_8371.jpeg",
+      "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+      "publishedRank": 116,
+      "lastRank": 106,
+      "change": -10,
+      "scores": [
+        {
+          "points": 167.86,
+          "period": 2
+        },
+        {
+          "points": 44.6,
           "period": 2
         }
       ]
@@ -1771,12 +3105,229 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/Louis_Vitiello_(FRA)_-_JR2017.jpg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 85,
-      "lastRank": 76,
+      "publishedRank": 117,
+      "lastRank": 108,
       "change": -9,
       "scores": [
         {
           "points": 174.58,
+          "period": 2
+        },
+        {
+          "points": 32.65,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 165479,
+      "fullName": "Brayden Mercer",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 118,
+      "lastRank": 109,
+      "change": -9,
+      "scores": [
+        {
+          "points": 166.44,
+          "period": 2
+        },
+        {
+          "points": 35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 12773,
+      "fullName": "Rodrigo Gonzalez Lopez",
+      "noc": "MEX",
+      "gender": "male",
+      "yearOfBirth": 1989,
+      "profileImage": "https://prod-tri-assets.imgix.net/rodrigo_gonzalez_mex_elite.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 119,
+      "lastRank": 110,
+      "change": -9,
+      "scores": [
+        {
+          "points": 66.65,
+          "period": 2
+        },
+        {
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 111851,
+      "fullName": "Jayden Schofield",
+      "noc": "AUS",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/PXL_20240308_070849855.PORTRAIT_.ORIGINAL-01_.jpeg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 120,
+      "lastRank": 111,
+      "change": -9,
+      "scores": [
+        {
+          "points": 97.26,
+          "period": 2
+        },
+        {
+          "points": 65.87,
+          "period": 2
+        },
+        {
+          "points": 27.94,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116705,
+      "fullName": "Peter Luftensteiner",
+      "noc": "AUT",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Peter_Luftenstiener.jpg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 121,
+      "lastRank": 112,
+      "change": -9,
+      "scores": [
+        {
+          "points": 122.89,
+          "period": 2
+        },
+        {
+          "points": 35,
+          "period": 2
+        },
+        {
+          "points": 32.38,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124579,
+      "fullName": "Dylan Didier Campa Carranza",
+      "noc": "MEX",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/DylanTri-1.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 122,
+      "lastRank": 113,
+      "change": -9,
+      "scores": [
+        {
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 57.03,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125038,
+      "fullName": "Antonio Bravo Neto",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Antonio_Bravo_Neto.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 123,
+      "lastRank": 114,
+      "change": -9,
+      "scores": [
+        {
+          "points": 84.21,
+          "period": 2
+        },
+        {
+          "points": 44.6,
+          "period": 2
+        },
+        {
+          "points": 32.65,
+          "period": 2
+        },
+        {
+          "points": 23.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 164866,
+      "fullName": "Andreas Nikolajsen",
+      "noc": "DEN",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/3c58d46d-7b9d-433c-8435-54abaeb60b88.jpeg",
+      "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63",
+      "publishedRank": 124,
+      "lastRank": 115,
+      "change": -9,
+      "scores": [
+        {
+          "points": 181.47,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 74423,
+      "fullName": "Jack Willis",
+      "noc": "GBR",
+      "gender": "male",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/70c52693-2054-4a98-af26-d1e50478ad96.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 125,
+      "lastRank": 116,
+      "change": -9,
+      "scores": [
+        {
+          "points": 179.94,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 98130,
+      "fullName": "Miguel Tiago Silva",
+      "noc": "POR",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/12c77564-32fd-4ef9-b706-d06d2ad9000f.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 126,
+      "lastRank": 117,
+      "change": -9,
+      "scores": [
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 40.91,
           "period": 2
         }
       ]
@@ -1789,8 +3340,8 @@
       "yearOfBirth": 1995,
       "profileImage": "https://prod-tri-assets.imgix.net/40ABEFC4-ECA9-4D90-A904-148FD7D90FAA.jpeg",
       "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
-      "publishedRank": 86,
-      "lastRank": 77,
+      "publishedRank": 127,
+      "lastRank": 118,
       "change": -9,
       "scores": [
         {
@@ -1804,17 +3355,66 @@
       ]
     },
     {
+      "athleteId": 110704,
+      "fullName": "Luke McCarron",
+      "noc": "IRL",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/5d921908-8047-45a8-8b01-deaffa5cfe37.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+      "publishedRank": 128,
+      "lastRank": 119,
+      "change": -9,
+      "scores": [
+        {
+          "points": 97.26,
+          "period": 2
+        },
+        {
+          "points": 41.26,
+          "period": 2
+        },
+        {
+          "points": 32.38,
+          "period": 2
+        }
+      ]
+    },
+    {
       "athleteId": 165290,
       "fullName": "Cole Jamieson ",
       "noc": "USA",
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 87,
-      "lastRank": 0,
+      "publishedRank": 129,
+      "lastRank": 120,
+      "change": -9,
       "scores": [
         {
           "points": 169.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 127536,
+      "fullName": "Sebastian Wernersen",
+      "noc": "NOR",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/8f0220cf-f938-4efd-9878-f7af4510eb41.jpeg",
+      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+      "publishedRank": 130,
+      "lastRank": 122,
+      "change": -8,
+      "scores": [
+        {
+          "points": 112.71,
+          "period": 2
+        },
+        {
+          "points": 55.88,
           "period": 2
         }
       ]
@@ -1827,9 +3427,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/61da2a36-4175-4b4a-b6fa-43cf0a8c9854.jpeg",
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 88,
-      "lastRank": 78,
-      "change": -10,
+      "publishedRank": 131,
+      "lastRank": 123,
+      "change": -8,
       "scores": [
         {
           "points": 167.86,
@@ -1838,33 +3438,62 @@
       ]
     },
     {
-      "athleteId": 127901,
-      "fullName": "Eric Diener",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/Eric_Diener.jpg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 88,
-      "lastRank": 78,
-      "change": -10,
-      "scores": [
-        {
-          "points": 167.86,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 165479,
-      "fullName": "Brayden Mercer",
-      "noc": "AUS",
+      "athleteId": 136780,
+      "fullName": "Alexandr Ten",
+      "noc": "KAZ",
       "gender": "male",
       "yearOfBirth": 2004,
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 90,
-      "lastRank": 80,
-      "change": -10,
+      "profileImage": "https://prod-tri-assets.imgix.net/e0ff5a22-4fcf-4b66-aeae-ce58f1d99a8e.jpg",
+      "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d",
+      "publishedRank": 131,
+      "lastRank": 123,
+      "change": -8,
+      "scores": [
+        {
+          "points": 167.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 172565,
+      "fullName": "Tiago Muñoz",
+      "noc": "ARG",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/070004e0-4d67-43a5-8d01-7c131953e075.jpg",
+      "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+      "publishedRank": 131,
+      "lastRank": 123,
+      "change": -8,
+      "scores": [
+        {
+          "points": 52.13,
+          "period": 2
+        },
+        {
+          "points": 45.13,
+          "period": 2
+        },
+        {
+          "points": 35.3,
+          "period": 2
+        },
+        {
+          "points": 35.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 110356,
+      "fullName": "Junjie Fan",
+      "noc": "CHN",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 134,
+      "lastRank": 0,
       "scores": [
         {
           "points": 166.44,
@@ -1873,45 +3502,23 @@
       ]
     },
     {
-      "athleteId": 155232,
-      "fullName": "Eduardo Blanco Mollá",
-      "noc": "ESP",
+      "athleteId": 158272,
+      "fullName": "Pietro Giovannini",
+      "noc": "ITA",
       "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/9c321d98-20de-47da-a664-4a0bca01d6b5.JPG",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 91,
-      "lastRank": 82,
-      "change": -9,
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/bf2cc28d-5360-4de7-9292-70a0eb2a2c32.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 135,
+      "lastRank": 128,
+      "change": -7,
       "scores": [
         {
-          "points": 109.35,
+          "points": 122.89,
           "period": 2
         },
         {
-          "points": 38.16,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 123460,
-      "fullName": "Gjalt Panjer",
-      "noc": "NED",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/0bb87a75-8ad9-4fa5-a490-bbee217bcfc2.png",
-      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 92,
-      "lastRank": 83,
-      "change": -9,
-      "scores": [
-        {
-          "points": 104.26,
-          "period": 2
-        },
-        {
-          "points": 42.91,
+          "points": 32.65,
           "period": 2
         }
       ]
@@ -1924,11 +3531,108 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-72.jpg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 93,
-      "lastRank": 0,
+      "publishedRank": 136,
+      "lastRank": 129,
+      "change": -7,
       "scores": [
         {
           "points": 145.34,
+          "period": 2
+        },
+        {
+          "points": 10.14,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 83434,
+      "fullName": "Ben Dijkstra",
+      "noc": "TRI",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/Ben_Dijkstra_(GBR)_-_JR2017.jpg",
+      "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
+      "publishedRank": 137,
+      "lastRank": 130,
+      "change": -7,
+      "scores": [
+        {
+          "points": 118.22,
+          "period": 2
+        },
+        {
+          "points": 35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 163850,
+      "fullName": "Takuto Oshima",
+      "noc": "JPN",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/Takuto_Oshima_.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 138,
+      "lastRank": 169,
+      "change": 31,
+      "scores": [
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 55.88,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 155232,
+      "fullName": "Eduardo Blanco Mollá",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/9c321d98-20de-47da-a664-4a0bca01d6b5.JPG",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 139,
+      "lastRank": 132,
+      "change": -7,
+      "scores": [
+        {
+          "points": 109.35,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 86080,
+      "fullName": "Kevin Tarek Viñuela Gonzalez",
+      "noc": "ESP",
+      "gender": "male",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/Kevin_Tarek_Viñuela_Gonzalez.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 140,
+      "lastRank": 133,
+      "change": -7,
+      "scores": [
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 30.2,
+          "period": 2
+        },
+        {
+          "points": 11.85,
           "period": 2
         }
       ]
@@ -1941,9 +3645,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/2d4d7b7b-4385-4ce7-ad6e-655e7f5bd9f4.jpeg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 94,
-      "lastRank": 84,
-      "change": -10,
+      "publishedRank": 141,
+      "lastRank": 134,
+      "change": -7,
       "scores": [
         {
           "points": 97.26,
@@ -1956,6 +3660,71 @@
       ]
     },
     {
+      "athleteId": 110028,
+      "fullName": "Mateo Mendoza Burgos",
+      "noc": "CHI",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/CHI_Mateo_Mendoza1.JPG",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 142,
+      "lastRank": 135,
+      "change": -7,
+      "scores": [
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 56054,
+      "fullName": "Ramón Armando Matute",
+      "noc": "ECU",
+      "gender": "male",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/armando_matute.jpg",
+      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+      "publishedRank": 143,
+      "lastRank": 136,
+      "change": -7,
+      "scores": [
+        {
+          "points": 72.05,
+          "period": 2
+        },
+        {
+          "points": 44.6,
+          "period": 2
+        },
+        {
+          "points": 25.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 21622,
+      "fullName": "Alois Knabl",
+      "noc": "AUT",
+      "gender": "male",
+      "yearOfBirth": 1992,
+      "profileImage": "https://prod-tri-assets.imgix.net/AUT_Alois_Knabl.jpg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 144,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 142.41,
+          "period": 2
+        }
+      ]
+    },
+    {
       "athleteId": 39560,
       "fullName": "Juan Jose Andrade Figueroa",
       "noc": "ECU",
@@ -1963,9 +3732,9 @@
       "yearOfBirth": 1993,
       "profileImage": "https://prod-tri-assets.imgix.net/juan_jose_andrade_1.jpg",
       "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 95,
-      "lastRank": 94,
-      "change": -1,
+      "publishedRank": 145,
+      "lastRank": 137,
+      "change": -8,
       "scores": [
         {
           "points": 113.67,
@@ -1985,9 +3754,9 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/b20e9f94-5f24-4364-a9e0-0a0ff6c6579d.png",
       "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 96,
-      "lastRank": 86,
-      "change": -10,
+      "publishedRank": 146,
+      "lastRank": 138,
+      "change": -8,
       "scores": [
         {
           "points": 127.81,
@@ -2000,15 +3769,89 @@
       ]
     },
     {
+      "athleteId": 171949,
+      "fullName": "Leandre Binette",
+      "noc": "CAN",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/26c0494e-1c2d-466f-87f6-766f491d3a5f.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 147,
+      "lastRank": 139,
+      "change": -8,
+      "scores": [
+        {
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 56.36,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 74435,
+      "fullName": "Philip Pertl",
+      "noc": "AUT",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/e044e0f1-ee31-4027-af9f-302427dbba74.jpeg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 148,
+      "lastRank": 140,
+      "change": -8,
+      "scores": [
+        {
+          "points": 56.36,
+          "period": 2
+        },
+        {
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 17.5,
+          "period": 2
+        },
+        {
+          "points": 16.19,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 133130,
+      "fullName": "Shachar Agur",
+      "noc": "ISR",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/Shachar_Agur.jpg",
+      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+      "publishedRank": 149,
+      "lastRank": 141,
+      "change": -8,
+      "scores": [
+        {
+          "points": 76.98,
+          "period": 2
+        },
+        {
+          "points": 56.36,
+          "period": 2
+        }
+      ]
+    },
+    {
       "athleteId": 168247,
       "fullName": "Mateo Vidal",
       "noc": "FRA",
       "gender": "male",
       "yearOfBirth": 2003,
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 97,
-      "lastRank": 87,
-      "change": -10,
+      "publishedRank": 150,
+      "lastRank": 142,
+      "change": -8,
       "scores": [
         {
           "points": 132.86,
@@ -2017,16 +3860,16 @@
       ]
     },
     {
-      "athleteId": 98130,
-      "fullName": "Miguel Tiago Silva",
-      "noc": "POR",
+      "athleteId": 104034,
+      "fullName": "Hayden Wilde",
+      "noc": "NZL",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/12c77564-32fd-4ef9-b706-d06d2ad9000f.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 98,
-      "lastRank": 89,
-      "change": -9,
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/NZL_Hayden_Wilde.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 151,
+      "lastRank": 143,
+      "change": -8,
       "scores": [
         {
           "points": 131.73,
@@ -2042,9 +3885,9 @@
       "yearOfBirth": 1995,
       "profileImage": "https://prod-tri-assets.imgix.net/JPN_Ren_Sato.jpg",
       "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 99,
-      "lastRank": 90,
-      "change": -9,
+      "publishedRank": 152,
+      "lastRank": 144,
+      "change": -8,
       "scores": [
         {
           "points": 65.31,
@@ -2057,141 +3900,40 @@
       ]
     },
     {
-      "athleteId": 83434,
-      "fullName": "Ben Dijkstra",
-      "noc": "TRI",
+      "athleteId": 186536,
+      "fullName": "Jelle Kaindl",
+      "noc": "AUT",
       "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/Ben_Dijkstra_(GBR)_-_JR2017.jpg",
-      "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
-      "publishedRank": 100,
-      "lastRank": 92,
+      "yearOfBirth": 2008,
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 153,
+      "lastRank": 145,
       "change": -8,
       "scores": [
         {
-          "points": 118.22,
+          "points": 122.89,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 61357,
-      "fullName": "Valentin Wernz",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/169b17fa-1a6e-4525-94d2-4dcf8837e5b1.jpg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 101,
-      "lastRank": 93,
-      "change": -8,
-      "scores": [
-        {
-          "points": 76.33,
-          "period": 2
-        },
-        {
-          "points": 40.91,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125038,
-      "fullName": "Antonio Bravo Neto",
-      "noc": "BRA",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/Antonio_Bravo_Neto.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 102,
-      "lastRank": 140,
-      "change": 38,
-      "scores": [
-        {
-          "points": 84.21,
-          "period": 2
-        },
-        {
-          "points": 32.65,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 190835,
-      "fullName": "Porter Middaugh",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 103,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 115.03,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 12773,
-      "fullName": "Rodrigo Gonzalez Lopez",
+      "athleteId": 165196,
+      "fullName": "Alfredo Miguel Rodríguez Figueroa",
       "noc": "MEX",
       "gender": "male",
-      "yearOfBirth": 1989,
-      "profileImage": "https://prod-tri-assets.imgix.net/rodrigo_gonzalez_mex_elite.jpg",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/1e701172-0c99-4f9a-ac72-670eb83479b2.jpeg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 104,
-      "lastRank": 124,
-      "change": 20,
+      "publishedRank": 154,
+      "lastRank": 146,
+      "change": -8,
       "scores": [
         {
-          "points": 66.65,
+          "points": 65.87,
           "period": 2
         },
         {
-          "points": 48.22,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 55886,
-      "fullName": "Kauê Willy",
-      "noc": "BRA",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/Kaue_Willy_(BRA)_-_U232017.JPG",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 105,
-      "lastRank": 152,
-      "change": 47,
-      "scores": [
-        {
-          "points": 91.04,
-          "period": 2
-        },
-        {
-          "points": 22.11,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 98547,
-      "fullName": "Takumi Hojo",
-      "noc": "JPN",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/JPN_Takumi_Hojo.jpg",
-      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 106,
-      "lastRank": 95,
-      "change": -11,
-      "scores": [
-        {
-          "points": 112.71,
+          "points": 52.75,
           "period": 2
         }
       ]
@@ -2204,9 +3946,9 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/9D00B260-B54F-4C80-8712-3F6150793F25.jpeg",
       "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
-      "publishedRank": 107,
-      "lastRank": 96,
-      "change": -11,
+      "publishedRank": 155,
+      "lastRank": 147,
+      "change": -8,
       "scores": [
         {
           "points": 76.98,
@@ -2226,9 +3968,9 @@
       "yearOfBirth": 1995,
       "profileImage": "https://prod-tri-assets.imgix.net/SUI_Sylvain_Fridelance.jpg",
       "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 108,
-      "lastRank": 97,
-      "change": -11,
+      "publishedRank": 156,
+      "lastRank": 148,
+      "change": -8,
       "scores": [
         {
           "points": 60.41,
@@ -2241,28 +3983,6 @@
       ]
     },
     {
-      "athleteId": 41102,
-      "fullName": "Martin Demuth",
-      "noc": "CZE",
-      "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/FC6A2A77-551D-4E21-BC40-0C8593D970A3.jpeg",
-      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 109,
-      "lastRank": 98,
-      "change": -11,
-      "scores": [
-        {
-          "points": 83.22,
-          "period": 2
-        },
-        {
-          "points": 24.86,
-          "period": 2
-        }
-      ]
-    },
-    {
       "athleteId": 166302,
       "fullName": "Zalán Trungel-Nagy",
       "noc": "HUN",
@@ -2270,9 +3990,9 @@
       "yearOfBirth": 2006,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_2415.JPG",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 110,
-      "lastRank": 99,
-      "change": -11,
+      "publishedRank": 157,
+      "lastRank": 149,
+      "change": -8,
       "scores": [
         {
           "points": 105.15,
@@ -2281,19 +4001,17 @@
       ]
     },
     {
-      "athleteId": 86080,
-      "fullName": "Kevin Tarek Viñuela Gonzalez",
-      "noc": "ESP",
+      "athleteId": 175384,
+      "fullName": "Rongheng Chen",
+      "noc": "CHN",
       "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/Kevin_Tarek_Viñuela_Gonzalez.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 110,
-      "lastRank": 99,
-      "change": -11,
+      "yearOfBirth": 2003,
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 158,
+      "lastRank": 0,
       "scores": [
         {
-          "points": 105.15,
+          "points": 104.26,
           "period": 2
         }
       ]
@@ -2304,10 +4022,11 @@
       "noc": "PER",
       "gender": "male",
       "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/DE132898-76B9-426C-B350-C4DFB186B6C7.jpeg",
+      "profileImage": "https://prod-tri-assets.imgix.net/09a96c6f-ca28-419b-812b-c87035753bfc.jpeg",
       "flag": "https://cms.triathlon.org/assets/aedba00d-8cdd-4550-b4c5-b69e04e4eb6f",
-      "publishedRank": 112,
-      "lastRank": 0,
+      "publishedRank": 159,
+      "lastRank": 150,
+      "change": -9,
       "scores": [
         {
           "points": 98.42,
@@ -2323,9 +4042,9 @@
       "yearOfBirth": 2000,
       "profileImage": "https://prod-tri-assets.imgix.net/GER_Jonas_Horterhorf.JPG",
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 113,
-      "lastRank": 101,
-      "change": -12,
+      "publishedRank": 160,
+      "lastRank": 151,
+      "change": -9,
       "scores": [
         {
           "points": 51.69,
@@ -2338,146 +4057,45 @@
       ]
     },
     {
-      "athleteId": 111851,
-      "fullName": "Jayden Schofield",
-      "noc": "AUS",
+      "athleteId": 54025,
+      "fullName": "Jérémy Quindos",
+      "noc": "UZB",
       "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/PXL_20240308_070849855.PORTRAIT_.ORIGINAL-01_.jpeg",
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 114,
-      "lastRank": 102,
-      "change": -12,
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/81cd7679-30e8-4d26-8a14-4ca48244edcf.jpg",
+      "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7",
+      "publishedRank": 161,
+      "lastRank": 152,
+      "change": -9,
       "scores": [
         {
-          "points": 97.26,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106885,
-      "fullName": "Tim Hellwig",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7832.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 115,
-      "lastRank": 103,
-      "change": -12,
-      "scores": [
-        {
-          "points": 96.44,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 165623,
-      "fullName": "Solomon Okrafo-Smart",
-      "noc": "GBR",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/a5d1e5bc-5000-4af1-bd38-bb82a108e582.png",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 116,
-      "lastRank": 104,
-      "change": -12,
-      "scores": [
-        {
-          "points": 93.57,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 171949,
-      "fullName": "Leandre Binette",
-      "noc": "CAN",
-      "gender": "male",
-      "yearOfBirth": 2006,
-      "profileImage": "https://prod-tri-assets.imgix.net/26c0494e-1c2d-466f-87f6-766f491d3a5f.jpeg",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 117,
-      "lastRank": 105,
-      "change": -12,
-      "scores": [
-        {
-          "points": 83.22,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 172565,
-      "fullName": "Tiago Muñoz",
-      "noc": "ARG",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 118,
-      "lastRank": 136,
-      "change": 18,
-      "scores": [
-        {
-          "points": 45.13,
+          "points": 55.88,
           "period": 2
         },
         {
-          "points": 35.3,
+          "points": 37.84,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 164373,
-      "fullName": "Eirik Berling Grande",
-      "noc": "NOR",
+      "athleteId": 144247,
+      "fullName": "Henry McMecking",
+      "noc": "NZL",
       "gender": "male",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
-      "publishedRank": 119,
-      "lastRank": 106,
-      "change": -13,
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-87.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 162,
+      "lastRank": 153,
+      "change": -9,
       "scores": [
         {
-          "points": 80.06,
+          "points": 48.22,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 133130,
-      "fullName": "Shachar Agur",
-      "noc": "ISR",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/Shachar_Agur.jpg",
-      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
-      "publishedRank": 120,
-      "lastRank": 107,
-      "change": -13,
-      "scores": [
+        },
         {
-          "points": 76.98,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 174162,
-      "fullName": "Jose Ferreira",
-      "noc": "POR",
-      "gender": "male",
-      "yearOfBirth": 2006,
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 121,
-      "lastRank": 108,
-      "change": -13,
-      "scores": [
-        {
-          "points": 74.05,
+          "points": 44.23,
           "period": 2
         }
       ]
@@ -2490,9 +4108,9 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/Ivan_Anzaldo_(ARG)_-_JR2017.jpg",
       "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 122,
-      "lastRank": 120,
-      "change": -2,
+      "publishedRank": 163,
+      "lastRank": 154,
+      "change": -9,
       "scores": [
         {
           "points": 52.13,
@@ -2501,22 +4119,192 @@
         {
           "points": 20.7,
           "period": 2
+        },
+        {
+          "points": 18.92,
+          "period": 2
         }
       ]
     },
     {
-      "athleteId": 56054,
-      "fullName": "Ramón Armando Matute",
-      "noc": "ECU",
+      "athleteId": 186454,
+      "fullName": "Theo Marti",
+      "noc": "LUX",
       "gender": "male",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/armando_matute.jpg",
-      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 123,
-      "lastRank": 0,
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/764d27d6-752a-4ca6-88e9-3c9b03236cc8.jpg",
+      "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+      "publishedRank": 164,
+      "lastRank": 155,
+      "change": -9,
       "scores": [
         {
-          "points": 72.05,
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 41.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116727,
+      "fullName": "Itamar Levanon",
+      "noc": "ISR",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/4C64FD78-1DEB-4D6E-966C-62A6EDB31B24.jpeg",
+      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+      "publishedRank": 165,
+      "lastRank": 156,
+      "change": -9,
+      "scores": [
+        {
+          "points": 71.21,
+          "period": 2
+        },
+        {
+          "points": 14.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 95497,
+      "fullName": "Oscar Coggins",
+      "noc": "HKG",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Oscar_Coggins_(HKG)_-_JR2017.jpg",
+      "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+      "publishedRank": 166,
+      "lastRank": 157,
+      "change": -9,
+      "scores": [
+        {
+          "points": 83.22,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 103482,
+      "fullName": "Alejandro Rodriguez Diez",
+      "noc": "CUB",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa",
+      "publishedRank": 167,
+      "lastRank": 158,
+      "change": -9,
+      "scores": [
+        {
+          "points": 61.65,
+          "period": 2
+        },
+        {
+          "points": 18.92,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 164373,
+      "fullName": "Eirik Berling Grande",
+      "noc": "NOR",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
+      "publishedRank": 168,
+      "lastRank": 159,
+      "change": -9,
+      "scores": [
+        {
+          "points": 80.06,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 151889,
+      "fullName": "Miguel Espuna Larramona",
+      "noc": "ITA",
+      "gender": "male",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-82.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 169,
+      "lastRank": 160,
+      "change": -9,
+      "scores": [
+        {
+          "points": 41.26,
+          "period": 2
+        },
+        {
+          "points": 36.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106946,
+      "fullName": "Chris Ziehmer",
+      "noc": "GER",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/A38E24EE-A504-40C0-B93C-20FC9BA44A481.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 170,
+      "lastRank": 161,
+      "change": -9,
+      "scores": [
+        {
+          "points": 55.88,
+          "period": 2
+        },
+        {
+          "points": 21.93,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 174162,
+      "fullName": "Jose Ferreira",
+      "noc": "POR",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 171,
+      "lastRank": 162,
+      "change": -9,
+      "scores": [
+        {
+          "points": 74.05,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 63564,
+      "fullName": "Maxime Hueber-Moosbrugger",
+      "noc": "FRA",
+      "gender": "male",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/820dc851-851b-426e-8d75-8a3fb3e57113.jpg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 172,
+      "lastRank": 163,
+      "change": -9,
+      "scores": [
+        {
+          "points": 44.23,
+          "period": 2
+        },
+        {
+          "points": 27.7,
           "period": 2
         }
       ]
@@ -2529,9 +4317,9 @@
       "yearOfBirth": 2000,
       "profileImage": "https://prod-tri-assets.imgix.net/TZAF5826.jpg",
       "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070",
-      "publishedRank": 124,
-      "lastRank": 129,
-      "change": 5,
+      "publishedRank": 173,
+      "lastRank": 164,
+      "change": -9,
       "scores": [
         {
           "points": 41.26,
@@ -2550,9 +4338,9 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 125,
-      "lastRank": 109,
-      "change": -16,
+      "publishedRank": 174,
+      "lastRank": 165,
+      "change": -9,
       "scores": [
         {
           "points": 71.21,
@@ -2561,87 +4349,18 @@
       ]
     },
     {
-      "athleteId": 116727,
-      "fullName": "Itamar Levanon",
-      "noc": "ISR",
+      "athleteId": 104247,
+      "fullName": "Genta Uchida",
+      "noc": "JPN",
       "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/4C64FD78-1DEB-4D6E-966C-62A6EDB31B24.jpeg",
-      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
-      "publishedRank": 125,
-      "lastRank": 109,
-      "change": -16,
-      "scores": [
-        {
-          "points": 71.21,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 123538,
-      "fullName": "James Corbett",
-      "noc": "TRI",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "flag": "https://cms.triathlon.org/assets/b7dcc01d-3490-4ee8-8b84-d7c79dc6e731",
-      "publishedRank": 127,
-      "lastRank": 111,
-      "change": -16,
-      "scores": [
-        {
-          "points": 70.6,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 165612,
-      "fullName": "Jordan Rieck",
-      "noc": "AUS",
-      "gender": "male",
-      "yearOfBirth": 2003,
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 128,
-      "lastRank": 112,
-      "change": -16,
-      "scores": [
-        {
-          "points": 65.87,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 103482,
-      "fullName": "Alejandro Rodriguez Diez",
-      "noc": "CUB",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa",
-      "publishedRank": 129,
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/genta_uchida_JPN.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 175,
       "lastRank": 0,
       "scores": [
         {
-          "points": 61.65,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 98124,
-      "fullName": "Paul Georgenthum",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_3573.jpeg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 130,
-      "lastRank": 113,
-      "change": -17,
-      "scores": [
-        {
-          "points": 60.93,
+          "points": 65.31,
           "period": 2
         }
       ]
@@ -2654,12 +4373,50 @@
       "yearOfBirth": 1994,
       "profileImage": "https://prod-tri-assets.imgix.net/Genuis_Grau.jpg",
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 130,
-      "lastRank": 113,
-      "change": -17,
+      "publishedRank": 176,
+      "lastRank": 166,
+      "change": -10,
       "scores": [
         {
           "points": 60.93,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 166876,
+      "fullName": "Daniel Ubilla Sabada",
+      "noc": "CHI",
+      "gender": "male",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/2000091c-6b54-4a9e-a8be-60cdb43af70b.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 177,
+      "lastRank": 167,
+      "change": -10,
+      "scores": [
+        {
+          "points": 44.6,
+          "period": 2
+        },
+        {
+          "points": 16.19,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 104309,
+      "fullName": "Mingxu Li",
+      "noc": "CHN",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 178,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 60.41,
           "period": 2
         }
       ]
@@ -2672,9 +4429,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-9.jpg",
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 132,
-      "lastRank": 115,
-      "change": -17,
+      "publishedRank": 179,
+      "lastRank": 168,
+      "change": -11,
       "scores": [
         {
           "points": 56.36,
@@ -2683,105 +4440,34 @@
       ]
     },
     {
-      "athleteId": 74435,
-      "fullName": "Philip Pertl",
-      "noc": "AUT",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/e044e0f1-ee31-4027-af9f-302427dbba74.jpeg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 132,
-      "lastRank": 115,
-      "change": -17,
-      "scores": [
-        {
-          "points": 56.36,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106946,
-      "fullName": "Chris Ziehmer",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/A38E24EE-A504-40C0-B93C-20FC9BA44A481.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 134,
-      "lastRank": 117,
-      "change": -17,
-      "scores": [
-        {
-          "points": 55.88,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 127536,
-      "fullName": "Sebastian Wernersen",
-      "noc": "NOR",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/8f0220cf-f938-4efd-9878-f7af4510eb41.jpeg",
-      "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
-      "publishedRank": 134,
-      "lastRank": 117,
-      "change": -17,
-      "scores": [
-        {
-          "points": 55.88,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 169633,
-      "fullName": "Nils Serre Gehri",
+      "athleteId": 115699,
+      "fullName": "Baptiste Passemard",
       "noc": "FRA",
       "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/Screenshot_2024-10-30_at_13.45_.41_.png",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Baptiste_Passemard.JPG",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 136,
-      "lastRank": 119,
-      "change": -17,
+      "publishedRank": 180,
+      "lastRank": 170,
+      "change": -10,
       "scores": [
         {
-          "points": 54.21,
+          "points": 52.13,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 165196,
-      "fullName": "Alfredo Miguel Rodríguez Figueroa",
-      "noc": "MEX",
+      "athleteId": 103764,
+      "fullName": "Itamar Eshed",
+      "noc": "ISR",
       "gender": "male",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/1e701172-0c99-4f9a-ac72-670eb83479b2.jpeg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 137,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 52.75,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 42996,
-      "fullName": "Erwin Vanderplancke",
-      "noc": "BEL",
-      "gender": "male",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/erwin_vanderplancke_BEL.jpg",
-      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 138,
-      "lastRank": 120,
-      "change": -18,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/553BED8F-E84A-4D46-B0F4-2F5DC8784796.jpeg",
+      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+      "publishedRank": 180,
+      "lastRank": 170,
+      "change": -10,
       "scores": [
         {
           "points": 52.13,
@@ -2797,12 +4483,34 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/4c40b37a-28ef-4853-bafb-030b45a8dbc5.jpeg",
       "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 139,
-      "lastRank": 122,
-      "change": -17,
+      "publishedRank": 182,
+      "lastRank": 172,
+      "change": -10,
       "scores": [
         {
           "points": 51.69,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 137944,
+      "fullName": "Thomas Windischbauer",
+      "noc": "AUT",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/Thomas_Windischbauer.jpg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 183,
+      "lastRank": 173,
+      "change": -10,
+      "scores": [
+        {
+          "points": 29.95,
+          "period": 2
+        },
+        {
+          "points": 20.45,
           "period": 2
         }
       ]
@@ -2814,9 +4522,9 @@
       "gender": "male",
       "yearOfBirth": 2000,
       "flag": "https://cms.triathlon.org/assets/499d5f33-8bb7-4b4f-84db-fc30636a7fe5",
-      "publishedRank": 140,
-      "lastRank": 123,
-      "change": -17,
+      "publishedRank": 184,
+      "lastRank": 174,
+      "change": -10,
       "scores": [
         {
           "points": 50.15,
@@ -2825,69 +4533,143 @@
       ]
     },
     {
-      "athleteId": 144247,
-      "fullName": "Henry McMecking",
-      "noc": "NZL",
+      "athleteId": 158901,
+      "fullName": "Valentin Van Wersch",
+      "noc": "NED",
       "gender": "male",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-87.jpg",
-      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 141,
-      "lastRank": 124,
-      "change": -17,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/cd8efc9a-a17a-4fd6-9ba0-a012b1eea737.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 185,
+      "lastRank": 175,
+      "change": -10,
       "scores": [
         {
-          "points": 48.22,
+          "points": 27.94,
+          "period": 2
+        },
+        {
+          "points": 22.11,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 166876,
-      "fullName": "Daniel Ubilla Sabada",
+      "athleteId": 103075,
+      "fullName": "Aiden Longcroft-Harris",
+      "noc": "CAN",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/Aiden_Longcroft-Harris_(CAN)_-_JR2017.JPG",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 186,
+      "lastRank": 176,
+      "change": -10,
+      "scores": [
+        {
+          "points": 25.84,
+          "period": 2
+        },
+        {
+          "points": 22.11,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 94517,
+      "fullName": "Maxime Fluri",
+      "noc": "SUI",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Maxime_Fluri.jpg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 187,
+      "lastRank": 177,
+      "change": -10,
+      "scores": [
+        {
+          "points": 47.81,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 85863,
+      "fullName": "Badr Siwane",
+      "noc": "MAR",
+      "gender": "male",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/878e9fd3-5f3e-455b-9113-9c5b84ce9764.JPG",
+      "flag": "https://cms.triathlon.org/assets/efdc98d8-8c03-4ed5-9c66-985b89110095",
+      "publishedRank": 188,
+      "lastRank": 178,
+      "change": -10,
+      "scores": [
+        {
+          "points": 32.65,
+          "period": 2
+        },
+        {
+          "points": 14.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 160784,
+      "fullName": "Filip Vilenica",
+      "noc": "CRO",
+      "gender": "male",
+      "yearOfBirth": 2005,
+      "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2",
+      "publishedRank": 189,
+      "lastRank": 179,
+      "change": -10,
+      "scores": [
+        {
+          "points": 35.3,
+          "period": 2
+        },
+        {
+          "points": 10.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 102728,
+      "fullName": "Hokuto Obara",
+      "noc": "JPN",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/526ed338-9d64-40b3-81c7-371b21960343.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 190,
+      "lastRank": 180,
+      "change": -10,
+      "scores": [
+        {
+          "points": 35.3,
+          "period": 2
+        },
+        {
+          "points": 9.38,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 132947,
+      "fullName": "Andres Gras",
       "noc": "CHI",
       "gender": "male",
-      "yearOfBirth": 2006,
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/230712_162241_PBA_7117b.jpg",
       "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 142,
-      "lastRank": 126,
-      "change": -16,
-      "scores": [
-        {
-          "points": 44.6,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125294,
-      "fullName": "Connor Bentley",
-      "noc": "GBR",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/0cb7b25e-1769-4aab-b130-9e4640fcb7df.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 143,
-      "lastRank": 127,
-      "change": -16,
-      "scores": [
-        {
-          "points": 44.23,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 63564,
-      "fullName": "Maxime Hueber-Moosbrugger",
-      "noc": "FRA",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/820dc851-851b-426e-8d75-8a3fb3e57113.jpg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 143,
-      "lastRank": 127,
-      "change": -16,
+      "publishedRank": 191,
+      "lastRank": 181,
+      "change": -10,
       "scores": [
         {
           "points": 44.23,
@@ -2902,8 +4684,9 @@
       "gender": "male",
       "yearOfBirth": 1997,
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 145,
-      "lastRank": 0,
+      "publishedRank": 192,
+      "lastRank": 182,
+      "change": -10,
       "scores": [
         {
           "points": 41.75,
@@ -2918,9 +4701,9 @@
       "gender": "male",
       "yearOfBirth": 2005,
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 146,
-      "lastRank": 129,
-      "change": -17,
+      "publishedRank": 193,
+      "lastRank": 183,
+      "change": -10,
       "scores": [
         {
           "points": 41.26,
@@ -2936,9 +4719,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-361.jpg",
       "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 147,
-      "lastRank": 131,
-      "change": -16,
+      "publishedRank": 194,
+      "lastRank": 184,
+      "change": -10,
       "scores": [
         {
           "points": 39.69,
@@ -2953,83 +4736,12 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 148,
-      "lastRank": 0,
+      "publishedRank": 195,
+      "lastRank": 185,
+      "change": -10,
       "scores": [
         {
           "points": 38.62,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 110028,
-      "fullName": "Mateo Mendoza Burgos",
-      "noc": "CHI",
-      "gender": "male",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/CHI_Mateo_Mendoza1.JPG",
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 149,
-      "lastRank": 132,
-      "change": -17,
-      "scores": [
-        {
-          "points": 38.16,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 80663,
-      "fullName": "Darr Smith",
-      "noc": "USA",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/Darr_Smith_(USA)_-_JR2017.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 150,
-      "lastRank": 133,
-      "change": -17,
-      "scores": [
-        {
-          "points": 37.84,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 54025,
-      "fullName": "Jérémy Quindos",
-      "noc": "UZB",
-      "gender": "male",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/81cd7679-30e8-4d26-8a14-4ca48244edcf.jpg",
-      "flag": "https://cms.triathlon.org/assets/e98c30bf-2541-449c-809d-752fd0a750d7",
-      "publishedRank": 150,
-      "lastRank": 133,
-      "change": -17,
-      "scores": [
-        {
-          "points": 37.84,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 151889,
-      "fullName": "Miguel Espuna Larramona",
-      "noc": "ITA",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-82.jpg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 152,
-      "lastRank": 135,
-      "change": -17,
-      "scores": [
-        {
-          "points": 36.71,
           "period": 2
         }
       ]
@@ -3041,46 +4753,12 @@
       "gender": "male",
       "yearOfBirth": 2002,
       "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 153,
-      "lastRank": 0,
+      "publishedRank": 196,
+      "lastRank": 187,
+      "change": -9,
       "scores": [
         {
           "points": 35.72,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 160784,
-      "fullName": "Filip Vilenica",
-      "noc": "CRO",
-      "gender": "male",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2",
-      "publishedRank": 154,
-      "lastRank": 136,
-      "change": -18,
-      "scores": [
-        {
-          "points": 35.3,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 116705,
-      "fullName": "Peter Luftensteiner",
-      "noc": "AUT",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/Peter_Luftenstiener.jpg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 155,
-      "lastRank": 138,
-      "change": -17,
-      "scores": [
-        {
-          "points": 35,
           "period": 2
         }
       ]
@@ -3093,9 +4771,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-29.jpg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 156,
-      "lastRank": 139,
-      "change": -17,
+      "publishedRank": 197,
+      "lastRank": 188,
+      "change": -9,
       "scores": [
         {
           "points": 33.96,
@@ -3111,8 +4789,9 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/COL_Joaquin_Mojica_Baquero.JPG",
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 157,
-      "lastRank": 0,
+      "publishedRank": 198,
+      "lastRank": 189,
+      "change": -9,
       "scores": [
         {
           "points": 33.04,
@@ -3128,48 +4807,12 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/1faed165-d790-4f42-8881-59f82d97f3cb.jpeg",
       "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 158,
-      "lastRank": 140,
-      "change": -18,
+      "publishedRank": 199,
+      "lastRank": 190,
+      "change": -9,
       "scores": [
         {
           "points": 32.65,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 110704,
-      "fullName": "Luke McCarron",
-      "noc": "IRL",
-      "gender": "male",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/5d921908-8047-45a8-8b01-deaffa5cfe37.jpeg",
-      "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
-      "publishedRank": 159,
-      "lastRank": 142,
-      "change": -17,
-      "scores": [
-        {
-          "points": 32.38,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 165596,
-      "fullName": "Bradley Course",
-      "noc": "AUS",
-      "gender": "male",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/AUS_Bradley_Course.JPG",
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 160,
-      "lastRank": 143,
-      "change": -17,
-      "scores": [
-        {
-          "points": 30.2,
           "period": 2
         }
       ]
@@ -3182,9 +4825,9 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/8df6e928-25e9-4ac2-9630-c204c6f37fe7.jpeg",
       "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab",
-      "publishedRank": 161,
-      "lastRank": 144,
-      "change": -17,
+      "publishedRank": 200,
+      "lastRank": 191,
+      "change": -9,
       "scores": [
         {
           "points": 29.06,
@@ -3199,8 +4842,9 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 162,
-      "lastRank": 0,
+      "publishedRank": 201,
+      "lastRank": 192,
+      "change": -9,
       "scores": [
         {
           "points": 28.27,
@@ -3216,30 +4860,12 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_51321.jpeg",
       "flag": "https://cms.triathlon.org/assets/621c4c9c-4b99-4d06-86be-ffee5515f20d",
-      "publishedRank": 163,
-      "lastRank": 145,
-      "change": -18,
+      "publishedRank": 202,
+      "lastRank": 193,
+      "change": -9,
       "scores": [
         {
           "points": 27.94,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 124356,
-      "fullName": "Eduardo Nuñez Gomez",
-      "noc": "MEX",
-      "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/7213a11b-f4a2-43e1-b1fe-2fa036c7a303.jpeg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 164,
-      "lastRank": 147,
-      "change": -17,
-      "scores": [
-        {
-          "points": 25.84,
           "period": 2
         }
       ]
@@ -3252,9 +4878,27 @@
       "yearOfBirth": 2006,
       "profileImage": "https://prod-tri-assets.imgix.net/65087b78-5c4e-4a24-8477-99f8a31f9c2f.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 164,
-      "lastRank": 147,
-      "change": -17,
+      "publishedRank": 203,
+      "lastRank": 194,
+      "change": -9,
+      "scores": [
+        {
+          "points": 25.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124356,
+      "fullName": "Eduardo Nuñez Gomez",
+      "noc": "MEX",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/7213a11b-f4a2-43e1-b1fe-2fa036c7a303.jpeg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 203,
+      "lastRank": 194,
+      "change": -9,
       "scores": [
         {
           "points": 25.84,
@@ -3269,11 +4913,48 @@
       "gender": "male",
       "yearOfBirth": 2003,
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 166,
-      "lastRank": 0,
+      "publishedRank": 205,
+      "lastRank": 196,
+      "change": -9,
       "scores": [
         {
           "points": 24.19,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125002,
+      "fullName": "Ben Fäh",
+      "noc": "SUI",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/Ben_Fah.jpg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 206,
+      "lastRank": 197,
+      "change": -9,
+      "scores": [
+        {
+          "points": 23.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 139574,
+      "fullName": "Valentino Agnelli",
+      "noc": "ARG",
+      "gender": "male",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/e406e887-9790-48fd-b80a-1abb6920379f.jpeg",
+      "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+      "publishedRank": 206,
+      "lastRank": 197,
+      "change": -9,
+      "scores": [
+        {
+          "points": 23.91,
           "period": 2
         }
       ]
@@ -3286,9 +4967,9 @@
       "yearOfBirth": 2000,
       "profileImage": "https://prod-tri-assets.imgix.net/vitalii_vorontsov1.jpg",
       "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5",
-      "publishedRank": 167,
-      "lastRank": 149,
-      "change": -18,
+      "publishedRank": 206,
+      "lastRank": 197,
+      "change": -9,
       "scores": [
         {
           "points": 23.91,
@@ -3304,30 +4985,12 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/SLO_peter_rojtas.JPG",
       "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
-      "publishedRank": 167,
-      "lastRank": 149,
-      "change": -18,
+      "publishedRank": 206,
+      "lastRank": 197,
+      "change": -9,
       "scores": [
         {
           "points": 23.91,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 70410,
-      "fullName": "Lasse Lührs",
-      "noc": "GER",
-      "gender": "male",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/bd8701e3-05a7-4c13-b888-1f657bf2e86f.jpg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 169,
-      "lastRank": 151,
-      "change": -18,
-      "scores": [
-        {
-          "points": 23,
           "period": 2
         }
       ]
@@ -3339,8 +5002,9 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 170,
-      "lastRank": 0,
+      "publishedRank": 210,
+      "lastRank": 202,
+      "change": -8,
       "scores": [
         {
           "points": 22.38,
@@ -3356,9 +5020,9 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/61728ac6-19f1-48b8-ac1d-b40b23d34cb8.jpeg",
       "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
-      "publishedRank": 171,
-      "lastRank": 152,
-      "change": -19,
+      "publishedRank": 211,
+      "lastRank": 203,
+      "change": -8,
       "scores": [
         {
           "points": 22.11,
@@ -3374,9 +5038,9 @@
       "yearOfBirth": 1996,
       "profileImage": "https://prod-tri-assets.imgix.net/Aus_Triathlon_Headshot.jpg",
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 172,
-      "lastRank": 154,
-      "change": -18,
+      "publishedRank": 212,
+      "lastRank": 204,
+      "change": -8,
       "scores": [
         {
           "points": 20.45,
@@ -3385,16 +5049,33 @@
       ]
     },
     {
-      "athleteId": 137944,
-      "fullName": "Thomas Windischbauer",
-      "noc": "AUT",
+      "athleteId": 144052,
+      "fullName": "Darcy Williams",
+      "noc": "AUS",
       "gender": "male",
       "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/Thomas_Windischbauer.jpg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 172,
-      "lastRank": 154,
-      "change": -18,
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 212,
+      "lastRank": 204,
+      "change": -8,
+      "scores": [
+        {
+          "points": 20.45,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 178041,
+      "fullName": "Thomas Francisco Chica Perez",
+      "noc": "ECU",
+      "gender": "male",
+      "yearOfBirth": 2007,
+      "profileImage": "https://prod-tri-assets.imgix.net/2fc4e1df-d452-4efc-b9fa-a24470a3f246.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+      "publishedRank": 212,
+      "lastRank": 204,
+      "change": -8,
       "scores": [
         {
           "points": 20.45,
@@ -3409,8 +5090,9 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 174,
-      "lastRank": 0,
+      "publishedRank": 215,
+      "lastRank": 207,
+      "change": -8,
       "scores": [
         {
           "points": 19.15,
@@ -3419,16 +5101,16 @@
       ]
     },
     {
-      "athleteId": 124534,
-      "fullName": "Niklas Keller",
-      "noc": "AUT",
+      "athleteId": 116814,
+      "fullName": "Tzu I Pan",
+      "noc": "TPE",
       "gender": "male",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/Niklas_Keller.jpg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 175,
-      "lastRank": 156,
-      "change": -19,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_6082.jpeg",
+      "flag": "https://cms.triathlon.org/assets/bd388e65-778d-4e01-99a4-f174aa731213",
+      "publishedRank": 216,
+      "lastRank": 208,
+      "change": -8,
       "scores": [
         {
           "points": 18.92,
@@ -3443,9 +5125,27 @@
       "gender": "male",
       "yearOfBirth": 2001,
       "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 175,
-      "lastRank": 156,
-      "change": -19,
+      "publishedRank": 216,
+      "lastRank": 208,
+      "change": -8,
+      "scores": [
+        {
+          "points": 18.92,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124534,
+      "fullName": "Niklas Keller",
+      "noc": "AUT",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/Niklas_Keller.jpg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 216,
+      "lastRank": 208,
+      "change": -8,
       "scores": [
         {
           "points": 18.92,
@@ -3460,29 +5160,12 @@
       "gender": "male",
       "yearOfBirth": 2006,
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 177,
-      "lastRank": 0,
+      "publishedRank": 219,
+      "lastRank": 211,
+      "change": -8,
       "scores": [
         {
           "points": 17.71,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 96111,
-      "fullName": "Joris Basslé",
-      "noc": "BEL",
-      "gender": "male",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/c8a149dc-c0e8-4286-bdef-e7e584659368.jpg",
-      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 178,
-      "lastRank": 158,
-      "change": -20,
-      "scores": [
-        {
-          "points": 17.5,
           "period": 2
         }
       ]
@@ -3495,9 +5178,45 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/fe314059-01cf-4711-bdd3-5ff68640a6f0.jpeg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 178,
-      "lastRank": 158,
-      "change": -20,
+      "publishedRank": 220,
+      "lastRank": 212,
+      "change": -8,
+      "scores": [
+        {
+          "points": 17.5,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 96111,
+      "fullName": "Joris Basslé",
+      "noc": "BEL",
+      "gender": "male",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/c8a149dc-c0e8-4286-bdef-e7e584659368.jpg",
+      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+      "publishedRank": 220,
+      "lastRank": 212,
+      "change": -8,
+      "scores": [
+        {
+          "points": 17.5,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 118191,
+      "fullName": "Sangmin Park",
+      "noc": "KOR",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/KOR_Sangmin_park.JPG",
+      "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+      "publishedRank": 220,
+      "lastRank": 212,
+      "change": -8,
       "scores": [
         {
           "points": 17.5,
@@ -3513,8 +5232,9 @@
       "yearOfBirth": 1988,
       "profileImage": "https://prod-tri-assets.imgix.net/carlos-quinchara-0x200.jpg",
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 180,
-      "lastRank": 0,
+      "publishedRank": 223,
+      "lastRank": 215,
+      "change": -8,
       "scores": [
         {
           "points": 16.38,
@@ -3530,9 +5250,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/499a3034-93d5-4535-a4b9-c3b7d7a4e7302.jpeg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 181,
-      "lastRank": 160,
-      "change": -21,
+      "publishedRank": 224,
+      "lastRank": 216,
+      "change": -8,
       "scores": [
         {
           "points": 16.19,
@@ -3547,9 +5267,9 @@
       "gender": "male",
       "yearOfBirth": 1997,
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 181,
-      "lastRank": 160,
-      "change": -21,
+      "publishedRank": 224,
+      "lastRank": 216,
+      "change": -8,
       "scores": [
         {
           "points": 16.19,
@@ -3564,8 +5284,9 @@
       "gender": "male",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa",
-      "publishedRank": 183,
-      "lastRank": 0,
+      "publishedRank": 226,
+      "lastRank": 218,
+      "change": -8,
       "scores": [
         {
           "points": 15.15,
@@ -3581,9 +5302,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-50.jpg",
       "flag": "https://cms.triathlon.org/assets/4564b8d3-64e6-4d9b-bcd5-6ca9746bf381",
-      "publishedRank": 184,
-      "lastRank": 162,
-      "change": -22,
+      "publishedRank": 227,
+      "lastRank": 219,
+      "change": -8,
       "scores": [
         {
           "points": 14.97,
@@ -3598,11 +5319,29 @@
       "gender": "male",
       "yearOfBirth": 2006,
       "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 185,
-      "lastRank": 0,
+      "publishedRank": 228,
+      "lastRank": 220,
+      "change": -8,
       "scores": [
         {
           "points": 14.02,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 164746,
+      "fullName": "Julio Monteiro Martins",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 2000,
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 229,
+      "lastRank": 221,
+      "change": -8,
+      "scores": [
+        {
+          "points": 13.85,
           "period": 2
         }
       ]
@@ -3614,9 +5353,9 @@
       "gender": "male",
       "yearOfBirth": 2000,
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 186,
-      "lastRank": 163,
-      "change": -23,
+      "publishedRank": 229,
+      "lastRank": 221,
+      "change": -8,
       "scores": [
         {
           "points": 13.85,
@@ -3631,11 +5370,29 @@
       "gender": "male",
       "yearOfBirth": 1999,
       "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 187,
-      "lastRank": 0,
+      "publishedRank": 231,
+      "lastRank": 223,
+      "change": -8,
       "scores": [
         {
           "points": 12.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 102855,
+      "fullName": "João Teixeira Alvares",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 1998,
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 232,
+      "lastRank": 224,
+      "change": -8,
+      "scores": [
+        {
+          "points": 12.81,
           "period": 2
         }
       ]
@@ -3648,9 +5405,9 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/12.png",
       "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 188,
-      "lastRank": 164,
-      "change": -24,
+      "publishedRank": 232,
+      "lastRank": 224,
+      "change": -8,
       "scores": [
         {
           "points": 12.81,
@@ -3666,12 +5423,65 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/ja.png",
       "flag": "https://cms.triathlon.org/assets/53e2b798-40a0-469c-8b60-9f7248bc67c2",
-      "publishedRank": 189,
-      "lastRank": 165,
-      "change": -24,
+      "publishedRank": 234,
+      "lastRank": 226,
+      "change": -8,
       "scores": [
         {
           "points": 10.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 193174,
+      "fullName": "Aiden Petersen",
+      "noc": "RSA",
+      "gender": "male",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/9de1afa8-a4ab-4ac4-995e-15df19409b64.jpg",
+      "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+      "publishedRank": 235,
+      "lastRank": 227,
+      "change": -8,
+      "scores": [
+        {
+          "points": 8.68,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 202398,
+      "fullName": "Henrique Domingues",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 2008,
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 236,
+      "lastRank": 228,
+      "change": -8,
+      "scores": [
+        {
+          "points": 8.03,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124180,
+      "fullName": "Matheus Oliveira Martinhaki",
+      "noc": "BRA",
+      "gender": "male",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_81291.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 237,
+      "lastRank": 229,
+      "change": -8,
+      "scores": [
+        {
+          "points": 7.42,
           "period": 2
         }
       ]
