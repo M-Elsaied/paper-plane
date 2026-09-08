@@ -11,7 +11,9 @@ import type { PointsTier } from "@/config/points-tables";
 import type { AthleteScores } from "@/lib/engine/types";
 import { seedFinishOrder, type FieldAthlete } from "@/lib/engine/projection";
 import { rankAthletes } from "@/lib/engine/qualification";
-import { getQualState, getUpcomingEvents, getSeedMeta } from "@/lib/data";
+import { getQualState, getUpcomingEvents } from "@/lib/data";
+import { fetchEvent, type UpcomingEvent } from "@/lib/wt-api/events";
+import { todayIso } from "@/lib/today";
 import { fetchRaceStartLists } from "@/lib/wt-api/start-list";
 
 export interface RaceCompanionModel {
@@ -35,15 +37,23 @@ export interface RaceCompanionModel {
   officialStartList: boolean;
 }
 
-export function getEvent(eventId: number) {
-  return getUpcomingEvents().find((e) => e.eventId === eventId) ?? null;
+/** The race calendar first; any other WT event id resolves live (past races too). */
+export async function getEvent(eventId: number): Promise<UpcomingEvent | null> {
+  if (!Number.isInteger(eventId) || eventId <= 0) return null;
+  const upcoming = (await getUpcomingEvents()).find((e) => e.eventId === eventId);
+  if (upcoming) return upcoming;
+  try {
+    return await fetchEvent(eventId);
+  } catch {
+    return null;
+  }
 }
 
 export async function buildRaceCompanion(
   eventId: number,
   gender: Gender,
 ): Promise<RaceCompanionModel | null> {
-  const event = getEvent(eventId);
+  const event = await getEvent(eventId);
   if (!event) return null;
 
   const state = await getQualState(gender);
@@ -114,5 +124,5 @@ function toFieldAthlete(
 }
 
 function currentPeriod(): PeriodId {
-  return periodForDate(getSeedMeta().today ?? "2026-07-06") ?? 1;
+  return periodForDate(todayIso()) ?? 1;
 }
