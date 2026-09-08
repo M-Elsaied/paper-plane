@@ -11,7 +11,8 @@ import { cache } from "react";
 import type { Gender } from "@/config/pathways";
 import type { QualState, AthleteScores } from "@/lib/engine/types";
 import type { MrNationEntry } from "@/lib/engine/mixed-relay";
-import type { UpcomingEvent } from "@/lib/wt-api/events";
+import { fetchUpcomingEvents, type UpcomingEvent } from "@/lib/wt-api/events";
+import { todayIso, plusDays } from "@/lib/today";
 import type { WorldRankEntry } from "@/lib/wt-api/rankings";
 import { readQualState, readMrNations, readWorldRanking, readRankTrajectory } from "@/lib/db-read";
 import type { TrajectoryPoint } from "@/lib/trajectory";
@@ -79,9 +80,28 @@ export const getRankTrajectory = cache(async (gender: Gender, athleteId: number)
   return [];
 });
 
-export function getUpcomingEvents(): UpcomingEvent[] {
-  return events as unknown as UpcomingEvent[];
-}
+/** Forward window for the race calendar (mirrors the seed script). */
+const EVENT_WINDOW_DAYS = 120;
+/** Don't let a slow WT API stall a page render — fall back to the seed calendar. */
+const EVENT_FETCH_DEADLINE_MS = 6000;
+
+/** Upcoming elite races: live from World Triathlon (forward window from today),
+ *  falling back to the committed seed calendar pruned to what's still ahead. */
+export const getUpcomingEvents = cache(async (): Promise<UpcomingEvent[]> => {
+  const today = todayIso();
+  try {
+    const live = await Promise.race([
+      fetchUpcomingEvents(today, plusDays(today, EVENT_WINDOW_DAYS)),
+      new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error("wt events timeout")), EVENT_FETCH_DEADLINE_MS),
+      ),
+    ]);
+    if (live.length) return live;
+  } catch {
+    // fall through to seed JSON
+  }
+  return (events as unknown as UpcomingEvent[]).filter((e) => (e.endDate ?? e.date) >= today);
+});
 
 /** NOCs that already have Olympic triathlon history → NOT New Flag eligible.
  *  Slow-moving reference data, refreshed by `npm run seed`. */
@@ -91,6 +111,17 @@ export function getEstablishedNocs(): Set<string> {
 
 export function getSeedMeta() {
   return seedMeta as { today?: string; menPublished: string; womenPublished: string };
+}
+
+/** When the rankings currently shown were published (Neon snapshot when live,
+ *  else the seed), plus the app's "today". */
+export async function getRankingMeta() {
+  const [men, women] = await getBothStates();
+  return {
+    today: todayIso(),
+    menPublished: men.publishedAt || seedMeta.menPublished,
+    womenPublished: women.publishedAt || seedMeta.womenPublished,
+  };
 }
 
 /** Find an athlete + their gender across both rankings. */
