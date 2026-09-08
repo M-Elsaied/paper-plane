@@ -53,9 +53,13 @@ const TAIL_PERCENT = 5.0;
 
 /** WT event `cat_id` -> internal tier. Extend as new category ids are observed. */
 export const CATEGORY_TIER: Record<number, PointsTier> = {
+  // Ids per GET /events/categories (verified 2026-09-08).
+  624: "wtcs_final", // World Championship Finals
   351: "wtcs", // World Championship Series
-  // Discovered/extended by scripts/discover-ranking-ids + ingestion. Common ids:
-  // World Cup, Continental Championships, Games, etc. are added as encountered.
+  349: "world_cup", // World Cup
+  343: "games", // Major Games (Asian/Pan Am/Commonwealth/European Games, YOG…)
+  340: "continental_champs", // Continental Championships
+  341: "continental_cup", // Continental Cup
 };
 
 /** Human labels for tiers (UI). */
