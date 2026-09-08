@@ -17,7 +17,9 @@ import { UnrankedProfileView } from "@/components/unranked-profile";
 import { Flag } from "@/components/flag";
 import { buildUnrankedProfile } from "@/lib/athlete-profile";
 import { fmtPoints } from "@/lib/format";
-import { getSeedMeta, findAthlete } from "@/lib/data";
+import { findAthlete } from "@/lib/data";
+import { todayIso } from "@/lib/today";
+import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
 import { fetchAthleteProfile } from "@/lib/wt-api/athletes";
 import { cn } from "@/lib/utils";
 
@@ -51,14 +53,14 @@ export default async function AthleteCockpit({
   const m = await buildCockpit(Number(id));
   if (!m) {
     // Not in the OQR — show an honest profile (or 404 if the id is unknown to WT).
-    const profile = await buildUnrankedProfile(Number(id), getSeedMeta().today).catch(() => null);
+    const profile = await buildUnrankedProfile(Number(id), todayIso()).catch(() => null);
     if (!profile) notFound();
     return <UnrankedProfileView p={profile} />;
   }
 
   const insideBy = -m.gapToLine; // positive when inside the line
   const explain = explainPosition(m);
-  const today = getSeedMeta().today;
+  const today = todayIso();
 
   return (
     <main className="mx-auto px-4 pt-6 lg:max-w-5xl">
@@ -213,18 +215,18 @@ export default async function AthleteCockpit({
 
       {/* Mixed Relay strip */}
       <section className="card mb-4 flex items-center gap-3 p-4">
-        <Users size={20} className={m.mr.insideTop16 ? "text-good" : "text-ink-faint"} />
+        <Users size={20} className={m.mr.insideRelayCut ? "text-good" : "text-ink-faint"} />
         <div className="flex-1">
           <div className="text-sm font-bold">{m.noc} Mixed Relay pathway</div>
           <div className="text-[11px] text-ink-dim">
             {m.mr.rank
               ? `MR Olympic rank #${m.mr.rank} · ${
-                  m.mr.insideTop16 ? "inside the top 16 ✓" : `${fmtPoints(m.mr.gapToTop16)} pts outside`
+                  m.mr.insideRelayCut ? `inside the top ${MR_OQR_PLACES} ✓` : `${fmtPoints(m.mr.gapToRelayCut)} pts outside`
                 }`
               : "not currently in the Mixed Relay Olympic ranking"}
           </div>
         </div>
-        {m.mr.insideTop16 && <ShieldCheck size={18} className="text-good" />}
+        {m.mr.insideRelayCut && <ShieldCheck size={18} className="text-good" />}
       </section>
 
       {/* Chasers — tap to see the head-to-head */}
