@@ -30,7 +30,7 @@ export function ExplainLineCard({ lines }: { lines: ExplainLine[] }) {
       <details className="group mt-3">
         <summary className="flex cursor-pointer list-none items-center gap-1 text-[11px] font-semibold text-ink-faint">
           <ChevronDown size={13} className="transition-transform group-open:rotate-180" />
-          The 8 ways into the Games
+          The {PATHWAYS.length} routes into the Games · 55 places per gender
         </summary>
         <ul className="mt-2 space-y-1 pl-1">
           {PATHWAYS.map((p) => (
