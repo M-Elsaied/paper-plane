@@ -19,7 +19,7 @@ function model(o: Partial<CockpitModel>): CockpitModel {
     periodCount: { 1: 3, 2: 2 },
     periodFull: { 1: false, 2: false },
     daysToDeadline: 682,
-    mr: { noc: "GBR", rank: 4, total: 700, insideTop16: true, gapToTop16: 0, worldChampsSlot: null },
+    mr: { noc: "GBR", rank: 4, total: 700, insideRelayCut: true, gapToRelayCut: 0, worldChampsSlot: null },
     status: { code: "chasing", label: "CHASING", tone: "electric", detail: "" },
     nocUsage: { cap: 2, used: 1 },
     nocAhead: 0,
@@ -54,8 +54,8 @@ describe("explainPosition", () => {
     expect(lines.some((l) => l.text.includes("Period 1 is full"))).toBe(true);
   });
 
-  it("adds the Mixed Relay pathway line when inside the top 16", () => {
+  it("adds the Mixed Relay pathway line when inside the top 8", () => {
     const lines = explainPosition(model({}));
-    expect(lines.some((l) => l.text.includes("Mixed Relay") && l.text.includes("top 16"))).toBe(true);
+    expect(lines.some((l) => l.text.includes("Mixed Relay") && l.text.includes("top 8"))).toBe(true);
   });
 });
