@@ -1,117 +1,167 @@
 [
   {
-    "noc": "USA",
-    "rank": 1,
-    "total": 1082.88
-  },
-  {
     "noc": "FRA",
-    "rank": 2,
-    "total": 800
-  },
-  {
-    "noc": "ITA",
-    "rank": 3,
-    "total": 740
+    "rank": 1,
+    "total": 2275.86
   },
   {
     "noc": "ESP",
-    "rank": 4,
-    "total": 684.5
+    "rank": 2,
+    "total": 1912.15
   },
   {
-    "noc": "AUS",
-    "rank": 5,
-    "total": 633.16
-  },
-  {
-    "noc": "POR",
-    "rank": 6,
-    "total": 585.68
-  },
-  {
-    "noc": "MEX",
-    "rank": 7,
-    "total": 585
+    "noc": "USA",
+    "rank": 3,
+    "total": 1874.33
   },
   {
     "noc": "GBR",
-    "rank": 8,
-    "total": 501.12
+    "rank": 4,
+    "total": 1871.19
   },
   {
-    "noc": "CHI",
-    "rank": 9,
-    "total": 500.54
+    "noc": "HUN",
+    "rank": 5,
+    "total": 1843.58
   },
   {
     "noc": "GER",
+    "rank": 6,
+    "total": 1751.78
+  },
+  {
+    "noc": "ITA",
+    "rank": 7,
+    "total": 1698.58
+  },
+  {
+    "noc": "POR",
+    "rank": 8,
+    "total": 1517.91
+  },
+  {
+    "noc": "CAN",
+    "rank": 9,
+    "total": 1426.74
+  },
+  {
+    "noc": "SUI",
     "rank": 10,
-    "total": 463.53
+    "total": 1196.14
   },
   {
     "noc": "BRA",
     "rank": 11,
-    "total": 463
+    "total": 1038.04
   },
   {
     "noc": "NZL",
     "rank": 12,
-    "total": 428.77
+    "total": 1008.19
   },
   {
-    "noc": "CAN",
+    "noc": "AUS",
     "rank": 13,
-    "total": 428.28
+    "total": 946.36
   },
   {
-    "noc": "SUI",
+    "noc": "POL",
     "rank": 14,
-    "total": 396.61
-  },
-  {
-    "noc": "ARG",
-    "rank": 15,
-    "total": 396.15
-  },
-  {
-    "noc": "BEL",
-    "rank": 16,
-    "total": 366.87
-  },
-  {
-    "noc": "PER",
-    "rank": 17,
-    "total": 366.44
-  },
-  {
-    "noc": "LUX",
-    "rank": 18,
-    "total": 339.35
-  },
-  {
-    "noc": "CRC",
-    "rank": 19,
-    "total": 338.96
+    "total": 935.93
   },
   {
     "noc": "NED",
-    "rank": 20,
-    "total": 313.9
+    "rank": 15,
+    "total": 881.8
   },
   {
-    "noc": "COL",
-    "rank": 21,
-    "total": 313.54
+    "noc": "MEX",
+    "rank": 16,
+    "total": 874.71
+  },
+  {
+    "noc": "LUX",
+    "rank": 17,
+    "total": 763.54
+  },
+  {
+    "noc": "BEL",
+    "rank": 18,
+    "total": 743.49
+  },
+  {
+    "noc": "CZE",
+    "rank": 19,
+    "total": 633.81
+  },
+  {
+    "noc": "ISR",
+    "rank": 20,
+    "total": 570.13
   },
   {
     "noc": "JPN",
-    "rank": 22,
-    "total": 290.36
+    "rank": 21,
+    "total": 558.34
   },
   {
-    "noc": "HUN",
+    "noc": "CHI",
+    "rank": 22,
+    "total": 500.54
+  },
+  {
+    "noc": "ARG",
     "rank": 23,
-    "total": 268.58
+    "total": 396.15
+  },
+  {
+    "noc": "PER",
+    "rank": 24,
+    "total": 366.44
+  },
+  {
+    "noc": "CRC",
+    "rank": 25,
+    "total": 338.96
+  },
+  {
+    "noc": "COL",
+    "rank": 26,
+    "total": 313.54
+  },
+  {
+    "noc": "DEN",
+    "rank": 27,
+    "total": 275.72
+  },
+  {
+    "noc": "EST",
+    "rank": 28,
+    "total": 235.92
+  },
+  {
+    "noc": "KOR",
+    "rank": 29,
+    "total": 229.29
+  },
+  {
+    "noc": "BLR",
+    "rank": 30,
+    "total": 218.22
+  },
+  {
+    "noc": "HKG",
+    "rank": 31,
+    "total": 196.19
+  },
+  {
+    "noc": "SWE",
+    "rank": 32,
+    "total": 186.72
+  },
+  {
+    "noc": "UKR",
+    "rank": 33,
+    "total": 172.71
   }
 ]
