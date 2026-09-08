@@ -3,13 +3,15 @@
  * simulated in v1). Given the Mixed Relay Olympic Qualification Ranking and the
  * known/assumed World Champions, describe a nation's relay standing so the
  * athlete cockpit can show the relay context that affects their odds.
+ *
+ * The relay ranking cut is the top MR_RANKING_TEAMS (8) nations. The host and
+ * the 2026 / 2027 Mixed Relay World Champions qualify outside the ranking,
+ * which is how the 11 relay teams (22 places per gender) in `QUOTA` add up.
  */
-import type { PathwayAssumptions } from "@/config/pathways";
+import { MR_RANKING_TEAMS, type PathwayAssumptions } from "@/config/pathways";
 
-/** The 16 MR Olympic ranking places. */
-export const MR_OQR_PLACES = 16;
-/** Continental-guarantee window inside the ranking. */
-export const MR_CONTINENTAL_TOP = 15;
+/** Ranking places that qualify a relay team (mirrors QUOTA.relay.rankingTeams). */
+export const MR_OQR_PLACES = MR_RANKING_TEAMS;
 
 export interface MrNationEntry {
   noc: string;
@@ -21,8 +23,10 @@ export interface MrNationStatus {
   noc: string;
   rank: number | null;
   total: number | null;
-  insideTop16: boolean;
-  gapToTop16: number | null; // points behind the 16th nation (0 if inside)
+  /** Inside the relay ranking cut (top MR_OQR_PLACES). */
+  insideRelayCut: boolean;
+  /** Points behind the last qualifying nation (0 if inside). */
+  gapToRelayCut: number | null;
   worldChampsSlot: "2026" | "2027" | null;
 }
 
@@ -33,7 +37,7 @@ export function nationMrStatus(
 ): MrNationStatus {
   const sorted = [...entries].sort((a, b) => a.rank - b.rank);
   const entry = sorted.find((e) => e.noc === noc) ?? null;
-  const sixteenth = sorted.find((e) => e.rank === MR_OQR_PLACES) ?? sorted[MR_OQR_PLACES - 1] ?? null;
+  const cutNation = sorted.find((e) => e.rank === MR_OQR_PLACES) ?? sorted[MR_OQR_PLACES - 1] ?? null;
 
   const worldChampsSlot =
     assumptions.mrWorldChamps2026 === noc
@@ -47,21 +51,21 @@ export function nationMrStatus(
       noc,
       rank: null,
       total: null,
-      insideTop16: false,
-      gapToTop16: sixteenth ? sixteenth.total : null,
+      insideRelayCut: false,
+      gapToRelayCut: cutNation ? cutNation.total : null,
       worldChampsSlot,
     };
   }
 
-  const insideTop16 = entry.rank <= MR_OQR_PLACES;
-  const gapToTop16 = insideTop16 ? 0 : sixteenth ? Math.max(0, sixteenth.total - entry.total) : null;
+  const insideRelayCut = entry.rank <= MR_OQR_PLACES;
+  const gapToRelayCut = insideRelayCut ? 0 : cutNation ? Math.max(0, cutNation.total - entry.total) : null;
 
   return {
     noc,
     rank: entry.rank,
     total: entry.total,
-    insideTop16,
-    gapToTop16,
+    insideRelayCut,
+    gapToRelayCut,
     worldChampsSlot,
   };
 }
