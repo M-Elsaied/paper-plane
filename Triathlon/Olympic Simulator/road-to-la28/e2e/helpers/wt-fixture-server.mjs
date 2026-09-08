@@ -11,6 +11,7 @@ import { dirname, join } from "node:path";
 const FIX = join(dirname(fileURLToPath(import.meta.url)), "..", "..", "tests", "fixtures", "wt");
 
 const MAP = {
+  "/events/195148": "hamburg-event.json",
   "/events/195148/programs": "hamburg-programs.json",
   "/events/195148/programs/678086/entries": "hamburg-men-entries.json",
   "/events/195145/programs": "yokohama-programs.json",
