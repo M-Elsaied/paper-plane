@@ -1,3 +1,4 @@
+import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
 import Link from "next/link";
 import { Users, ShieldCheck, Lock, Swords } from "lucide-react";
 import type { NocWarRoom, NocGenderSlots } from "@/lib/war-room";
@@ -164,19 +165,19 @@ function MrCard({ n }: { n: NocWarRoom }) {
   const { mr } = n;
   return (
     <section className="card flex items-center gap-3 p-4">
-      <Users size={20} className={mr.insideTop16 ? "text-good" : "text-ink-faint"} />
+      <Users size={20} className={mr.insideRelayCut ? "text-good" : "text-ink-faint"} />
       <div className="flex-1">
         <div className="text-sm font-bold">{n.noc} Mixed Relay pathway</div>
         <div className="text-[11px] text-ink-dim">
           {mr.rank
             ? `MR Olympic rank #${mr.rank} · ${
-                mr.insideTop16 ? "inside the top 16 ✓" : `${fmtPoints(mr.gapToTop16 ?? 0)} pts outside`
+                mr.insideRelayCut ? `inside the top ${MR_OQR_PLACES} ✓` : `${fmtPoints(mr.gapToRelayCut ?? 0)} pts outside`
               }`
             : "not currently in the Mixed Relay Olympic ranking"}
           {mr.worldChampsSlot ? ` · World Champs ${mr.worldChampsSlot} slot` : ""}
         </div>
       </div>
-      {mr.insideTop16 && <ShieldCheck size={18} className="text-good" />}
+      {mr.insideRelayCut && <ShieldCheck size={18} className="text-good" />}
     </section>
   );
 }
