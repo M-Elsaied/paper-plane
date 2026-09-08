@@ -1,30 +1,38 @@
 {
   "gender": "female",
-  "publishedAt": "2026-07-06 10:39:20",
+  "publishedAt": "2026-08-29 06:16:48",
   "rankingId": 12,
   "athletes": [
     {
-      "athleteId": 113106,
-      "fullName": "Jolien Vermeylen",
-      "noc": "BEL",
+      "athleteId": 79065,
+      "fullName": "Lisa Tertsch",
+      "noc": "GER",
       "gender": "female",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/d72a6648-0b86-4969-8e64-93c1864855d0.jpg",
-      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/GER_Lisa_Tertsch.jpg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
       "publishedRank": 1,
       "lastRank": 1,
       "change": 0,
       "scores": [
         {
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 925,
+          "period": 2
+        },
+        {
           "points": 855.63,
           "period": 2
         },
         {
-          "points": 626.4,
+          "points": 855.63,
           "period": 2
         },
         {
-          "points": 577.2,
+          "points": 650,
           "period": 2
         }
       ]
@@ -38,9 +46,17 @@
       "profileImage": "https://prod-tri-assets.imgix.net/FRA_Cassandra_Beaugrand.jpg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
       "publishedRank": 2,
-      "lastRank": 2,
-      "change": 0,
+      "lastRank": 3,
+      "change": 1,
       "scores": [
+        {
+          "points": 1000,
+          "period": 2
+        },
+        {
+          "points": 1000,
+          "period": 2
+        },
         {
           "points": 1000,
           "period": 2
@@ -52,67 +68,31 @@
       ]
     },
     {
-      "athleteId": 56557,
-      "fullName": "Jeanne Lehair",
-      "noc": "LUX",
+      "athleteId": 117212,
+      "fullName": "Beth Potter",
+      "noc": "GBR",
       "gender": "female",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/85b79f93-db3b-43eb-b84c-6fcf6bb36a9d.JPG",
-      "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/1397453c-ce95-4701-8369-31c2288bbe27.png",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
       "publishedRank": 3,
-      "lastRank": 3,
-      "change": 0,
+      "lastRank": 6,
+      "change": 3,
       "scores": [
+        {
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 925,
+          "period": 2
+        },
         {
           "points": 791.45,
           "period": 2
         },
         {
-          "points": 732.09,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 79065,
-      "fullName": "Lisa Tertsch",
-      "noc": "GER",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/GER_Lisa_Tertsch.jpg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 4,
-      "lastRank": 4,
-      "change": 0,
-      "scores": [
-        {
-          "points": 855.63,
-          "period": 2
-        },
-        {
-          "points": 650,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 49545,
-      "fullName": "Georgia Taylor-Brown",
-      "noc": "GBR",
-      "gender": "female",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/georgia_taylorbrown_GBR.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 5,
-      "lastRank": 5,
-      "change": 0,
-      "scores": [
-        {
           "points": 677.19,
-          "period": 2
-        },
-        {
-          "points": 626.4,
           "period": 2
         }
       ]
@@ -125,10 +105,18 @@
       "yearOfBirth": 1994,
       "profileImage": "https://prod-tri-assets.imgix.net/FRA_Leonie_Periault.jpg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 6,
-      "lastRank": 6,
-      "change": 0,
+      "publishedRank": 4,
+      "lastRank": 2,
+      "change": -2,
       "scores": [
+        {
+          "points": 1000,
+          "period": 2
+        },
+        {
+          "points": 732.09,
+          "period": 2
+        },
         {
           "points": 732.09,
           "period": 2
@@ -147,10 +135,22 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/28a5a8c1-5845-4aba-832b-665dc88548c1.jpeg",
       "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 7,
+      "publishedRank": 5,
       "lastRank": 7,
-      "change": 0,
+      "change": 2,
       "scores": [
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 495.76,
+          "period": 2
+        },
         {
           "points": 424.19,
           "period": 2
@@ -166,6 +166,178 @@
       ]
     },
     {
+      "athleteId": 56557,
+      "fullName": "Jeanne Lehair",
+      "noc": "LUX",
+      "gender": "female",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/85b79f93-db3b-43eb-b84c-6fcf6bb36a9d.JPG",
+      "flag": "https://cms.triathlon.org/assets/242bd867-4291-4d17-bba5-cb50cf2e4a60",
+      "publishedRank": 6,
+      "lastRank": 4,
+      "change": -2,
+      "scores": [
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 579.42,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 135877,
+      "fullName": "Tilda Månsson",
+      "noc": "SWE",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_2500-Edit.jpg",
+      "flag": "https://cms.triathlon.org/assets/4564b8d3-64e6-4d9b-bcd5-6ca9746bf381",
+      "publishedRank": 7,
+      "lastRank": 5,
+      "change": -2,
+      "scores": [
+        {
+          "points": 925,
+          "period": 2
+        },
+        {
+          "points": 855.63,
+          "period": 2
+        },
+        {
+          "points": 855.63,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106358,
+      "fullName": "Roksana Slupek",
+      "noc": "POL",
+      "gender": "female",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/45054385-DE4E-4F9C-B355-A5FEB858BE4B.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+      "publishedRank": 8,
+      "lastRank": 14,
+      "change": 6,
+      "scores": [
+        {
+          "points": 677.19,
+          "period": 2
+        },
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 452.72,
+          "period": 2
+        },
+        {
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 265.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 113106,
+      "fullName": "Jolien Vermeylen",
+      "noc": "BEL",
+      "gender": "female",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/d72a6648-0b86-4969-8e64-93c1864855d0.jpg",
+      "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
+      "publishedRank": 9,
+      "lastRank": 8,
+      "change": -1,
+      "scores": [
+        {
+          "points": 855.63,
+          "period": 2
+        },
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 577.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 80643,
+      "fullName": "Taylor Knibb",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/taylor_knibb_USA.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 10,
+      "lastRank": 9,
+      "change": -1,
+      "scores": [
+        {
+          "points": 626.4,
+          "period": 2
+        },
+        {
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 458.58,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125375,
+      "fullName": "Emma Lombardi",
+      "noc": "FRA",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Emma_Lombardi.jpg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 11,
+      "lastRank": 10,
+      "change": -1,
+      "scores": [
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 495.76,
+          "period": 2
+        }
+      ]
+    },
+    {
       "athleteId": 96759,
       "fullName": "Valentina Riasova",
       "noc": "AIN",
@@ -173,8 +345,8 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/71b84b71-be65-4ea7-9d87-520ade50550e.jpg",
       "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 8,
-      "lastRank": 8,
+      "publishedRank": 12,
+      "lastRank": 12,
       "change": 0,
       "scores": [
         {
@@ -183,6 +355,138 @@
         },
         {
           "points": 511.67,
+          "period": 2
+        },
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 89.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 49545,
+      "fullName": "Georgia Taylor-Brown",
+      "noc": "GBR",
+      "gender": "female",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/georgia_taylorbrown_GBR.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 13,
+      "lastRank": 11,
+      "change": -2,
+      "scores": [
+        {
+          "points": 677.19,
+          "period": 2
+        },
+        {
+          "points": 677.19,
+          "period": 2
+        },
+        {
+          "points": 626.4,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125627,
+      "fullName": "Tanja Neubert",
+      "noc": "GER",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/81f8966e-d74a-4181-8929-36db82018223.jpg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 14,
+      "lastRank": 19,
+      "change": 5,
+      "scores": [
+        {
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 495.76,
+          "period": 2
+        },
+        {
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 166.44,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 81334,
+      "fullName": "Taylor Spivey",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_Taylor_Spivey.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 15,
+      "lastRank": 13,
+      "change": -2,
+      "scores": [
+        {
+          "points": 791.45,
+          "period": 2
+        },
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 424.19,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 132848,
+      "fullName": "Gina Sereno",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/TZAF5898.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 16,
+      "lastRank": 16,
+      "change": 0,
+      "scores": [
+        {
+          "points": 458.58,
+          "period": 2
+        },
+        {
+          "points": 458.58,
+          "period": 2
+        },
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 245.78,
           "period": 2
         }
       ]
@@ -195,12 +499,16 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/a7e724ef-3151-4d87-8d76-613923cb5c27.jpg",
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 9,
-      "lastRank": 22,
-      "change": 13,
+      "publishedRank": 17,
+      "lastRank": 15,
+      "change": -2,
       "scores": [
         {
           "points": 585,
+          "period": 2
+        },
+        {
+          "points": 500,
           "period": 2
         },
         {
@@ -218,81 +526,125 @@
       ]
     },
     {
-      "athleteId": 135877,
-      "fullName": "Tilda Månsson",
-      "noc": "SWE",
+      "athleteId": 106305,
+      "fullName": "Beatrice Mallozzi",
+      "noc": "ITA",
       "gender": "female",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_2500-Edit.jpg",
-      "flag": "https://cms.triathlon.org/assets/4564b8d3-64e6-4d9b-bcd5-6ca9746bf381",
-      "publishedRank": 10,
-      "lastRank": 9,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/4147f42c-2cd7-4b1e-b3e7-f81cbe7979f2.jpeg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 18,
+      "lastRank": 17,
       "change": -1,
       "scores": [
         {
-          "points": 925,
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 188.73,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 117212,
-      "fullName": "Beth Potter",
-      "noc": "GBR",
+      "athleteId": 174983,
+      "fullName": "Fanni Szalai",
+      "noc": "HUN",
       "gender": "female",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/c6a11d5e-b5cd-4146-8e28-e4f7de89ae3d.png",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 10,
-      "lastRank": 9,
+      "yearOfBirth": 2008,
+      "profileImage": "https://prod-tri-assets.imgix.net/90131be7-5e46-4b75-9aff-c16bf14f3f05.jpg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 19,
+      "lastRank": 18,
       "change": -1,
       "scores": [
         {
-          "points": 925,
+          "points": 535.96,
+          "period": 2
+        },
+        {
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 392.37,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 80643,
-      "fullName": "Taylor Knibb",
-      "noc": "USA",
+      "athleteId": 124901,
+      "fullName": "Angelica Prestia",
+      "noc": "ITA",
       "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/taylor_knibb_USA.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 12,
-      "lastRank": 11,
-      "change": -1,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/8498f0f3-f4f9-4e3d-8668-86b074c9bdb5.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 20,
+      "lastRank": 20,
+      "change": 0,
       "scores": [
         {
           "points": 462.5,
           "period": 2
         },
         {
-          "points": 458.58,
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 204.03,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 125061,
-      "fullName": "Djenyfer Arnold",
-      "noc": "BRA",
+      "athleteId": 125021,
+      "fullName": "Zuzana Michalickova",
+      "noc": "SVK",
       "gender": "female",
-      "yearOfBirth": 1993,
-      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Djenyfer_Arnold.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 13,
-      "lastRank": 45,
-      "change": 32,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/93ffa799-9f48-4810-afda-1f4cd865a06f.avif",
+      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+      "publishedRank": 21,
+      "lastRank": 21,
+      "change": 0,
       "scores": [
         {
-          "points": 519.48,
+          "points": 500,
           "period": 2
         },
         {
-          "points": 335.73,
+          "points": 366.05,
+          "period": 2
+        },
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 50.15,
+          "period": 2
+        },
+        {
+          "points": 27.7,
           "period": 2
         }
       ]
@@ -305,12 +657,16 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/eac00b76-3adb-4649-b788-da30b84244c0.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 14,
-      "lastRank": 12,
-      "change": -2,
+      "publishedRank": 22,
+      "lastRank": 22,
+      "change": 0,
       "scores": [
         {
           "points": 495.76,
+          "period": 2
+        },
+        {
+          "points": 462.5,
           "period": 2
         },
         {
@@ -320,16 +676,620 @@
       ]
     },
     {
-      "athleteId": 125375,
-      "fullName": "Emma Lombardi",
-      "noc": "FRA",
+      "athleteId": 40887,
+      "fullName": "Gwen Jorgensen",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1986,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_Gwen_Jorgensen.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 23,
+      "lastRank": 58,
+      "change": 35,
+      "scores": [
+        {
+          "points": 732.09,
+          "period": 2
+        },
+        {
+          "points": 495.76,
+          "period": 2
+        },
+        {
+          "points": 60.41,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124609,
+      "fullName": "Ana Maria Valentina Torres Gomez",
+      "noc": "MEX",
       "gender": "female",
       "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/FRA_Emma_Lombardi.jpg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 15,
-      "lastRank": 13,
+      "profileImage": "https://prod-tri-assets.imgix.net/aef6d4d2-f0a3-46d5-8eac-c4631943bf9f.jpeg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 24,
+      "lastRank": 34,
+      "change": 10,
+      "scores": [
+        {
+          "points": 500,
+          "period": 2
+        },
+        {
+          "points": 366.05,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106848,
+      "fullName": "Mariana Vargem",
+      "noc": "POR",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/c029564b-8dd9-4729-8783-06c28094c610.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 25,
+      "lastRank": 23,
       "change": -2,
+      "scores": [
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 55.88,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 135389,
+      "fullName": "Franka Rust",
+      "noc": "GER",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/9cb26f0d-92d6-4967-89c3-9556651bcfe7.png",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 26,
+      "lastRank": 24,
+      "change": -2,
+      "scores": [
+        {
+          "points": 458.58,
+          "period": 2
+        },
+        {
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 301.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 93409,
+      "fullName": "Desirae Ridenour",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Desirae_Ridenour_(CAN)_-_JR2017.JPG",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 27,
+      "lastRank": 63,
+      "change": 36,
+      "scores": [
+        {
+          "points": 579.42,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 166.44,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125061,
+      "fullName": "Djenyfer Arnold",
+      "noc": "BRA",
+      "gender": "female",
+      "yearOfBirth": 1993,
+      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Djenyfer_Arnold.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 28,
+      "lastRank": 25,
+      "change": -3,
+      "scores": [
+        {
+          "points": 519.48,
+          "period": 2
+        },
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 158669,
+      "fullName": "Manami Hayashi",
+      "noc": "JPN",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/MANAMI_JPN2.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 29,
+      "lastRank": 29,
+      "change": 0,
+      "scores": [
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 289.71,
+          "period": 2
+        },
+        {
+          "points": 142.41,
+          "period": 2
+        },
+        {
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 112.71,
+          "period": 2
+        },
+        {
+          "points": 40.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 7525,
+      "fullName": "Elizabeth Bravo",
+      "noc": "ECU",
+      "gender": "female",
+      "yearOfBirth": 1987,
+      "profileImage": "https://prod-tri-assets.imgix.net/514501ea-92e7-4559-9731-a777daf78bb7.jpg",
+      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+      "publishedRank": 30,
+      "lastRank": 26,
+      "change": -4,
+      "scores": [
+        {
+          "points": 316.92,
+          "period": 2
+        },
+        {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 212.09,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 81882,
+      "fullName": "Vittoria Lopes",
+      "noc": "BRA",
+      "gender": "female",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Vittoria_Lopes.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 31,
+      "lastRank": 33,
+      "change": 2,
+      "scores": [
+        {
+          "points": 359.75,
+          "period": 2
+        },
+        {
+          "points": 210.3,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        },
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 70.6,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 115148,
+      "fullName": "Cathia Schär",
+      "noc": "SUI",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/CathiaSchar.JPG",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 32,
+      "lastRank": 60,
+      "change": 28,
+      "scores": [
+        {
+          "points": 424.19,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 194.53,
+          "period": 2
+        },
+        {
+          "points": 40.91,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106581,
+      "fullName": "Bianca Seregni",
+      "noc": "ITA",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7785.jpeg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 33,
+      "lastRank": 27,
+      "change": -6,
+      "scores": [
+        {
+          "points": 325.73,
+          "period": 2
+        },
+        {
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 210.3,
+          "period": 2
+        },
+        {
+          "points": 194.53,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 189514,
+      "fullName": "Kelly Wetteland",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/8b4f1281-c5c9-4222-a80b-af8dbdf5c996.jpeg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 34,
+      "lastRank": 28,
+      "change": -6,
+      "scores": [
+        {
+          "points": 462.5,
+          "period": 2
+        },
+        {
+          "points": 462.5,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 135626,
+      "fullName": "Marcela Alvarez Solis",
+      "noc": "MEX",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-70.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 35,
+      "lastRank": 48,
+      "change": 13,
+      "scores": [
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 265.71,
+          "period": 2
+        },
+        {
+          "points": 250.83,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 80082,
+      "fullName": "Erica Hawley",
+      "noc": "BER",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/WhatsApp_Image_2024-06-22_at_5.03_.40_PM_.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
+      "publishedRank": 36,
+      "lastRank": 30,
+      "change": -6,
+      "scores": [
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 113.67,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 112738,
+      "fullName": "Maria Tomé",
+      "noc": "POR",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/POR_Maria_Tome1.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 37,
+      "lastRank": 31,
+      "change": -6,
+      "scores": [
+        {
+          "points": 265.71,
+          "period": 2
+        },
+        {
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 161.48,
+          "period": 2
+        },
+        {
+          "points": 153.96,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 142820,
+      "fullName": "Naomi Ruff",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/juniors-42.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 38,
+      "lastRank": 32,
+      "change": -6,
+      "scores": [
+        {
+          "points": 460.49,
+          "period": 2
+        },
+        {
+          "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 153.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 71161,
+      "fullName": "Sian Rainsley",
+      "noc": "GBR",
+      "gender": "female",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/sophie_alden-GBR1.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 39,
+      "lastRank": 35,
+      "change": -4,
+      "scores": [
+        {
+          "points": 335.73,
+          "period": 2
+        },
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 238.46,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 115545,
+      "fullName": "Asia Mercatelli",
+      "noc": "ITA",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/5464dc75-c841-40cf-a9a9-6bbf4482b2d2.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 40,
+      "lastRank": 36,
+      "change": -4,
+      "scores": [
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 181.47,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 83323,
+      "fullName": "Maria Carolina Velasquez Soto",
+      "noc": "COL",
+      "gender": "female",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/TZAF5846.jpg",
+      "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+      "publishedRank": 41,
+      "lastRank": 37,
+      "change": -4,
+      "scores": [
+        {
+          "points": 289.71,
+          "period": 2
+        },
+        {
+          "points": 265.71,
+          "period": 2
+        },
+        {
+          "points": 232.02,
+          "period": 2
+        },
+        {
+          "points": 65.31,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 158274,
+      "fullName": "Paola Sacchi",
+      "noc": "ITA",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/74e80ace-0ed2-44f4-9fa3-cf6ab9b2ec76.png",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 42,
+      "lastRank": 38,
+      "change": -4,
+      "scores": [
+        {
+          "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 289.71,
+          "period": 2
+        },
+        {
+          "points": 118.22,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 64903,
+      "fullName": "Tjasa Vrtacic",
+      "noc": "SLO",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_6905.PNG",
+      "flag": "https://cms.triathlon.org/assets/2b71aa1b-4b6d-4753-97ed-091860711a12",
+      "publishedRank": 43,
+      "lastRank": 39,
+      "change": -4,
+      "scores": [
+        {
+          "points": 395.73,
+          "period": 2
+        },
+        {
+          "points": 366.05,
+          "period": 2
+        },
+        {
+          "points": 44.23,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 110346,
+      "fullName": "Anqi Huang",
+      "noc": "CHN",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 44,
+      "lastRank": 0,
       "scores": [
         {
           "points": 791.45,
@@ -345,9 +1305,9 @@
       "yearOfBirth": 1997,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_2849.jpeg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 16,
-      "lastRank": 28,
-      "change": 12,
+      "publishedRank": 45,
+      "lastRank": 40,
+      "change": -5,
       "scores": [
         {
           "points": 362.95,
@@ -364,163 +1324,27 @@
       ]
     },
     {
-      "athleteId": 106358,
-      "fullName": "Roksana Slupek",
-      "noc": "POL",
-      "gender": "female",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/45054385-DE4E-4F9C-B355-A5FEB858BE4B.jpeg",
-      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 17,
-      "lastRank": 14,
-      "change": -3,
-      "scores": [
-        {
-          "points": 452.72,
-          "period": 2
-        },
-        {
-          "points": 265.71,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 132848,
-      "fullName": "Gina Sereno",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/TZAF5898.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 18,
-      "lastRank": 15,
-      "change": -3,
-      "scores": [
-        {
-          "points": 458.58,
-          "period": 2
-        },
-        {
-          "points": 245.78,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125627,
-      "fullName": "Tanja Neubert",
-      "noc": "GER",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/81f8966e-d74a-4181-8929-36db82018223.jpg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 19,
-      "lastRank": 16,
-      "change": -3,
-      "scores": [
-        {
-          "points": 535.96,
-          "period": 2
-        },
-        {
-          "points": 166.44,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 135389,
-      "fullName": "Franka Rust",
-      "noc": "GER",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/9cb26f0d-92d6-4967-89c3-9556651bcfe7.png",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 20,
-      "lastRank": 17,
-      "change": -3,
-      "scores": [
-        {
-          "points": 362.95,
-          "period": 2
-        },
-        {
-          "points": 301.3,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 112738,
-      "fullName": "Maria Tomé",
-      "noc": "POR",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/POR_Maria_Tome1.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 21,
-      "lastRank": 18,
-      "change": -3,
-      "scores": [
-        {
-          "points": 265.71,
-          "period": 2
-        },
-        {
-          "points": 227.35,
-          "period": 2
-        },
-        {
-          "points": 161.48,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 135626,
-      "fullName": "Marcela Alvarez Solis",
-      "noc": "MEX",
-      "gender": "female",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-70.jpg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 22,
-      "lastRank": 39,
-      "change": 17,
-      "scores": [
-        {
-          "points": 395.73,
-          "period": 2
-        },
-        {
-          "points": 250.83,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 81882,
-      "fullName": "Vittoria Lopes",
-      "noc": "BRA",
+      "athleteId": 79637,
+      "fullName": "Noelia Juan",
+      "noc": "ESP",
       "gender": "female",
       "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/BRA_Vittoria_Lopes.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 23,
-      "lastRank": 54,
-      "change": 31,
+      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Noelia_Juan.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 46,
+      "lastRank": 41,
+      "change": -5,
       "scores": [
         {
-          "points": 359.75,
+          "points": 427.81,
           "period": 2
         },
         {
-          "points": 210.3,
+          "points": 289.71,
           "period": 2
         },
         {
-          "points": 70.6,
+          "points": 65.87,
           "period": 2
         }
       ]
@@ -533,8 +1357,8 @@
       "yearOfBirth": 1995,
       "profileImage": "https://prod-tri-assets.imgix.net/GBR_Sophie_Coldwell.jpg",
       "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 24,
-      "lastRank": 19,
+      "publishedRank": 47,
+      "lastRank": 42,
       "change": -5,
       "scores": [
         {
@@ -544,150 +1368,125 @@
         {
           "points": 194.53,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 7525,
-      "fullName": "Elizabeth Bravo",
-      "noc": "ECU",
-      "gender": "female",
-      "yearOfBirth": 1987,
-      "profileImage": "https://prod-tri-assets.imgix.net/514501ea-92e7-4559-9731-a777daf78bb7.jpg",
-      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 25,
-      "lastRank": 56,
-      "change": 31,
-      "scores": [
-        {
-          "points": 316.92,
-          "period": 2
         },
         {
-          "points": 267.98,
+          "points": 179.94,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 81334,
-      "fullName": "Taylor Spivey",
-      "noc": "USA",
+      "athleteId": 122267,
+      "fullName": "Marta Pintanel Raymundo",
+      "noc": "ESP",
       "gender": "female",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/USA_Taylor_Spivey.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 26,
-      "lastRank": 20,
-      "change": -6,
-      "scores": [
-        {
-          "points": 579.42,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106848,
-      "fullName": "Mariana Vargem",
-      "noc": "POR",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/c029564b-8dd9-4729-8783-06c28094c610.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 26,
-      "lastRank": 20,
-      "change": -6,
-      "scores": [
-        {
-          "points": 579.42,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106581,
-      "fullName": "Bianca Seregni",
-      "noc": "ITA",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7785.jpeg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 28,
-      "lastRank": 23,
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/532525cc-f604-4c98-a352-1a00c5dab59a.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 48,
+      "lastRank": 43,
       "change": -5,
       "scores": [
         {
-          "points": 325.73,
+          "points": 265.71,
           "period": 2
         },
         {
-          "points": 227.35,
+          "points": 220.58,
+          "period": 2
+        },
+        {
+          "points": 166.44,
+          "period": 2
+        },
+        {
+          "points": 112.71,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 165400,
-      "fullName": "Sidney Clement",
-      "noc": "CAN",
+      "athleteId": 70413,
+      "fullName": "Laura Lindemann",
+      "noc": "GER",
       "gender": "female",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/4ad491df-fe98-44b3-aff2-95e778965b08.png",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 29,
-      "lastRank": 88,
-      "change": 59,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/8eb56f92-5eb9-44dc-85c6-ce7d2f4a63f5.png",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 49,
+      "lastRank": 44,
+      "change": -5,
       "scores": [
         {
-          "points": 407.44,
+          "points": 424.19,
+          "period": 2
+        },
+        {
+          "points": 310.55,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 123462,
+      "fullName": "Barbara De Koning",
+      "noc": "NED",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/barbara_dekoning_NED.jpg",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 50,
+      "lastRank": 54,
+      "change": 4,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 166.44,
           "period": 2
         },
         {
           "points": 122.89,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 83323,
-      "fullName": "Maria Carolina Velasquez Soto",
-      "noc": "COL",
-      "gender": "female",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/TZAF5846.jpg",
-      "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
-      "publishedRank": 30,
-      "lastRank": 50,
-      "change": 20,
-      "scores": [
+        },
         {
-          "points": 289.71,
+          "points": 121.85,
           "period": 2
         },
         {
-          "points": 232.02,
+          "points": 89.21,
+          "period": 2
+        },
+        {
+          "points": 31.41,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 190635,
-      "fullName": "Eleanor Beveridge",
+      "athleteId": 106041,
+      "fullName": "Erika Ackerlund",
       "noc": "USA",
       "gender": "female",
-      "yearOfBirth": 2000,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/8c627d77-5e3c-4628-a6c4-c3ee8b19adf5.jpg",
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 31,
-      "lastRank": 60,
-      "change": 29,
+      "publishedRank": 51,
+      "lastRank": 45,
+      "change": -6,
       "scores": [
         {
-          "points": 271.17,
+          "points": 313.2,
           "period": 2
         },
         {
-          "points": 247.88,
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 179.94,
           "period": 2
         }
       ]
@@ -700,12 +1499,16 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/4436cbfa-36c9-4f56-9aea-3a6f80d653b6.jpeg",
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 32,
-      "lastRank": 24,
-      "change": -8,
+      "publishedRank": 52,
+      "lastRank": 46,
+      "change": -6,
       "scores": [
         {
           "points": 427.81,
+          "period": 2
+        },
+        {
+          "points": 181.47,
           "period": 2
         },
         {
@@ -715,103 +1518,27 @@
       ]
     },
     {
-      "athleteId": 166282,
-      "fullName": "Diana Dunajska",
-      "noc": "SVK",
-      "gender": "female",
-      "yearOfBirth": 2006,
-      "profileImage": "https://prod-tri-assets.imgix.net/c0c70ec6-2f2f-4d16-98f5-fee209fe8208.jpeg",
-      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
-      "publishedRank": 33,
-      "lastRank": 25,
-      "change": -8,
-      "scores": [
-        {
-          "points": 278.7,
-          "period": 2
-        },
-        {
-          "points": 132.86,
-          "period": 2
-        },
-        {
-          "points": 96.44,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 174983,
-      "fullName": "Fanni Szalai",
-      "noc": "HUN",
-      "gender": "female",
-      "yearOfBirth": 2008,
-      "profileImage": "https://prod-tri-assets.imgix.net/90131be7-5e46-4b75-9aff-c16bf14f3f05.jpg",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 34,
-      "lastRank": 26,
-      "change": -8,
-      "scores": [
-        {
-          "points": 500,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 124609,
-      "fullName": "Ana Maria Valentina Torres Gomez",
-      "noc": "MEX",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/aef6d4d2-f0a3-46d5-8eac-c4631943bf9f.jpeg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 34,
-      "lastRank": 26,
-      "change": -8,
-      "scores": [
-        {
-          "points": 500,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 40887,
-      "fullName": "Gwen Jorgensen",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 1986,
-      "profileImage": "https://prod-tri-assets.imgix.net/USA_Gwen_Jorgensen.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 36,
-      "lastRank": 29,
-      "change": -7,
-      "scores": [
-        {
-          "points": 495.76,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 79637,
-      "fullName": "Noelia Juan",
+      "athleteId": 132893,
+      "fullName": "María Casals Mojica",
       "noc": "ESP",
       "gender": "female",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Noelia_Juan.jpg",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/8b64f25d-72aa-41a2-aeb7-38d5efefb5c7.jpeg",
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 37,
-      "lastRank": 30,
-      "change": -7,
+      "publishedRank": 53,
+      "lastRank": 47,
+      "change": -6,
       "scores": [
         {
-          "points": 427.81,
+          "points": 366.05,
           "period": 2
         },
         {
-          "points": 65.87,
+          "points": 167.86,
+          "period": 2
+        },
+        {
+          "points": 143.63,
           "period": 2
         }
       ]
@@ -824,12 +1551,16 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/6a08b460-9493-4847-8899-ffd652525e13.jpg",
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 38,
-      "lastRank": 31,
-      "change": -7,
+      "publishedRank": 54,
+      "lastRank": 67,
+      "change": 13,
       "scores": [
         {
           "points": 267.98,
+          "period": 2
+        },
+        {
+          "points": 210.3,
           "period": 2
         },
         {
@@ -843,58 +1574,49 @@
       ]
     },
     {
-      "athleteId": 189514,
-      "fullName": "Kelly Wetteland",
-      "noc": "USA",
+      "athleteId": 66197,
+      "fullName": "Alissa Konig",
+      "noc": "SUI",
       "gender": "female",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/8b4f1281-c5c9-4222-a80b-af8dbdf5c996.jpeg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 39,
-      "lastRank": 32,
-      "change": -7,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/EF146B97-845A-47CC-8F86-BE6230C5E755.jpeg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 55,
+      "lastRank": 106,
+      "change": 51,
       "scores": [
         {
-          "points": 462.5,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 142820,
-      "fullName": "Naomi Ruff",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-42.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 40,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 460.49,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 96506,
-      "fullName": "Carlotta Missaglia",
-      "noc": "ITA",
-      "gender": "female",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/598f191a-69da-4c9f-9001-2360ffd51723.png",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 41,
-      "lastRank": 33,
-      "change": -8,
-      "scores": [
-        {
-          "points": 313.2,
+          "points": 458.58,
           "period": 2
         },
         {
-          "points": 142.41,
+          "points": 210.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 64750,
+      "fullName": "Nicole Van Der Kaay",
+      "noc": "NZL",
+      "gender": "female",
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/nicole_vanderkay_NZL.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 56,
+      "lastRank": 49,
+      "change": -7,
+      "scores": [
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 245.78,
+          "period": 2
+        },
+        {
+          "points": 153.96,
           "period": 2
         }
       ]
@@ -907,34 +1629,16 @@
       "yearOfBirth": 2000,
       "profileImage": "https://prod-tri-assets.imgix.net/cbf4fc3c-6dff-4a57-8b1f-a7612bd9a3db.jpg",
       "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 42,
-      "lastRank": 34,
-      "change": -8,
+      "publishedRank": 57,
+      "lastRank": 50,
+      "change": -7,
       "scores": [
         {
           "points": 424.19,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 161245,
-      "fullName": "Carina Reicht",
-      "noc": "AUT",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/d1d0cbe3-1bfb-4d68-b3fe-a6de175874ac.jpeg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 43,
-      "lastRank": 35,
-      "change": -8,
-      "scores": [
-        {
-          "points": 392.37,
-          "period": 2
         },
         {
-          "points": 23.91,
+          "points": 194.53,
           "period": 2
         }
       ]
@@ -947,82 +1651,80 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/portrait.jpeg",
       "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 44,
-      "lastRank": 36,
-      "change": -8,
+      "publishedRank": 58,
+      "lastRank": 51,
+      "change": -7,
       "scores": [
         {
           "points": 335.73,
           "period": 2
         },
         {
+          "points": 112.71,
+          "period": 2
+        },
+        {
           "points": 80.06,
           "period": 2
+        },
+        {
+          "points": 70.6,
+          "period": 2
         }
       ]
     },
     {
-      "athleteId": 158274,
-      "fullName": "Paola Sacchi",
+      "athleteId": 96506,
+      "fullName": "Carlotta Missaglia",
       "noc": "ITA",
       "gender": "female",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/74e80ace-0ed2-44f4-9fa3-cf6ab9b2ec76.png",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 45,
-      "lastRank": 37,
-      "change": -8,
-      "scores": [
-        {
-          "points": 289.71,
-          "period": 2
-        },
-        {
-          "points": 118.22,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 148530,
-      "fullName": "Margareta Vrablova",
-      "noc": "SVK",
-      "gender": "female",
-      "yearOfBirth": 2005,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_20220905_140449.jpg",
-      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
-      "publishedRank": 46,
-      "lastRank": 38,
-      "change": -8,
-      "scores": [
-        {
-          "points": 338.59,
-          "period": 2
-        },
-        {
-          "points": 68.5,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 122267,
-      "fullName": "Marta Pintanel Raymundo",
-      "noc": "ESP",
-      "gender": "female",
       "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/532525cc-f604-4c98-a352-1a00c5dab59a.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 47,
-      "lastRank": 40,
+      "profileImage": "https://prod-tri-assets.imgix.net/598f191a-69da-4c9f-9001-2360ffd51723.png",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 59,
+      "lastRank": 52,
       "change": -7,
       "scores": [
         {
-          "points": 220.58,
+          "points": 313.2,
           "period": 2
         },
         {
-          "points": 166.44,
+          "points": 142.41,
+          "period": 2
+        },
+        {
+          "points": 142.41,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 58449,
+      "fullName": "Verena Steinhauser",
+      "noc": "ITA",
+      "gender": "female",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/ITA_Verena_Steinhauser.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 60,
+      "lastRank": 53,
+      "change": -7,
+      "scores": [
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 142.41,
+          "period": 2
+        },
+        {
+          "points": 60.41,
           "period": 2
         }
       ]
@@ -1035,12 +1737,16 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/47b0d941-005b-4331-902f-c926d56c3020.jpg",
       "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 48,
-      "lastRank": 41,
-      "change": -7,
+      "publishedRank": 61,
+      "lastRank": 55,
+      "change": -6,
       "scores": [
         {
           "points": 310.55,
+          "period": 2
+        },
+        {
+          "points": 210.3,
           "period": 2
         },
         {
@@ -1050,287 +1756,178 @@
       ]
     },
     {
-      "athleteId": 132893,
-      "fullName": "María Casals Mojica",
-      "noc": "ESP",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/8b64f25d-72aa-41a2-aeb7-38d5efefb5c7.jpeg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 49,
-      "lastRank": 42,
-      "change": -7,
-      "scores": [
-        {
-          "points": 366.05,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 93409,
-      "fullName": "Desirae Ridenour",
-      "noc": "CAN",
-      "gender": "female",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/Desirae_Ridenour_(CAN)_-_JR2017.JPG",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 50,
-      "lastRank": 43,
-      "change": -7,
-      "scores": [
-        {
-          "points": 179.94,
-          "period": 2
-        },
-        {
-          "points": 179.94,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 115545,
-      "fullName": "Asia Mercatelli",
-      "noc": "ITA",
+      "athleteId": 190635,
+      "fullName": "Eleanor Beveridge",
+      "noc": "USA",
       "gender": "female",
       "yearOfBirth": 2000,
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 51,
-      "lastRank": 44,
-      "change": -7,
+      "profileImage": "https://prod-tri-assets.imgix.net/5ac7b756-93f2-4b37-b1a0-2e883704f628.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 62,
+      "lastRank": 56,
+      "change": -6,
       "scores": [
         {
-          "points": 338.59,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 158926,
-      "fullName": "Luisa Daniela Baca Vargas",
-      "noc": "MEX",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/8063f313-c54c-49e4-be68-3441f4ea5b4e.jpeg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 52,
-      "lastRank": 70,
-      "change": 18,
-      "scores": [
-        {
-          "points": 212.09,
+          "points": 271.17,
           "period": 2
         },
-        {
-          "points": 124.35,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 170914,
-      "fullName": "Ana Carballo Gómez",
-      "noc": "ESP",
-      "gender": "female",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/894c9bf8-e622-47fa-8f32-e027eecf8485.png",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 53,
-      "lastRank": 46,
-      "change": -7,
-      "scores": [
-        {
-          "points": 196.19,
-          "period": 2
-        },
-        {
-          "points": 138.17,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 168089,
-      "fullName": "Rosa Elena Martinez Melchior",
-      "noc": "VEN",
-      "gender": "female",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/81444056-2f6d-4a03-93b7-f871fe8db606.jpg",
-      "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
-      "publishedRank": 54,
-      "lastRank": 47,
-      "change": -7,
-      "scores": [
-        {
-          "points": 313.2,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 70413,
-      "fullName": "Laura Lindemann",
-      "noc": "GER",
-      "gender": "female",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/8eb56f92-5eb9-44dc-85c6-ce7d2f4a63f5.png",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 55,
-      "lastRank": 48,
-      "change": -7,
-      "scores": [
-        {
-          "points": 310.55,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 112651,
-      "fullName": "Giovanna Lacerda",
-      "noc": "BRA",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1533-Edit.jpg",
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 56,
-      "lastRank": 75,
-      "change": 19,
-      "scores": [
-        {
-          "points": 196.19,
-          "period": 2
-        },
-        {
-          "points": 106.4,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125021,
-      "fullName": "Zuzana Michalickova",
-      "noc": "SVK",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/93ffa799-9f48-4810-afda-1f4cd865a06f.avif",
-      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
-      "publishedRank": 57,
-      "lastRank": 49,
-      "change": -8,
-      "scores": [
-        {
-          "points": 245.78,
-          "period": 2
-        },
-        {
-          "points": 50.15,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 127356,
-      "fullName": "Annabel Morton",
-      "noc": "GBR",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/2eaa4896-fca3-4c0e-9f76-110db4801129.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 58,
-      "lastRank": 51,
-      "change": -7,
-      "scores": [
         {
           "points": 247.88,
           "period": 2
         },
         {
-          "points": 39.69,
+          "points": 48.22,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 73429,
-      "fullName": "Sophie Malowiecki",
-      "noc": "AUS",
+      "athleteId": 161245,
+      "fullName": "Carina Reicht",
+      "noc": "AUT",
       "gender": "female",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/28e84e8b-1897-4290-9555-c90d75a5f644.jpeg",
-      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 59,
-      "lastRank": 52,
-      "change": -7,
-      "scores": [
-        {
-          "points": 287.26,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 83263,
-      "fullName": "Olivia Mathias",
-      "noc": "GBR",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/06B6ABFE-06EC-48DA-81B8-703A3FF349C8.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 59,
-      "lastRank": 52,
-      "change": -7,
-      "scores": [
-        {
-          "points": 287.26,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 123462,
-      "fullName": "Barbara De Koning",
-      "noc": "NED",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/barbara_dekoning_NED.jpg",
-      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 61,
-      "lastRank": 55,
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/d1d0cbe3-1bfb-4d68-b3fe-a6de175874ac.jpeg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 63,
+      "lastRank": 57,
       "change": -6,
       "scores": [
         {
-          "points": 122.89,
+          "points": 392.37,
           "period": 2
         },
         {
-          "points": 121.85,
+          "points": 89.21,
           "period": 2
         },
         {
-          "points": 31.41,
+          "points": 51.69,
+          "period": 2
+        },
+        {
+          "points": 23.91,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 175731,
-      "fullName": "Camila Victoria Alcala Rosales",
-      "noc": "HON",
+      "athleteId": 166282,
+      "fullName": "Diana Dunajska",
+      "noc": "SVK",
       "gender": "female",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/8c09ac51-8a2c-4d7a-bc73-ed38981d0742",
-      "publishedRank": 62,
-      "lastRank": 94,
-      "change": 32,
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/c0c70ec6-2f2f-4d16-98f5-fee209fe8208.jpeg",
+      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+      "publishedRank": 64,
+      "lastRank": 59,
+      "change": -5,
       "scores": [
         {
-          "points": 169.86,
+          "points": 278.7,
           "period": 2
         },
         {
-          "points": 105.15,
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 44.23,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 92305,
+      "fullName": "Ainsley Thorpe",
+      "noc": "NZL",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/xac52288e02097b5f3ba8ca896c1760ae1a390642thorpe-ainsley-003__ScaleWidthWzU1NV0.pagespeed_.ic_.HmXqMPR57-_2.jpg",
+      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
+      "publishedRank": 65,
+      "lastRank": 71,
+      "change": 6,
+      "scores": [
+        {
+          "points": 289.71,
+          "period": 2
+        },
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 122.89,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 131701,
+      "fullName": "Xinyu Lin",
+      "noc": "CHN",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/lin_CHN.jpg",
+      "flag": "https://cms.triathlon.org/assets/68a357c4-cfb6-4935-a6e9-b7603913692f",
+      "publishedRank": 66,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 535.96,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 165400,
+      "fullName": "Sidney Clement",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/4ad491df-fe98-44b3-aff2-95e778965b08.png",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 67,
+      "lastRank": 61,
+      "change": -6,
+      "scores": [
+        {
+          "points": 407.44,
+          "period": 2
+        },
+        {
+          "points": 122.89,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116271,
+      "fullName": "Karolina Helga Horváth",
+      "noc": "HUN",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7565.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 68,
+      "lastRank": 81,
+      "change": 13,
+      "scores": [
+        {
+          "points": 194.53,
+          "period": 2
+        },
+        {
+          "points": 167.86,
+          "period": 2
+        },
+        {
+          "points": 166.44,
           "period": 2
         }
       ]
@@ -1343,78 +1940,124 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/Eva_Goodisson.jpg",
       "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 63,
-      "lastRank": 57,
-      "change": -6,
+      "publishedRank": 69,
+      "lastRank": 62,
+      "change": -7,
       "scores": [
         {
-          "points": 131.73,
+          "points": 142.41,
           "period": 2
         },
         {
           "points": 131.73,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 137116,
-      "fullName": "Candice Denizot",
-      "noc": "FRA",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/d2d995d5-8eef-44ef-a200-eb92f01cb962.jpg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 64,
-      "lastRank": 58,
-      "change": -6,
-      "scores": [
+        },
         {
-          "points": 257.8,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 116273,
-      "fullName": "Dominika Peszleg",
-      "noc": "HUN",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/2BF451EF-F6A8-4439-A7ED-43B3DFFE8A7A.JPG",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 65,
-      "lastRank": 59,
-      "change": -6,
-      "scores": [
-        {
-          "points": 143.63,
+          "points": 131.73,
           "period": 2
         },
         {
-          "points": 104.26,
+          "points": 121.85,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 80605,
-      "fullName": "Mathilde Gautier",
-      "noc": "FRA",
+      "athleteId": 137276,
+      "fullName": "Julia Bröcker",
+      "noc": "GER",
       "gender": "female",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/Trombinoscope_Equipe_de_France_FFTRI_2023_@F-Boukla_ActivImages.-2-6_.jpeg",
-      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 66,
-      "lastRank": 61,
-      "change": -5,
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_6376.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 70,
+      "lastRank": 101,
+      "change": 31,
       "scores": [
         {
-          "points": 181.47,
+          "points": 287.26,
           "period": 2
         },
         {
-          "points": 63.36,
+          "points": 227.35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 162101,
+      "fullName": "Tilly Anema",
+      "noc": "GBR",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/705b6679-27a3-41eb-a6d9-7a62c8efc193.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 71,
+      "lastRank": 128,
+      "change": 57,
+      "scores": [
+        {
+          "points": 392.37,
+          "period": 2
+        },
+        {
+          "points": 121.85,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 148530,
+      "fullName": "Margareta Vrablova",
+      "noc": "SVK",
+      "gender": "female",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_20220905_140449.jpg",
+      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+      "publishedRank": 72,
+      "lastRank": 64,
+      "change": -8,
+      "scores": [
+        {
+          "points": 338.59,
+          "period": 2
+        },
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 68.5,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 69077,
+      "fullName": "Cecilia Santamaria Surroca",
+      "noc": "ESP",
+      "gender": "female",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/Cecilia_Santamaria_Surroca.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 73,
+      "lastRank": 65,
+      "change": -8,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 127.81,
+          "period": 2
+        },
+        {
+          "points": 97.26,
+          "period": 2
+        },
+        {
+          "points": 89.21,
           "period": 2
         }
       ]
@@ -1427,12 +2070,20 @@
       "yearOfBirth": 2002,
       "profileImage": "https://prod-tri-assets.imgix.net/Brea_Roderick.jpg",
       "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 67,
-      "lastRank": 62,
-      "change": -5,
+      "publishedRank": 74,
+      "lastRank": 66,
+      "change": -8,
       "scores": [
         {
           "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 131.73,
+          "period": 2
+        },
+        {
+          "points": 104.26,
           "period": 2
         },
         {
@@ -1442,19 +2093,757 @@
       ]
     },
     {
-      "athleteId": 71161,
-      "fullName": "Sian Rainsley",
-      "noc": "GBR",
+      "athleteId": 89532,
+      "fullName": "Kirsten Kasper",
+      "noc": "USA",
       "gender": "female",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/sophie_alden-GBR1.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 68,
-      "lastRank": 63,
-      "change": -5,
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/USA_Kirsten_Kasper.jpg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 75,
+      "lastRank": 131,
+      "change": 56,
       "scores": [
         {
-          "points": 238.46,
+          "points": 362.95,
+          "period": 2
+        },
+        {
+          "points": 112.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 163047,
+      "fullName": "Iida Reini",
+      "noc": "FIN",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
+      "publishedRank": 76,
+      "lastRank": 68,
+      "change": -8,
+      "scores": [
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 155.27,
+          "period": 2
+        },
+        {
+          "points": 33.96,
+          "period": 2
+        },
+        {
+          "points": 25.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 82483,
+      "fullName": "Sara Guerrero Manso",
+      "noc": "ESP",
+      "gender": "female",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Sara_Guerrero.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 77,
+      "lastRank": 93,
+      "change": 16,
+      "scores": [
+        {
+          "points": 179.94,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 82.52,
+          "period": 2
+        },
+        {
+          "points": 58.61,
+          "period": 2
+        },
+        {
+          "points": 29.95,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 47942,
+      "fullName": "Melanie Santos",
+      "noc": "POR",
+      "gender": "female",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/POR_Melanie_Santos.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 78,
+      "lastRank": 69,
+      "change": -9,
+      "scores": [
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 122.89,
+          "period": 2
+        },
+        {
+          "points": 83.22,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 73429,
+      "fullName": "Sophie Malowiecki",
+      "noc": "AUS",
+      "gender": "female",
+      "yearOfBirth": 1997,
+      "profileImage": "https://prod-tri-assets.imgix.net/28e84e8b-1897-4290-9555-c90d75a5f644.jpeg",
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 79,
+      "lastRank": 70,
+      "change": -9,
+      "scores": [
+        {
+          "points": 287.26,
+          "period": 2
+        },
+        {
+          "points": 96.44,
+          "period": 2
+        },
+        {
+          "points": 47.81,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 168089,
+      "fullName": "Rosa Elena Martinez Melchior",
+      "noc": "VEN",
+      "gender": "female",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/81444056-2f6d-4a03-93b7-f871fe8db606.jpg",
+      "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
+      "publishedRank": 80,
+      "lastRank": 72,
+      "change": -8,
+      "scores": [
+        {
+          "points": 313.2,
+          "period": 2
+        },
+        {
+          "points": 89.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 175217,
+      "fullName": "Béatrice Filion",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2006,
+      "profileImage": "https://prod-tri-assets.imgix.net/ba70f7c6-b764-4885-b22f-dca50d9f1860.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 81,
+      "lastRank": 73,
+      "change": -8,
+      "scores": [
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 143.63,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 112651,
+      "fullName": "Giovanna Lacerda",
+      "noc": "BRA",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1533-Edit.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 82,
+      "lastRank": 74,
+      "change": -8,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 106.4,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 170914,
+      "fullName": "Ana Carballo Gómez",
+      "noc": "ESP",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/894c9bf8-e622-47fa-8f32-e027eecf8485.png",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 83,
+      "lastRank": 75,
+      "change": -8,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 138.17,
+          "period": 2
+        },
+        {
+          "points": 37.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 150487,
+      "fullName": "Josephine Seerig",
+      "noc": "GER",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 84,
+      "lastRank": 76,
+      "change": -8,
+      "scores": [
+        {
+          "points": 196.19,
+          "period": 2
+        },
+        {
+          "points": 167.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 175731,
+      "fullName": "Camila Victoria Alcala Rosales",
+      "noc": "HON",
+      "gender": "female",
+      "yearOfBirth": 2005,
+      "flag": "https://cms.triathlon.org/assets/8c09ac51-8a2c-4d7a-bc73-ed38981d0742",
+      "publishedRank": 85,
+      "lastRank": 77,
+      "change": -8,
+      "scores": [
+        {
+          "points": 169.86,
+          "period": 2
+        },
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 109742,
+      "fullName": "Hollie Elliott",
+      "noc": "IRL",
+      "gender": "female",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/2514f9bf-a4cc-4e37-bbd4-f25af89bc4f7.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+      "publishedRank": 86,
+      "lastRank": 78,
+      "change": -8,
+      "scores": [
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 60.93,
+          "period": 2
+        },
+        {
+          "points": 35.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 158926,
+      "fullName": "Luisa Daniela Baca Vargas",
+      "noc": "MEX",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/8063f313-c54c-49e4-be68-3441f4ea5b4e.jpeg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 87,
+      "lastRank": 79,
+      "change": -8,
+      "scores": [
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 124.35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 137116,
+      "fullName": "Candice Denizot",
+      "noc": "FRA",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/d2d995d5-8eef-44ef-a200-eb92f01cb962.jpg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 88,
+      "lastRank": 80,
+      "change": -8,
+      "scores": [
+        {
+          "points": 257.8,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 25176,
+      "fullName": "Cecilia Perez",
+      "noc": "MEX",
+      "gender": "female",
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Perez.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 89,
+      "lastRank": 82,
+      "change": -7,
+      "scores": [
+        {
+          "points": 183.63,
+          "period": 2
+        },
+        {
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 60.93,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 132954,
+      "fullName": "Rafaela Capó",
+      "noc": "CHI",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/3aa448c2-0e6a-4617-92e1-1415e9e4d2e2.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 90,
+      "lastRank": 83,
+      "change": -7,
+      "scores": [
+        {
+          "points": 198.52,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        },
+        {
+          "points": 25.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 198507,
+      "fullName": "Iana Chenskaia",
+      "noc": "AIN",
+      "gender": "female",
+      "yearOfBirth": 2006,
+      "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
+      "publishedRank": 91,
+      "lastRank": 148,
+      "change": 57,
+      "scores": [
+        {
+          "points": 227.35,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 112658,
+      "fullName": "Daniela Moya Chamorro",
+      "noc": "CHI",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/9599cd14-dd96-443a-9a62-939108eca9f3.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 92,
+      "lastRank": 84,
+      "change": -8,
+      "scores": [
+        {
+          "points": 157.12,
+          "period": 2
+        },
+        {
+          "points": 56.36,
+          "period": 2
+        },
+        {
+          "points": 44.6,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 127356,
+      "fullName": "Annabel Morton",
+      "noc": "GBR",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/2eaa4896-fca3-4c0e-9f76-110db4801129.jpg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 93,
+      "lastRank": 85,
+      "change": -8,
+      "scores": [
+        {
+          "points": 247.88,
+          "period": 2
+        },
+        {
+          "points": 39.69,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 83263,
+      "fullName": "Olivia Mathias",
+      "noc": "GBR",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/06B6ABFE-06EC-48DA-81B8-703A3FF349C8.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
+      "publishedRank": 94,
+      "lastRank": 86,
+      "change": -8,
+      "scores": [
+        {
+          "points": 287.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 139912,
+      "fullName": "Mako Hiraizumi",
+      "noc": "JPN",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/bbcaf945-5248-4130-a57a-df06e08fd780.jpeg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 95,
+      "lastRank": 87,
+      "change": -8,
+      "scores": [
+        {
+          "points": 97.26,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        },
+        {
+          "points": 65.87,
+          "period": 2
+        },
+        {
+          "points": 44.23,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 41079,
+      "fullName": "Julia Hauser",
+      "noc": "AUT",
+      "gender": "female",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/AUT_Julia_Hauser.jpg",
+      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
+      "publishedRank": 96,
+      "lastRank": 88,
+      "change": -8,
+      "scores": [
+        {
+          "points": 229.29,
+          "period": 2
+        },
+        {
+          "points": 52.13,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 111962,
+      "fullName": "Sofia Rodriguez Moreno",
+      "noc": "MEX",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/Facetune_11-04-2024-21-46-44.jpeg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 97,
+      "lastRank": 89,
+      "change": -8,
+      "scores": [
+        {
+          "points": 91.04,
+          "period": 2
+        },
+        {
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 52.13,
+          "period": 2
+        },
+        {
+          "points": 52.13,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 125268,
+      "fullName": "Sophia Howell",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/6B4372FD-93F9-4906-A700-48754E9F49FD.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 98,
+      "lastRank": 90,
+      "change": -8,
+      "scores": [
+        {
+          "points": 212.09,
+          "period": 2
+        },
+        {
+          "points": 65.31,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 192975,
+      "fullName": "Rachel Werking",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 99,
+      "lastRank": 91,
+      "change": -8,
+      "scores": [
+        {
+          "points": 181.47,
+          "period": 2
+        },
+        {
+          "points": 89.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 160951,
+      "fullName": "Matylda Wojakiewicz",
+      "noc": "POL",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/d6d58a1f-697e-43fe-af81-c158d793201f.jpeg",
+      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+      "publishedRank": 100,
+      "lastRank": 92,
+      "change": -8,
+      "scores": [
+        {
+          "points": 181.47,
+          "period": 2
+        },
+        {
+          "points": 54.21,
+          "period": 2
+        },
+        {
+          "points": 35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 71740,
+      "fullName": "Ilaria Zane",
+      "noc": "ITA",
+      "gender": "female",
+      "yearOfBirth": 1992,
+      "profileImage": "https://prod-tri-assets.imgix.net/ITA_Ilaria_Zane.jpg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 101,
+      "lastRank": 94,
+      "change": -7,
+      "scores": [
+        {
+          "points": 167.86,
+          "period": 2
+        },
+        {
+          "points": 89.97,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 95441,
+      "fullName": "Miyu Sakai",
+      "noc": "JPN",
+      "gender": "female",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/miyu_sakai_jpn.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 102,
+      "lastRank": 95,
+      "change": -7,
+      "scores": [
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        },
+        {
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 23.7,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 116273,
+      "fullName": "Dominika Peszleg",
+      "noc": "HUN",
+      "gender": "female",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/2BF451EF-F6A8-4439-A7ED-43B3DFFE8A7A.JPG",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 103,
+      "lastRank": 96,
+      "change": -7,
+      "scores": [
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 104.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 136533,
+      "fullName": "Gayeon Park",
+      "noc": "KOR",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/165f868b-676f-4c98-ad21-a3a340969296.jpg",
+      "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+      "publishedRank": 104,
+      "lastRank": 0,
+      "scores": [
+        {
+          "points": 245.78,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 80605,
+      "fullName": "Mathilde Gautier",
+      "noc": "FRA",
+      "gender": "female",
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/Trombinoscope_Equipe_de_France_FFTRI_2023_@F-Boukla_ActivImages.-2-6_.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 105,
+      "lastRank": 97,
+      "change": -8,
+      "scores": [
+        {
+          "points": 181.47,
+          "period": 2
+        },
+        {
+          "points": 63.36,
           "period": 2
         }
       ]
@@ -1466,9 +2855,9 @@
       "gender": "female",
       "yearOfBirth": 2001,
       "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 69,
-      "lastRank": 64,
-      "change": -5,
+      "publishedRank": 106,
+      "lastRank": 98,
+      "change": -8,
       "scores": [
         {
           "points": 212.09,
@@ -1487,9 +2876,9 @@
       "gender": "female",
       "yearOfBirth": 2001,
       "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 70,
-      "lastRank": 65,
-      "change": -5,
+      "publishedRank": 107,
+      "lastRank": 99,
+      "change": -8,
       "scores": [
         {
           "points": 149.37,
@@ -1509,9 +2898,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_7247.jpeg",
       "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
-      "publishedRank": 71,
-      "lastRank": 66,
-      "change": -5,
+      "publishedRank": 108,
+      "lastRank": 100,
+      "change": -8,
       "scores": [
         {
           "points": 229.29,
@@ -1520,41 +2909,27 @@
       ]
     },
     {
-      "athleteId": 41079,
-      "fullName": "Julia Hauser",
-      "noc": "AUT",
+      "athleteId": 189862,
+      "fullName": "Kanae Takenaka",
+      "noc": "JPN",
       "gender": "female",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/AUT_Julia_Hauser.jpg",
-      "flag": "https://cms.triathlon.org/assets/79a68057-b219-4c68-b59e-0c3f55738a6d",
-      "publishedRank": 71,
-      "lastRank": 66,
-      "change": -5,
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/ef2f0541-3f31-4b71-98c9-fa3fdcf8edaa.jpeg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 109,
+      "lastRank": 138,
+      "change": 29,
       "scores": [
         {
-          "points": 229.29,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 69077,
-      "fullName": "Cecilia Santamaria Surroca",
-      "noc": "ESP",
-      "gender": "female",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/Cecilia_Santamaria_Surroca.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 73,
-      "lastRank": 68,
-      "change": -5,
-      "scores": [
-        {
-          "points": 127.81,
+          "points": 121.85,
           "period": 2
         },
         {
-          "points": 89.21,
+          "points": 70.6,
+          "period": 2
+        },
+        {
+          "points": 32.38,
           "period": 2
         }
       ]
@@ -1567,9 +2942,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/CollageMaker_20210924_182809529.jpg",
       "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 74,
-      "lastRank": 69,
-      "change": -5,
+      "publishedRank": 110,
+      "lastRank": 102,
+      "change": -8,
       "scores": [
         {
           "points": 86.55,
@@ -1592,8 +2967,9 @@
       "gender": "female",
       "yearOfBirth": 2005,
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 75,
-      "lastRank": 0,
+      "publishedRank": 111,
+      "lastRank": 103,
+      "change": -8,
       "scores": [
         {
           "points": 214.62,
@@ -1602,208 +2978,62 @@
       ]
     },
     {
-      "athleteId": 66197,
-      "fullName": "Alissa Konig",
-      "noc": "SUI",
+      "athleteId": 52323,
+      "fullName": "Sinem Francisca Tous Servera",
+      "noc": "TUR",
       "gender": "female",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/EF146B97-845A-47CC-8F86-BE6230C5E755.jpeg",
-      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 76,
-      "lastRank": 71,
-      "change": -5,
+      "yearOfBirth": 1992,
+      "profileImage": "https://prod-tri-assets.imgix.net/d686fc8f-4e99-4ee7-901c-efa146ec23bd.JPG",
+      "flag": "https://cms.triathlon.org/assets/6f19dcf2-f684-4375-a289-ef58526d3dab",
+      "publishedRank": 112,
+      "lastRank": 104,
+      "change": -8,
       "scores": [
         {
-          "points": 210.3,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 79830,
-      "fullName": "Tereza Zimovjanova",
-      "noc": "CZE",
-      "gender": "female",
-      "yearOfBirth": 1995,
-      "profileImage": "https://prod-tri-assets.imgix.net/320b32dd-6555-4684-88fc-9175d1f48aea.png",
-      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 77,
-      "lastRank": 72,
-      "change": -5,
-      "scores": [
-        {
-          "points": 174.58,
+          "points": 122.89,
           "period": 2
         },
         {
-          "points": 29.95,
+          "points": 89.97,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 124901,
-      "fullName": "Angelica Prestia",
-      "noc": "ITA",
+      "athleteId": 159279,
+      "fullName": "Maïra Carreau",
+      "noc": "CAN",
       "gender": "female",
-      "yearOfBirth": 2002,
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 78,
-      "lastRank": 73,
-      "change": -5,
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/photo_profil3.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 113,
+      "lastRank": 105,
+      "change": -8,
       "scores": [
         {
-          "points": 204.03,
+          "points": 212.09,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 121420,
-      "fullName": "Marina Muñoz Hernando",
-      "noc": "ESP",
+      "athleteId": 165635,
+      "fullName": "Aspen Anderson",
+      "noc": "AUS",
       "gender": "female",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/Marina_Munoz_Hernando.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 79,
-      "lastRank": 74,
-      "change": -5,
+      "yearOfBirth": 2006,
+      "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
+      "publishedRank": 114,
+      "lastRank": 154,
+      "change": 40,
       "scores": [
         {
-          "points": 155.27,
+          "points": 153.96,
           "period": 2
         },
         {
-          "points": 48.22,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 132954,
-      "fullName": "Rafaela Capó",
-      "noc": "CHI",
-      "gender": "female",
-      "yearOfBirth": 2004,
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 80,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 198.52,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 112658,
-      "fullName": "Daniela Moya Chamorro",
-      "noc": "CHI",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 81,
-      "lastRank": 123,
-      "change": 42,
-      "scores": [
-        {
-          "points": 157.12,
-          "period": 2
-        },
-        {
-          "points": 38.16,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 115148,
-      "fullName": "Cathia Schär",
-      "noc": "SUI",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/CathiaSchar.JPG",
-      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 82,
-      "lastRank": 76,
-      "change": -6,
-      "scores": [
-        {
-          "points": 194.53,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106305,
-      "fullName": "Beatrice Mallozzi",
-      "noc": "ITA",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/4147f42c-2cd7-4b1e-b3e7-f81cbe7979f2.jpeg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 83,
-      "lastRank": 77,
-      "change": -6,
-      "scores": [
-        {
-          "points": 188.73,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106357,
-      "fullName": "Magdalena Sudak",
-      "noc": "POL",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 84,
-      "lastRank": 78,
-      "change": -6,
-      "scores": [
-        {
-          "points": 113.67,
-          "period": 2
-        },
-        {
-          "points": 74.05,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 25176,
-      "fullName": "Cecilia Perez",
-      "noc": "MEX",
-      "gender": "female",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Perez.jpg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 85,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 183.63,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 192975,
-      "fullName": "Rachel Werking",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 86,
-      "lastRank": 79,
-      "change": -7,
-      "scores": [
-        {
-          "points": 181.47,
+          "points": 55.88,
           "period": 2
         }
       ]
@@ -1816,9 +3046,9 @@
       "yearOfBirth": 1993,
       "profileImage": "https://prod-tri-assets.imgix.net/Katrien_Maes.jpg",
       "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 87,
-      "lastRank": 80,
-      "change": -7,
+      "publishedRank": 115,
+      "lastRank": 107,
+      "change": -8,
       "scores": [
         {
           "points": 97.26,
@@ -1829,50 +3059,55 @@
           "period": 2
         },
         {
+          "points": 32.38,
+          "period": 2
+        },
+        {
           "points": 26.88,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 111962,
-      "fullName": "Sofia Rodriguez Moreno",
-      "noc": "MEX",
+      "athleteId": 79830,
+      "fullName": "Tereza Zimovjanova",
+      "noc": "CZE",
       "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/Facetune_11-04-2024-21-46-44.jpeg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 88,
-      "lastRank": 99,
-      "change": 11,
+      "yearOfBirth": 1995,
+      "profileImage": "https://prod-tri-assets.imgix.net/6ac9fdec-d6dd-424a-b46a-f5790894981d.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+      "publishedRank": 116,
+      "lastRank": 108,
+      "change": -8,
       "scores": [
         {
-          "points": 91.04,
+          "points": 174.58,
           "period": 2
         },
         {
-          "points": 83.22,
+          "points": 29.95,
           "period": 2
         }
       ]
     },
     {
-      "athleteId": 168244,
-      "fullName": "Julia Visgueiro",
-      "noc": "BRA",
+      "athleteId": 121420,
+      "fullName": "Marina Muñoz Hernando",
+      "noc": "ESP",
       "gender": "female",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 89,
-      "lastRank": 97,
-      "change": 8,
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/Marina_Munoz_Hernando.jpg",
+      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
+      "publishedRank": 117,
+      "lastRank": 109,
+      "change": -8,
       "scores": [
         {
-          "points": 89.97,
+          "points": 155.27,
           "period": 2
         },
         {
-          "points": 84.21,
+          "points": 48.22,
           "period": 2
         }
       ]
@@ -1885,52 +3120,213 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/1cb0fa54-1f03-495d-910e-aee29b346d6c.jpg",
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 90,
-      "lastRank": 81,
-      "change": -9,
+      "publishedRank": 118,
+      "lastRank": 110,
+      "change": -8,
       "scores": [
         {
           "points": 167.86,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 116271,
-      "fullName": "Karolina Helga Horváth",
-      "noc": "HUN",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7565.jpeg",
-      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 90,
-      "lastRank": 81,
-      "change": -9,
-      "scores": [
-        {
-          "points": 167.86,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 82483,
-      "fullName": "Sara Guerrero Manso",
-      "noc": "ESP",
-      "gender": "female",
-      "yearOfBirth": 1997,
-      "profileImage": "https://prod-tri-assets.imgix.net/ESP_Sara_Guerrero.jpg",
-      "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 92,
-      "lastRank": 83,
-      "change": -9,
-      "scores": [
-        {
-          "points": 96.44,
           "period": 2
         },
         {
-          "points": 58.61,
+          "points": 32.65,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 89986,
+      "fullName": "Genesis Carolina Ruiz Volcan",
+      "noc": "VEN",
+      "gender": "female",
+      "yearOfBirth": 1993,
+      "profileImage": "https://prod-tri-assets.imgix.net/354d893e-47e8-4e30-a401-56a8ca199bb0.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
+      "publishedRank": 119,
+      "lastRank": 111,
+      "change": -8,
+      "scores": [
+        {
+          "points": 143.63,
+          "period": 2
+        },
+        {
+          "points": 56.36,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 6150,
+      "fullName": "Barbara Riveros",
+      "noc": "CHI",
+      "gender": "female",
+      "yearOfBirth": 1987,
+      "profileImage": "https://prod-tri-assets.imgix.net/barbara_riveros_CHI.jpg",
+      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
+      "publishedRank": 120,
+      "lastRank": 112,
+      "change": -8,
+      "scores": [
+        {
+          "points": 98.42,
+          "period": 2
+        },
+        {
+          "points": 65.87,
+          "period": 2
+        },
+        {
+          "points": 27.94,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106357,
+      "fullName": "Magdalena Sudak",
+      "noc": "POL",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
+      "publishedRank": 121,
+      "lastRank": 113,
+      "change": -8,
+      "scores": [
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 74.05,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 176716,
+      "fullName": "Michelle Magnani",
+      "noc": "USA",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/6806ffcd-4968-4e58-baef-5c8f783056bb.jpeg",
+      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
+      "publishedRank": 122,
+      "lastRank": 114,
+      "change": -8,
+      "scores": [
+        {
+          "points": 113.67,
+          "period": 2
+        },
+        {
+          "points": 71.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 143514,
+      "fullName": "Zoe Adam",
+      "noc": "PUR",
+      "gender": "female",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/f2d98a7f-ef3d-41e1-be7f-64ecb690a8e5.jpeg",
+      "flag": "https://cms.triathlon.org/assets/c92129ea-68f5-4522-847f-0481514f68be",
+      "publishedRank": 123,
+      "lastRank": 115,
+      "change": -8,
+      "scores": [
+        {
+          "points": 105.15,
+          "period": 2
+        },
+        {
+          "points": 76.98,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106503,
+      "fullName": "Annika Koch",
+      "noc": "GER",
+      "gender": "female",
+      "yearOfBirth": 1999,
+      "profileImage": "https://prod-tri-assets.imgix.net/07A41E30-9790-4C56-A902-1669D7AEEA6F.jpeg",
+      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
+      "publishedRank": 124,
+      "lastRank": 116,
+      "change": -8,
+      "scores": [
+        {
+          "points": 104.26,
+          "period": 2
+        },
+        {
+          "points": 76.33,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 168244,
+      "fullName": "Julia Visgueiro",
+      "noc": "BRA",
+      "gender": "female",
+      "yearOfBirth": 2005,
+      "profileImage": "https://prod-tri-assets.imgix.net/bcac820c-3910-4246-8502-e4e093a99dac.jpg",
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 125,
+      "lastRank": 117,
+      "change": -8,
+      "scores": [
+        {
+          "points": 89.97,
+          "period": 2
+        },
+        {
+          "points": 84.21,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 26478,
+      "fullName": "Petra Kurikova",
+      "noc": "CZE",
+      "gender": "female",
+      "yearOfBirth": 1991,
+      "profileImage": "https://prod-tri-assets.imgix.net/COV_foto_003_id_sOH3fkC9ThAAAAAAAAORow.jpg",
+      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+      "publishedRank": 126,
+      "lastRank": 118,
+      "change": -8,
+      "scores": [
+        {
+          "points": 132.86,
+          "period": 2
+        },
+        {
+          "points": 35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 96687,
+      "fullName": "Lea Coninx",
+      "noc": "FRA",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/d4d0ef13-5661-40e2-b1e9-3dc8b05ab123.jpeg",
+      "flag": "https://cms.triathlon.org/assets/0730c9c1-0827-4d88-8920-f9e6e96dd43d",
+      "publishedRank": 127,
+      "lastRank": 119,
+      "change": -8,
+      "scores": [
+        {
+          "points": 155.27,
           "period": 2
         }
       ]
@@ -1941,10 +3337,11 @@
       "noc": "BRA",
       "gender": "female",
       "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/4cf28a8e-7317-48c9-b7c0-e7e471cc4871.jpg",
       "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 93,
-      "lastRank": 96,
-      "change": 3,
+      "publishedRank": 128,
+      "lastRank": 120,
+      "change": -8,
       "scores": [
         {
           "points": 97.26,
@@ -1957,19 +3354,23 @@
       ]
     },
     {
-      "athleteId": 64750,
-      "fullName": "Nicole Van Der Kaay",
-      "noc": "NZL",
+      "athleteId": 125003,
+      "fullName": "Rebecca Beti",
+      "noc": "SUI",
       "gender": "female",
-      "yearOfBirth": 1996,
-      "profileImage": "https://prod-tri-assets.imgix.net/nicole_vanderkay_NZL.jpg",
-      "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 94,
-      "lastRank": 84,
-      "change": -10,
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/f6678f1f-7d7d-4a67-93bb-7a03bc25f380.jpeg",
+      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
+      "publishedRank": 129,
+      "lastRank": 121,
+      "change": -8,
       "scores": [
         {
-          "points": 153.96,
+          "points": 83.22,
+          "period": 2
+        },
+        {
+          "points": 65.31,
           "period": 2
         }
       ]
@@ -1982,28 +3383,12 @@
       "yearOfBirth": 1992,
       "profileImage": "https://prod-tri-assets.imgix.net/leslie_amat_alvarez_1.jpg",
       "flag": "https://cms.triathlon.org/assets/8d53277f-e4aa-412d-9518-ab1b83741efa",
-      "publishedRank": 95,
-      "lastRank": 0,
+      "publishedRank": 130,
+      "lastRank": 122,
+      "change": -8,
       "scores": [
         {
           "points": 145.34,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 89986,
-      "fullName": "Genesis Carolina Ruiz Volcan",
-      "noc": "VEN",
-      "gender": "female",
-      "yearOfBirth": 1993,
-      "flag": "https://cms.triathlon.org/assets/0c8160fd-8277-4761-98f4-ecfc875dd828",
-      "publishedRank": 96,
-      "lastRank": 85,
-      "change": -11,
-      "scores": [
-        {
-          "points": 143.63,
           "period": 2
         }
       ]
@@ -2016,9 +3401,9 @@
       "yearOfBirth": 1999,
       "profileImage": "https://prod-tri-assets.imgix.net/9b02383a-fa09-4209-a5ce-d04d4e2b545b.jpeg",
       "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
-      "publishedRank": 97,
-      "lastRank": 86,
-      "change": -11,
+      "publishedRank": 131,
+      "lastRank": 123,
+      "change": -8,
       "scores": [
         {
           "points": 101.15,
@@ -2031,19 +3416,27 @@
       ]
     },
     {
-      "athleteId": 58449,
-      "fullName": "Verena Steinhauser",
-      "noc": "ITA",
+      "athleteId": 69374,
+      "fullName": "Ivana Kuriackova",
+      "noc": "SVK",
       "gender": "female",
       "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/ITA_Verena_Steinhauser.jpg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 97,
-      "lastRank": 86,
-      "change": -11,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7749.jpeg",
+      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
+      "publishedRank": 132,
+      "lastRank": 124,
+      "change": -8,
       "scores": [
         {
-          "points": 142.41,
+          "points": 71.21,
+          "period": 2
+        },
+        {
+          "points": 48.22,
+          "period": 2
+        },
+        {
+          "points": 22.11,
           "period": 2
         }
       ]
@@ -2054,10 +3447,11 @@
       "noc": "PER",
       "gender": "female",
       "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/juniors-92.jpg",
+      "profileImage": "https://prod-tri-assets.imgix.net/4c3b9276-49ec-45e7-ada6-f05f0e98431b.jpeg",
       "flag": "https://cms.triathlon.org/assets/aedba00d-8cdd-4550-b4c5-b69e04e4eb6f",
-      "publishedRank": 99,
-      "lastRank": 0,
+      "publishedRank": 133,
+      "lastRank": 125,
+      "change": -8,
       "scores": [
         {
           "points": 134.44,
@@ -2066,19 +3460,79 @@
       ]
     },
     {
-      "athleteId": 162101,
-      "fullName": "Tilly Anema",
-      "noc": "GBR",
+      "athleteId": 113560,
+      "fullName": "Costanza Arpinelli",
+      "noc": "ITA",
       "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/705b6679-27a3-41eb-a6d9-7a62c8efc193.jpg",
-      "flag": "https://cms.triathlon.org/assets/b75caa96-a00b-4e93-a4b7-4fea6d8efa5f",
-      "publishedRank": 100,
-      "lastRank": 89,
-      "change": -11,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/cc00a948-5019-4862-9771-ac5942dd53e6.jpeg",
+      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
+      "publishedRank": 134,
+      "lastRank": 126,
+      "change": -8,
       "scores": [
         {
-          "points": 121.85,
+          "points": 65.87,
+          "period": 2
+        },
+        {
+          "points": 32.65,
+          "period": 2
+        },
+        {
+          "points": 30.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 115034,
+      "fullName": "Sarika Nakayama",
+      "noc": "JPN",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/sharika_nakayama_jpn.jpg",
+      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
+      "publishedRank": 135,
+      "lastRank": 127,
+      "change": -8,
+      "scores": [
+        {
+          "points": 44.6,
+          "period": 2
+        },
+        {
+          "points": 41.26,
+          "period": 2
+        },
+        {
+          "points": 37.84,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 143348,
+      "fullName": "Molly Lakustiak",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/c2ef917f-9b8c-4436-a5c5-15a1f01d1789.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 136,
+      "lastRank": 129,
+      "change": -7,
+      "scores": [
+        {
+          "points": 41.26,
+          "period": 2
+        },
+        {
+          "points": 41.26,
+          "period": 2
+        },
+        {
+          "points": 38.62,
           "period": 2
         }
       ]
@@ -2090,8 +3544,9 @@
       "gender": "female",
       "yearOfBirth": 2003,
       "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 101,
-      "lastRank": 0,
+      "publishedRank": 137,
+      "lastRank": 130,
+      "change": -7,
       "scores": [
         {
           "points": 115.03,
@@ -2100,52 +3555,14 @@
       ]
     },
     {
-      "athleteId": 80082,
-      "fullName": "Erica Hawley",
-      "noc": "BER",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/WhatsApp_Image_2024-06-22_at_5.03_.40_PM_.jpeg",
-      "flag": "https://cms.triathlon.org/assets/f63e3d99-01be-4fd7-b687-345ca1b12e9c",
-      "publishedRank": 102,
-      "lastRank": 90,
-      "change": -12,
-      "scores": [
-        {
-          "points": 113.67,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 158669,
-      "fullName": "Manami Hayashi",
-      "noc": "JPN",
+      "athleteId": 175021,
+      "fullName": "Martina Ayu Pratiwi",
+      "noc": "INA",
       "gender": "female",
       "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/MANAMI_JPN2.jpg",
-      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 103,
-      "lastRank": 91,
-      "change": -12,
-      "scores": [
-        {
-          "points": 112.71,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 89532,
-      "fullName": "Kirsten Kasper",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/USA_Kirsten_Kasper.jpg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 103,
-      "lastRank": 91,
-      "change": -12,
+      "flag": "https://cms.triathlon.org/assets/bc1f874c-10f3-45e1-b23e-7f347aac2f5d",
+      "publishedRank": 138,
+      "lastRank": 0,
       "scores": [
         {
           "points": 112.71,
@@ -2161,12 +3578,52 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1893-Edit.jpg",
       "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 105,
-      "lastRank": 93,
-      "change": -12,
+      "publishedRank": 139,
+      "lastRank": 132,
+      "change": -7,
       "scores": [
         {
           "points": 109.35,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 135532,
+      "fullName": "Isla Britton",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1604-Edit.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 140,
+      "lastRank": 133,
+      "change": -7,
+      "scores": [
+        {
+          "points": 56.36,
+          "period": 2
+        },
+        {
+          "points": 51.69,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 114796,
+      "fullName": "Silke De Wolde",
+      "noc": "NED",
+      "gender": "female",
+      "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/Sicke_DeWolde.jpg",
+      "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
+      "publishedRank": 141,
+      "lastRank": 134,
+      "change": -7,
+      "scores": [
+        {
+          "points": 105.15,
           "period": 2
         }
       ]
@@ -2179,9 +3636,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/1037fc04-3412-4944-875f-ea91fb82588e.png",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 106,
-      "lastRank": 94,
-      "change": -12,
+      "publishedRank": 141,
+      "lastRank": 134,
+      "change": -7,
       "scores": [
         {
           "points": 105.15,
@@ -2197,9 +3654,9 @@
       "yearOfBirth": 1998,
       "profileImage": "https://prod-tri-assets.imgix.net/raquel_g.jpg",
       "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070",
-      "publishedRank": 107,
-      "lastRank": 130,
-      "change": 23,
+      "publishedRank": 143,
+      "lastRank": 136,
+      "change": -7,
       "scores": [
         {
           "points": 72.05,
@@ -2212,18 +3669,118 @@
       ]
     },
     {
-      "athleteId": 6150,
-      "fullName": "Barbara Riveros",
-      "noc": "CHI",
+      "athleteId": 69055,
+      "fullName": "Emy Legault",
+      "noc": "CAN",
       "gender": "female",
-      "yearOfBirth": 1987,
-      "profileImage": "https://prod-tri-assets.imgix.net/barbara_riveros_CHI.jpg",
-      "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 108,
+      "yearOfBirth": 1996,
+      "profileImage": "https://prod-tri-assets.imgix.net/CAN_Emy_Legault.jpg",
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 144,
       "lastRank": 0,
       "scores": [
         {
-          "points": 98.42,
+          "points": 104.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 103983,
+      "fullName": "Shanae Williams",
+      "noc": "RSA",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+      "publishedRank": 145,
+      "lastRank": 137,
+      "change": -8,
+      "scores": [
+        {
+          "points": 56.36,
+          "period": 2
+        },
+        {
+          "points": 47.81,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 133000,
+      "fullName": "Maria De Los Angeles Bonilla Garcia",
+      "noc": "ECU",
+      "gender": "female",
+      "yearOfBirth": 2004,
+      "profileImage": "https://prod-tri-assets.imgix.net/c98e59b5-3938-43a5-8275-2ceb3191e6a0.jpeg",
+      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
+      "publishedRank": 146,
+      "lastRank": 139,
+      "change": -7,
+      "scores": [
+        {
+          "points": 61.65,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 71763,
+      "fullName": "Hannah Newman",
+      "noc": "RSA",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/IMG-20231007-WA00242.jpg",
+      "flag": "https://cms.triathlon.org/assets/fa8c94da-5cc9-41ed-a963-8c272de3f699",
+      "publishedRank": 147,
+      "lastRank": 140,
+      "change": -7,
+      "scores": [
+        {
+          "points": 60.93,
+          "period": 2
+        },
+        {
+          "points": 38.16,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 124748,
+      "fullName": "Hye Rang Kim",
+      "noc": "KOR",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "flag": "https://cms.triathlon.org/assets/4f53e03e-3ab8-464c-8d51-49dde0e1ed05",
+      "publishedRank": 148,
+      "lastRank": 141,
+      "change": -7,
+      "scores": [
+        {
+          "points": 97.26,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 16368,
+      "fullName": "Zsanett Kuttor-Bragmayer",
+      "noc": "HUN",
+      "gender": "female",
+      "yearOfBirth": 1994,
+      "profileImage": "https://prod-tri-assets.imgix.net/E0109658-DCB1-4F81-9732-7824E8C8E21E.jpeg",
+      "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
+      "publishedRank": 149,
+      "lastRank": 142,
+      "change": -7,
+      "scores": [
+        {
+          "points": 96.44,
           "period": 2
         }
       ]
@@ -2235,9 +3792,9 @@
       "gender": "female",
       "yearOfBirth": 1998,
       "flag": "https://cms.triathlon.org/assets/addc5f8b-a19f-400c-a94c-fbd2674f2070",
-      "publishedRank": 109,
-      "lastRank": 114,
-      "change": 5,
+      "publishedRank": 150,
+      "lastRank": 143,
+      "change": -7,
       "scores": [
         {
           "points": 52.13,
@@ -2250,19 +3807,23 @@
       ]
     },
     {
-      "athleteId": 71740,
-      "fullName": "Ilaria Zane",
-      "noc": "ITA",
+      "athleteId": 81873,
+      "fullName": "Madalena Amaral Almeida",
+      "noc": "POR",
       "gender": "female",
-      "yearOfBirth": 1992,
-      "profileImage": "https://prod-tri-assets.imgix.net/ITA_Ilaria_Zane.jpg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 110,
-      "lastRank": 97,
-      "change": -13,
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/675ec919-b1a9-451c-afe2-a27ecef3127a.jpg",
+      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
+      "publishedRank": 151,
+      "lastRank": 144,
+      "change": -7,
       "scores": [
         {
-          "points": 89.97,
+          "points": 55.88,
+          "period": 2
+        },
+        {
+          "points": 25.62,
           "period": 2
         }
       ]
@@ -2274,8 +3835,9 @@
       "gender": "female",
       "yearOfBirth": 2006,
       "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
-      "publishedRank": 111,
-      "lastRank": 0,
+      "publishedRank": 152,
+      "lastRank": 145,
+      "change": -7,
       "scores": [
         {
           "points": 77.89,
@@ -2291,9 +3853,9 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/Picsart_23-09-05_19-50-26-8791.png",
       "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 112,
-      "lastRank": 100,
-      "change": -12,
+      "publishedRank": 153,
+      "lastRank": 146,
+      "change": -7,
       "scores": [
         {
           "points": 76.98,
@@ -2302,71 +3864,23 @@
       ]
     },
     {
-      "athleteId": 143514,
-      "fullName": "Zoe Adam",
-      "noc": "PUR",
+      "athleteId": 133284,
+      "fullName": "Aviv Levi",
+      "noc": "ISR",
       "gender": "female",
-      "yearOfBirth": 2005,
-      "flag": "https://cms.triathlon.org/assets/c92129ea-68f5-4522-847f-0481514f68be",
-      "publishedRank": 112,
-      "lastRank": 100,
-      "change": -12,
+      "yearOfBirth": 2003,
+      "profileImage": "https://prod-tri-assets.imgix.net/9B371BBD-7073-42F2-8619-C6B4E7899DE7.jpeg",
+      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
+      "publishedRank": 154,
+      "lastRank": 147,
+      "change": -7,
       "scores": [
         {
-          "points": 76.98,
+          "points": 44.6,
           "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 106503,
-      "fullName": "Annika Koch",
-      "noc": "GER",
-      "gender": "female",
-      "yearOfBirth": 1999,
-      "profileImage": "https://prod-tri-assets.imgix.net/07A41E30-9790-4C56-A902-1669D7AEEA6F.jpeg",
-      "flag": "https://cms.triathlon.org/assets/b385bbd2-994b-4606-b882-7ca5656fc800",
-      "publishedRank": 114,
-      "lastRank": 102,
-      "change": -12,
-      "scores": [
+        },
         {
-          "points": 76.33,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 176716,
-      "fullName": "Michelle Magnani",
-      "noc": "USA",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/6806ffcd-4968-4e58-baef-5c8f783056bb.jpeg",
-      "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 115,
-      "lastRank": 103,
-      "change": -12,
-      "scores": [
-        {
-          "points": 71.21,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 198507,
-      "fullName": "Iana Chenskaia",
-      "noc": "AIN",
-      "gender": "female",
-      "yearOfBirth": 2006,
-      "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 115,
-      "lastRank": 103,
-      "change": -12,
-      "scores": [
-        {
-          "points": 71.21,
+          "points": 30.2,
           "period": 2
         }
       ]
@@ -2379,8 +3893,9 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/foto_WT.jpg",
       "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
-      "publishedRank": 117,
-      "lastRank": 0,
+      "publishedRank": 155,
+      "lastRank": 149,
+      "change": -6,
       "scores": [
         {
           "points": 66.65,
@@ -2389,71 +3904,18 @@
       ]
     },
     {
-      "athleteId": 113560,
-      "fullName": "Costanza Arpinelli",
-      "noc": "ITA",
+      "athleteId": 132195,
+      "fullName": "Tallulah Wright",
+      "noc": "HKG",
       "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/211d139b-9109-4d6d-bcea-6727214fb191.jpeg",
-      "flag": "https://cms.triathlon.org/assets/95f6dee9-b0e4-4b2a-9d9e-a2a3cae737f0",
-      "publishedRank": 118,
-      "lastRank": 105,
-      "change": -13,
+      "yearOfBirth": 2003,
+      "flag": "https://cms.triathlon.org/assets/9d799780-5a5e-4d0d-ba68-c0c8a73ac124",
+      "publishedRank": 156,
+      "lastRank": 150,
+      "change": -6,
       "scores": [
         {
           "points": 65.87,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 125003,
-      "fullName": "Rebecca Beti",
-      "noc": "SUI",
-      "gender": "female",
-      "yearOfBirth": 2002,
-      "profileImage": "https://prod-tri-assets.imgix.net/f6678f1f-7d7d-4a67-93bb-7a03bc25f380.jpeg",
-      "flag": "https://cms.triathlon.org/assets/18f9318c-1dcd-4574-a07c-44bc20a0edfc",
-      "publishedRank": 119,
-      "lastRank": 106,
-      "change": -13,
-      "scores": [
-        {
-          "points": 65.31,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 133000,
-      "fullName": "Maria De Los Angeles Bonilla Garcia",
-      "noc": "ECU",
-      "gender": "female",
-      "yearOfBirth": 2004,
-      "flag": "https://cms.triathlon.org/assets/e8339442-d22d-4e37-943f-5c4113a7876f",
-      "publishedRank": 120,
-      "lastRank": 0,
-      "scores": [
-        {
-          "points": 61.65,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 123552,
-      "fullName": "Cecilia Sayuri Ramirez Alavez",
-      "noc": "MEX",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Ramirez1.jpg",
-      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 121,
-      "lastRank": 107,
-      "change": -14,
-      "scores": [
-        {
-          "points": 60.93,
           "period": 2
         }
       ]
@@ -2466,9 +3928,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-46.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 121,
-      "lastRank": 107,
-      "change": -14,
+      "publishedRank": 157,
+      "lastRank": 151,
+      "change": -6,
       "scores": [
         {
           "points": 60.93,
@@ -2477,22 +3939,19 @@
       ]
     },
     {
-      "athleteId": 163047,
-      "fullName": "Iida Reini",
-      "noc": "FIN",
+      "athleteId": 123552,
+      "fullName": "Cecilia Sayuri Ramirez Alavez",
+      "noc": "MEX",
       "gender": "female",
       "yearOfBirth": 2000,
-      "flag": "https://cms.triathlon.org/assets/f654f541-064a-4b7f-9e03-5cd2a1ee3f73",
-      "publishedRank": 123,
-      "lastRank": 109,
-      "change": -14,
+      "profileImage": "https://prod-tri-assets.imgix.net/MEX_Cecilia_Ramirez1.jpg",
+      "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
+      "publishedRank": 157,
+      "lastRank": 151,
+      "change": -6,
       "scores": [
         {
-          "points": 33.96,
-          "period": 2
-        },
-        {
-          "points": 25.84,
+          "points": 60.93,
           "period": 2
         }
       ]
@@ -2504,65 +3963,12 @@
       "gender": "female",
       "yearOfBirth": 2006,
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 124,
-      "lastRank": 110,
-      "change": -14,
+      "publishedRank": 159,
+      "lastRank": 153,
+      "change": -6,
       "scores": [
         {
           "points": 56.36,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 135532,
-      "fullName": "Isla Britton",
-      "noc": "CAN",
-      "gender": "female",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1604-Edit.jpg",
-      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 124,
-      "lastRank": 110,
-      "change": -14,
-      "scores": [
-        {
-          "points": 56.36,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 81873,
-      "fullName": "Madalena Amaral Almeida",
-      "noc": "POR",
-      "gender": "female",
-      "yearOfBirth": 1998,
-      "profileImage": "https://prod-tri-assets.imgix.net/675ec919-b1a9-451c-afe2-a27ecef3127a.jpg",
-      "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 126,
-      "lastRank": 112,
-      "change": -14,
-      "scores": [
-        {
-          "points": 55.88,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 160951,
-      "fullName": "Matylda Wojakiewicz",
-      "noc": "POL",
-      "gender": "female",
-      "yearOfBirth": 2003,
-      "flag": "https://cms.triathlon.org/assets/f5dbb3e8-f01f-4d58-affc-6ac83185549f",
-      "publishedRank": 127,
-      "lastRank": 113,
-      "change": -14,
-      "scores": [
-        {
-          "points": 54.21,
           "period": 2
         }
       ]
@@ -2574,8 +3980,9 @@
       "gender": "female",
       "yearOfBirth": 2005,
       "flag": "https://cms.triathlon.org/assets/c2674903-f97f-4490-a93e-284160d7cb94",
-      "publishedRank": 128,
-      "lastRank": 0,
+      "publishedRank": 160,
+      "lastRank": 155,
+      "change": -5,
       "scores": [
         {
           "points": 52.75,
@@ -2590,9 +3997,9 @@
       "gender": "female",
       "yearOfBirth": 2007,
       "flag": "https://cms.triathlon.org/assets/06fe650f-bc91-42e2-9bce-9f95ff2e232e/AIN (1).svg",
-      "publishedRank": 129,
-      "lastRank": 114,
-      "change": -15,
+      "publishedRank": 161,
+      "lastRank": 156,
+      "change": -5,
       "scores": [
         {
           "points": 52.13,
@@ -2606,9 +4013,11 @@
       "noc": "HON",
       "gender": "female",
       "yearOfBirth": 2001,
+      "profileImage": "https://prod-tri-assets.imgix.net/c6996291-9d6d-4c75-a9d1-65b9a1603f25.jpeg",
       "flag": "https://cms.triathlon.org/assets/8c09ac51-8a2c-4d7a-bc73-ed38981d0742",
-      "publishedRank": 130,
-      "lastRank": 0,
+      "publishedRank": 162,
+      "lastRank": 157,
+      "change": -5,
       "scores": [
         {
           "points": 48.79,
@@ -2624,9 +4033,9 @@
       "yearOfBirth": 2001,
       "profileImage": "https://prod-tri-assets.imgix.net/MEX_Anahi_Alvarez.jpg",
       "flag": "https://cms.triathlon.org/assets/3942e657-0458-42e2-9ba5-715fc23efc0d",
-      "publishedRank": 131,
-      "lastRank": 116,
-      "change": -15,
+      "publishedRank": 163,
+      "lastRank": 158,
+      "change": -5,
       "scores": [
         {
           "points": 48.22,
@@ -2642,9 +4051,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/94C3A68E-0BED-4FDB-A030-3FED160FD2E4.jpeg",
       "flag": "https://cms.triathlon.org/assets/02d5a8fb-96cd-4125-b8f0-ef5d40812d54",
-      "publishedRank": 132,
-      "lastRank": 117,
-      "change": -15,
+      "publishedRank": 164,
+      "lastRank": 159,
+      "change": -5,
       "scores": [
         {
           "points": 46.39,
@@ -2660,8 +4069,9 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/230712_173020_PBA_7515b.jpg",
       "flag": "https://cms.triathlon.org/assets/a6622a94-803d-4f89-969c-89d49f0b1236",
-      "publishedRank": 133,
-      "lastRank": 0,
+      "publishedRank": 165,
+      "lastRank": 160,
+      "change": -5,
       "scores": [
         {
           "points": 45.13,
@@ -2670,16 +4080,16 @@
       ]
     },
     {
-      "athleteId": 133284,
-      "fullName": "Aviv Levi",
-      "noc": "ISR",
+      "athleteId": 122353,
+      "fullName": "Erin McConnell",
+      "noc": "IRL",
       "gender": "female",
-      "yearOfBirth": 2003,
-      "profileImage": "https://prod-tri-assets.imgix.net/9B371BBD-7073-42F2-8619-C6B4E7899DE7.jpeg",
-      "flag": "https://cms.triathlon.org/assets/794379a7-9ecf-45d1-aa40-c440c87053e6",
-      "publishedRank": 134,
-      "lastRank": 118,
-      "change": -16,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/2e71d207-b5f2-4a32-8cce-bd800cfa52ce.png",
+      "flag": "https://cms.triathlon.org/assets/f6fb88a6-007f-42a6-b6e7-4ca751ffa746",
+      "publishedRank": 166,
+      "lastRank": 161,
+      "change": -5,
       "scores": [
         {
           "points": 44.6,
@@ -2695,29 +4105,12 @@
       "yearOfBirth": 2006,
       "profileImage": "https://prod-tri-assets.imgix.net/5ac843d6-7d6e-4b37-aa8a-2b6e9cbfa842.png",
       "flag": "https://cms.triathlon.org/assets/fb33eadd-85a2-49c5-854c-a33fd8c20954",
-      "publishedRank": 134,
-      "lastRank": 118,
-      "change": -16,
+      "publishedRank": 166,
+      "lastRank": 161,
+      "change": -5,
       "scores": [
         {
           "points": 44.6,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 139912,
-      "fullName": "Mako Hiraizumi",
-      "noc": "JPN",
-      "gender": "female",
-      "yearOfBirth": 2003,
-      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 136,
-      "lastRank": 120,
-      "change": -16,
-      "scores": [
-        {
-          "points": 44.23,
           "period": 2
         }
       ]
@@ -2730,9 +4123,9 @@
       "yearOfBirth": 2003,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-51.jpg",
       "flag": "https://cms.triathlon.org/assets/35383c3a-f1f4-46e0-a179-31d821ad0f63",
-      "publishedRank": 137,
-      "lastRank": 121,
-      "change": -16,
+      "publishedRank": 168,
+      "lastRank": 163,
+      "change": -5,
       "scores": [
         {
           "points": 42.91,
@@ -2748,9 +4141,9 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/6effc54f-c7c1-4cad-b6b2-d04a2abc776f.jpeg",
       "flag": "https://cms.triathlon.org/assets/1718bad3-dc24-49d5-982f-2c03a7c24d88",
-      "publishedRank": 138,
-      "lastRank": 122,
-      "change": -16,
+      "publishedRank": 169,
+      "lastRank": 164,
+      "change": -5,
       "scores": [
         {
           "points": 40.91,
@@ -2759,18 +4152,19 @@
       ]
     },
     {
-      "athleteId": 143348,
-      "fullName": "Molly Lakustiak",
+      "athleteId": 124447,
+      "fullName": "Kira Gupta-Baltazar",
       "noc": "CAN",
       "gender": "female",
-      "yearOfBirth": 2004,
-      "profileImage": "https://prod-tri-assets.imgix.net/c2ef917f-9b8c-4436-a5c5-15a1f01d1789.jpeg",
+      "yearOfBirth": 2002,
+      "profileImage": "https://prod-tri-assets.imgix.net/BL_WT_JNR_WORLD_CHAMPIONSHIPS_NOV_1641-Edit.jpg",
       "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
-      "publishedRank": 139,
-      "lastRank": 0,
+      "publishedRank": 170,
+      "lastRank": 165,
+      "change": -5,
       "scores": [
         {
-          "points": 38.62,
+          "points": 38.16,
           "period": 2
         }
       ]
@@ -2782,30 +4176,12 @@
       "gender": "female",
       "yearOfBirth": 2008,
       "flag": "https://cms.triathlon.org/assets/562e6c52-38c9-446b-bea9-9cf06a1478f5",
-      "publishedRank": 140,
-      "lastRank": 123,
-      "change": -17,
+      "publishedRank": 170,
+      "lastRank": 165,
+      "change": -5,
       "scores": [
         {
           "points": 38.16,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 115034,
-      "fullName": "Sarika Nakayama",
-      "noc": "JPN",
-      "gender": "female",
-      "yearOfBirth": 2000,
-      "profileImage": "https://prod-tri-assets.imgix.net/sharika_nakayama_jpn.jpg",
-      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 141,
-      "lastRank": 125,
-      "change": -16,
-      "scores": [
-        {
-          "points": 37.84,
           "period": 2
         }
       ]
@@ -2817,12 +4193,30 @@
       "gender": "female",
       "yearOfBirth": 2005,
       "flag": "https://cms.triathlon.org/assets/e587d549-c38f-44ae-bbac-d4f4d7da1080",
-      "publishedRank": 142,
-      "lastRank": 126,
-      "change": -16,
+      "publishedRank": 172,
+      "lastRank": 167,
+      "change": -5,
       "scores": [
         {
           "points": 36.71,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 106184,
+      "fullName": "Alzbeta Hruskova",
+      "noc": "CZE",
+      "gender": "female",
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/7323d85e-eb5a-44f5-ad27-7489d30d00c3.JPG",
+      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
+      "publishedRank": 173,
+      "lastRank": 168,
+      "change": -5,
+      "scores": [
+        {
+          "points": 35.3,
           "period": 2
         }
       ]
@@ -2834,9 +4228,26 @@
       "gender": "female",
       "yearOfBirth": 2003,
       "flag": "https://cms.triathlon.org/assets/98be0253-3929-44b8-b2a7-b84bc48eb03c",
-      "publishedRank": 143,
-      "lastRank": 127,
-      "change": -16,
+      "publishedRank": 173,
+      "lastRank": 168,
+      "change": -5,
+      "scores": [
+        {
+          "points": 35.3,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 190929,
+      "fullName": "Brooke Rousselle",
+      "noc": "CAN",
+      "gender": "female",
+      "yearOfBirth": 2008,
+      "flag": "https://cms.triathlon.org/assets/9c815286-2883-4fb9-999f-4dde18b5e168",
+      "publishedRank": 173,
+      "lastRank": 168,
+      "change": -5,
       "scores": [
         {
           "points": 35.3,
@@ -2852,9 +4263,9 @@
       "yearOfBirth": 2006,
       "profileImage": "https://prod-tri-assets.imgix.net/16777514536781.jpg",
       "flag": "https://cms.triathlon.org/assets/9a1c69ce-0132-41df-b049-880b39465640",
-      "publishedRank": 143,
-      "lastRank": 127,
-      "change": -16,
+      "publishedRank": 173,
+      "lastRank": 168,
+      "change": -5,
       "scores": [
         {
           "points": 35.3,
@@ -2863,19 +4274,19 @@
       ]
     },
     {
-      "athleteId": 26478,
-      "fullName": "Petra Kurikova",
-      "noc": "CZE",
+      "athleteId": 131272,
+      "fullName": "Valentina Alvarez Valencia",
+      "noc": "COL",
       "gender": "female",
-      "yearOfBirth": 1991,
-      "profileImage": "https://prod-tri-assets.imgix.net/COV_foto_003_id_sOH3fkC9ThAAAAAAAAORow.jpg",
-      "flag": "https://cms.triathlon.org/assets/e1406b34-89c0-443e-858b-adf95f2c9229",
-      "publishedRank": 145,
-      "lastRank": 129,
-      "change": -16,
+      "yearOfBirth": 2000,
+      "profileImage": "https://prod-tri-assets.imgix.net/ea83ef1a-e405-4aaa-8e43-a6054ce17460.jpeg",
+      "flag": "https://cms.triathlon.org/assets/cea4af5e-1298-41db-bba7-1dd8d541e26c",
+      "publishedRank": 177,
+      "lastRank": 172,
+      "change": -5,
       "scores": [
         {
-          "points": 35,
+          "points": 32.65,
           "period": 2
         }
       ]
@@ -2888,30 +4299,12 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/IMG_9346.png",
       "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 146,
-      "lastRank": 130,
-      "change": -16,
+      "publishedRank": 177,
+      "lastRank": 172,
+      "change": -5,
       "scores": [
         {
           "points": 32.65,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 189862,
-      "fullName": "Kanae Takenaka",
-      "noc": "JPN",
-      "gender": "female",
-      "yearOfBirth": 2001,
-      "profileImage": "https://prod-tri-assets.imgix.net/ef2f0541-3f31-4b71-98c9-fa3fdcf8edaa.jpeg",
-      "flag": "https://cms.triathlon.org/assets/20590379-5c55-405e-af34-98ca68e7f7f8",
-      "publishedRank": 147,
-      "lastRank": 132,
-      "change": -15,
-      "scores": [
-        {
-          "points": 32.38,
           "period": 2
         }
       ]
@@ -2923,9 +4316,27 @@
       "gender": "female",
       "yearOfBirth": 2004,
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 148,
-      "lastRank": 133,
-      "change": -15,
+      "publishedRank": 179,
+      "lastRank": 174,
+      "change": -5,
+      "scores": [
+        {
+          "points": 30.2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 93585,
+      "fullName": "Moira Miranda",
+      "noc": "ARG",
+      "gender": "female",
+      "yearOfBirth": 1998,
+      "profileImage": "https://prod-tri-assets.imgix.net/moira_miranda.jpg",
+      "flag": "https://cms.triathlon.org/assets/8cb6c7e5-e104-4937-8a41-8bccacfdc529",
+      "publishedRank": 179,
+      "lastRank": 174,
+      "change": -5,
       "scores": [
         {
           "points": 30.2,
@@ -2941,9 +4352,9 @@
       "yearOfBirth": 1993,
       "profileImage": "https://prod-tri-assets.imgix.net/2D6F05BD-3785-48F7-9E7A-5599EF105A9C.jpeg",
       "flag": "https://cms.triathlon.org/assets/cdd1c3f1-e63c-44c7-a917-93cfed159277",
-      "publishedRank": 149,
-      "lastRank": 134,
-      "change": -15,
+      "publishedRank": 181,
+      "lastRank": 176,
+      "change": -5,
       "scores": [
         {
           "points": 29.06,
@@ -2959,9 +4370,9 @@
       "yearOfBirth": 2005,
       "profileImage": "https://prod-tri-assets.imgix.net/A02EE266-0B52-4FF6-A555-2B4126CB9DAB.jpeg",
       "flag": "https://cms.triathlon.org/assets/8ffa9ee3-ea13-4c4e-ac81-11af20580c7e",
-      "publishedRank": 150,
-      "lastRank": 135,
-      "change": -15,
+      "publishedRank": 182,
+      "lastRank": 177,
+      "change": -5,
       "scores": [
         {
           "points": 27.94,
@@ -2977,12 +4388,29 @@
       "yearOfBirth": 2004,
       "profileImage": "https://prod-tri-assets.imgix.net/juniors-351.jpg",
       "flag": "https://cms.triathlon.org/assets/b806f716-d5e9-4731-ad4b-43b9aa1d585b",
-      "publishedRank": 151,
-      "lastRank": 136,
-      "change": -15,
+      "publishedRank": 183,
+      "lastRank": 178,
+      "change": -5,
       "scores": [
         {
           "points": 24.86,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "athleteId": 166489,
+      "fullName": "Maria Clara Abreu Borges Cunha",
+      "noc": "BRA",
+      "gender": "female",
+      "yearOfBirth": 2007,
+      "flag": "https://cms.triathlon.org/assets/f9a4314a-4606-4ef2-9b3f-1069893fe451",
+      "publishedRank": 184,
+      "lastRank": 179,
+      "change": -5,
+      "scores": [
+        {
+          "points": 23.91,
           "period": 2
         }
       ]
@@ -2994,30 +4422,12 @@
       "gender": "female",
       "yearOfBirth": 1996,
       "flag": "https://cms.triathlon.org/assets/e28eb546-e7b3-422d-8725-3fe5d9288ef8",
-      "publishedRank": 152,
-      "lastRank": 137,
-      "change": -15,
+      "publishedRank": 185,
+      "lastRank": 180,
+      "change": -5,
       "scores": [
         {
           "points": 23,
-          "period": 2
-        }
-      ]
-    },
-    {
-      "athleteId": 69374,
-      "fullName": "Ivana Kuriackova",
-      "noc": "SVK",
-      "gender": "female",
-      "yearOfBirth": 1994,
-      "profileImage": "https://prod-tri-assets.imgix.net/IMG_7749.jpeg",
-      "flag": "https://cms.triathlon.org/assets/c4f746a1-58b7-4200-9088-2923f3f0d58d",
-      "publishedRank": 153,
-      "lastRank": 138,
-      "change": -15,
-      "scores": [
-        {
-          "points": 22.11,
           "period": 2
         }
       ]
