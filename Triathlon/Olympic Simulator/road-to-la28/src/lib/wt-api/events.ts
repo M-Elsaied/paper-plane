@@ -1,7 +1,8 @@
 /**
  * Fetch upcoming World Triathlon events for the race-week view. We pull the
  * points-relevant elite categories in a forward window and keep a minimal
- * normalized shape.
+ * normalized shape. `fetchEvent` resolves a single event by id (any date) so
+ * the race companion works for races that have dropped out of the window.
  */
 import { wtGet } from "./client";
 import { tierForCategory, TIER_LABEL, type PointsTier } from "@/config/points-tables";
@@ -36,6 +37,21 @@ export interface UpcomingEvent {
   tierLabel: string;
 }
 
+function normalizeEvent(e: RawEvent, cat: { label: string; tier: PointsTier }): UpcomingEvent {
+  return {
+    eventId: e.event_id,
+    title: e.event_title,
+    date: e.event_date,
+    endDate: e.event_finish_date,
+    venue: e.event_venue,
+    country: e.event_country_name,
+    flag: e.event_flag,
+    categoryLabel: cat.label,
+    tier: cat.tier,
+    tierLabel: TIER_LABEL[cat.tier],
+  };
+}
+
 export async function fetchUpcomingEvents(
   fromIso: string,
   toIso: string,
@@ -51,19 +67,19 @@ export async function fetchUpcomingEvents(
     });
     for (const e of res.data ?? []) {
       const tier = tierForCategory(cat.id) === "other" ? cat.tier : tierForCategory(cat.id);
-      all.push({
-        eventId: e.event_id,
-        title: e.event_title,
-        date: e.event_date,
-        endDate: e.event_finish_date,
-        venue: e.event_venue,
-        country: e.event_country_name,
-        flag: e.event_flag,
-        categoryLabel: cat.label,
-        tier,
-        tierLabel: TIER_LABEL[tier],
-      });
+      all.push(normalizeEvent(e, { label: cat.label, tier }));
     }
   }
   return all.sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/** A single event by id (past or future). Tier comes from its own categories. */
+export async function fetchEvent(eventId: number): Promise<UpcomingEvent | null> {
+  const res = await wtGet<RawEvent>(`/events/${eventId}`);
+  const e = res.data;
+  if (!e || !e.event_id) return null;
+  const known = ELITE_EVENT_CATEGORIES.find((c) => e.event_categories?.some((ec) => ec.cat_id === c.id));
+  const firstCat = e.event_categories?.[0];
+  const cat = known ?? { label: firstCat?.cat_name ?? "Other", tier: tierForCategory(firstCat?.cat_id) };
+  return normalizeEvent(e, cat);
 }
