@@ -10,6 +10,7 @@
  * fighting for the open slots, and who is strong enough to qualify but is locked
  * out by their own compatriots — the internal battle that makes the cap bite.
  */
+import { MR_OQR_PLACES } from "@/lib/engine/mixed-relay";
 import "server-only";
 import { buildRanking, type RankingRow } from "@/lib/cockpit";
 import { getMrNations } from "@/lib/data";
@@ -165,7 +166,7 @@ export function assembleWarRoom(inputs: {
       openTotal: m.open + w.open,
       contenderTotal,
       blockedTotal,
-      heat: securedTotal * 10 + blockedTotal * 4 + contenderTotal + (mr.insideTop16 ? 3 : 0),
+      heat: securedTotal * 10 + blockedTotal * 4 + contenderTotal + (mr.insideRelayCut ? 3 : 0),
     });
   }
 
@@ -185,7 +186,7 @@ export function assembleWarRoom(inputs: {
       nations: cards.length,
       securedMen: cards.reduce((s, c) => s + c.men.secured, 0),
       securedWomen: cards.reduce((s, c) => s + c.women.secured, 0),
-      mrNationsInside: mrNations.filter((m) => m.rank <= 16).length,
+      mrNationsInside: mrNations.filter((m) => m.rank <= MR_OQR_PLACES).length,
     },
   };
 }
