@@ -1,12 +1,12 @@
 {
   "seededAtNote": "run npm run seed to refresh",
-  "today": "2026-07-06",
-  "menPublished": "2026-07-06 10:39:22",
-  "womenPublished": "2026-07-06 10:39:20",
+  "today": "2026-09-08",
+  "menPublished": "2026-08-29 03:09:05",
+  "womenPublished": "2026-08-29 06:16:48",
   "counts": {
-    "men": 189,
-    "women": 153,
-    "mrNations": 23,
-    "events": 6
+    "men": 237,
+    "women": 185,
+    "mrNations": 33,
+    "events": 4
   }
 }
