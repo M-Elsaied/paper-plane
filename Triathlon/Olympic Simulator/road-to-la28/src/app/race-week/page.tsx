@@ -1,12 +1,16 @@
 import Link from "next/link";
 import { CalendarDays, MapPin, Trophy, ArrowRight } from "lucide-react";
-import { getUpcomingEvents, getSeedMeta } from "@/lib/data";
+import { getUpcomingEvents } from "@/lib/data";
+import { todayIso } from "@/lib/today";
+import type { UpcomingEvent } from "@/lib/wt-api/events";
 import { TIER_BASE_POINTS } from "@/config/points-tables";
 import { fmtPoints } from "@/lib/format";
 
-export default function RaceWeekPage() {
-  const events = getUpcomingEvents();
-  const today = getSeedMeta().today ?? new Date().toISOString().slice(0, 10);
+export const revalidate = 300;
+
+export default async function RaceWeekPage() {
+  const events = await getUpcomingEvents();
+  const today = todayIso();
 
   const grouped = groupByWeek(events);
 
@@ -87,7 +91,7 @@ function isoWeekLabel(iso: string): string {
   return `${day.getUTCFullYear()} · Week ${week}`;
 }
 
-function groupByWeek(events: ReturnType<typeof getUpcomingEvents>) {
+function groupByWeek(events: UpcomingEvent[]) {
   const map = new Map<string, typeof events>();
   for (const e of events) {
     const w = isoWeekLabel(e.date);
