@@ -58,5 +58,27 @@ export function hamburgRoutes(): WtRoute[] {
   return [
     { match: "/events/195148/programs/678086/entries", response: loadFixture("hamburg-men-entries.json") },
     { match: "/events/195148/programs", response: loadFixture("hamburg-programs.json") },
+    ...hamburgEventRoute(),
+  ];
+}
+
+/** The race-calendar list call (`/events?category_id=…`) answered with a fast
+ *  404 so `getUpcomingEvents` falls back to the seed calendar without the
+ *  client's retry/backoff budget. */
+export function noCalendarRoute(): WtRoute[] {
+  return [{ match: "/events?", response: () => ({ body: { code: 404, status: "error" }, status: 404 }) }];
+}
+
+/** Just the Hamburg event record (/events/195148) — no start list. Guarded so
+ *  the substring router doesn't also answer the /programs calls with it. */
+export function hamburgEventRoute(): WtRoute[] {
+  const event = loadFixture("hamburg-event.json");
+  return [
+    ...noCalendarRoute(),
+    {
+      match: "/events/195148",
+      response: (url: string) =>
+        url.endsWith("/events/195148") ? { body: event } : { body: { code: 404, status: "error" }, status: 404 },
+    },
   ];
 }
