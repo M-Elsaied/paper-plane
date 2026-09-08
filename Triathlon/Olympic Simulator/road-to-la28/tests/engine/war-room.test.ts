@@ -95,7 +95,7 @@ describe("assembleWarRoom", () => {
   it("folds in Mixed Relay standing and sorts powerhouses first", () => {
     const fra = model.nocs.find((n) => n.noc === "FRA")!;
     expect(fra.mr.rank).toBe(1);
-    expect(fra.mr.insideTop16).toBe(true);
+    expect(fra.mr.insideRelayCut).toBe(true);
     // FRA has the most secured places (3) → sorts ahead of USA (4)… USA has more.
     expect(model.nocs[0].noc).toBe("USA"); // 4 secured
     expect(model.nocs[1].noc).toBe("FRA"); // 3 secured
